@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About - Fotos by Ben</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html, body {
+            width: 100%;
+        }
+
+        body {
+            font-family: 'Reross Quadratic', 'Space Mono', monospace;
+            background-color: #fafafa;
+            color: #1a1a1a;
+            line-height: 1.6;
+            zoom: 75%;
+        }
+
+        h1, h2, h3, h4, h5, h6 {
+            font-family: 'Plakato Inline Pro', 'Space Mono', monospace;
+            font-weight: 700;
+            letter-spacing: 0.05em;
+            text-transform: uppercase;
+        }
+
+        /* Header */
+        header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            padding: 2rem 4rem;
+            background: rgba(255, 255, 255, 0.98);
+            z-index: 100;
+            border-bottom: 1px solid #e0e0e0;
+            transition: all 0.3s ease;
+        }
+
+        header.scrolled {
+            padding: 1rem 4rem;
+            box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+        }
+
+        .header-title {
+            font-size: 1.25rem;
+            letter-spacing: 0.08em;
+        }
+
+        body {
+            padding-top: 80px;
+        }
+
+        /* Main Container */
+        main {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 0 1.2rem;
+        }
+
+        .about-hero {
+            padding: 4rem 0;
+            text-align: center;
+        }
+
+        .about-hero h1 {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+        }
+
+        .about-content {
+            font-size: 1.1rem;
+            color: #555;
+            line-height: 1.8;
+            margin-bottom: 4rem;
+        }
+
+        .about-content p {
+            margin-bottom: 1.5rem;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #1a1a1a;
+            color: #ffffff;
+            padding: 3rem 4rem;
+            margin-top: 6rem;
+            text-align: center;
+            font-size: 0.95rem;
+            letter-spacing: 0.05em;
+        }
+
+        /* Navigation */
+        nav a {
+            color: #1a1a1a;
+            text-decoration: none;
+            font-size: 0.9rem;
+            letter-spacing: 0.05em;
+            transition: opacity 0.3s ease;
+        }
+
+        nav a:hover {
+            opacity: 0.6;
+        }
+
+        header > div {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        /* Responsive */
+        @media (max-width: 1024px) {
+            main {
+                padding: 0 2rem;
+            }
+
+            header {
+                padding: 1.5rem 2rem;
+            }
+
+            .about-hero h1 {
+                font-size: 2.5rem;
+            }
+        }
+
+        @media (max-width: 768px) {
+            main {
+                padding: 0 1rem;
+            }
+
+            header {
+                padding: 1rem;
+            }
+
+            .about-hero h1 {
+                font-size: 1.75rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header id="header">
+        <div>
+            <h1 class="header-title">Fotos by Ben</h1>
+            <nav>
+                <a href="index.html" style="color: #1a1a1a; text-decoration: none; font-size: 0.9rem; letter-spacing: 0.05em; transition: opacity 0.3s ease;" onmouseover="this.style.opacity='0.6'" onmouseout="this.style.opacity='1'">Portfolio</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="about-hero">
+            <h1>Ben Colella</h1>
+        </section>
+
+        <section style="max-width: 900px; margin: 0 auto; padding: 0 1.2rem; margin-bottom: 4rem;">
+            <div style="display: flex; gap: 3rem; align-items: flex-start; margin-bottom: 4rem;">
+                <img src="bio.jpg" alt="Ben Colella" style="width: 300px; height: auto; object-fit: cover; border: 1px solid #e0e0e0; flex-shrink: 0;">
+                <div class="about-content" style="margin: 0;">
+                    <p>I picked up a camera during Covid, mostly out of boredom — my parents had an old one gathering dust, and locked-down Milwaukee turned out to be a decent place to learn how to use it. I shot everything: streets, architecture, cityscapes, the geometry of a city that wasn't going anywhere. Somewhere in that process I found what actually held my attention, which was the built environment and the way people move through it. That interest never really left.</p>
+
+                    <p>It deepened when I started traveling. I'm drawn to places most people skip — the secondary cities, the overlooked regions, the stretches of the world that exist entirely on their own terms without caring whether anyone is watching. In those places, the camera becomes a tool for reading a place carefully: how it's organized, how it breathes, what it looks like when life just happens inside it.</p>
+                </div>
+            </div>
+
+            <div class="about-content">
+                <p>My background is in real estate and urban planning, and that lens follows me everywhere I go. I notice infrastructure the way other people notice food. I'm fascinated by the chaos of a dense urban block as much as the silence of an open landscape.</p>
+
+                <p>The work spans landscapes, cities, architecture, and street life across dozens of countries — but it's less a travel archive than an ongoing study of the human environment in all its forms. The dramatic and the mundane. The ancient and the half-finished. The places that make you stop, and the ones that reward you for not stopping.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2026 Fotos by Ben. All rights reserved.</p>
+    </footer>
+
+    <script>
+        // Header scroll effect
+        let lastScrollTop = 0;
+        window.addEventListener('scroll', () => {
+            const header = document.getElementById('header');
+            if (window.scrollY > 50) {
+                header.classList.add('scrolled');
+            } else {
+                header.classList.remove('scrolled');
+            }
+            lastScrollTop = window.scrollY;
+        });
+    </script>
+</body>
+</html>

@@ -347,13 +347,15 @@
                     const item = document.createElement('div');
                     item.className = 'gallery-item';
                     const imgElement = document.createElement('img');
-                    imgElement.src = `optimized/${img}`;
+                    imgElement.dataset.src = `optimized/${img}`;
                     imgElement.alt = 'Photograph';
+                    imgElement.style.backgroundColor = '#f0f0f0';
 
                     imgElement.onload = function() {
                         if (this.naturalWidth > this.naturalHeight) {
                             item.classList.add('landscape');
                         }
+                        this.style.backgroundColor = 'transparent';
                     };
 
                     item.appendChild(imgElement);
@@ -362,6 +364,23 @@
                 });
 
                 gallery.appendChild(column);
+            });
+
+            // Lazy load images with Intersection Observer
+            const imageObserver = new IntersectionObserver((entries, observer) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        const img = entry.target;
+                        img.src = img.dataset.src;
+                        observer.unobserve(img);
+                    }
+                });
+            }, {
+                rootMargin: '50px'
+            });
+
+            document.querySelectorAll('img[data-src]').forEach(img => {
+                imageObserver.observe(img);
             });
         }
 

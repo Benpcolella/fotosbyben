@@ -366,22 +366,22 @@
                 gallery.appendChild(column);
             });
 
-            // Lazy load images with Intersection Observer
-            const imageObserver = new IntersectionObserver((entries, observer) => {
-                entries.forEach(entry => {
-                    if (entry.isIntersecting) {
-                        const img = entry.target;
-                        img.src = img.dataset.src;
-                        observer.unobserve(img);
-                    }
-                });
-            }, {
-                rootMargin: '50px'
-            });
+            // Sequential image loading - left column, then middle, then right
+            const allImages = document.querySelectorAll('img[data-src]');
+            let loadIndex = 0;
 
-            document.querySelectorAll('img[data-src]').forEach(img => {
-                imageObserver.observe(img);
-            });
+            function loadNextImage() {
+                if (loadIndex < allImages.length) {
+                    const img = allImages[loadIndex];
+                    img.src = img.dataset.src;
+                    loadIndex++;
+                    // Load next image after a small delay to smooth bandwidth usage
+                    setTimeout(loadNextImage, 50);
+                }
+            }
+
+            // Start loading immediately
+            loadNextImage();
         }
 
         // Modal functions

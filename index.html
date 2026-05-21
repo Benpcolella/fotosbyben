@@ -431,14 +431,6 @@
         <div class="gallery" id="gallery"></div>
     </main>
 
-    <section class="about-section">
-        <h2>About</h2>
-        <div class="about-content empty" id="about-content">
-            <p>Tell your story here. Click the button below to add your about section.</p>
-        </div>
-        <button class="edit-about-btn" id="edit-btn">Edit</button>
-    </section>
-
     <footer>
         <p>© 2026 Photography Portfolio. All rights reserved.</p>
     </footer>
@@ -453,18 +445,6 @@
         <span class="modal-nav modal-next" id="modal-next">&gt;</span>
     </div>
 
-    <!-- Edit About Modal -->
-    <div class="edit-modal" id="editModal">
-        <div class="edit-modal-content">
-            <h3>Edit About</h3>
-            <textarea id="about-textarea" placeholder="Write your about section here..."></textarea>
-            <div class="modal-buttons">
-                <button class="btn-cancel" id="cancel-btn">Cancel</button>
-                <button class="btn-save" id="save-btn">Save</button>
-            </div>
-        </div>
-    </div>
-
     <script>
         // Image data - portfolio images
         const images = [
@@ -474,75 +454,45 @@
             '031.jpeg', '032.jpeg', '033.jpeg', '034.jpeg', '035.jpeg', '036.jpeg', '037.jpeg', '038.jpeg', '039.jpeg', '040.jpeg',
             '041.jpeg', '042.jpeg', '043.jpeg', '044.jpeg', '045.jpeg', '046.jpeg', '047.jpeg', '048.jpeg', '049.jpeg', '050.jpeg',
             '051.jpeg', '052.jpeg', '053.jpeg', '054.jpeg', '055.jpeg', '056.jpeg', '057.jpeg', '058.jpeg', '059.jpeg', '060.jpeg',
-            '061.jpeg', '062.jpeg', '063.jpeg', '064.jpeg', '065.jpeg', '066.jpeg', '067.jpeg', '068.jpeg', '069.jpeg'
+            '061.jpeg', '062.jpeg', '063.jpeg', '064.jpeg', '065.jpeg', '066.jpeg', '067.jpeg'
         ];
 
         let currentModalIndex = 0;
 
-        // Initialize gallery with smart masonry
+        // Initialize gallery - fast render
         function initializeGallery() {
             const gallery = document.getElementById('gallery');
-            gallery.innerHTML = '';
+            const columns = [[], [], []];
 
-            // Load all images and measure dimensions
-            const imagePromises = images.map((img, index) => {
-                return new Promise((resolve) => {
-                    const tempImg = new Image();
-                    tempImg.onload = function() {
-                        const aspectRatio = this.naturalWidth / this.naturalHeight;
-                        const estimatedHeight = 320 / aspectRatio;
-                        resolve({img, index, height: estimatedHeight});
-                    };
-                    tempImg.onerror = function() {
-                        resolve({img, index, height: 320});
-                    };
-                    tempImg.src = `optimized/${img}`;
-                });
+            // Fast distribution across 3 columns
+            images.forEach((img, index) => {
+                columns[index % 3].push({img, index});
             });
 
-            Promise.all(imagePromises).then(imageData => {
-                const columns = [[], [], []];
-                const columnHeights = [0, 0, 0];
+            // Render columns immediately
+            columns.forEach((columnItems, colIdx) => {
+                const column = document.createElement('div');
+                column.className = 'gallery-column';
 
-                // Smart masonry: add each image to the shortest column
-                imageData.forEach(({img, index, height}) => {
-                    const minIndex = columnHeights.indexOf(Math.min(...columnHeights));
-                    columns[minIndex].push({img, index});
-                    columnHeights[minIndex] += height + 0.4;
+                columnItems.forEach(({img, index}) => {
+                    const item = document.createElement('div');
+                    item.className = 'gallery-item';
+                    const imgElement = document.createElement('img');
+                    imgElement.src = `optimized/${img}`;
+                    imgElement.alt = 'Photograph';
+
+                    imgElement.onload = function() {
+                        if (this.naturalWidth > this.naturalHeight) {
+                            item.classList.add('landscape');
+                        }
+                    };
+
+                    item.appendChild(imgElement);
+                    item.addEventListener('click', () => openModal(index));
+                    column.appendChild(item);
                 });
 
-                console.log('Total images:', images.length);
-                console.log('Column 0 count:', columns[0].length, '| Height:', columnHeights[0].toFixed(0));
-                console.log('Column 1 count:', columns[1].length, '| Height:', columnHeights[1].toFixed(0));
-                console.log('Column 2 count:', columns[2].length, '| Height:', columnHeights[2].toFixed(0));
-
-                // Render columns
-                for (let colIdx = 0; colIdx < columns.length; colIdx++) {
-                    const column = document.createElement('div');
-                    column.className = 'gallery-column';
-
-                    for (let itemIdx = 0; itemIdx < columns[colIdx].length; itemIdx++) {
-                        const {img, index} = columns[colIdx][itemIdx];
-                        const item = document.createElement('div');
-                        item.className = 'gallery-item';
-                        const imgElement = document.createElement('img');
-                        imgElement.src = `optimized/${img}`;
-                        imgElement.alt = 'Photograph';
-                        imgElement.loading = 'lazy';
-
-                        imgElement.onload = function() {
-                            if (this.naturalWidth > this.naturalHeight) {
-                                item.classList.add('landscape');
-                            }
-                        };
-
-                        item.appendChild(imgElement);
-                        item.addEventListener('click', () => openModal(index));
-                        column.appendChild(item);
-                    }
-
-                    gallery.appendChild(column);
-                }
+                gallery.appendChild(column);
             });
         }
 
@@ -574,35 +524,7 @@
             updateModalImage();
         }
 
-        // About section
-        function loadAbout() {
-            const saved = localStorage.getItem('about-content');
-            if (saved) {
-                document.getElementById('about-content').innerHTML = saved;
-                document.getElementById('about-content').classList.remove('empty');
-            }
-        }
-
-        function editAbout() {
-            const current = localStorage.getItem('about-content') || '';
-            document.getElementById('about-textarea').value = current.replace(/<br>/g, '\n');
-            document.getElementById('editModal').classList.add('show');
-        }
-
-        function saveAbout() {
-            const text = document.getElementById('about-textarea').value;
-            const html = text.split('\n').map(p => p.trim()).filter(p => p).join('<br>');
-            localStorage.setItem('about-content', html);
-            document.getElementById('about-content').innerHTML = html;
-            document.getElementById('about-content').classList.remove('empty');
-            document.getElementById('editModal').classList.remove('show');
-        }
-
-        function cancelEdit() {
-            document.getElementById('editModal').classList.remove('show');
-        }
-
-        // Header scroll effect
+// Header scroll effect
         let lastScrollTop = 0;
         window.addEventListener('scroll', () => {
             const header = document.getElementById('header');
@@ -618,9 +540,6 @@
         document.getElementById('modal-close').addEventListener('click', closeModal);
         document.getElementById('modal-prev').addEventListener('click', prevImage);
         document.getElementById('modal-next').addEventListener('click', nextImage);
-        document.getElementById('edit-btn').addEventListener('click', editAbout);
-        document.getElementById('save-btn').addEventListener('click', saveAbout);
-        document.getElementById('cancel-btn').addEventListener('click', cancelEdit);
 
         document.getElementById('imageModal').addEventListener('click', (e) => {
             if (e.target.id === 'imageModal') closeModal();
@@ -637,7 +556,6 @@
         // Initialize
         window.addEventListener('DOMContentLoaded', () => {
             initializeGallery();
-            loadAbout();
         });
     </script>
 </body>

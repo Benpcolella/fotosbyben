@@ -671,6 +671,236 @@
             box-shadow: 0 4px 12px rgba(45, 159, 125, 0.2);
         }
 
+        /* Dish Detail Modal */
+        .dish-modal {
+            display: none;
+            position: fixed;
+            z-index: 1000;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5);
+            overflow-y: auto;
+        }
+
+        .dish-modal.active {
+            display: flex;
+            align-items: flex-start;
+            justify-content: center;
+            padding-top: 20px;
+        }
+
+        .dish-modal-content {
+            background-color: white;
+            max-width: 600px;
+            width: 100%;
+            border-radius: 12px;
+            overflow: hidden;
+            margin-bottom: 40px;
+            animation: slideUp 0.3s ease;
+        }
+
+        @keyframes slideUp {
+            from {
+                transform: translateY(30px);
+                opacity: 0;
+            }
+            to {
+                transform: translateY(0);
+                opacity: 1;
+            }
+        }
+
+        .modal-close-btn {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            width: 44px;
+            height: 44px;
+            background-color: rgba(255, 107, 107, 0.9);
+            border: none;
+            border-radius: 50%;
+            color: white;
+            font-size: 24px;
+            cursor: pointer;
+            z-index: 1001;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: all 0.3s ease;
+        }
+
+        .modal-close-btn:hover {
+            background-color: rgba(255, 107, 107, 1);
+        }
+
+        .dish-modal-image {
+            width: 100%;
+            height: 250px;
+            object-fit: cover;
+            display: block;
+            position: relative;
+        }
+
+        .dish-modal-body {
+            padding: 24px;
+        }
+
+        .modal-dish-name {
+            font-size: 28px;
+            font-weight: 700;
+            margin-bottom: 4px;
+            color: #1a1a1a;
+        }
+
+        .modal-dish-native {
+            font-size: 14px;
+            color: #666;
+            margin-bottom: 16px;
+        }
+
+        .modal-tags {
+            display: flex;
+            gap: 8px;
+            margin-bottom: 16px;
+            flex-wrap: wrap;
+        }
+
+        .modal-tag {
+            background-color: #f0f0f0;
+            padding: 6px 12px;
+            border-radius: 16px;
+            font-size: 0.8rem;
+            color: #666;
+        }
+
+        .modal-description {
+            padding: 12px 16px;
+            background-color: #f9f9f9;
+            border-left: 4px solid #2d9f7d;
+            margin-bottom: 24px;
+            line-height: 1.6;
+            font-size: 0.95rem;
+            color: #555;
+        }
+
+        .allergen-section-title {
+            font-size: 0.75rem;
+            font-weight: 700;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+            color: #999;
+            margin-bottom: 16px;
+        }
+
+        .modal-allergen-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 12px;
+        }
+
+        .modal-allergen-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            position: relative;
+        }
+
+        .modal-allergen-icon {
+            width: 56px;
+            height: 56px;
+            background-color: white;
+            border: 2px solid #e0e0e0;
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 24px;
+            margin-bottom: 8px;
+            position: relative;
+        }
+
+        .modal-allergen-item.severe .modal-allergen-icon {
+            border-color: #e74c3c;
+            background-color: #ffebee;
+        }
+
+        .modal-allergen-item.moderate .modal-allergen-icon {
+            border-color: #f39c12;
+            background-color: #fff3e0;
+        }
+
+        .modal-allergen-item.mild .modal-allergen-icon {
+            border-color: #2d9f7d;
+            background-color: #e8f5e9;
+        }
+
+        .modal-allergen-label {
+            font-size: 0.8rem;
+            color: #666;
+            font-weight: 500;
+        }
+
+        .modal-allergen-label.severe {
+            color: #e74c3c;
+            font-weight: 600;
+        }
+
+        .modal-allergen-label.moderate {
+            color: #f39c12;
+            font-weight: 600;
+        }
+
+        .modal-allergen-label.mild {
+            color: #2d9f7d;
+            font-weight: 600;
+        }
+
+        .modal-allergen-dot {
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            border: 2px solid white;
+        }
+
+        .modal-allergen-dot.severe {
+            background-color: #e74c3c;
+        }
+
+        .modal-allergen-dot.moderate {
+            background-color: #f39c12;
+        }
+
+        .modal-allergen-dot.mild {
+            background-color: #2d9f7d;
+        }
+
+        @media (max-width: 600px) {
+            .dish-modal-content {
+                width: 95%;
+                margin-left: auto;
+                margin-right: auto;
+            }
+
+            .modal-allergen-grid {
+                grid-template-columns: repeat(3, 1fr);
+            }
+
+            .dish-modal-body {
+                padding: 16px;
+            }
+
+            .modal-close-btn {
+                top: 10px;
+                right: 10px;
+            }
+        }
+
         /* Photo Galleries */
         .photo-gallery {
             display: grid;
@@ -1044,6 +1274,25 @@
         <p style="margin-top: 1rem; font-size: 0.85rem; color: #999;">Photography and essays documenting architecture, food, urban life, and landscape.</p>
     </footer>
 
+    <!-- Dish Detail Modal -->
+    <div class="dish-modal" id="dishModal">
+        <button class="modal-close-btn" id="modalCloseBtn">×</button>
+        <div class="dish-modal-content">
+            <img id="modalDishImage" src="" alt="" class="dish-modal-image">
+            <div class="dish-modal-body">
+                <div class="modal-dish-name" id="modalDishName"></div>
+                <div class="modal-dish-native" id="modalDishNative"></div>
+                <div class="modal-tags" id="modalTags"></div>
+                <div id="modalSafeBanner" class="safe-banner" style="display: none;">
+                    Safe based on your allergen profile
+                </div>
+                <div class="modal-description" id="modalDescription"></div>
+                <div class="allergen-section-title">Allergen Information</div>
+                <div class="modal-allergen-grid" id="modalAllergenGrid"></div>
+            </div>
+        </div>
+    </div>
+
     <script>
         // Supabase Configuration
         const SUPABASE_URL = 'https://sueqfqewflletzhdesyd.supabase.co';
@@ -1143,12 +1392,95 @@
                 </div>
             `;
 
-            // Add click handler to show details (optional - could link to full view)
+            // Add click handler to show details in modal
             card.addEventListener('click', () => {
-                console.log('Clicked dish:', dish);
+                openDishModal(dish);
             });
 
             return card;
+        }
+
+        function openDishModal(dish) {
+            const modal = document.getElementById('dishModal');
+            const isSafe = !hasAnyAllergens(dish);
+            const allergens = getAllergensList(dish);
+
+            // Populate modal
+            document.getElementById('modalDishName').textContent = dish.name;
+            document.getElementById('modalDishNative').textContent = dish.native_name || '';
+            document.getElementById('modalDescription').textContent = dish.description || 'No description available.';
+
+            // Populate tags
+            const tagsContainer = document.getElementById('modalTags');
+            tagsContainer.innerHTML = '';
+            if (dish.country) {
+                const tag = document.createElement('div');
+                tag.className = 'modal-tag';
+                tag.textContent = `🇨🇳 ${dish.country}`;
+                tagsContainer.appendChild(tag);
+            }
+            if (dish.category) {
+                const tag = document.createElement('div');
+                tag.className = 'modal-tag';
+                tag.textContent = dish.category;
+                tagsContainer.appendChild(tag);
+            }
+
+            // Show/hide safe banner
+            const safeBanner = document.getElementById('modalSafeBanner');
+            safeBanner.style.display = isSafe ? 'flex' : 'none';
+
+            // Set image
+            const modalImage = document.getElementById('modalDishImage');
+            modalImage.src = dish.image_url || '';
+            modalImage.alt = dish.name;
+
+            // Populate allergen grid
+            const allergenGrid = document.getElementById('modalAllergenGrid');
+            allergenGrid.innerHTML = '';
+
+            // Show all possible allergens with their status
+            const allergenFields = ['Sesame', 'Treenuts', 'Peanuts', 'Gluten', 'Crustaceans',
+                                   'Molluscs', 'Fish', 'Eggs', 'Dairy', 'Soybeans', 'Mustard',
+                                   'Celery', 'Buckwheat', 'Sulfites', 'Lupin', 'Peas', 'Lentils',
+                                   'Apples', 'Bananas', 'Kiwi', 'Oranges', 'Beehive Products', 'Cilantro', 'Pork'];
+
+            allergenFields.forEach(allergen => {
+                const isPresent = dish[allergen] === true;
+                const metadata = allergenMetadata[allergen] || { icon: '⚠️', severity: 'severe' };
+
+                const item = document.createElement('div');
+                item.className = `modal-allergen-item ${isPresent ? metadata.severity : 'not-present'}`;
+
+                if (isPresent) {
+                    item.innerHTML = `
+                        <div class="modal-allergen-icon">
+                            ${metadata.icon}
+                            <div class="modal-allergen-dot ${metadata.severity}"></div>
+                        </div>
+                        <div class="modal-allergen-label ${metadata.severity}">${allergen}</div>
+                    `;
+                } else {
+                    item.innerHTML = `
+                        <div class="modal-allergen-icon">
+                            ${metadata.icon}
+                        </div>
+                        <div class="modal-allergen-label">${allergen}</div>
+                    `;
+                }
+
+                allergenGrid.appendChild(item);
+            });
+
+            // Show modal
+            modal.classList.add('active');
+            document.body.style.overflow = 'hidden';
+        }
+
+        function closeDishModal() {
+            const modal = document.getElementById('dishModal');
+            modal.classList.remove('active');
+            document.body.style.overflow = 'auto';
         }
 
         function hasAnyAllergens(dish) {
@@ -1174,6 +1506,25 @@
             if (dish.Pescatarian) prefs.push('pescatarian');
             return prefs;
         }
+
+        // Modal close handlers
+        document.getElementById('modalCloseBtn').addEventListener('click', closeDishModal);
+
+        document.getElementById('dishModal').addEventListener('click', (e) => {
+            if (e.target.id === 'dishModal') {
+                closeDishModal();
+            }
+        });
+
+        // Close modal on Escape key
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'Escape') {
+                const modal = document.getElementById('dishModal');
+                if (modal.classList.contains('active')) {
+                    closeDishModal();
+                }
+            }
+        });
 
         // Fetch dishes on page load
         document.addEventListener('DOMContentLoaded', fetchNingxiaDishes);

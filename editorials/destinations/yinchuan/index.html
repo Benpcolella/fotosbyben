@@ -93,9 +93,10 @@
 
         /* Main Container */
         main {
-            max-width: 900px;
+            max-width: 1200px;
             margin: 0 auto;
             padding: 4rem 2rem;
+            padding-right: 350px;
         }
 
         /* Hero Section */
@@ -142,14 +143,8 @@
 
         /* Editorial Content */
         .editorial-content {
-            display: grid;
-            grid-template-columns: 1fr 300px;
-            gap: 2rem;
+            display: block;
             margin-bottom: 4rem;
-            max-width: 1200px;
-            margin-left: auto;
-            margin-right: auto;
-            padding: 0 2rem;
         }
 
         .editorial-content .essay {
@@ -157,18 +152,22 @@
         }
 
         .sidebar-inline {
+            float: right;
             width: 280px;
+            margin-left: 2rem;
+            margin-bottom: 2rem;
             height: fit-content;
         }
 
         @media (max-width: 900px) {
-            .editorial-content {
-                grid-template-columns: 1fr;
-                padding: 0 1rem;
+            main {
+                padding-right: 2rem;
             }
 
             .sidebar-inline {
+                float: none;
                 width: 100%;
+                margin-left: 0;
             }
         }
 

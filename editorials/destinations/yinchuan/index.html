@@ -56,9 +56,11 @@
 
         /* Main Container */
         main {
-            max-width: 900px;
+            max-width: 1200px;
             margin: 0 auto;
             padding: 4rem 2rem;
+            display: flex;
+            gap: 2rem;
         }
 
         /* Hero Section */
@@ -107,6 +109,7 @@
         .editorial-content {
             display: block;
             margin-bottom: 4rem;
+            flex: 1;
         }
 
         .editorial-content .essay {
@@ -114,20 +117,18 @@
         }
 
         .sidebar-inline {
-            float: right;
             width: 280px;
-            margin-left: 2rem;
             margin-bottom: 2rem;
             height: fit-content;
+            flex-shrink: 0;
         }
 
         @media (max-width: 900px) {
             main {
-                padding-right: 2rem;
+                flex-direction: column;
             }
 
             .sidebar-inline {
-                float: none;
                 width: 100%;
                 margin-left: 0;
             }

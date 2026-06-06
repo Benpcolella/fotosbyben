@@ -136,8 +136,6 @@
         .editorial-cover-img {
             width: 100%;
             height: auto;
-            max-height: 60vh;
-            object-fit: cover;
             margin-bottom: 3rem;
             border: 1px solid #e0e0e0;
         }
@@ -154,14 +152,18 @@
         }
 
         .sidebar-inline {
+            position: sticky;
+            top: 100px;
             float: right;
             width: 280px;
             margin-left: 2rem;
             margin-bottom: 2rem;
+            height: fit-content;
         }
 
         @media (max-width: 900px) {
             .sidebar-inline {
+                position: static;
                 float: none;
                 width: 100%;
                 margin-left: 0;
@@ -1083,10 +1085,6 @@
 
                 <p>Just south stands the Bell Tower, its architecture nearly identical to the Drum Tower's, another brick fortress with layered eaves and bright red doors scaled for humans and motorcycles alike. The two towers once formed a commercial and civic center; they still do. Stand between them in late afternoon light and you see why: the proportions speak of a city that knew what it valued, and the way contemporary Yinchuan flows around them suggests the city has not forgotten.</p>
 
-                <div class="photo-gallery">
-                    <img src="Bell_Tower.jpg" alt="Bell Tower with scooter in foreground" class="gallery-image">
-                </div>
-
                 <h2>The Street, Written in Signs and Cycles</h2>
 
                 <p>The most honest picture of a city emerges from its transit. In Yinchuan's neighborhoods near Zhongshan Park and beyond, this means red three-wheeled cargo vehicles, bicycles, pedestrians, and the kind of commerce that happens on sidewalks. A vendor sets up in the morning, sells through the day, packs away by evening. The visual language is one of efficiency and adaptation rather than spectacle.</p>
@@ -1163,16 +1161,6 @@
             </article>
         </div>
 
-        <section class="map-section">
-            <h3>Where to Go</h3>
-            <div class="map-container">
-                <div class="map-placeholder">
-                    <p><strong>Interactive map coming soon</strong></p>
-                    <p>Key locations: Drum Tower, Bell Tower, Centigan Temple Pagoda, Pedestrian Street, Western Xia Tombs, Lanshan Park</p>
-                </div>
-            </div>
-        </section>
-
         <section class="food-section">
             <h3>Food & Allergens</h3>
             <div class="food-intro">
@@ -1187,7 +1175,7 @@
             </div>
 
             <div class="allerguide-link">
-                <p>For a complete, detailed guide to allergens and dietary accommodations across Ningxia, download the <strong>AllerGuide app</strong>. It integrates restaurant data, dish information, and real-time allergy management tools.</p>
+                <p>For a complete, detailed guide to allergens and dietary accommodations across the world, download the <strong>AllerGuide app</strong>. It integrates restaurant data, dish information, and real-time allergy management tools.</p>
                 <a href="https://allerguide.app" class="allerguide-cta" target="_blank">Download AllerGuide</a>
             </div>
         </section>

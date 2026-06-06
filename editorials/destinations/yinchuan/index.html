@@ -846,18 +846,18 @@
         }
 
         .modal-allergen-label.severe {
-            color: #e74c3c;
-            font-weight: 600;
+            color: #666;
+            font-weight: 500;
         }
 
         .modal-allergen-label.moderate {
-            color: #f39c12;
-            font-weight: 600;
+            color: #666;
+            font-weight: 500;
         }
 
         .modal-allergen-label.mild {
-            color: #2d9f7d;
-            font-weight: 600;
+            color: #666;
+            font-weight: 500;
         }
 
         .modal-allergen-dot {
@@ -1414,9 +1414,9 @@
                 tagsContainer.appendChild(tag);
             }
 
-            // Show/hide safe banner
+            // Hide safe banner (not relevant for public editorial)
             const safeBanner = document.getElementById('modalSafeBanner');
-            safeBanner.style.display = isSafe ? 'flex' : 'none';
+            safeBanner.style.display = 'none';
 
             // Set image
             const modalImage = document.getElementById('modalDishImage');
@@ -1444,7 +1444,6 @@
                     item.innerHTML = `
                         <div class="modal-allergen-icon">
                             ${metadata.icon}
-                            <div class="modal-allergen-dot ${metadata.severity}"></div>
                         </div>
                         <div class="modal-allergen-label ${metadata.severity}">${allergen}</div>
                     `;

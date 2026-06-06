@@ -926,6 +926,16 @@
             background-color: transparent;
         }
 
+        .column-images .photo-gallery.three-col {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 1rem;
+        }
+
+        .column-images:empty {
+            display: none;
+        }
+
         .photo-gallery.float-left {
             float: left;
             width: 35%;
@@ -1127,11 +1137,17 @@
         <div class="editorial-content">
             <article class="essay">
                 <h2>The Drum Tower's Red Doors</h2>
-                <p>The Drum Tower dominates Yinchuan's skyline like a declaration: this city remembers itself. Standing at the center of the old city, the tower rises in traditional brick with upturned eaves tiled in faded gold, its massive red doors drawing the eye with an intensity that seems almost defiant against the pale Ningxia sky. A neon sign bearing the city's name glows red above it, as if confirming what the architecture already knows: Yinchuan exists at the threshold between centuries.</p>
+                <div class="section-two-column">
+                    <div class="column-text">
+                        <p>The Drum Tower dominates Yinchuan's skyline like a declaration: this city remembers itself. Standing at the center of the old city, the tower rises in traditional brick with upturned eaves tiled in faded gold, its massive red doors drawing the eye with an intensity that seems almost defiant against the pale Ningxia sky. A neon sign bearing the city's name glows red above it, as if confirming what the architecture already knows: Yinchuan exists at the threshold between centuries.</p>
 
-                <p>Walking the old city streets, you encounter this tension constantly. The Drum Tower and Bell Tower are not museum pieces sealed off from daily life. They pulse with activity. Locals cross the plaza on motorcycles and bicycles. Vendors set up shop in the surrounding alleys. The towers anchor neighborhoods that function as living communities, not heritage zones, and this distinction matters profoundly for understanding what Yinchuan has chosen to become.</p>
+                        <p>Walking the old city streets, you encounter this tension constantly. The Drum Tower and Bell Tower are not museum pieces sealed off from daily life. They pulse with activity. Locals cross the plaza on motorcycles and bicycles. Vendors set up shop in the surrounding alleys. The towers anchor neighborhoods that function as living communities, not heritage zones, and this distinction matters profoundly for understanding what Yinchuan has chosen to become.</p>
 
-                <p>Just south stands the Bell Tower, its architecture nearly identical to the Drum Tower's, another brick fortress with layered eaves and bright red doors scaled for humans and motorcycles alike. The two towers once formed a commercial and civic center; they still do. Stand between them in late afternoon light and you see why: the proportions speak of a city that knew what it valued, and the way contemporary Yinchuan flows around them suggests the city has not forgotten.</p>
+                        <p>Just south stands the Bell Tower, its architecture nearly identical to the Drum Tower's, another brick fortress with layered eaves and bright red doors scaled for humans and motorcycles alike. The two towers once formed a commercial and civic center; they still do. Stand between them in late afternoon light and you see why: the proportions speak of a city that knew what it valued, and the way contemporary Yinchuan flows around them suggests the city has not forgotten.</p>
+                    </div>
+                    <div class="column-images">
+                    </div>
+                </div>
 
                 <h2>The Street, Written in Signs and Cycles</h2>
 
@@ -1153,71 +1169,100 @@
 
                 <h2>The Centigan Temple Pagoda and the Sacred Landscape</h2>
 
-                <p>North of downtown, the Centigan Temple Pagoda rises in terracotta brick against clear sky. Seven stories tall, its balconied levels circle the tapering structure. A green-tiled spire crowns it. Below, the temple's main sanctuary displays the ornamental density typical of Chinese religious architecture: painted beams, decorative railings, colored tiles arranged in patterns that reward close observation.</p>
+                <div class="section-two-column">
+                    <div class="column-text">
+                        <p>North of downtown, the Centigan Temple Pagoda rises in terracotta brick against clear sky. Seven stories tall, its balconied levels circle the tapering structure. A green-tiled spire crowns it. Below, the temple's main sanctuary displays the ornamental density typical of Chinese religious architecture: painted beams, decorative railings, colored tiles arranged in patterns that reward close observation.</p>
 
-                <p>The pagoda serves as a pivot point between Yinchuan's urban center and the landscape that surrounds it. From this vantage, you can trace sight lines back to the city's core while simultaneously looking outward toward the Helan Mountains and the desert that frames Ningxia Province. The temple complex doesn't retreat from modernity; it coexists with it, a statement about what endures.</p>
-
-                <div class="photo-gallery">
-                    <img src="Chentigan_Temple_Pagoda.jpg" alt="Centigan Temple Pagoda with seven stories and green-tiled spire" class="gallery-image">
+                        <p>The pagoda serves as a pivot point between Yinchuan's urban center and the landscape that surrounds it. From this vantage, you can trace sight lines back to the city's core while simultaneously looking outward toward the Helan Mountains and the desert that frames Ningxia Province. The temple complex doesn't retreat from modernity; it coexists with it, a statement about what endures.</p>
+                    </div>
+                    <div class="column-images">
+                        <div class="photo-gallery">
+                            <img src="Chentigan_Temple_Pagoda.jpg" alt="Centigan Temple Pagoda with seven stories and green-tiled spire" class="gallery-image">
+                        </div>
+                    </div>
                 </div>
 
                 <h2>The Western Xia: History Written in Ruins</h2>
 
-                <div class="photo-gallery float-left">
-                    <img src="Xia_Tombs.jpg" alt="Western Xia tomb mounds against misty Helan Mountains at sunrise" class="gallery-image">
+                <div class="section-two-column">
+                    <div class="column-text">
+                        <p>Twenty kilometers west of the city, the Western Xia Tombs and Museum represent a different historical register entirely. The tombs sit in the Helan foothills, a series of earthen mounds visible from considerable distance. The landscape itself becomes archaeological: these mounds were burial grounds for a kingdom that ruled the region from the 11th to 13th centuries, lost its war with the Mongols, and vanished so completely from Han Chinese historical consciousness that Western scholars knew more about the Xia than the Chinese themselves.</p>
+
+                        <p>The Western Xia Museum, constructed in contemporary brick, presents the dynasty's artifacts and history with scholarly rigor. Its minimalist design—spare walls, careful lighting, generous spacing between exhibits—allows visitors to absorb information without overwhelm. The architectural restraint paradoxically emphasizes the cultural achievement it documents. The Xia were not a footnote to Chinese history; their erasure from mainstream memory represents a particular kind of historical violence.</p>
+
+                        <p>The landscape around the tombs reads as subtle complexity: distant mountains soft in haze, the mounds themselves modest but deliberate, scattered remains of walls and structures visible to those who know where to look. It is not a spectacular site by touristic standards. Its power emerges from geological timescale and the kind of silence that only seems quiet because your ear has learned to listen.</p>
+                    </div>
+                    <div class="column-images">
+                        <div class="photo-gallery">
+                            <img src="Xia_Tombs.jpg" alt="Western Xia tomb mounds against misty Helan Mountains at sunrise" class="gallery-image">
+                        </div>
+                        <div class="photo-gallery">
+                            <img src="Xia_Museum.jpg" alt="Western Xia Museum contemporary brick architecture" class="gallery-image">
+                        </div>
+                    </div>
                 </div>
-
-                <p>Twenty kilometers west of the city, the Western Xia Tombs and Museum represent a different historical register entirely. The tombs sit in the Helan foothills, a series of earthen mounds visible from considerable distance. The landscape itself becomes archaeological: these mounds were burial grounds for a kingdom that ruled the region from the 11th to 13th centuries, lost its war with the Mongols, and vanished so completely from Han Chinese historical consciousness that Western scholars knew more about the Xia than the Chinese themselves.</p>
-
-                <p>The Western Xia Museum, constructed in contemporary brick, presents the dynasty's artifacts and history with scholarly rigor. Its minimalist design—spare walls, careful lighting, generous spacing between exhibits—allows visitors to absorb information without overwhelm. The architectural restraint paradoxically emphasizes the cultural achievement it documents. The Xia were not a footnote to Chinese history; their erasure from mainstream memory represents a particular kind of historical violence.</p>
-
-                <div class="photo-gallery float-right">
-                    <img src="Xia_Museum.jpg" alt="Western Xia Museum contemporary brick architecture" class="gallery-image">
-                </div>
-
-                <p>The landscape around the tombs reads as subtle complexity: distant mountains soft in haze, the mounds themselves modest but deliberate, scattered remains of walls and structures visible to those who know where to look. It is not a spectacular site by touristic standards. Its power emerges from geological timescale and the kind of silence that only seems quiet because your ear has learned to listen.</p>
 
                 <h2>The Architecture of Arrival and Ambition</h2>
 
-                <p>Yinchuan is rebuilding itself. The People's Auditorium announces this intent with formal clarity: a structure that appears to hover just above ground, its flying saucer-like roof suggesting both futurism and flight. The building refuses to reference traditional Chinese architecture; instead, it creates a new formal language for the city's aspirations.</p>
+                <div class="section-two-column">
+                    <div class="column-text">
+                        <p>Yinchuan is rebuilding itself. The People's Auditorium announces this intent with formal clarity: a structure that appears to hover just above ground, its flying saucer-like roof suggesting both futurism and flight. The building refuses to reference traditional Chinese architecture; instead, it creates a new formal language for the city's aspirations.</p>
 
-                <p>This audacity extends throughout the contemporary city. Modern office towers rise with confidence. Shopping centers sprawl outward. The Ningxia Museum's brick facade presents itself as contemporary rather than historicizing. The message is consistent: Yinchuan is not a preserved city. It is a living city engaged in choosing its own future.</p>
+                        <p>This audacity extends throughout the contemporary city. Modern office towers rise with confidence. Shopping centers sprawl outward. The Ningxia Museum's brick facade presents itself as contemporary rather than historicizing. The message is consistent: Yinchuan is not a preserved city. It is a living city engaged in choosing its own future.</p>
 
-                <p>Yet the choice does not preclude reverence for what came before. The Drum Tower and Bell Tower remain the city's visual anchors. Traditional architectural languages persist in the Pedestrian Street and scattered shophouses. The pattern suggests a city attempting something difficult: building forward while remaining rooted.</p>
-
-                <div class="photo-gallery three-col">
-                    <img src="Architecture_2.jpg" alt="People's Auditorium with flying saucer roof and red tricycles" class="gallery-image">
-                    <img src="Architecture_3.jpg" alt="Ningxia People's Theater contemporary architecture" class="gallery-image">
-                    <img src="Architecture_1.jpg" alt="Street building showing architectural vernacular" class="gallery-image">
+                        <p>Yet the choice does not preclude reverence for what came before. The Drum Tower and Bell Tower remain the city's visual anchors. Traditional architectural languages persist in the Pedestrian Street and scattered shophouses. The pattern suggests a city attempting something difficult: building forward while remaining rooted.</p>
+                    </div>
+                    <div class="column-images">
+                        <div class="photo-gallery three-col">
+                            <img src="Architecture_2.jpg" alt="People's Auditorium with flying saucer roof and red tricycles" class="gallery-image">
+                            <img src="Architecture_3.jpg" alt="Ningxia People's Theater contemporary architecture" class="gallery-image">
+                            <img src="Architecture_1.jpg" alt="Street building showing architectural vernacular" class="gallery-image">
+                        </div>
+                    </div>
                 </div>
 
                 <h2>Lanshan Park and the Distant Mountains</h2>
 
-                <div class="photo-gallery float-right">
-                    <img src="Lanshan_Park.jpg" alt="Lanshan Park at golden hour with Yellow River and distant mountains" class="gallery-image">
-                </div>
+                <div class="section-two-column">
+                    <div class="column-text">
+                        <p>At Lanshan Park, the Yellow River comes briefly into focus. A vast recreational field spreads toward the water; beyond lies a landscape of reeds and distant mountains. This is where Yinchuan remembers its geography: the Yellow River to the east, the Helan Mountains to the west, desert in multiple directions. The city sits in one of China's more precarious environmental zones, and the mountains loom as both beauty and constraint.</p>
 
-                <p>At Lanshan Park, the Yellow River comes briefly into focus. A vast recreational field spreads toward the water; beyond lies a landscape of reeds and distant mountains. This is where Yinchuan remembers its geography: the Yellow River to the east, the Helan Mountains to the west, desert in multiple directions. The city sits in one of China's more precarious environmental zones, and the mountains loom as both beauty and constraint.</p>
-
-                <p>The park at sunset delivers the full emotional register. The mountains blur into haze. The light turns everything amber and gold. Families walk the paths. The scale of the landscape dominates. From here, the city's various aspirations—historical, contemporary, commercial—seem small, not insignificant, but scaled appropriately to their actual place in the world.</p>
-
-                <div class="photo-gallery float-left">
-                    <img src="Yuhang_Paviliion.jpg" alt="Yuhang Pavilion traditional architecture" class="gallery-image">
+                        <p>The park at sunset delivers the full emotional register. The mountains blur into haze. The light turns everything amber and gold. Families walk the paths. The scale of the landscape dominates. From here, the city's various aspirations—historical, contemporary, commercial—seem small, not insignificant, but scaled appropriately to their actual place in the world.</p>
+                    </div>
+                    <div class="column-images">
+                        <div class="photo-gallery">
+                            <img src="Lanshan_Park.jpg" alt="Lanshan Park at golden hour with Yellow River and distant mountains" class="gallery-image">
+                        </div>
+                        <div class="photo-gallery">
+                            <img src="Yuhang_Paviliion.jpg" alt="Yuhang Pavilion traditional architecture" class="gallery-image">
+                        </div>
+                    </div>
                 </div>
 
                 <h2>The View Forward</h2>
 
-                <p>Yinchuan asks an interesting question through its architecture and urban design: how does a city honor its history while refusing to be imprisoned by it? The answer, visible in the towers and streets and new museums, is through selective engagement. Preserve what matters. Build boldly. Allow both to coexist without forced harmony.</p>
+                <div class="section-two-column">
+                    <div class="column-text">
+                        <p>Yinchuan asks an interesting question through its architecture and urban design: how does a city honor its history while refusing to be imprisoned by it? The answer, visible in the towers and streets and new museums, is through selective engagement. Preserve what matters. Build boldly. Allow both to coexist without forced harmony.</p>
 
-                <p>This is a city that understands the difference between restoration and resurrection. The old centers—the towers, the temples, the pedestrian quarters—remain functional, inhabited, alive. They are not performances of authenticity for external audiences. They are home. That distinction makes them worth visiting, and worth photographing, and worth taking seriously as a statement about what a city can choose to become.</p>
+                        <p>This is a city that understands the difference between restoration and resurrection. The old centers—the towers, the temples, the pedestrian quarters—remain functional, inhabited, alive. They are not performances of authenticity for external audiences. They are home. That distinction makes them worth visiting, and worth photographing, and worth taking seriously as a statement about what a city can choose to become.</p>
+                    </div>
+                    <div class="column-images">
+                    </div>
+                </div>
                 <h2>Photo Essay: Daily Observations</h2>
 
-                <p>The streets reveal what monuments can only suggest. These images capture Yinchuan in its ordinary moments: commerce, rest, movement, the texture of a city that continues regardless of who's watching.</p>
-
-                <div class="photo-gallery three-col">
-                    <img src="Street_Life2.jpg" alt="Street scene from Zhongshan Park" class="gallery-image">
-                    <img src="Street_Life_3.jpg" alt="Daily life in Yinchuan streets" class="gallery-image">
-                    <img src="Ningxia_Museum.jpg" alt="Ningxia Museum brick facade" class="gallery-image">
+                <div class="section-two-column">
+                    <div class="column-text">
+                        <p>The streets reveal what monuments can only suggest. These images capture Yinchuan in its ordinary moments: commerce, rest, movement, the texture of a city that continues regardless of who's watching.</p>
+                    </div>
+                    <div class="column-images">
+                        <div class="photo-gallery three-col">
+                            <img src="Street_Life2.jpg" alt="Street scene from Zhongshan Park" class="gallery-image">
+                            <img src="Street_Life_3.jpg" alt="Daily life in Yinchuan streets" class="gallery-image">
+                            <img src="Ningxia_Museum.jpg" alt="Ningxia Museum brick facade" class="gallery-image">
+                        </div>
+                    </div>
                 </div>
             </article>
         </div>

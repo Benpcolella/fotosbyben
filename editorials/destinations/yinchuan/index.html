@@ -906,6 +906,15 @@
             margin-bottom: 3rem;
         }
 
+        .section-two-column .column-images:empty ~ .column-text,
+        .section-two-column:has(> .column-images:empty) {
+            grid-column: 1 / -1;
+        }
+
+        .section-two-column:has(> .column-images:empty) {
+            grid-template-columns: 1fr;
+        }
+
         .column-text {
             display: flex;
             flex-direction: column;

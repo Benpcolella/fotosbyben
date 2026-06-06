@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notes from City — Editorials</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html, body {
+            width: 100%;
+        }
+
+        body {
+            font-family: 'Space Mono', monospace;
+            background-color: #fafafa;
+            color: #1a1a1a;
+            line-height: 1.6;
+            zoom: 75%;
+        }
+
+        h1, h2, h3, h4, h5, h6 {
+            font-family: 'Space Mono', monospace;
+            font-weight: 700;
+            letter-spacing: 0.05em;
+            text-transform: uppercase;
+        }
+
+        /* Header */
+        header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            padding: 2rem 4rem;
+            background: rgba(255, 255, 255, 0.98);
+            z-index: 100;
+            border-bottom: 1px solid #e0e0e0;
+            transition: all 0.3s ease;
+        }
+
+        header.scrolled {
+            padding: 1rem 4rem;
+            box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+        }
+
+        .header-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            max-width: 1600px;
+            margin: 0 auto;
+        }
+
+        .logo {
+            font-size: 0.9rem;
+            letter-spacing: 0.08em;
+            text-decoration: none;
+            color: #1a1a1a;
+            transition: opacity 0.3s ease;
+        }
+
+        .logo:hover {
+            opacity: 0.6;
+        }
+
+        nav {
+            display: flex;
+            gap: 2rem;
+        }
+
+        nav a {
+            color: #1a1a1a;
+            text-decoration: none;
+            font-size: 0.9rem;
+            letter-spacing: 0.05em;
+            transition: opacity 0.3s ease;
+        }
+
+        nav a:hover {
+            opacity: 0.6;
+        }
+
+        body {
+            padding-top: 80px;
+        }
+
+        /* Main Container */
+        main {
+            max-width: 1600px;
+            margin: 0 auto;
+            padding: 4rem 1.2rem;
+        }
+
+        /* Section Header */
+        .section-header {
+            margin-bottom: 4rem;
+            text-align: center;
+        }
+
+        .section-title {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+            letter-spacing: 0.08em;
+        }
+
+        .section-subtitle {
+            font-size: 1.1rem;
+            color: #666;
+            font-family: 'Space Mono', monospace;
+            letter-spacing: 0.05em;
+            font-weight: 400;
+        }
+
+        /* Grid of Editorial Covers */
+        .editorials-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 2rem;
+            margin-bottom: 4rem;
+            max-width: 1000px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .editorial-card {
+            position: relative;
+            cursor: pointer;
+            overflow: hidden;
+            border: 1px solid #e0e0e0;
+            transition: all 0.3s ease;
+            background-color: #f5f5f5;
+            aspect-ratio: 3 / 4;
+        }
+
+        .editorial-card:hover {
+            border-color: #1a1a1a;
+            box-shadow: 0 12px 32px rgba(0, 0, 0, 0.15);
+            transform: translateY(-4px);
+        }
+
+        .editorial-cover {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            display: block;
+        }
+
+        .editorial-overlay {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: linear-gradient(to top, rgba(0,0,0,0.8), rgba(0,0,0,0.3));
+            padding: 2rem;
+            color: white;
+            opacity: 0;
+            transition: opacity 0.3s ease;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            height: 100%;
+        }
+
+        .editorial-card:hover .editorial-overlay {
+            opacity: 1;
+        }
+
+        .editorial-number {
+            font-size: 0.8rem;
+            letter-spacing: 0.1em;
+            opacity: 0.9;
+            margin-bottom: 0.5rem;
+        }
+
+        .editorial-destination {
+            font-size: 1.5rem;
+            font-weight: 700;
+            letter-spacing: 0.08em;
+            margin-bottom: 0.5rem;
+        }
+
+        .editorial-subtitle {
+            font-size: 0.95rem;
+            line-height: 1.4;
+            opacity: 0.95;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #1a1a1a;
+            color: #ffffff;
+            padding: 3rem 4rem;
+            margin-top: 6rem;
+            text-align: center;
+            font-size: 0.95rem;
+            letter-spacing: 0.05em;
+        }
+
+        /* Responsive */
+        @media (max-width: 1024px) {
+            main {
+                padding: 3rem 2rem;
+            }
+
+            header {
+                padding: 1.5rem 2rem;
+            }
+
+            .editorials-grid {
+                grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            }
+
+            .section-title {
+                font-size: 2rem;
+            }
+        }
+
+        @media (max-width: 768px) {
+            main {
+                padding: 2rem 1rem;
+            }
+
+            header {
+                padding: 1rem;
+            }
+
+            .header-content {
+                flex-direction: column;
+                gap: 1rem;
+            }
+
+            .editorials-grid {
+                grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+                gap: 1rem;
+            }
+
+            .section-title {
+                font-size: 1.5rem;
+            }
+
+            .section-subtitle {
+                font-size: 0.95rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header id="header">
+        <div class="header-content">
+            <a href="../index.html" class="logo">FOTOS BY BEN</a>
+            <nav>
+                <a href="../index.html">Gallery</a>
+                <a href="index.html">Editorials</a>
+                <a href="../about.html">About</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="section-header">
+            <h1 class="section-title">Notes from City</h1>
+            <p class="section-subtitle">Photography and essays documenting architecture, food, urban life, and landscape</p>
+        </div>
+
+        <div class="editorials-grid" id="editorials-grid"></div>
+    </main>
+
+    <footer>
+        <p>© 2026 Notes from City. All rights reserved.</p>
+    </footer>
+
+    <script>
+        const editorials = [
+            {
+                issue: 1,
+                destination: 'Yinchuan',
+                subtitle: 'Where ancient Silk Roads meet urban energy',
+                cover: 'destinations/yinchuan/Yinchuan_Cover.jpg',
+                slug: 'yinchuan'
+            },
+            {
+                issue: 2,
+                destination: 'Hong Kong',
+                subtitle: 'Vertical city of contrasts and tradition',
+                cover: '../images/editorials/hong-kong-cover.jpg',
+                slug: 'hong-kong'
+            },
+            {
+                issue: 3,
+                destination: 'Tokyo',
+                subtitle: 'Neon lights and ancient temples',
+                cover: '../images/editorials/tokyo-cover.jpg',
+                slug: 'tokyo'
+            },
+            {
+                issue: 4,
+                destination: 'Xining',
+                subtitle: 'Gateway to the Tibetan plateau',
+                cover: '../images/editorials/xining-cover.jpg',
+                slug: 'xining'
+            },
+            {
+                issue: 5,
+                destination: 'Chengdu',
+                subtitle: 'Land of abundant resources and culture',
+                cover: '../images/editorials/chengdu-cover.jpg',
+                slug: 'chengdu'
+            },
+            {
+                issue: 6,
+                destination: 'Chongqing',
+                subtitle: 'Mountain city shrouded in mist',
+                cover: '../images/editorials/chongqing-cover.jpg',
+                slug: 'chongqing'
+            },
+            {
+                issue: 7,
+                destination: 'Hanoi',
+                subtitle: 'A thousand years of history',
+                cover: '../images/editorials/hanoi-cover.jpg',
+                slug: 'hanoi'
+            },
+            {
+                issue: 8,
+                destination: 'Kuala Lumpur',
+                subtitle: 'Modern towers and colonial charm',
+                cover: '../images/editorials/kuala-lumpur-cover.jpg',
+                slug: 'kuala-lumpur'
+            },
+            {
+                issue: 9,
+                destination: 'Zhangye',
+                subtitle: 'Rainbow mountains in the desert',
+                cover: '../images/editorials/zhangye-cover.jpg',
+                slug: 'zhangye'
+            }
+        ];
+
+        function renderEditorials() {
+            const grid = document.getElementById('editorials-grid');
+            editorials.forEach(editorial => {
+                const card = document.createElement('a');
+                card.href = `destinations/${editorial.slug}/`;
+                card.className = 'editorial-card';
+                card.innerHTML = `
+                    <img src="${editorial.cover}" alt="${editorial.destination}" class="editorial-cover">
+                    <div class="editorial-overlay">
+                        <div class="editorial-number">ISSUE ${editorial.issue.toString().padStart(2, '0')}</div>
+                        <div class="editorial-destination">NOTES FROM ${editorial.destination.toUpperCase()}</div>
+                        <div class="editorial-subtitle">${editorial.subtitle}</div>
+                    </div>
+                `;
+                grid.appendChild(card);
+            });
+        }
+
+        // Header scroll effect
+        let lastScrollTop = 0;
+        window.addEventListener('scroll', () => {
+            const header = document.getElementById('header');
+            if (window.scrollY > 50) {
+                header.classList.add('scrolled');
+            } else {
+                header.classList.remove('scrolled');
+            }
+            lastScrollTop = window.scrollY;
+        });
+
+        // Initialize
+        window.addEventListener('DOMContentLoaded', () => {
+            renderEditorials();
+        });
+    </script>
+</body>
+</html>

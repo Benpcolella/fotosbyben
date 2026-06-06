@@ -289,6 +289,42 @@
             cursor: not-allowed;
         }
 
+        /* Getting There Section */
+        .getting-there-section {
+            max-width: 900px;
+            margin: 4rem auto;
+            padding: 0 2rem;
+        }
+
+        .getting-there-section h3 {
+            font-size: 1.2rem;
+            margin-bottom: 2rem;
+            letter-spacing: 0.08em;
+        }
+
+        .getting-there-content {
+            display: grid;
+            grid-template-columns: 1fr 2.86fr;
+            gap: 0;
+            align-items: start;
+        }
+
+        .getting-there-text {
+            display: flex;
+            flex-direction: column;
+            gap: 1.5rem;
+        }
+
+        .getting-there-image {
+            justify-self: start;
+        }
+
+        .getting-there-image img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
         /* Locations Map */
         .locations-section {
             max-width: 900px;
@@ -1177,6 +1213,9 @@
                         <div class="photo-gallery">
                             <img src="Street_Life.jpg" alt="Street vendor with red cargo tricycle and traditional storefronts" class="gallery-image">
                         </div>
+                        <div class="photo-gallery">
+                            <img src="Yinchuan_Pedestrian_street2.jpg" alt="Pedestrian Street evening view" class="gallery-image">
+                        </div>
                     </div>
                 </div>
 
@@ -1315,6 +1354,22 @@
             <div class="allerguide-link">
                 <p>For a complete, detailed guide to allergens and dietary accommodations across the world, download the <strong>AllerGuide app</strong>. It integrates restaurant data, dish information, and real-time allergy management tools.</p>
                 <a id="allerguide-btn" href="https://allerguide.app" class="allerguide-cta" target="_blank">Download AllerGuide</a>
+            </div>
+        </section>
+
+        <section class="getting-there-section">
+            <h3>Getting There</h3>
+            <div class="getting-there-content">
+                <div class="getting-there-text">
+                    <p>Yinchuan is accessible via Yinchuan Hedong International Airport (INC), which receives flights from major Chinese cities and limited international connections. The airport sits about 30 kilometers east of downtown, roughly 45 minutes by taxi or airport shuttle.</p>
+
+                    <p>For those traveling within China, the high-speed rail network offers a compelling alternative. The Yinchuan High-Speed Railway Station connects the city to the broader Chinese rail network, with direct service to Beijing, Xi'an, Lanzhou, and other regional centers. The HSR journey from Beijing takes approximately 11 hours, but the train experience itself—moving through changing landscapes from capital plains to desert transitions—carries its own value.</p>
+
+                    <p>From the HSR station, the city center is about 10 kilometers away, accessible by taxi, bus, or rideshare services. Once in Yinchuan, navigation is straightforward: central attractions cluster around the Drum Tower and Bell Tower, while parks and museums are distributed across the city but all within reasonable taxi distance or public transit reach.</p>
+                </div>
+                <div class="getting-there-image">
+                    <img src="Transit_HSR_Station.jpg" alt="Yinchuan High-Speed Railway Station platform" class="gallery-image">
+                </div>
             </div>
         </section>
 

@@ -138,6 +138,11 @@
 
 
         @media (max-width: 900px) {
+            .section-two-column {
+                grid-template-columns: 1fr;
+                gap: 2rem;
+            }
+
             .essentials-grid {
                 grid-template-columns: 1fr;
                 margin-left: 0;
@@ -892,6 +897,35 @@
         }
 
         /* Single image floating left */
+        /* Two-column section layout */
+        .section-two-column {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 3rem;
+            align-items: start;
+            margin-bottom: 3rem;
+        }
+
+        .column-text {
+            display: flex;
+            flex-direction: column;
+            gap: 1.5rem;
+        }
+
+        .column-images {
+            display: flex;
+            flex-direction: column;
+            gap: 2rem;
+        }
+
+        .column-images .photo-gallery {
+            width: 100%;
+            margin: 0;
+            padding: 0;
+            border: none;
+            background-color: transparent;
+        }
+
         .photo-gallery.float-left {
             float: left;
             width: 35%;
@@ -1101,19 +1135,21 @@
 
                 <h2>The Street, Written in Signs and Cycles</h2>
 
-                <div class="photo-gallery float-left">
-                    <img src="Yinchuan_Pedestrian_Street.jpg" alt="Pedestrian Street with ornate traditional architecture and shopfronts" class="gallery-image">
+                <div class="section-two-column">
+                    <div class="column-text">
+                        <p>The most honest picture of a city emerges from its transit. In Yinchuan's neighborhoods near Zhongshan Park and beyond, this means red three-wheeled cargo vehicles, bicycles, pedestrians, and the kind of commerce that happens on sidewalks. A vendor sets up in the morning, sells through the day, packs away by evening. The visual language is one of efficiency and adaptation rather than spectacle.</p>
+
+                        <p>The Pedestrian Street refines this energy into a designed space without losing its character. Here, ornate wooden shopfronts display traditional architecture in concentrated form. Eaves curve and layer. Signage uses classical proportions. Yet the street functions precisely as Yinchuan's residents need it to function: a place to shop, eat, rest, move through the city. Families sit on benches. Students gather in clusters. The architecture frames daily life rather than competing with it.</p>
+                    </div>
+                    <div class="column-images">
+                        <div class="photo-gallery">
+                            <img src="Yinchuan_Pedestrian_Street.jpg" alt="Pedestrian Street with ornate traditional architecture and shopfronts" class="gallery-image">
+                        </div>
+                        <div class="photo-gallery">
+                            <img src="Street_Life.jpg" alt="Street vendor with red cargo tricycle and traditional storefronts" class="gallery-image">
+                        </div>
+                    </div>
                 </div>
-
-                <p>The most honest picture of a city emerges from its transit. In Yinchuan's neighborhoods near Zhongshan Park and beyond, this means red three-wheeled cargo vehicles, bicycles, pedestrians, and the kind of commerce that happens on sidewalks. A vendor sets up in the morning, sells through the day, packs away by evening. The visual language is one of efficiency and adaptation rather than spectacle.</p>
-
-                <p>The Pedestrian Street refines this energy into a designed space without losing its character. Here, ornate wooden shopfronts display traditional architecture in concentrated form. Eaves curve and layer. Signage uses classical proportions. Yet the street functions precisely as Yinchuan's residents need it to function: a place to shop, eat, rest, move through the city. Families sit on benches. Students gather in clusters. The architecture frames daily life rather than competing with it.</p>
-
-                <div class="photo-gallery float-right">
-                    <img src="Street_Life.jpg" alt="Street vendor with red cargo tricycle and traditional storefronts" class="gallery-image">
-                </div>
-
-                <div style="clear: both;"></div>
 
                 <h2>The Centigan Temple Pagoda and the Sacred Landscape</h2>
 

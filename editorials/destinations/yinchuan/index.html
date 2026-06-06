@@ -142,64 +142,45 @@
 
         /* Editorial Content */
         .editorial-content {
-            display: block;
+            display: grid;
+            grid-template-columns: 1fr 300px;
+            gap: 3rem;
             margin-bottom: 4rem;
+            max-width: 1200px;
+            margin-left: auto;
+            margin-right: auto;
+            padding: 0 2rem;
         }
 
         .editorial-content .essay {
-            max-width: 900px;
-            margin: 0 auto;
+            max-width: 100%;
         }
 
         .sidebar-inline {
-            position: fixed;
-            right: 2rem;
-            top: 120px;
-            width: 280px;
             height: fit-content;
-            z-index: 50;
-        }
-
-        /* Add padding to essay to prevent sidebar overlap */
-        .editorial-content .essay {
-            padding-right: 320px;
+            position: sticky;
+            top: 120px;
         }
 
         @media (max-width: 1024px) {
-            .sidebar-inline {
-                position: fixed;
-                right: 1rem;
-                width: 250px;
-            }
-
-            .editorial-content .essay {
-                padding-right: 280px;
+            .editorial-content {
+                grid-template-columns: 1fr 250px;
+                gap: 2rem;
+                padding: 0 1.5rem;
             }
         }
 
         @media (max-width: 768px) {
+            .editorial-content {
+                grid-template-columns: 1fr;
+                gap: 2rem;
+                padding: 0 1rem;
+            }
+
             .sidebar-inline {
-                position: fixed;
-                right: 0.5rem;
+                position: sticky;
                 top: 100px;
-                width: 220px;
-                font-size: 0.9rem;
-            }
-
-            .editorial-content .essay {
-                padding-right: 240px;
-            }
-        }
-
-        @media (max-width: 600px) {
-            .sidebar-inline {
-                position: static;
                 width: 100%;
-                margin-bottom: 2rem;
-            }
-
-            .editorial-content .essay {
-                padding-right: 0;
             }
         }
 

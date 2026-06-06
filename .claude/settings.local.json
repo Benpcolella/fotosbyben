@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://localhost:8000/\"00. Overarching\"/IMG_5214.jpg)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" \"http://localhost:8000/00.%20Overarching/IMG_5214.jpg\")",
+      "Bash(node generate_latest_imagedata.js)",
+      "Read(//tmp/**)",
+      "Bash(cat)",
+      "Bash(chmod +x replace_imagedata.sh)",
+      "Bash(./replace_imagedata.sh)",
+      "Bash(grep -E \"^[0-9]+\\\\.jpeg$\")",
+      "Bash(grep -i \"\\\\.jpe\\\\?g$\")"
+    ]
+  }
+}

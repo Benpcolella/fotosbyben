@@ -22,7 +22,6 @@
             background-color: #fafafa;
             color: #1a1a1a;
             line-height: 1.7;
-            zoom: 75%;
         }
 
         h1, h2, h3, h4, h5, h6 {
@@ -145,10 +144,29 @@
 
         /* Editorial Content */
         .editorial-content {
-            display: grid;
-            grid-template-columns: 2fr 1fr;
-            gap: 3rem;
+            display: block;
             margin-bottom: 4rem;
+        }
+
+        .editorial-content .essay {
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        .sidebar-inline {
+            float: right;
+            width: 280px;
+            margin-left: 2rem;
+            margin-bottom: 2rem;
+        }
+
+        @media (max-width: 900px) {
+            .sidebar-inline {
+                float: none;
+                width: 100%;
+                margin-left: 0;
+                margin-bottom: 2rem;
+            }
         }
 
         .essay {
@@ -338,6 +356,321 @@
             color: #333;
         }
 
+        /* Map Section */
+        .map-section {
+            max-width: 900px;
+            margin: 4rem auto;
+            padding: 0 2rem;
+        }
+
+        .map-section h3 {
+            font-size: 1.2rem;
+            margin-bottom: 2rem;
+            letter-spacing: 0.08em;
+        }
+
+        .map-container {
+            background-color: #f5f5f5;
+            border: 1px solid #e0e0e0;
+            padding: 2rem;
+            text-align: center;
+            min-height: 400px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .map-placeholder {
+            color: #999;
+            font-size: 0.95rem;
+        }
+
+        /* Food Section - AllerGuide Style */
+        .food-section {
+            max-width: 900px;
+            margin: 4rem auto;
+            padding: 0 2rem;
+        }
+
+        .food-section h3 {
+            font-size: 1.2rem;
+            margin-bottom: 2rem;
+            letter-spacing: 0.08em;
+        }
+
+        .food-intro {
+            font-size: 1rem;
+            line-height: 1.8;
+            margin-bottom: 2rem;
+            max-width: 700px;
+        }
+
+        .allerguide-cards {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+            gap: 1rem;
+            margin-bottom: 3rem;
+        }
+
+        .allerguide-card {
+            background-color: white;
+            border: 1px solid #e0e0e0;
+            border-radius: 12px;
+            overflow: hidden;
+            transition: all 0.3s ease;
+            cursor: pointer;
+            position: relative;
+        }
+
+        .allerguide-card:hover {
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            transform: translateY(-2px);
+        }
+
+        .card-image {
+            width: 100%;
+            height: 140px;
+            background-color: #f5f5f5;
+            object-fit: cover;
+            display: block;
+        }
+
+        .card-image-placeholder {
+            width: 100%;
+            height: 140px;
+            background-color: #f5f5f5;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #ccc;
+            font-size: 2rem;
+        }
+
+        .card-safe-badge {
+            position: absolute;
+            top: 8px;
+            right: 8px;
+            width: 28px;
+            height: 28px;
+            background-color: #2d9f7d;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 16px;
+            font-weight: bold;
+        }
+
+        .card-content {
+            padding: 12px;
+        }
+
+        .dish-name {
+            font-size: 0.95rem;
+            font-weight: 600;
+            margin-bottom: 4px;
+            line-height: 1.3;
+            color: #1a1a1a;
+        }
+
+        .dish-native-name {
+            font-size: 0.8rem;
+            color: #666;
+            margin-bottom: 6px;
+        }
+
+        .dish-region {
+            font-size: 0.75rem;
+            color: #999;
+            display: flex;
+            align-items: center;
+            gap: 4px;
+        }
+
+        /* Allergen Grid in Detail View */
+        .allergen-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 1rem;
+            margin: 2rem 0;
+            padding: 2rem;
+            background-color: #f9f9f9;
+            border-radius: 8px;
+        }
+
+        .allergen-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            position: relative;
+        }
+
+        .allergen-icon {
+            width: 60px;
+            height: 60px;
+            background-color: white;
+            border: 2px solid #e0e0e0;
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 24px;
+            margin-bottom: 8px;
+        }
+
+        .allergen-item.severe .allergen-icon {
+            border-color: #e74c3c;
+            background-color: #ffebee;
+        }
+
+        .allergen-item.moderate .allergen-icon {
+            border-color: #f39c12;
+            background-color: #fff3e0;
+        }
+
+        .allergen-item.mild .allergen-icon {
+            border-color: #2d9f7d;
+            background-color: #e8f5e9;
+        }
+
+        .allergen-dot {
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+        }
+
+        .allergen-dot.severe {
+            background-color: #e74c3c;
+        }
+
+        .allergen-dot.moderate {
+            background-color: #f39c12;
+        }
+
+        .allergen-dot.mild {
+            background-color: #2d9f7d;
+        }
+
+        .allergen-label {
+            font-size: 0.8rem;
+            color: #666;
+            font-weight: 500;
+        }
+
+        .allergen-label.severe {
+            color: #e74c3c;
+            font-weight: 600;
+        }
+
+        .allergen-label.moderate {
+            color: #f39c12;
+            font-weight: 600;
+        }
+
+        .allergen-label.mild {
+            color: #2d9f7d;
+            font-weight: 600;
+        }
+
+        /* Safe Badge */
+        .safe-banner {
+            background-color: #e8f5e9;
+            border: 1px solid #2d9f7d;
+            border-radius: 8px;
+            padding: 12px 16px;
+            margin-bottom: 2rem;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            color: #2d9f7d;
+            font-weight: 500;
+        }
+
+        .safe-banner::before {
+            content: "✓";
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        /* Diet Preferences */
+        .diet-badges {
+            display: flex;
+            gap: 0.5rem;
+            margin-top: 1rem;
+            flex-wrap: wrap;
+        }
+
+        .diet-badge {
+            font-size: 0.75rem;
+            padding: 4px 10px;
+            border-radius: 12px;
+            font-weight: 600;
+            letter-spacing: 0.05em;
+        }
+
+        .diet-badge.vegan {
+            background-color: #e8f5e9;
+            color: #2d9f7d;
+        }
+
+        .diet-badge.vegetarian {
+            background-color: #e8f5e9;
+            color: #2d9f7d;
+        }
+
+        .diet-badge.pescatarian {
+            background-color: #e3f2fd;
+            color: #1976d2;
+        }
+
+        /* Loading State */
+        .cards-loading {
+            grid-column: 1 / -1;
+            text-align: center;
+            padding: 2rem;
+            color: #999;
+        }
+
+        .allerguide-link {
+            margin-top: 3rem;
+            padding: 2rem;
+            background: linear-gradient(135deg, #e8f5e9 0%, #f0f4f8 100%);
+            border-left: 4px solid #2d9f7d;
+            border-radius: 8px;
+            text-align: center;
+        }
+
+        .allerguide-link p {
+            margin-bottom: 1rem;
+            font-size: 0.95rem;
+            line-height: 1.6;
+            color: #333;
+        }
+
+        .allerguide-cta {
+            display: inline-block;
+            padding: 0.9rem 2rem;
+            background-color: #2d9f7d;
+            color: white;
+            text-decoration: none;
+            font-size: 0.9rem;
+            letter-spacing: 0.05em;
+            border-radius: 8px;
+            font-weight: 600;
+            transition: all 0.3s ease;
+        }
+
+        .allerguide-cta:hover {
+            background-color: #258966;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(45, 159, 125, 0.2);
+        }
+
         /* Photo Galleries */
         .photo-gallery {
             display: grid;
@@ -473,9 +806,45 @@
             <p class="editorial-subtitle">Where ancient Silk Roads meet urban energy</p>
         </div>
 
-        <img src="Yinchuan_Cover.jpg" alt="Yinchuan cover" class="editorial-cover-img">
+        <img src="Bell_Tower.jpg" alt="Yinchuan Bell Tower" class="editorial-cover-img">
 
         <div class="editorial-content">
+            <aside class="essentials sidebar-inline">
+                <h3>The Essentials</h3>
+                <div class="essential-item">
+                    <div class="essential-label">Region</div>
+                    <div class="essential-value">Ningxia Hui Autonomous Region</div>
+                </div>
+                <div class="essential-item">
+                    <div class="essential-label">Elevation</div>
+                    <div class="essential-value">1,111 m (3,645 ft)</div>
+                </div>
+                <div class="essential-item">
+                    <div class="essential-label">Population</div>
+                    <div class="essential-value">~2.4 million</div>
+                </div>
+                <div class="essential-item">
+                    <div class="essential-label">Best Time</div>
+                    <div class="essential-value">April–October</div>
+                </div>
+                <div class="essential-item">
+                    <div class="essential-label">Language</div>
+                    <div class="essential-value">Mandarin, Hui dialect</div>
+                </div>
+                <div class="essential-item">
+                    <div class="essential-label">Currency</div>
+                    <div class="essential-value">Chinese Yuan (CNY)</div>
+                </div>
+                <div class="essential-item">
+                    <div class="essential-label">Daily Budget</div>
+                    <div class="essential-value">$30–60 USD</div>
+                </div>
+                <div class="essential-item">
+                    <div class="essential-label">Visa</div>
+                    <div class="essential-value">China visa required</div>
+                </div>
+            </aside>
+
             <article class="essay">
                 <h2>The Drum Tower's Red Doors</h2>
                 <p>The Drum Tower dominates Yinchuan's skyline like a declaration: this city remembers itself. Standing at the center of the old city, the tower rises in traditional brick with upturned eaves tiled in faded gold, its massive red doors drawing the eye with an intensity that seems almost defiant against the pale Ningxia sky. A neon sign bearing the city's name glows red above it, as if confirming what the architecture already knows: Yinchuan exists at the threshold between centuries.</p>
@@ -562,43 +931,36 @@
                     <img src="Ningxia_Museum.jpg" alt="Ningxia Museum brick facade" class="gallery-image">
                 </div>
             </article>
-
-            <aside class="essentials">
-                <h3>The Essentials</h3>
-                <div class="essential-item">
-                    <div class="essential-label">Region</div>
-                    <div class="essential-value">Ningxia Hui Autonomous Region</div>
-                </div>
-                <div class="essential-item">
-                    <div class="essential-label">Elevation</div>
-                    <div class="essential-value">1,111 m (3,645 ft)</div>
-                </div>
-                <div class="essential-item">
-                    <div class="essential-label">Population</div>
-                    <div class="essential-value">~2.4 million</div>
-                </div>
-                <div class="essential-item">
-                    <div class="essential-label">Best Time</div>
-                    <div class="essential-value">April–October</div>
-                </div>
-                <div class="essential-item">
-                    <div class="essential-label">Language</div>
-                    <div class="essential-value">Mandarin, Hui dialect</div>
-                </div>
-                <div class="essential-item">
-                    <div class="essential-label">Currency</div>
-                    <div class="essential-value">Chinese Yuan (CNY)</div>
-                </div>
-                <div class="essential-item">
-                    <div class="essential-label">Daily Budget</div>
-                    <div class="essential-value">$30–60 USD</div>
-                </div>
-                <div class="essential-item">
-                    <div class="essential-label">Visa</div>
-                    <div class="essential-value">China visa required</div>
-                </div>
-            </aside>
         </div>
+
+        <section class="map-section">
+            <h3>Where to Go</h3>
+            <div class="map-container">
+                <div class="map-placeholder">
+                    <p><strong>Interactive map coming soon</strong></p>
+                    <p>Key locations: Drum Tower, Bell Tower, Centigan Temple Pagoda, Pedestrian Street, Western Xia Tombs, Lanshan Park</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="food-section">
+            <h3>Food & Allergens</h3>
+            <div class="food-intro">
+                <p>Ningxia cuisine reflects its position at the crossroads of cultures: Hui Muslim traditions meet Han Chinese sophistication. Bold spices, wheat noodles, and lamb define the regional palate. If you have food allergies or dietary restrictions, the AllerGuide app helps you navigate every dish safely.</p>
+            </div>
+
+            <div class="allerguide-cards" id="allerguide-container">
+                <!-- AllerGuide cards will be loaded here -->
+                <div style="grid-column: 1 / -1; text-align: center; color: #999; padding: 2rem;">
+                    Loading Ningxia dishes from AllerGuide...
+                </div>
+            </div>
+
+            <div class="allerguide-link">
+                <p>For a complete, detailed guide to allergens and dietary accommodations across Ningxia, download the <strong>AllerGuide app</strong>. It integrates restaurant data, dish information, and real-time allergy management tools.</p>
+                <a href="https://allerguide.app" class="allerguide-cta" target="_blank">Download AllerGuide</a>
+            </div>
+        </section>
 
         <section class="locations-section">
             <h3>Key Locations</h3>
@@ -665,11 +1027,6 @@
             </div>
         </section>
 
-        <div class="pdf-viewer">
-            <p>Full editorial PDF coming soon</p>
-            <button class="pdf-download-btn" disabled>PDF Not Yet Available</button>
-        </div>
-
         <div class="editorial-nav">
             <a href="#" class="nav-item prev disabled">
                 <div class="nav-label">← Previous</div>
@@ -688,6 +1045,139 @@
     </footer>
 
     <script>
+        // Supabase Configuration
+        const SUPABASE_URL = 'https://sueqfqewflletzhdesyd.supabase.co';
+        const SUPABASE_KEY = 'sb_publishable_6k1xtJLke9LVRAdVuSVaQg_atzcTVKg';
+
+        // Allergen metadata with icons and severity levels
+        const allergenMetadata = {
+            Sesame: { icon: '芝', severity: 'severe' },
+            Treenuts: { icon: '🌰', severity: 'severe' },
+            Peanuts: { icon: '🥜', severity: 'severe' },
+            Gluten: { icon: '🌾', severity: 'severe' },
+            Crustaceans: { icon: '🦐', severity: 'severe' },
+            Molluscs: { icon: '🦪', severity: 'severe' },
+            Fish: { icon: '🐟', severity: 'severe' },
+            Eggs: { icon: '🥚', severity: 'severe' },
+            Dairy: { icon: '🥛', severity: 'severe' },
+            Soybeans: { icon: '豆', severity: 'moderate' },
+            Mustard: { icon: '芥', severity: 'moderate' },
+            Celery: { icon: '🥬', severity: 'moderate' },
+            Buckwheat: { icon: '蕎', severity: 'moderate' },
+            Sulfites: { icon: '亜', severity: 'moderate' },
+            Lupin: { icon: '🌿', severity: 'moderate' },
+            Peas: { icon: '豌', severity: 'mild' },
+            Lentils: { icon: '렌', severity: 'mild' },
+            Apples: { icon: '🍎', severity: 'mild' },
+            Bananas: { icon: '🍌', severity: 'mild' },
+            Kiwi: { icon: '🥝', severity: 'mild' },
+            Oranges: { icon: '🍊', severity: 'mild' },
+            'Beehive Products': { icon: '🍯', severity: 'mild' },
+            Cilantro: { icon: '🌿', severity: 'mild' },
+            Pork: { icon: '🥓', severity: 'mild' }
+        };
+
+        async function fetchNingxiaDishes() {
+            const container = document.getElementById('allerguide-container');
+
+            try {
+                const response = await fetch(
+                    `${SUPABASE_URL}/rest/v1/dishes?Region=eq.Ningxia&select=*`,
+                    {
+                        headers: {
+                            'apikey': SUPABASE_KEY,
+                            'Authorization': `Bearer ${SUPABASE_KEY}`
+                        }
+                    }
+                );
+
+                if (!response.ok) {
+                    throw new Error(`HTTP error! status: ${response.status}`);
+                }
+
+                const dishes = await response.json();
+
+                if (!dishes || dishes.length === 0) {
+                    container.innerHTML = '<div class="cards-loading">No dishes found for Ningxia. Check back soon!</div>';
+                    return;
+                }
+
+                // Clear loading state
+                container.innerHTML = '';
+
+                // Render each dish card
+                dishes.forEach(dish => {
+                    const card = createDishCard(dish);
+                    container.appendChild(card);
+                });
+
+            } catch (error) {
+                console.error('Error fetching dishes:', error);
+                container.innerHTML = `<div class="cards-loading">Error loading dishes: ${error.message}</div>`;
+            }
+        }
+
+        function createDishCard(dish) {
+            const card = document.createElement('div');
+            card.className = 'allerguide-card';
+
+            // Check if dish is safe (no allergens present)
+            const isSafe = !hasAnyAllergens(dish);
+
+            // Get allergens present in this dish
+            const presentAllergens = getAllergensList(dish);
+
+            // Get diet preferences
+            const dietPrefs = getDietPreferences(dish);
+
+            // Create card HTML
+            card.innerHTML = `
+                <div style="position: relative;">
+                    ${dish.image_url ? `<img src="${dish.image_url}" alt="${dish.name}" class="card-image">` : '<div class="card-image-placeholder">🍽️</div>'}
+                    ${isSafe ? '<div class="card-safe-badge">✓</div>' : ''}
+                </div>
+                <div class="card-content">
+                    <div class="dish-name">${dish.name}</div>
+                    ${dish.native_name ? `<div class="dish-native-name">${dish.native_name}</div>` : ''}
+                    <div class="dish-region">🇨🇳 ${dish.country}</div>
+                </div>
+            `;
+
+            // Add click handler to show details (optional - could link to full view)
+            card.addEventListener('click', () => {
+                console.log('Clicked dish:', dish);
+            });
+
+            return card;
+        }
+
+        function hasAnyAllergens(dish) {
+            const allergenFields = ['Sesame', 'Treenuts', 'Peanuts', 'Gluten', 'Crustaceans',
+                                   'Molluscs', 'Fish', 'Eggs', 'Dairy', 'Soybeans', 'Mustard',
+                                   'Celery', 'Buckwheat', 'Sulfites', 'Lupin', 'Peas', 'Lentils',
+                                   'Apples', 'Bananas', 'Kiwi', 'Oranges', 'Beehive Products', 'Cilantro', 'Pork'];
+            return allergenFields.some(field => dish[field] === true);
+        }
+
+        function getAllergensList(dish) {
+            const allergenFields = ['Sesame', 'Treenuts', 'Peanuts', 'Gluten', 'Crustaceans',
+                                   'Molluscs', 'Fish', 'Eggs', 'Dairy', 'Soybeans', 'Mustard',
+                                   'Celery', 'Buckwheat', 'Sulfites', 'Lupin', 'Peas', 'Lentils',
+                                   'Apples', 'Bananas', 'Kiwi', 'Oranges', 'Beehive Products', 'Cilantro', 'Pork'];
+            return allergenFields.filter(field => dish[field] === true);
+        }
+
+        function getDietPreferences(dish) {
+            const prefs = [];
+            if (dish.Vegan) prefs.push('vegan');
+            if (dish.Vegetarian) prefs.push('vegetarian');
+            if (dish.Pescatarian) prefs.push('pescatarian');
+            return prefs;
+        }
+
+        // Fetch dishes on page load
+        document.addEventListener('DOMContentLoaded', fetchNingxiaDishes);
+
         // Header scroll effect
         let lastScrollTop = 0;
         window.addEventListener('scroll', () => {

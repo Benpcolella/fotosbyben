@@ -1,0 +1,731 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photography Portfolio</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html, body {
+            width: 100%;
+        }
+
+        body {
+            font-family: 'Reross Quadratic', 'Space Mono', monospace;
+            background-color: #fafafa;
+            color: #1a1a1a;
+            line-height: 1.6;
+        }
+
+        /* Typography */
+        h1, h2, h3, h4, h5, h6 {
+            font-family: 'Plakato Inline Pro', 'Space Mono', monospace;
+            font-weight: 700;
+            letter-spacing: 0.05em;
+            text-transform: uppercase;
+        }
+
+        h1 {
+            font-size: 4rem;
+            margin-bottom: 0.5rem;
+            line-height: 1.1;
+        }
+
+        h2 {
+            font-size: 2.5rem;
+            margin-bottom: 3rem;
+            margin-top: 4rem;
+            padding-bottom: 1.5rem;
+            border-bottom: 3px solid #1a1a1a;
+            display: inline-block;
+        }
+
+        .subtitle {
+            font-size: 1.25rem;
+            color: #666;
+            font-weight: 400;
+            letter-spacing: 0.08em;
+            margin-bottom: 4rem;
+        }
+
+        /* Header */
+        header {
+            padding: 4rem;
+            background-color: #ffffff;
+            border-bottom: 1px solid #e0e0e0;
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 100;
+            transition: all 0.3s ease;
+        }
+
+        header.collapsed {
+            padding: 1rem 4rem;
+            border-bottom: 1px solid #d0d0d0;
+        }
+
+        .header-content {
+            max-width: 1600px;
+            margin: 0 auto;
+        }
+
+        h1 {
+            transition: font-size 0.3s ease;
+        }
+
+        header.collapsed h1 {
+            font-size: 1.5rem;
+        }
+
+        .subtitle {
+            transition: opacity 0.3s ease, max-height 0.3s ease;
+            max-height: 100px;
+            overflow: hidden;
+        }
+
+        header.collapsed .subtitle {
+            opacity: 0;
+            max-height: 0;
+        }
+
+        nav {
+            transition: margin-top 0.3s ease, gap 0.3s ease;
+        }
+
+        header.collapsed nav {
+            margin-top: 0.5rem;
+            gap: 1rem;
+        }
+
+        /* Add space for fixed header */
+        body {
+            padding-top: 200px;
+        }
+
+        body.header-collapsed {
+            padding-top: 80px;
+        }
+
+        nav {
+            display: flex;
+            gap: 1.5rem;
+            margin-top: 2rem;
+            flex-wrap: wrap;
+        }
+
+        nav a {
+            font-family: 'Reross Quadratic', 'Space Mono', monospace;
+            text-decoration: none;
+            color: #1a1a1a;
+            font-size: 0.9rem;
+            letter-spacing: 0.05em;
+            padding: 0.5rem 1rem;
+            border: 2px solid transparent;
+            transition: all 0.3s ease;
+            cursor: pointer;
+        }
+
+        nav a:hover {
+            border-bottom: 2px solid #1a1a1a;
+            background-color: #f0f0f0;
+        }
+
+        nav a.active {
+            border-bottom: 2px solid #1a1a1a;
+            background-color: #1a1a1a;
+            color: #ffffff;
+        }
+
+        /* Main Container */
+        main {
+            max-width: 1600px;
+            margin: 0 auto;
+            padding: 4rem;
+        }
+
+        /* Section */
+        section {
+            margin-bottom: 8rem;
+            scroll-margin-top: 150px;
+        }
+
+        section.hidden {
+            display: none;
+        }
+
+        .section-intro {
+            margin-bottom: 4rem;
+            max-width: 700px;
+        }
+
+        .section-intro h2 {
+            margin-top: 0;
+        }
+
+        .section-intro p {
+            font-size: 1.1rem;
+            color: #555;
+            line-height: 1.8;
+        }
+
+        /* Masonry Gallery */
+        .gallery {
+            column-count: 3;
+            column-gap: 2rem;
+            margin-bottom: 2rem;
+        }
+
+        .gallery-item {
+            break-inside: avoid;
+            margin-bottom: 2rem;
+            position: relative;
+            overflow: hidden;
+            cursor: pointer;
+            border: 1px solid #e0e0e0;
+            transition: all 0.3s ease;
+            background-color: #f5f5f5;
+        }
+
+        .gallery-item:hover {
+            border-color: #1a1a1a;
+            box-shadow: 0 12px 32px rgba(0, 0, 0, 0.15);
+            transform: translateY(-4px);
+        }
+
+        .gallery-item img {
+            width: 100%;
+            height: auto;
+            display: block;
+            background-color: #e0e0e0;
+        }
+
+        /* Modal */
+        .modal {
+            display: none;
+            position: fixed;
+            z-index: 1000;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.95);
+            animation: fadeIn 0.3s ease;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        .modal.show {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .modal-content {
+            position: relative;
+            max-width: 90vw;
+            max-height: 90vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .modal-image {
+            max-width: 100%;
+            max-height: 100%;
+            object-fit: contain;
+        }
+
+        .modal-close {
+            position: absolute;
+            top: 2rem;
+            right: 2rem;
+            color: #ffffff;
+            font-size: 2.5rem;
+            font-weight: 300;
+            cursor: pointer;
+            user-select: none;
+            transition: opacity 0.3s ease;
+            z-index: 10;
+        }
+
+        .modal-close:hover {
+            opacity: 0.7;
+        }
+
+        .modal-nav {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            color: #ffffff;
+            font-size: 3rem;
+            cursor: pointer;
+            user-select: none;
+            transition: opacity 0.3s ease;
+            padding: 2rem;
+            z-index: 10;
+        }
+
+        .modal-nav:hover {
+            opacity: 0.7;
+        }
+
+        .modal-prev {
+            left: 0;
+        }
+
+        .modal-next {
+            right: 0;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #1a1a1a;
+            color: #ffffff;
+            padding: 4rem;
+            margin-top: 6rem;
+            border-top: 1px solid #333;
+        }
+
+        footer p {
+            max-width: 1600px;
+            margin: 0 auto;
+            font-size: 0.95rem;
+            letter-spacing: 0.05em;
+        }
+
+        /* Responsive */
+        @media (max-width: 1024px) {
+            .gallery {
+                column-count: 2;
+                column-gap: 1.5rem;
+            }
+
+            main {
+                padding: 2rem;
+            }
+
+            h1 {
+                font-size: 3rem;
+            }
+
+            h2 {
+                font-size: 1.75rem;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .gallery {
+                column-count: 1;
+            }
+
+            header {
+                padding: 2rem;
+            }
+
+            nav {
+                gap: 0.75rem;
+            }
+
+            nav a {
+                font-size: 0.8rem;
+                padding: 0.4rem 0.8rem;
+            }
+
+            h1 {
+                font-size: 2rem;
+            }
+
+            h2 {
+                font-size: 1.5rem;
+            }
+
+            .modal-nav {
+                font-size: 2rem;
+                padding: 1rem;
+            }
+
+            .modal-close {
+                font-size: 2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <h1>PHOTOGRAPHY</h1>
+            <p class="subtitle">A Visual Collection</p>
+            <nav id="nav-menu">
+                <a class="nav-link active" data-section="all-work">All Work</a>
+                <a class="nav-link" data-section="icons-skylines">Icons & Skylines</a>
+                <a class="nav-link" data-section="urban-life">Urban Life</a>
+                <a class="nav-link" data-section="movement">Movement</a>
+                <a class="nav-link" data-section="structures">Structures</a>
+                <a class="nav-link" data-section="landscapes">Landscapes</a>
+                <a class="nav-link" data-section="quiet-moments">Quiet Moments</a>
+                <a class="nav-link" data-section="culture-rituals">Culture & Rituals</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- All Work -->
+        <section id="all-work" class="collection-section">
+            <div class="section-intro">
+                <h2>All Work</h2>
+                <p>A curated selection from across the full collection, showcasing the breadth of visual exploration and the interconnected nature of seeing.</p>
+            </div>
+            <div class="gallery" id="gallery-all"></div>
+        </section>
+
+        <!-- Icons & Skylines -->
+        <section id="icons-skylines" class="collection-section hidden">
+            <div class="section-intro">
+                <h2>Icons & Skylines</h2>
+                <p>Urban geometry and iconic architecture captured against the sky. A study of the visual language of the built environment and human ambition.</p>
+            </div>
+            <div class="gallery" id="gallery-icons-skylines"></div>
+        </section>
+
+        <!-- Urban Life -->
+        <section id="urban-life" class="collection-section hidden">
+            <div class="section-intro">
+                <h2>Urban Life</h2>
+                <p>The rhythm and texture of city living. Street photography documenting human presence, interaction, and the spontaneous moments that define urban experience.</p>
+            </div>
+            <div class="gallery" id="gallery-urban-life"></div>
+        </section>
+
+        <!-- Movement -->
+        <section id="movement" class="collection-section hidden">
+            <div class="section-intro">
+                <h2>Movement</h2>
+                <p>Capturing motion and energy. A study of human kinetics, sport, and the fleeting moments when stillness breaks into action.</p>
+            </div>
+            <div class="gallery" id="gallery-movement"></div>
+        </section>
+
+        <!-- Structures -->
+        <section id="structures" class="collection-section hidden">
+            <div class="section-intro">
+                <h2>Structures</h2>
+                <p>Architectural and structural studies. Form, line, and composition in the built world—exploring how design shapes space and human perception.</p>
+            </div>
+            <div class="gallery" id="gallery-structures"></div>
+        </section>
+
+        <!-- Landscapes -->
+        <section id="landscapes" class="collection-section hidden">
+            <div class="section-intro">
+                <h2>Landscapes</h2>
+                <p>Natural environments and expansive views. The interplay of light, shadow, and natural form—documenting the sublime and the subtle.</p>
+            </div>
+            <div class="gallery" id="gallery-landscapes"></div>
+        </section>
+
+        <!-- Quiet Moments -->
+        <section id="quiet-moments" class="collection-section hidden">
+            <div class="section-intro">
+                <h2>Quiet Moments</h2>
+                <p>Intimate observations and subtle details. Photography that invites contemplation—finding meaning in stillness and the quiet spaces of life.</p>
+            </div>
+            <div class="gallery" id="gallery-06.-quiet-moments"></div>
+        </section>
+
+        <!-- Culture & Rituals -->
+        <section id="culture-rituals" class="collection-section hidden">
+            <div class="section-intro">
+                <h2>Culture & Rituals</h2>
+                <p>Explorations of cultural practices, traditions, and rituals. Documenting the human experiences that define communities and mark moments of significance.</p>
+            </div>
+            <div class="gallery" id="gallery-tbd-culture-rituals"></div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2026 Photography Portfolio. All rights reserved.</p>
+    </footer>
+
+    <!-- Modal for full-size image view -->
+    <div id="imageModal" class="modal">
+        <span class="modal-close">&times;</span>
+        <span class="modal-nav modal-prev">&lt;</span>
+        <div class="modal-content">
+            <img class="modal-image" src="" alt="">
+        </div>
+        <span class="modal-nav modal-next">&gt;</span>
+    </div>
+
+    <script>
+        const imageData = {
+            'gallery-all': [
+                { src: '00.%20Overarching/IMG_5214.jpg', alt: 'Photograph' },
+                { src: '01.%20Icons%20%26%20skylines/IMG_1239.jpg', alt: 'Photograph' },
+                { src: '02.%20Urban%20Life/IMG_0076.jpg', alt: 'Photograph' },
+                { src: '03.%20Movement/6F207B7B-F50C-4E74-A921-2CB97644A99F.jpg', alt: 'Photograph' },
+                { src: '04.%20Structures/BKU13_Original.JPG', alt: 'Photograph' },
+                { src: '05.%20Lanscapes/IMG_1670.jpg', alt: 'Photograph' },
+                { src: '06.%20Quiet%20Moments/IMG_0588.jpg', alt: 'Photograph' },
+                { src: '07.%20Obscurae/IMG_1274.jpg', alt: 'Photograph' },
+                { src: '01.%20Icons%20%26%20skylines/IMG_7008.jpg', alt: 'Photograph' },
+                { src: '02.%20Urban%20Life/IMG_3225.jpg', alt: 'Photograph' },
+                { src: '03.%20Movement/IMG_10373c.jpg', alt: 'Photograph' },
+                { src: '05.%20Lanscapes/IMG_3079.jpg', alt: 'Photograph' },
+                { src: '04.%20Structures/IMG_0497.jpg', alt: 'Photograph' },
+                { src: '02.%20Urban%20Life/IMG_8739.jpg', alt: 'Photograph' },
+                { src: '01.%20Icons%20%26%20skylines/NY65.jpg', alt: 'Photograph' },
+                { src: '06.%20Quiet%20Moments/IMG_0688.jpg', alt: 'Photograph' },
+                { src: '05.%20Lanscapes/IMG_4966.jpg', alt: 'Photograph' },
+                { src: '03.%20Movement/IMG_5372.jpg', alt: 'Photograph' },
+                { src: '07.%20Obscurae/IMG_4795.jpg', alt: 'Photograph' },
+                { src: '04.%20Structures/IMG_1748.jpg', alt: 'Photograph' }
+            ],
+            'gallery-icons-skylines': [
+                { src: '01.%20Icons%20%26%20skylines/IMG_1239.jpg', alt: 'Photograph' },
+                { src: '01.%20Icons%20%26%20skylines/IMG_1437.jpg', alt: 'Photograph' },
+                { src: '01.%20Icons%20%26%20skylines/IMG_2033.jpg', alt: 'Photograph' },
+                { src: '01.%20Icons%20%26%20skylines/IMG_3381.jpg', alt: 'Photograph' },
+                { src: '01.%20Icons%20%26%20skylines/IMG_3515.jpg', alt: 'Photograph' },
+                { src: '01.%20Icons%20%26%20skylines/IMG_5855.jpg', alt: 'Photograph' },
+                { src: '01.%20Icons%20%26%20skylines/IMG_5951.jpg', alt: 'Photograph' },
+                { src: '01.%20Icons%20%26%20skylines/IMG_6116.jpg', alt: 'Photograph' },
+                { src: '01.%20Icons%20%26%20skylines/IMG_6175.jpg', alt: 'Photograph' },
+                { src: '01.%20Icons%20%26%20skylines/IMG_7008.jpg', alt: 'Photograph' },
+                { src: '01.%20Icons%20%26%20skylines/IMG_7064.jpg', alt: 'Photograph' },
+                { src: '01.%20Icons%20%26%20skylines/IMG_7794.jpg', alt: 'Photograph' },
+                { src: '01.%20Icons%20%26%20skylines/IMG_8870.jpg', alt: 'Photograph' },
+                { src: '01.%20Icons%20%26%20skylines/IMG_9217.jpg', alt: 'Photograph' },
+                { src: '01.%20Icons%20%26%20skylines/NY58.jpg', alt: 'Photograph' },
+                { src: '01.%20Icons%20%26%20skylines/NY65.jpg', alt: 'Photograph' }
+            ],
+            'gallery-urban-life': [
+                { src: '02.%20Urban%20Life/IMG_0076.jpg', alt: 'Photograph' },
+                { src: '02.%20Urban%20Life/IMG_0103.jpg', alt: 'Photograph' },
+                { src: '02.%20Urban%20Life/IMG_0490.jpg', alt: 'Photograph' },
+                { src: '02.%20Urban%20Life/IMG_05842.jpg', alt: 'Photograph' },
+                { src: '02.%20Urban%20Life/IMG_1452.jpg', alt: 'Photograph' },
+                { src: '02.%20Urban%20Life/IMG_1801.jpg', alt: 'Photograph' },
+                { src: '02.%20Urban%20Life/IMG_2761.jpg', alt: 'Photograph' },
+                { src: '02.%20Urban%20Life/IMG_3049.jpg', alt: 'Photograph' },
+                { src: '02.%20Urban%20Life/IMG_3225.jpg', alt: 'Photograph' },
+                { src: '02.%20Urban%20Life/IMG_3312.jpg', alt: 'Photograph' },
+                { src: '02.%20Urban%20Life/IMG_3341c1.jpg', alt: 'Photograph' },
+                { src: '02.%20Urban%20Life/IMG_3514.jpg', alt: 'Photograph' },
+                { src: '02.%20Urban%20Life/IMG_3951.jpg', alt: 'Photograph' },
+                { src: '02.%20Urban%20Life/IMG_5855.jpg', alt: 'Photograph' },
+                { src: '02.%20Urban%20Life/IMG_6985.jpg', alt: 'Photograph' },
+                { src: '02.%20Urban%20Life/IMG_7556.jpg', alt: 'Photograph' },
+                { src: '02.%20Urban%20Life/IMG_7681.jpg', alt: 'Photograph' },
+                { src: '02.%20Urban%20Life/IMG_8712_1.jpg', alt: 'Photograph' },
+                { src: '02.%20Urban%20Life/IMG_8739.jpg', alt: 'Photograph' },
+                { src: '02.%20Urban%20Life/IMG_9196.jpg', alt: 'Photograph' },
+                { src: '02.%20Urban%20Life/IMG_92382.jpg', alt: 'Photograph' },
+                { src: '02.%20Urban%20Life/NY39.jpg', alt: 'Photograph' }
+            ],
+            'gallery-movement': [
+                { src: '03.%20Movement/6F207B7B-F50C-4E74-A921-2CB97644A99F.jpg', alt: 'Photograph' },
+                { src: '03.%20Movement/IMG_10373c.jpg', alt: 'Photograph' },
+                { src: '03.%20Movement/IMG_1454.jpg', alt: 'Photograph' },
+                { src: '03.%20Movement/IMG_2115.jpg', alt: 'Photograph' },
+                { src: '03.%20Movement/IMG_5372.jpg', alt: 'Photograph' },
+                { src: '03.%20Movement/IMG_5557-HDR.jpg', alt: 'Photograph' },
+                { src: '03.%20Movement/IMG_6511.jpg', alt: 'Photograph' },
+                { src: '03.%20Movement/IMG_9133.jpg', alt: 'Photograph' },
+                { src: '03.%20Movement/IMG_9807.jpg', alt: 'Photograph' },
+                { src: '03.%20Movement/NY73.jpg', alt: 'Photograph' },
+                { src: '03.%20Movement/ny20.jpg', alt: 'Photograph' }
+            ],
+            'gallery-structures': [
+                { src: '04.%20Structures/BKU13_Original.JPG', alt: 'Photograph' },
+                { src: '04.%20Structures/IMG_0497.jpg', alt: 'Photograph' },
+                { src: '04.%20Structures/IMG_1748.jpg', alt: 'Photograph' },
+                { src: '04.%20Structures/IMG_2207.jpg', alt: 'Photograph' },
+                { src: '04.%20Structures/IMG_3586.jpg', alt: 'Photograph' },
+                { src: '04.%20Structures/IMG_5212.jpg', alt: 'Photograph' },
+                { src: '04.%20Structures/IMG_5256.jpg', alt: 'Photograph' },
+                { src: '04.%20Structures/IMG_6772.jpg', alt: 'Photograph' },
+                { src: '04.%20Structures/IMG_9318c.jpg', alt: 'Photograph' },
+                { src: '04.%20Structures/NY66.jpg', alt: 'Photograph' },
+                { src: '04.%20Structures/tbs49.jpg', alt: 'Photograph' }
+            ],
+            'gallery-landscapes': [
+                { src: '05.%20Lanscapes/IMG_1670.jpg', alt: 'Photograph' },
+                { src: '05.%20Lanscapes/IMG_1739.jpg', alt: 'Photograph' },
+                { src: '05.%20Lanscapes/IMG_2898.jpg', alt: 'Photograph' },
+                { src: '05.%20Lanscapes/IMG_3079.jpg', alt: 'Photograph' },
+                { src: '05.%20Lanscapes/IMG_3920.jpg', alt: 'Photograph' },
+                { src: '05.%20Lanscapes/IMG_3925.jpg', alt: 'Photograph' },
+                { src: '05.%20Lanscapes/IMG_4948.jpg', alt: 'Photograph' },
+                { src: '05.%20Lanscapes/IMG_4966.jpg', alt: 'Photograph' },
+                { src: '05.%20Lanscapes/IMG_5011.jpg', alt: 'Photograph' },
+                { src: '05.%20Lanscapes/IMG_5134.jpg', alt: 'Photograph' },
+                { src: '05.%20Lanscapes/IMG_5308-2.jpg', alt: 'Photograph' },
+                { src: '05.%20Lanscapes/IMG_5310.jpg', alt: 'Photograph' },
+                { src: '05.%20Lanscapes/IMG_6411.JPG', alt: 'Photograph' },
+                { src: '05.%20Lanscapes/IMG_8351.jpg', alt: 'Photograph' },
+                { src: '05.%20Lanscapes/IMG_85073.jpg', alt: 'Photograph' },
+                { src: '05.%20Lanscapes/IMG_8525.jpg', alt: 'Photograph' },
+                { src: '05.%20Lanscapes/IMG_8695.jpg', alt: 'Photograph' },
+                { src: '05.%20Lanscapes/IMG_9578.jpg', alt: 'Photograph' },
+                { src: '05.%20Lanscapes/IMG_9598c.jpg', alt: 'Photograph' },
+                { src: '05.%20Lanscapes/IMG_9774.jpg', alt: 'Photograph' },
+                { src: '05.%20Lanscapes/IMG_9787.jpg', alt: 'Photograph' },
+                { src: '05.%20Lanscapes/IMG_9941.jpg', alt: 'Photograph' }
+            ],
+            'gallery-quiet-moments': [
+                { src: '06.%20Quiet%20Moments/IMG_0588.jpg', alt: 'Photograph' },
+                { src: '06.%20Quiet%20Moments/IMG_0688.jpg', alt: 'Photograph' },
+                { src: '06.%20Quiet%20Moments/IMG_6087.jpg', alt: 'Photograph' },
+                { src: '06.%20Quiet%20Moments/IMG_9167_2.jpg', alt: 'Photograph' },
+                { src: '06.%20Quiet%20Moments/IMG_9684.jpg', alt: 'Photograph' },
+                { src: '06.%20Quiet%20Moments/bku36_Original.JPG', alt: 'Photograph' },
+                { src: '06.%20Quiet%20Moments/tbs143.jpg', alt: 'Photograph' }
+            ],
+            'gallery-obscurae': [
+                { src: '07.%20Obscurae/IMG_1274.jpg', alt: 'Photograph' },
+                { src: '07.%20Obscurae/IMG_4795.jpg', alt: 'Photograph' },
+                { src: '07.%20Obscurae/bku39_Original.JPG', alt: 'Photograph' }
+            ]
+        };
+
+        let currentModalIndex = 0;
+        let currentModalImages = [];
+
+        // Initialize galleries
+        function initializeGalleries() {
+            Object.keys(imageData).forEach(galleryId => {
+                const gallery = document.getElementById(galleryId);
+                if (!gallery) return;
+
+                const images = imageData[galleryId];
+                images.forEach((image, index) => {
+                    const item = document.createElement('div');
+                    item.className = 'gallery-item';
+                    // Use optimized image for gallery
+                    const optimizedSrc = image.src.replace(/^/, 'optimized/');
+                    item.innerHTML = `<img src="${optimizedSrc}" alt="${image.alt}" loading="lazy">`;
+                    item.addEventListener('click', () => openModal(images, index));
+                    gallery.appendChild(item);
+                });
+            });
+        }
+
+        // Modal functions
+        function openModal(images, index) {
+            currentModalImages = images;
+            currentModalIndex = index;
+            updateModalImage();
+            document.getElementById('imageModal').classList.add('show');
+            document.body.style.overflow = 'hidden';
+        }
+
+        function closeModal() {
+            document.getElementById('imageModal').classList.remove('show');
+            document.body.style.overflow = 'auto';
+        }
+
+        function updateModalImage() {
+            const modal = document.getElementById('imageModal');
+            const img = modal.querySelector('.modal-image');
+            img.src = currentModalImages[currentModalIndex].src;
+            img.alt = currentModalImages[currentModalIndex].alt;
+        }
+
+        function prevImage() {
+            currentModalIndex = (currentModalIndex - 1 + currentModalImages.length) % currentModalImages.length;
+            updateModalImage();
+        }
+
+        function nextImage() {
+            currentModalIndex = (currentModalIndex + 1) % currentModalImages.length;
+            updateModalImage();
+        }
+
+        // Event listeners
+        document.querySelector('.modal-close').addEventListener('click', closeModal);
+        document.querySelector('.modal-prev').addEventListener('click', prevImage);
+        document.querySelector('.modal-next').addEventListener('click', nextImage);
+
+        document.getElementById('imageModal').addEventListener('click', (e) => {
+            if (e.target.id === 'imageModal') {
+                closeModal();
+            }
+        });
+
+        // Keyboard navigation
+        document.addEventListener('keydown', (e) => {
+            const modal = document.getElementById('imageModal');
+            if (!modal.classList.contains('show')) return;
+
+            if (e.key === 'ArrowLeft') prevImage();
+            if (e.key === 'ArrowRight') nextImage();
+            if (e.key === 'Escape') closeModal();
+        });
+
+        // Navigation menu
+        document.querySelectorAll('.nav-link').forEach(link => {
+            link.addEventListener('click', (e) => {
+                e.preventDefault();
+
+                document.querySelectorAll('.nav-link').forEach(l => l.classList.remove('active'));
+                link.classList.add('active');
+
+                document.querySelectorAll('.collection-section').forEach(section => {
+                    section.classList.add('hidden');
+                });
+
+                const sectionId = link.dataset.section;
+                const section = document.getElementById(sectionId);
+                if (section) {
+                    section.classList.remove('hidden');
+                    section.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                }
+            });
+        });
+
+        // Header scroll collapse
+        let lastScrollTop = 0;
+        const header = document.querySelector('header');
+        const body = document.body;
+        const collapseThreshold = 100;
+
+        window.addEventListener('scroll', () => {
+            const scrollTop = window.scrollY;
+
+            if (scrollTop > collapseThreshold) {
+                // User is scrolled down
+                if (scrollTop > lastScrollTop) {
+                    // Scrolling down
+                    header.classList.add('collapsed');
+                    body.classList.add('header-collapsed');
+                } else {
+                    // Scrolling up
+                    header.classList.remove('collapsed');
+                    body.classList.remove('header-collapsed');
+                }
+            } else {
+                // At top
+                header.classList.remove('collapsed');
+                body.classList.remove('header-collapsed');
+            }
+
+            lastScrollTop = scrollTop <= 0 ? 0 : scrollTop;
+        });
+
+        // Initialize on load
+        window.addEventListener('DOMContentLoaded', initializeGalleries);
+    </script>
+</body>
+</html>

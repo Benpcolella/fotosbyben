@@ -903,7 +903,7 @@
             }
         }
 
-        /* Photo Galleries */
+        /* Photo Galleries - Integrated Layouts */
         .photo-gallery {
             display: grid;
             grid-template-columns: repeat(2, 1fr);
@@ -916,6 +916,33 @@
 
         .photo-gallery.three-col {
             grid-template-columns: repeat(3, 1fr);
+        }
+
+        /* Single image floating left */
+        .photo-gallery.float-left {
+            float: left;
+            width: 45%;
+            margin: 0 2rem 1.5rem 0;
+            padding: 0;
+            border: none;
+            background-color: transparent;
+        }
+
+        /* Single image floating right */
+        .photo-gallery.float-right {
+            float: right;
+            width: 45%;
+            margin: 0 0 1.5rem 2rem;
+            padding: 0;
+            border: none;
+            background-color: transparent;
+        }
+
+        .photo-gallery.float-left::after,
+        .photo-gallery.float-right::after {
+            content: '';
+            display: table;
+            clear: both;
         }
 
         .gallery-image {
@@ -931,6 +958,18 @@
             font-style: italic;
             margin-top: 0.5rem;
             line-height: 1.4;
+        }
+
+        @media (max-width: 900px) {
+            .photo-gallery.float-left,
+            .photo-gallery.float-right {
+                float: none;
+                width: 100%;
+                margin: 2rem 0;
+                padding: 1rem;
+                background-color: #f9f9f9;
+                border: 1px solid #e0e0e0;
+            }
         }
 
         /* Footer */
@@ -1032,7 +1071,7 @@
 
     <main>
         <div class="editorial-hero">
-            <div class="series-badge">NOTES FROM CITY — EDITORIAL SERIES</div>
+            <div class="series-badge">NOTES FROM THE WORLD — EDITORIAL SERIES</div>
             <h1 class="editorial-title">Notes from Yinchuan</h1>
             <div class="issue-info">Issue 01</div>
             <p class="editorial-subtitle">Where ancient Silk Roads meet urban energy</p>
@@ -1087,12 +1126,15 @@
 
                 <h2>The Street, Written in Signs and Cycles</h2>
 
+                <div class="photo-gallery float-left">
+                    <img src="Yinchuan_Pedestrian_Street.jpg" alt="Pedestrian Street with ornate traditional architecture and shopfronts" class="gallery-image">
+                </div>
+
                 <p>The most honest picture of a city emerges from its transit. In Yinchuan's neighborhoods near Zhongshan Park and beyond, this means red three-wheeled cargo vehicles, bicycles, pedestrians, and the kind of commerce that happens on sidewalks. A vendor sets up in the morning, sells through the day, packs away by evening. The visual language is one of efficiency and adaptation rather than spectacle.</p>
 
                 <p>The Pedestrian Street refines this energy into a designed space without losing its character. Here, ornate wooden shopfronts display traditional architecture in concentrated form. Eaves curve and layer. Signage uses classical proportions. Yet the street functions precisely as Yinchuan's residents need it to function: a place to shop, eat, rest, move through the city. Families sit on benches. Students gather in clusters. The architecture frames daily life rather than competing with it.</p>
 
-                <div class="photo-gallery">
-                    <img src="Yinchuan_Pedestrian_Street.jpg" alt="Pedestrian Street with ornate traditional architecture and shopfronts" class="gallery-image">
+                <div class="photo-gallery float-right">
                     <img src="Street_Life.jpg" alt="Street vendor with red cargo tricycle and traditional storefronts" class="gallery-image">
                 </div>
 
@@ -1108,16 +1150,19 @@
 
                 <h2>The Western Xia: History Written in Ruins</h2>
 
+                <div class="photo-gallery float-left">
+                    <img src="Xia_Tombs.jpg" alt="Western Xia tomb mounds against misty Helan Mountains at sunrise" class="gallery-image">
+                </div>
+
                 <p>Twenty kilometers west of the city, the Western Xia Tombs and Museum represent a different historical register entirely. The tombs sit in the Helan foothills, a series of earthen mounds visible from considerable distance. The landscape itself becomes archaeological: these mounds were burial grounds for a kingdom that ruled the region from the 11th to 13th centuries, lost its war with the Mongols, and vanished so completely from Han Chinese historical consciousness that Western scholars knew more about the Xia than the Chinese themselves.</p>
 
                 <p>The Western Xia Museum, constructed in contemporary brick, presents the dynasty's artifacts and history with scholarly rigor. Its minimalist design—spare walls, careful lighting, generous spacing between exhibits—allows visitors to absorb information without overwhelm. The architectural restraint paradoxically emphasizes the cultural achievement it documents. The Xia were not a footnote to Chinese history; their erasure from mainstream memory represents a particular kind of historical violence.</p>
 
-                <p>The landscape around the tombs reads as subtle complexity: distant mountains soft in haze, the mounds themselves modest but deliberate, scattered remains of walls and structures visible to those who know where to look. It is not a spectacular site by touristic standards. Its power emerges from geological timescale and the kind of silence that only seems quiet because your ear has learned to listen.</p>
-
-                <div class="photo-gallery">
-                    <img src="Xia_Tombs.jpg" alt="Western Xia tomb mounds against misty Helan Mountains at sunrise" class="gallery-image">
+                <div class="photo-gallery float-right">
                     <img src="Xia_Museum.jpg" alt="Western Xia Museum contemporary brick architecture" class="gallery-image">
                 </div>
+
+                <p>The landscape around the tombs reads as subtle complexity: distant mountains soft in haze, the mounds themselves modest but deliberate, scattered remains of walls and structures visible to those who know where to look. It is not a spectacular site by touristic standards. Its power emerges from geological timescale and the kind of silence that only seems quiet because your ear has learned to listen.</p>
 
                 <h2>The Architecture of Arrival and Ambition</h2>
 
@@ -1135,12 +1180,15 @@
 
                 <h2>Lanshan Park and the Distant Mountains</h2>
 
+                <div class="photo-gallery float-right">
+                    <img src="Lanshan_Park.jpg" alt="Lanshan Park at golden hour with Yellow River and distant mountains" class="gallery-image">
+                </div>
+
                 <p>At Lanshan Park, the Yellow River comes briefly into focus. A vast recreational field spreads toward the water; beyond lies a landscape of reeds and distant mountains. This is where Yinchuan remembers its geography: the Yellow River to the east, the Helan Mountains to the west, desert in multiple directions. The city sits in one of China's more precarious environmental zones, and the mountains loom as both beauty and constraint.</p>
 
                 <p>The park at sunset delivers the full emotional register. The mountains blur into haze. The light turns everything amber and gold. Families walk the paths. The scale of the landscape dominates. From here, the city's various aspirations—historical, contemporary, commercial—seem small, not insignificant, but scaled appropriately to their actual place in the world.</p>
 
-                <div class="photo-gallery">
-                    <img src="Lanshan_Park.jpg" alt="Lanshan Park at golden hour with Yellow River and distant mountains" class="gallery-image">
+                <div class="photo-gallery float-left">
                     <img src="Yuhang_Paviliion.jpg" alt="Yuhang Pavilion traditional architecture" class="gallery-image">
                 </div>
 
@@ -1176,7 +1224,7 @@
 
             <div class="allerguide-link">
                 <p>For a complete, detailed guide to allergens and dietary accommodations across the world, download the <strong>AllerGuide app</strong>. It integrates restaurant data, dish information, and real-time allergy management tools.</p>
-                <a href="https://allerguide.app" class="allerguide-cta" target="_blank">Download AllerGuide</a>
+                <a id="allerguide-btn" href="https://allerguide.app" class="allerguide-cta" target="_blank">Download AllerGuide</a>
             </div>
         </section>
 
@@ -1513,8 +1561,27 @@
             }
         });
 
-        // Fetch dishes on page load
-        document.addEventListener('DOMContentLoaded', fetchNingxiaDishes);
+        // Detect iPhone and set AllerGuide link
+        function setAllerGuideLinkForDevice() {
+            const allerguideBtn = document.getElementById('allerguide-btn');
+            const isIPhone = /iPhone|iPad|iPod/.test(navigator.userAgent);
+
+            if (isIPhone) {
+                // Link to App Store
+                allerguideBtn.href = 'https://apps.apple.com/app/allerguide/id1234567890'; // Replace with actual App Store URL
+                allerguideBtn.target = '_blank';
+            } else {
+                // Default to website
+                allerguideBtn.href = 'https://allerguide.app';
+                allerguideBtn.target = '_blank';
+            }
+        }
+
+        // Set AllerGuide link when page loads
+        document.addEventListener('DOMContentLoaded', () => {
+            setAllerGuideLinkForDevice();
+            fetchNingxiaDishes();
+        });
 
         // Header scroll effect
         let lastScrollTop = 0;

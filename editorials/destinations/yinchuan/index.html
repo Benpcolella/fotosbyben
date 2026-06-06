@@ -56,11 +56,9 @@
 
         /* Main Container */
         main {
-            max-width: 1200px;
+            max-width: 900px;
             margin: 0 auto;
             padding: 4rem 2rem;
-            display: flex;
-            gap: 2rem;
         }
 
         /* Hero Section */
@@ -105,6 +103,28 @@
             border: 1px solid #e0e0e0;
         }
 
+        /* Essentials Grid Section */
+        .essentials-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 2rem 3rem;
+            margin-bottom: 4rem;
+            padding: 2rem 0;
+            border-top: 1px solid #e0e0e0;
+            border-bottom: 1px solid #e0e0e0;
+        }
+
+        .essentials-grid h3 {
+            grid-column: 1 / -1;
+            margin-bottom: 1rem;
+            font-size: 1.1rem;
+        }
+
+        .essentials-grid .essential-item {
+            display: flex;
+            flex-direction: column;
+        }
+
         /* Editorial Content */
         .editorial-content {
             display: block;
@@ -116,20 +136,10 @@
             max-width: 100%;
         }
 
-        .sidebar-inline {
-            width: 280px;
-            margin-bottom: 2rem;
-            height: fit-content;
-            flex-shrink: 0;
-        }
 
         @media (max-width: 900px) {
-            main {
-                flex-direction: column;
-            }
-
-            .sidebar-inline {
-                width: 100%;
+            .essentials-grid {
+                grid-template-columns: 1fr;
                 margin-left: 0;
             }
         }
@@ -1044,43 +1054,43 @@
 
         <img src="Bell_Tower.jpg" alt="Yinchuan Bell Tower" class="editorial-cover-img">
 
-        <div class="editorial-content">
-            <aside class="essentials sidebar-inline">
-                <h3>The Essentials</h3>
-                <div class="essential-item">
-                    <div class="essential-label">Region</div>
-                    <div class="essential-value">Ningxia Hui Autonomous Region</div>
-                </div>
-                <div class="essential-item">
-                    <div class="essential-label">Elevation</div>
-                    <div class="essential-value">1,111 m (3,645 ft)</div>
-                </div>
-                <div class="essential-item">
-                    <div class="essential-label">Population</div>
-                    <div class="essential-value">~2.4 million</div>
-                </div>
-                <div class="essential-item">
-                    <div class="essential-label">Best Time</div>
-                    <div class="essential-value">April–October</div>
-                </div>
-                <div class="essential-item">
-                    <div class="essential-label">Language</div>
-                    <div class="essential-value">Mandarin, Hui dialect</div>
-                </div>
-                <div class="essential-item">
-                    <div class="essential-label">Currency</div>
-                    <div class="essential-value">Chinese Yuan (CNY)</div>
-                </div>
-                <div class="essential-item">
-                    <div class="essential-label">Daily Budget</div>
-                    <div class="essential-value">$30–60 USD</div>
-                </div>
-                <div class="essential-item">
-                    <div class="essential-label">Visa</div>
-                    <div class="essential-value">China visa required</div>
-                </div>
-            </aside>
+        <section class="essentials-grid">
+            <h3>The Essentials</h3>
+            <div class="essential-item">
+                <div class="essential-label">Region</div>
+                <div class="essential-value">Ningxia Hui Autonomous Region</div>
+            </div>
+            <div class="essential-item">
+                <div class="essential-label">Elevation</div>
+                <div class="essential-value">1,111 m (3,645 ft)</div>
+            </div>
+            <div class="essential-item">
+                <div class="essential-label">Population</div>
+                <div class="essential-value">~2.4 million</div>
+            </div>
+            <div class="essential-item">
+                <div class="essential-label">Best Time</div>
+                <div class="essential-value">April–October</div>
+            </div>
+            <div class="essential-item">
+                <div class="essential-label">Language</div>
+                <div class="essential-value">Mandarin, Hui dialect</div>
+            </div>
+            <div class="essential-item">
+                <div class="essential-label">Currency</div>
+                <div class="essential-value">Chinese Yuan (CNY)</div>
+            </div>
+            <div class="essential-item">
+                <div class="essential-label">Daily Budget</div>
+                <div class="essential-value">$30–60 USD</div>
+            </div>
+            <div class="essential-item">
+                <div class="essential-label">Visa</div>
+                <div class="essential-value">China visa required</div>
+            </div>
+        </section>
 
+        <div class="editorial-content">
             <article class="essay">
                 <h2>The Drum Tower's Red Doors</h2>
                 <p>The Drum Tower dominates Yinchuan's skyline like a declaration: this city remembers itself. Standing at the center of the old city, the tower rises in traditional brick with upturned eaves tiled in faded gold, its massive red doors drawing the eye with an intensity that seems almost defiant against the pale Ningxia sky. A neon sign bearing the city's name glows red above it, as if confirming what the architecture already knows: Yinchuan exists at the threshold between centuries.</p>

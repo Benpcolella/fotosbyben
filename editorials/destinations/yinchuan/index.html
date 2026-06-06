@@ -924,22 +924,7 @@
         }
 
         /* Photo Galleries - Integrated Layouts */
-        .photo-gallery {
-            display: grid;
-            grid-template-columns: repeat(2, 1fr);
-            gap: 1rem;
-            margin: 2rem 0;
-            border: 1px solid #e0e0e0;
-            padding: 1rem;
-            background-color: #f9f9f9;
-        }
-
-        .photo-gallery.three-col {
-            grid-template-columns: repeat(3, 1fr);
-        }
-
-        /* Single image floating left */
-        /* Two-column section layout */
+        /* ========== ARTICLE BODY LAYOUT ========== */
         .section-two-column {
             display: grid;
             grid-template-columns: 1fr 370px;
@@ -970,6 +955,12 @@
             background-color: transparent;
         }
 
+        .column-images .photo-gallery.three-col {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 1.5rem;
+        }
+
         .section-two-column .column-images:empty ~ .column-text,
         .section-two-column:has(> .column-images:empty) {
             grid-column: 1 / -1;
@@ -979,40 +970,24 @@
             grid-template-columns: 1fr;
         }
 
-        .column-images .photo-gallery.three-col {
-            display: grid;
-            grid-template-columns: 1fr;
-            gap: 1.5rem;
-        }
-
         .column-images:empty {
             display: none;
         }
 
-        .photo-gallery.float-left {
-            float: left;
-            width: 35%;
-            margin: 0 2rem 1.5rem 0;
-            padding: 0;
-            border: none;
-            background-color: transparent;
+        /* ========== PHOTO GALLERY STYLING ========== */
+        .gallery-image {
+            width: 100%;
+            height: auto;
+            display: block;
+            border: 1px solid #e0e0e0;
         }
 
-        /* Single image floating right */
-        .photo-gallery.float-right {
-            float: right;
-            width: 35%;
-            margin: 0 0 1.5rem 2rem;
-            padding: 0;
-            border: none;
-            background-color: transparent;
-        }
-
-        .photo-gallery.float-left::after,
-        .photo-gallery.float-right::after {
-            content: '';
-            display: table;
-            clear: both;
+        .photo-caption {
+            font-size: 0.85rem;
+            color: #666;
+            font-style: italic;
+            margin-top: 0.5rem;
+            line-height: 1.4;
         }
 
         .gallery-image {

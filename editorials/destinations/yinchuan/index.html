@@ -152,13 +152,22 @@
         }
 
         .sidebar-inline {
-            position: sticky;
-            top: 100px;
-            float: right;
+            position: fixed;
+            right: 2rem;
+            top: 120px;
             width: 280px;
-            margin-left: 2rem;
-            margin-bottom: 2rem;
             height: fit-content;
+            z-index: 50;
+        }
+
+        @media (max-width: 1200px) {
+            .sidebar-inline {
+                position: static;
+                float: right;
+                width: 280px;
+                margin-left: 2rem;
+                margin-bottom: 2rem;
+            }
         }
 
         @media (max-width: 900px) {

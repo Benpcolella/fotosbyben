@@ -160,23 +160,46 @@
             z-index: 50;
         }
 
-        @media (max-width: 1200px) {
+        /* Add padding to essay to prevent sidebar overlap */
+        .editorial-content .essay {
+            padding-right: 320px;
+        }
+
+        @media (max-width: 1024px) {
             .sidebar-inline {
-                position: static;
-                float: right;
-                width: 280px;
-                margin-left: 2rem;
-                margin-bottom: 2rem;
+                position: fixed;
+                right: 1rem;
+                width: 250px;
+            }
+
+            .editorial-content .essay {
+                padding-right: 280px;
             }
         }
 
-        @media (max-width: 900px) {
+        @media (max-width: 768px) {
+            .sidebar-inline {
+                position: fixed;
+                right: 0.5rem;
+                top: 100px;
+                width: 220px;
+                font-size: 0.9rem;
+            }
+
+            .editorial-content .essay {
+                padding-right: 240px;
+            }
+        }
+
+        @media (max-width: 600px) {
             .sidebar-inline {
                 position: static;
-                float: none;
                 width: 100%;
-                margin-left: 0;
                 margin-bottom: 2rem;
+            }
+
+            .editorial-content .essay {
+                padding-right: 0;
             }
         }
 

@@ -142,30 +142,33 @@
 
         /* Editorial Content */
         .editorial-content {
-            display: block;
+            display: grid;
+            grid-template-columns: 1fr 300px;
+            gap: 2rem;
             margin-bottom: 4rem;
+            max-width: 1200px;
+            margin-left: auto;
+            margin-right: auto;
+            padding: 0 2rem;
         }
 
         .editorial-content .essay {
-            max-width: 900px;
-            margin: 0 auto;
+            max-width: 100%;
         }
 
         .sidebar-inline {
-            float: right;
             width: 280px;
-            margin-left: 2rem;
-            margin-bottom: 2rem;
             height: fit-content;
         }
 
         @media (max-width: 900px) {
+            .editorial-content {
+                grid-template-columns: 1fr;
+                padding: 0 1rem;
+            }
+
             .sidebar-inline {
-                position: static;
-                float: none;
                 width: 100%;
-                margin-left: 0;
-                margin-bottom: 2rem;
             }
         }
 

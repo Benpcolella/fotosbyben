@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Xining — Notes from the World</title>
+    <title>Notes from Xining — Editorial</title>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap');
 
@@ -21,7 +21,7 @@
             font-family: 'Reross Quadratic', 'Space Mono', monospace;
             background-color: #fafafa;
             color: #1a1a1a;
-            line-height: 1.6;
+            line-height: 1.7;
         }
 
         h1, h2, h3, h4, h5, h6 {
@@ -29,6 +29,7 @@
             font-weight: 700;
             letter-spacing: 0.05em;
             text-transform: uppercase;
+            margin-bottom: 1rem;
         }
 
         /* Header */
@@ -37,7 +38,7 @@
             top: 0;
             left: 0;
             right: 0;
-            padding: 0.5rem 2rem;
+            padding: 1rem 2rem;
             background: rgba(255, 255, 255, 0.98);
             z-index: 100;
             border-bottom: 1px solid #e0e0e0;
@@ -45,7 +46,7 @@
         }
 
         header.scrolled {
-            padding: 0.5rem 2rem;
+            padding: 0.75rem 2rem;
             box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
         }
 
@@ -53,8 +54,8 @@
             padding-top: 80px;
         }
 
-        /* Editorial Container */
-        .editorial-content {
+        /* Main Container */
+        main {
             max-width: 900px;
             margin: 0 auto;
             padding: 4rem 2rem;
@@ -63,68 +64,733 @@
         /* Hero Section */
         .editorial-hero {
             margin-bottom: 4rem;
+            text-align: center;
         }
 
-        .editorial-hero img {
+        .series-badge {
+            font-size: 0.75rem;
+            letter-spacing: 0.15em;
+            color: #666;
+            margin-bottom: 1rem;
+        }
+
+        .editorial-title {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+            letter-spacing: 0.08em;
+        }
+
+        .issue-info {
+            font-size: 1rem;
+            letter-spacing: 0.08em;
+            color: #666;
+            margin-bottom: 1.5rem;
+        }
+
+        .editorial-subtitle {
+            font-size: 1.3rem;
+            color: #333;
+            font-weight: 400;
+            letter-spacing: 0.02em;
+            margin-bottom: 2rem;
+            line-height: 1.5;
+        }
+
+        .editorial-cover-img {
             width: 100%;
             height: auto;
-            display: block;
+            margin-bottom: 3rem;
             border: 1px solid #e0e0e0;
         }
 
-        /* Series Branding */
-        .series-branding {
-            font-size: 0.85rem;
-            letter-spacing: 0.1em;
-            color: #666;
+        /* Essentials Grid Section */
+        .essentials-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 2rem 3rem;
+            margin-bottom: 4rem;
+            padding: 2rem 0;
+            border-top: 1px solid #e0e0e0;
+            border-bottom: 1px solid #e0e0e0;
+        }
+
+        .essentials-grid h3 {
+            grid-column: 1 / -1;
+            margin-bottom: 1rem;
+            font-size: 1.1rem;
+        }
+
+        .essentials-grid .essential-item {
+            display: flex;
+            flex-direction: column;
+        }
+
+        /* Editorial Content */
+        .editorial-content {
+            display: block;
+            margin-bottom: 4rem;
+            flex: 1;
+        }
+
+        .editorial-content .essay {
+            max-width: 100%;
+        }
+
+        @media (max-width: 900px) {
+            .section-two-column {
+                grid-template-columns: 1fr;
+                gap: 2rem;
+            }
+
+            .getting-there-content {
+                grid-template-columns: 1fr;
+                gap: 2rem;
+            }
+
+            .essentials-grid {
+                grid-template-columns: 1fr;
+                margin-left: 0;
+            }
+        }
+
+        .essay {
+            line-height: 1.8;
+            font-size: 1rem;
+        }
+
+        .essay p {
             margin-bottom: 1.5rem;
+        }
+
+        .essay h2 {
+            font-size: 1.4rem;
+            margin-top: 2.5rem;
+            margin-bottom: 1rem;
+            letter-spacing: 0.08em;
+        }
+
+        .essay h2:first-child {
+            margin-top: 0;
+        }
+
+        .essentials {
+            background-color: #f5f5f5;
+            padding: 2rem;
+            border: 1px solid #e0e0e0;
+            height: fit-content;
+            position: sticky;
+            top: 120px;
+        }
+
+        .essentials h3 {
+            font-size: 0.9rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .essential-item {
+            margin-bottom: 1.5rem;
+            font-size: 0.9rem;
+        }
+
+        .essential-label {
+            font-weight: 700;
+            letter-spacing: 0.05em;
+            margin-bottom: 0.3rem;
+            font-size: 0.8rem;
             text-transform: uppercase;
         }
 
-        .article-title {
-            font-size: 3rem;
-            margin-bottom: 1rem;
-            line-height: 1.1;
-        }
-
-        .article-subtitle {
-            font-size: 1.2rem;
-            color: #666;
-            font-family: 'Space Mono', monospace;
+        .essential-value {
+            color: #333;
             line-height: 1.6;
+        }
+
+        /* Food Section - AllerGuide Style */
+        .food-section {
+            max-width: 900px;
+            margin: 4rem auto;
+            padding: 4rem 2rem;
+        }
+
+        .food-section h3 {
+            font-size: 1.2rem;
             margin-bottom: 2rem;
+            letter-spacing: 0.08em;
         }
 
-        /* Essentials Grid */
-        .essentials-grid {
+        .food-intro {
+            font-size: 1rem;
+            line-height: 1.8;
+            margin-bottom: 2rem;
+            max-width: 700px;
+        }
+
+        .allerguide-cards {
             display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 2rem 3rem;
-            border-top: 2px solid #1a1a1a;
-            border-bottom: 2px solid #1a1a1a;
-            padding: 3rem 0;
-            margin-bottom: 4rem;
+            grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+            gap: 1rem;
+            margin-bottom: 3rem;
         }
 
-        .essential-item h3 {
-            font-size: 0.9rem;
-            letter-spacing: 0.1em;
-            margin-bottom: 0.8rem;
+        .allerguide-card {
+            background-color: white;
+            border: 1px solid #e0e0e0;
+            border-radius: 12px;
+            overflow: hidden;
+            transition: all 0.3s ease;
+            cursor: pointer;
+            position: relative;
+        }
+
+        .allerguide-card:hover {
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            transform: translateY(-2px);
+        }
+
+        .card-image {
+            width: 100%;
+            height: 140px;
+            background-color: #f5f5f5;
+            object-fit: cover;
+            display: block;
+        }
+
+        .card-image-placeholder {
+            width: 100%;
+            height: 140px;
+            background-color: #f5f5f5;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #ccc;
+            font-size: 2rem;
+        }
+
+        .card-safe-badge {
+            position: absolute;
+            top: 8px;
+            right: 8px;
+            width: 28px;
+            height: 28px;
+            background-color: #2d9f7d;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 16px;
+            font-weight: bold;
+        }
+
+        .card-content {
+            padding: 12px;
+        }
+
+        .dish-name {
+            font-size: 0.95rem;
+            font-weight: 600;
+            margin-bottom: 4px;
+            line-height: 1.3;
             color: #1a1a1a;
         }
 
-        .essential-item p {
+        .dish-native-name {
+            font-size: 0.8rem;
+            color: #666;
+            margin-bottom: 6px;
+        }
+
+        .dish-region {
+            font-size: 0.75rem;
+            color: #999;
+            display: flex;
+            align-items: center;
+            gap: 4px;
+        }
+
+        /* Allergen Grid in Detail View */
+        .allergen-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 1rem;
+            margin: 2rem 0;
+            padding: 2rem;
+            background-color: #f9f9f9;
+            border-radius: 8px;
+        }
+
+        .allergen-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            position: relative;
+        }
+
+        .allergen-icon {
+            width: 60px;
+            height: 60px;
+            background-color: white;
+            border: 2px solid #e0e0e0;
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 24px;
+            margin-bottom: 8px;
+        }
+
+        .allergen-item.severe .allergen-icon {
+            border-color: #e74c3c;
+            background-color: #ffebee;
+        }
+
+        .allergen-item.moderate .allergen-icon {
+            border-color: #f39c12;
+            background-color: #fff3e0;
+        }
+
+        .allergen-item.mild .allergen-icon {
+            border-color: #2d9f7d;
+            background-color: #e8f5e9;
+        }
+
+        .allergen-dot {
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+        }
+
+        .allergen-dot.severe {
+            background-color: #e74c3c;
+        }
+
+        .allergen-dot.moderate {
+            background-color: #f39c12;
+        }
+
+        .allergen-dot.mild {
+            background-color: #2d9f7d;
+        }
+
+        .allergen-label {
+            font-size: 0.8rem;
+            color: #666;
+            font-weight: 500;
+        }
+
+        .allergen-label.severe {
+            color: #e74c3c;
+            font-weight: 600;
+        }
+
+        .allergen-label.moderate {
+            color: #f39c12;
+            font-weight: 600;
+        }
+
+        .allergen-label.mild {
+            color: #2d9f7d;
+            font-weight: 600;
+        }
+
+        /* Safe Badge */
+        .safe-banner {
+            background-color: #e8f5e9;
+            border: 1px solid #2d9f7d;
+            border-radius: 8px;
+            padding: 12px 16px;
+            margin-bottom: 2rem;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            color: #2d9f7d;
+            font-weight: 500;
+        }
+
+        .safe-banner::before {
+            content: "✓";
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        /* Diet Preferences */
+        .diet-badges {
+            display: flex;
+            gap: 0.5rem;
+            margin-top: 1rem;
+            flex-wrap: wrap;
+        }
+
+        .diet-badge {
+            font-size: 0.75rem;
+            padding: 4px 10px;
+            border-radius: 12px;
+            font-weight: 600;
+            letter-spacing: 0.05em;
+        }
+
+        .diet-badge.vegan {
+            background-color: #e8f5e9;
+            color: #2d9f7d;
+        }
+
+        .diet-badge.vegetarian {
+            background-color: #e8f5e9;
+            color: #2d9f7d;
+        }
+
+        .diet-badge.pescatarian {
+            background-color: #e3f2fd;
+            color: #1976d2;
+        }
+
+        /* Loading State */
+        .cards-loading {
+            grid-column: 1 / -1;
+            text-align: center;
+            padding: 2rem;
+            color: #999;
+        }
+
+        .allerguide-link {
+            margin-top: 3rem;
+            padding: 2rem;
+            background: linear-gradient(135deg, #e8f5e9 0%, #f0f4f8 100%);
+            border-left: 4px solid #2d9f7d;
+            border-radius: 8px;
+            text-align: center;
+        }
+
+        .allerguide-link p {
+            margin-bottom: 1rem;
             font-size: 0.95rem;
             line-height: 1.6;
+            color: #333;
+        }
+
+        .allerguide-cta {
+            display: inline-block;
+            padding: 0.9rem 2rem;
+            background-color: #2d9f7d;
+            color: white;
+            text-decoration: none;
+            font-size: 0.9rem;
+            letter-spacing: 0.05em;
+            border-radius: 8px;
+            font-weight: 600;
+            transition: all 0.3s ease;
+        }
+
+        .allerguide-cta:hover {
+            background-color: #258966;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(45, 159, 125, 0.2);
+        }
+
+        /* Dish Detail Modal */
+        .dish-modal {
+            display: none;
+            position: fixed;
+            z-index: 1000;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5);
+            overflow-y: auto;
+        }
+
+        .dish-modal.active {
+            display: flex;
+            align-items: flex-start;
+            justify-content: center;
+            padding-top: 20px;
+        }
+
+        .dish-modal-content {
+            background-color: white;
+            max-width: 600px;
+            width: 100%;
+            border-radius: 12px;
+            overflow: hidden;
+            margin-bottom: 40px;
+            animation: slideUp 0.3s ease;
+        }
+
+        @keyframes slideUp {
+            from {
+                transform: translateY(30px);
+                opacity: 0;
+            }
+            to {
+                transform: translateY(0);
+                opacity: 1;
+            }
+        }
+
+        .modal-close-btn {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            width: 44px;
+            height: 44px;
+            background-color: rgba(255, 107, 107, 0.9);
+            border: none;
+            border-radius: 50%;
+            color: white;
+            font-size: 24px;
+            cursor: pointer;
+            z-index: 1001;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: all 0.3s ease;
+        }
+
+        .modal-close-btn:hover {
+            background-color: rgba(255, 107, 107, 1);
+        }
+
+        .dish-modal-image {
+            width: 100%;
+            height: 250px;
+            object-fit: cover;
+            display: block;
+            position: relative;
+        }
+
+        .dish-modal-body {
+            padding: 24px;
+        }
+
+        .modal-dish-name {
+            font-size: 28px;
+            font-weight: 700;
+            margin-bottom: 4px;
+            color: #1a1a1a;
+        }
+
+        .modal-dish-native {
+            font-size: 14px;
+            color: #666;
+            margin-bottom: 16px;
+        }
+
+        .modal-tags {
+            display: flex;
+            gap: 8px;
+            margin-bottom: 16px;
+            flex-wrap: wrap;
+        }
+
+        .modal-tag {
+            background-color: #f0f0f0;
+            padding: 6px 12px;
+            border-radius: 16px;
+            font-size: 0.8rem;
+            color: #666;
+        }
+
+        .modal-description {
+            padding: 12px 16px;
+            background-color: #f9f9f9;
+            border-left: 4px solid #2d9f7d;
+            margin-bottom: 24px;
+            line-height: 1.6;
+            font-size: 0.95rem;
             color: #555;
         }
 
-        /* Article Sections - 2 Column Layout */
+        .allergen-section-title {
+            font-size: 0.75rem;
+            font-weight: 700;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+            color: #999;
+            margin-bottom: 16px;
+        }
+
+        .modal-allergen-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 12px;
+        }
+
+        .modal-allergen-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            position: relative;
+        }
+
+        .modal-allergen-icon {
+            width: 56px;
+            height: 56px;
+            background-color: white;
+            border: 2px solid #e0e0e0;
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 24px;
+            margin-bottom: 8px;
+            position: relative;
+        }
+
+        .modal-allergen-item.severe .modal-allergen-icon {
+            border-color: #e74c3c;
+            background-color: #ffebee;
+        }
+
+        .modal-allergen-item.moderate .modal-allergen-icon {
+            border-color: #f39c12;
+            background-color: #fff3e0;
+        }
+
+        .modal-allergen-item.mild .modal-allergen-icon {
+            border-color: #2d9f7d;
+            background-color: #e8f5e9;
+        }
+
+        .modal-allergen-label {
+            font-size: 0.8rem;
+            color: #666;
+            font-weight: 500;
+        }
+
+        .modal-allergen-label.severe {
+            color: #666;
+            font-weight: 500;
+        }
+
+        .modal-allergen-label.moderate {
+            color: #666;
+            font-weight: 500;
+        }
+
+        .modal-allergen-label.mild {
+            color: #666;
+            font-weight: 500;
+        }
+
+        .modal-allergen-dot {
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            border: 2px solid white;
+        }
+
+        .modal-allergen-dot.severe {
+            background-color: #e74c3c;
+        }
+
+        .modal-allergen-dot.moderate {
+            background-color: #f39c12;
+        }
+
+        .modal-allergen-dot.mild {
+            background-color: #2d9f7d;
+        }
+
+        /* Getting There Section */
+        .getting-there-section {
+            max-width: 900px;
+            margin: 4rem auto;
+            padding: 4rem 2rem;
+        }
+
+        .getting-there-section h3 {
+            font-size: 1.2rem;
+            margin-bottom: 2rem;
+            letter-spacing: 0.08em;
+        }
+
+        .getting-there-content {
+            display: grid;
+            grid-template-columns: 1.15fr 1fr;
+            gap: 2.5rem;
+            align-items: start;
+        }
+
+        .getting-there-text {
+            display: flex;
+            flex-direction: column;
+            gap: 1.5rem;
+        }
+
+        .getting-there-image {
+            width: 370px;
+            flex-shrink: 0;
+        }
+
+        .getting-there-image img {
+            width: 370px;
+            height: auto;
+            display: block;
+        }
+
+        /* Locations Section */
+        .locations-section {
+            max-width: 900px;
+            margin: 4rem auto;
+            padding: 4rem 2rem;
+        }
+
+        .locations-section h3 {
+            font-size: 1.2rem;
+            margin-bottom: 2rem;
+            letter-spacing: 0.08em;
+        }
+
+        .locations-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 2rem;
+            margin-bottom: 4rem;
+        }
+
+        .location-item {
+            padding: 1.5rem;
+            border: 1px solid #e0e0e0;
+            background-color: #f9f9f9;
+        }
+
+        .location-name {
+            font-weight: 700;
+            letter-spacing: 0.05em;
+            margin-bottom: 0.5rem;
+            font-size: 0.95rem;
+        }
+
+        .location-type {
+            font-size: 0.8rem;
+            color: #999;
+            letter-spacing: 0.05em;
+            text-transform: uppercase;
+            margin-bottom: 0.8rem;
+        }
+
+        .location-description {
+            font-size: 0.9rem;
+            line-height: 1.6;
+            color: #333;
+        }
+
+        /* Photo Galleries */
         .section-two-column {
             display: grid;
             grid-template-columns: 1fr 370px;
             gap: 2.5rem;
-            margin-bottom: 4rem;
+            align-items: start;
+            margin-bottom: 3rem;
         }
 
         .column-text {
@@ -133,29 +799,39 @@
             gap: 1.5rem;
         }
 
-        .column-text p {
-            font-size: 0.95rem;
-            line-height: 1.7;
-            color: #444;
-        }
-
-        .section-title {
-            font-size: 1.8rem;
-            margin-bottom: 1.5rem;
-            letter-spacing: 0.05em;
-        }
-
         .column-images {
             display: flex;
             flex-direction: column;
             gap: 2rem;
+            width: 370px;
             flex-shrink: 0;
         }
 
-        .photo-gallery {
+        .column-images .photo-gallery {
             width: 370px;
             margin: 0;
             padding: 0;
+            border: none;
+            background-color: transparent;
+        }
+
+        .column-images .photo-gallery.three-col {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 1.5rem;
+        }
+
+        .section-two-column .column-images:empty ~ .column-text,
+        .section-two-column:has(> .column-images:empty) {
+            grid-column: 1 / -1;
+        }
+
+        .section-two-column:has(> .column-images:empty) {
+            grid-template-columns: 1fr;
+        }
+
+        .column-images:empty {
+            display: none;
         }
 
         .gallery-image {
@@ -165,184 +841,112 @@
             border: 1px solid #e0e0e0;
         }
 
-        /* Allerguide Section */
-        .allerguide-section {
-            max-width: 900px;
-            margin: 4rem auto;
-            padding: 4rem 2rem;
+        .photo-caption {
+            font-size: 0.85rem;
+            color: #666;
+            font-style: italic;
+            margin-top: 0.5rem;
+            line-height: 1.4;
         }
 
-        .section-header {
-            font-size: 1.5rem;
-            margin-bottom: 2rem;
-            letter-spacing: 0.05em;
+        @media (max-width: 600px) {
+            .dish-modal-content {
+                width: 95%;
+                margin-left: auto;
+                margin-right: auto;
+            }
+
+            .modal-allergen-grid {
+                grid-template-columns: repeat(3, 1fr);
+            }
+
+            .dish-modal-body {
+                padding: 16px;
+            }
+
+            .modal-close-btn {
+                top: 10px;
+                right: 10px;
+            }
         }
 
-        .food-cards-container {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-            gap: 2rem;
-            margin-bottom: 3rem;
-        }
-
-        .food-card {
-            border: 1px solid #e0e0e0;
-            padding: 1.5rem;
-            background-color: #f9f9f9;
-            transition: all 0.3s ease;
-        }
-
-        .food-card:hover {
-            border-color: #1a1a1a;
-            box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
-        }
-
-        .food-name {
-            font-size: 1.1rem;
-            font-weight: 700;
-            margin-bottom: 0.5rem;
-            letter-spacing: 0.05em;
-        }
-
-        .allergens-grid {
-            display: grid;
-            grid-template-columns: repeat(2, 1fr);
-            gap: 0.8rem;
-            margin-top: 1rem;
-        }
-
-        .allergen-item {
-            font-size: 0.8rem;
-            padding: 0.5rem 0.8rem;
-            border-radius: 3px;
-            display: flex;
-            align-items: center;
-            gap: 0.5rem;
-        }
-
-        .allergen-dot {
-            width: 8px;
-            height: 8px;
-            border-radius: 50%;
-            flex-shrink: 0;
-        }
-
-        .allergen-severe { background-color: #e74c3c; }
-        .allergen-moderate { background-color: #f39c12; }
-        .allergen-mild { background-color: #27ae60; }
-        .allergen-none { background-color: #bdc3c7; }
-
-        .allerguide-cta {
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            color: white;
-            padding: 2rem;
+        /* Footer */
+        footer {
+            background-color: #1a1a1a;
+            color: #ffffff;
+            padding: 3rem 4rem;
+            margin-top: 6rem;
             text-align: center;
-            border-radius: 4px;
-            margin-top: 2rem;
-        }
-
-        .allerguide-cta p {
-            margin-bottom: 1rem;
             font-size: 0.95rem;
-        }
-
-        .allerguide-button {
-            background-color: white;
-            color: #667eea;
-            padding: 0.8rem 1.5rem;
-            border: none;
-            border-radius: 3px;
-            font-weight: 700;
-            cursor: pointer;
-            text-decoration: none;
-            display: inline-block;
-            transition: all 0.3s ease;
             letter-spacing: 0.05em;
         }
 
-        .allerguide-button:hover {
-            background-color: #f0f0f0;
-            transform: translateY(-2px);
+        footer a {
+            color: #ffffff;
+            text-decoration: none;
+            transition: opacity 0.3s ease;
         }
 
-        /* Getting There Section */
-        .getting-there {
-            max-width: 900px;
-            margin: 4rem auto;
-            padding: 4rem 2rem;
-        }
-
-        .locations-grid {
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 2rem 3rem;
-            margin-top: 2rem;
-        }
-
-        .location-item h4 {
-            font-size: 0.9rem;
-            letter-spacing: 0.1em;
-            margin-bottom: 0.8rem;
-        }
-
-        .location-item p {
-            font-size: 0.9rem;
-            color: #555;
-            line-height: 1.6;
+        footer a:hover {
+            opacity: 0.7;
         }
 
         /* Responsive */
-        @media (max-width: 900px) {
-            .section-two-column {
-                grid-template-columns: 1fr;
-                gap: 1.5rem;
+        @media (max-width: 1024px) {
+            main {
+                padding: 3rem 2rem;
             }
 
-            .column-images {
-                grid-template-columns: repeat(2, 1fr);
-                flex-direction: row;
+            header {
+                padding: 1.5rem 2rem;
             }
 
-            .photo-gallery {
-                width: 100%;
-            }
-
-            .essentials-grid {
+            .editorial-content {
                 grid-template-columns: 1fr;
             }
 
-            .locations-grid {
-                grid-template-columns: 1fr;
+            .essentials {
+                position: static;
+                margin-bottom: 2rem;
             }
 
-            .article-title {
+            .editorial-title {
                 font-size: 2rem;
-            }
-
-            .food-cards-container {
-                grid-template-columns: 1fr;
             }
         }
 
         @media (max-width: 768px) {
-            .editorial-content {
+            main {
                 padding: 2rem 1rem;
             }
 
-            .section-two-column {
+            header {
+                padding: 1rem;
+            }
+
+            .header-content {
+                flex-direction: column;
                 gap: 1rem;
             }
 
-            .article-title {
+            .editorial-title {
                 font-size: 1.5rem;
             }
 
-            .allerguide-section {
-                padding: 2rem 1rem;
+            .editorial-subtitle {
+                font-size: 1.1rem;
             }
 
-            .getting-there {
-                padding: 2rem 1rem;
+            .essay {
+                font-size: 0.95rem;
+            }
+
+            nav {
+                gap: 1rem;
+            }
+
+            nav a {
+                font-size: 0.85rem;
             }
         }
     </style>
@@ -351,7 +955,7 @@
     <header id="header">
         <div style="display: flex; justify-content: space-between; align-items: center;">
             <a href="../../../index.html" style="text-decoration: none;">
-                <img src="../../../logo.png" alt="Fotos by Ben" style="height: 30px; width: auto;">
+                <img src="../../../logo.png" alt="Fotos by Ben" style="height: 20px; width: auto;">
             </a>
             <nav style="display: flex; gap: 2rem;">
                 <a href="../../../index.html" style="color: #1a1a1a; text-decoration: none; font-size: 0.9rem; letter-spacing: 0.05em; transition: opacity 0.3s ease;" onmouseover="this.style.opacity='0.6'" onmouseout="this.style.opacity='1'">Gallery</a>
@@ -361,171 +965,294 @@
         </div>
     </header>
 
-    <div class="editorial-content">
-        <div class="series-branding">Notes from the World — Editorial Series</div>
-        <h1 class="article-title">Xining</h1>
-        <p class="article-subtitle">At the crossroads of Hui, Tibetan and Han Chinese cultures, Xining is one of the world's most compelling cultural melting pots</p>
+    <main>
+        <div class="editorial-hero">
+            <div class="series-badge">NOTES FROM THE WORLD — EDITORIAL SERIES</div>
+            <h1 class="editorial-title">Notes from Xining 西宁</h1>
+            <div class="issue-info">Issue 02</div>
+            <p class="editorial-subtitle">At the crossroads of Hui, Tibetan and Han Chinese cultures, where three worlds converge</p>
+        </div>
 
         <section class="editorial-hero">
-            <img src="Skyline.jpg" alt="Xining skyline at dusk">
+            <img src="Skyline.jpg" alt="Xining skyline" class="editorial-cover-img">
         </section>
 
         <section class="essentials-grid">
+            <h3>The Essentials</h3>
             <div class="essential-item">
-                <h3>Location</h3>
-                <p>Capital of Qinghai province, on the Huang He River in northwestern China</p>
+                <div class="essential-label">Region</div>
+                <div class="essential-value">Qinghai Province 青海省</div>
             </div>
             <div class="essential-item">
-                <h3>Population</h3>
-                <p>2.5 million, comprising Hui Muslims, Tibetans, Mongols and Han Chinese</p>
+                <div class="essential-label">Elevation</div>
+                <div class="essential-value">2,261 m (7,418 ft)</div>
             </div>
             <div class="essential-item">
-                <h3>Best Time to Visit</h3>
-                <p>May to September for mild weather and clear mountain views</p>
+                <div class="essential-label">Population</div>
+                <div class="essential-value">~2.5 million</div>
             </div>
             <div class="essential-item">
-                <h3>Getting There</h3>
-                <p>Direct flights from major cities or high-speed rail from Xi'an and Beijing</p>
+                <div class="essential-label">Best Time</div>
+                <div class="essential-value">May–September</div>
+            </div>
+            <div class="essential-item">
+                <div class="essential-label">Language</div>
+                <div class="essential-value">Mandarin, Tibetan, Hui dialect</div>
+            </div>
+            <div class="essential-item">
+                <div class="essential-label">Currency</div>
+                <div class="essential-value">Chinese Yuan (CNY)</div>
+            </div>
+            <div class="essential-item">
+                <div class="essential-label">Daily Budget</div>
+                <div class="essential-value">$25–50 USD</div>
+            </div>
+            <div class="essential-item">
+                <div class="essential-label">Visa</div>
+                <div class="essential-value">30-Day visa free (EU)/China Visa Required (US)</div>
             </div>
         </section>
 
-        <!-- Hui Muslim Culture Section -->
-        <section class="section-two-column">
-            <div class="column-text">
-                <h2 class="section-title">The Hui Crescent</h2>
-                <p>Walking through the Muslim Quarter of Xining, you enter a world defined by crescents, minarets and the call to prayer echoing across brick courtyards. The Hui Muslims have inhabited this region for centuries, creating a distinct culture that blends Islamic faith with Chinese pragmatism. Their mosques are not separated from city life—they pulse at its center.</p>
-                <p>The Dongguan Mosque, one of China's oldest, sits majestically in the heart of the city. Its architecture tells a story of cultural negotiation: traditional Chinese tile work and upturned eaves frame Islamic geometry and Arabic calligraphy. Just blocks away, the newer Nanguan Mosque serves the growing community with contemporary grace. Together, they represent continuity and change within a faith community that has weathered dynasties.</p>
-                <p>Food vendors fill the surrounding streets with the aroma of lamb skewers, hand-pulled noodles, and fried dough. The Hui community has made Xining a culinary crossroads where Islamic dietary traditions meet regional ingredients, creating something entirely unique.</p>
-            </div>
-            <div class="column-images">
-                <div class="photo-gallery">
-                    <img src="Dongguan_Mosque.jpg" alt="Dongguan Mosque with traditional architecture" class="gallery-image">
+        <div class="editorial-content">
+            <article class="essay">
+                <h2>The Hui Crescent: Where Faith Pulses at the City's Heart</h2>
+                <div class="section-two-column">
+                    <div class="column-text">
+                        <p>Walking through the Muslim Quarter of Xining, you enter a world defined by crescents, minarets, and the call to prayer echoing across brick courtyards. The Hui Muslims have inhabited this region for centuries, creating a distinct culture that blends Islamic faith with Chinese pragmatism. Their mosques are not separated from city life—they pulse at its center, refusing to be peripheral.</p>
+
+                        <p>The Dongguan Mosque, one of China's oldest and most significant, sits majestically in the heart of the city. Its architecture tells a story of cultural negotiation: traditional Chinese tile work and upturned eaves frame Islamic geometry and Arabic calligraphy. The main sanctuary displays ornamental density, while the courtyards offer spaces of reflection and community. Just blocks away, the newer Nanguan Mosque serves the growing community with contemporary grace. Together, these two sites represent continuity and change within a faith community that has weathered dynasties.</p>
+
+                        <p>Food vendors fill the surrounding streets with the aroma of lamb skewers, hand-pulled noodles, and fried dough. The Hui community has made Xining a culinary crossroads where Islamic dietary traditions meet regional ingredients, creating something entirely unique to this plateau city.</p>
+                    </div>
+                    <div class="column-images">
+                        <div class="photo-gallery">
+                            <img src="Dongguan_Mosque.jpg" alt="Dongguan Mosque with traditional architecture" class="gallery-image">
+                        </div>
+                        <div class="photo-gallery">
+                            <img src="Nanguan_Mosque.jpg" alt="Nanguan Mosque detailed view" class="gallery-image">
+                        </div>
+                    </div>
                 </div>
-                <div class="photo-gallery">
-                    <img src="Nanguan_Mosque.jpg" alt="Nanguan Mosque detailed view" class="gallery-image">
+
+                <h2>Paths of Devotion: The Sacred Landscape of Tibetan Buddhism</h2>
+                <div class="section-two-column">
+                    <div class="column-text">
+                        <p>An hour's drive from Xining, the Kumbum Monastery stands as one of Tibetan Buddhism's most sacred sites. Built in 1583 on the birthplace of Je Tsongkhapa, the monastery is a labyrinth of golden roofs, prayer wheels, and monks moving between ancient chambers. The scale is overwhelming—thousands of stupas, butter lamps reflecting in the darkness, pilgrims circumambulating with prayer beads in hand. The monastery sprawls across a mountainside, a theological and architectural statement about the depth of spiritual practice.</p>
+
+                        <p>Within the city itself, Nanshan Temple offers a more intimate encounter with Tibetan spiritual practice. Perched on a hillside overlooking Xining, the temple complex draws both devout practitioners and curious travelers. The views from its terraces encompass the entire city—a literal and symbolic vantage point for understanding how Tibetan Buddhism coexists with other faiths and traditions in this remarkable place. Red and gold prayer flags snap in the wind, and the sound of prayers drifts through the mountain air.</p>
+
+                        <p>What strikes visitors most is the openness of these sacred spaces. Pilgrims, monks, tourists and photographers move through these sites with a kind of mutual respect that seems increasingly rare in the modern world. Here, devotion and curiosity are not opposed but intertwined. The monasteries welcome visitors while maintaining their spiritual integrity—a balance that speaks to the Buddhist principle of compassion for all sentient beings.</p>
+                    </div>
+                    <div class="column-images">
+                        <div class="photo-gallery">
+                            <img src="Kumbum_monastery_1.jpg" alt="Kumbum Monastery golden roof" class="gallery-image">
+                        </div>
+                        <div class="photo-gallery">
+                            <img src="Kumbum_monastery_3.jpg" alt="Kumbum Monastery roofscape" class="gallery-image">
+                        </div>
+                        <div class="photo-gallery">
+                            <img src="Kumbum_monastery_5.jpg" alt="Kumbum Monastery courtyard" class="gallery-image">
+                        </div>
+                        <div class="photo-gallery">
+                            <img src="Nanshan_temple_1.jpg" alt="Nanshan Temple architecture" class="gallery-image">
+                        </div>
+                        <div class="photo-gallery">
+                            <img src="Nanshan_Temple_2.jpg" alt="Nanshan Temple overlooking city" class="gallery-image">
+                        </div>
+                    </div>
+                </div>
+
+                <h2>Urban Rhythms: City Life Between Tradition and Modernity</h2>
+                <div class="section-two-column">
+                    <div class="column-text">
+                        <p>The Qinghai Provincial Museum traces the region's complex history through its collections—artifacts from the ancient Silk Road, exhibits on minority cultures, and contemporary photography documenting rapid urban change. It's a place where Xining confronts its own transformation, literally surrounded by building cranes and construction noise. The museum's modern design suggests a city willing to look forward while honoring what came before.</p>
+
+                        <p>Nanshan Park offers respite from the city's intensity. Here, locals exercise, practice tai chi, and simply breathe in the mountain air that defines the Qinghai plateau. Vendors sell roasted chestnuts and dried fruit. Children play while their grandparents watch. It's a scene repeated across urban China, yet in Xining it carries the weight of cultural complexity—different traditions sharing the same public space, finding common ground in the universal human need for fresh air and community.</p>
+                    </div>
+                    <div class="column-images">
+                        <div class="photo-gallery">
+                            <img src="Qinghai_provincial_museum.jpg" alt="Qinghai Provincial Museum" class="gallery-image">
+                        </div>
+                        <div class="photo-gallery">
+                            <img src="Nanshan_Park.jpg" alt="Nanshan Park with city views" class="gallery-image">
+                        </div>
+                    </div>
+                </div>
+
+                <h2>Edge of the Plateau: The Qinghai Landscape Beyond the City</h2>
+                <div class="section-two-column">
+                    <div class="column-text">
+                        <p>Beyond Xining's urban boundaries lies the vast Qinghai plateau—one of Earth's most dramatic landscapes. Qinghai Lake, the country's largest saltwater lake, stretches endlessly under impossibly clear skies. In summer, the surrounding meadows erupt with wildflowers. In winter, the lake's surface turns to ice, and the few visitors who venture this far must confront the plateau's raw indifference to human comfort. The scale of the landscape dominates consciousness; cities seem small not insignificant, but properly scaled to their place in a vast world.</p>
+
+                        <p>The Tibetan edge—regions where Han Chinese presence diminishes and traditional Tibetan culture reasserts itself—represents a geographical and cultural boundary. Here, prayer flags replace street signs, yaks graze where cars would go in the cities. It's a reminder that Xining, for all its cosmopolitan complexity, is ultimately an outpost of Chinese civilization, surrounded by vast territories where other worlds persist. Walking these regions, you feel the gradation of culture, the way traditions shift as geography changes.</p>
+                    </div>
+                    <div class="column-images">
+                        <div class="photo-gallery">
+                            <img src="Qinghai_lake.jpg" alt="Qinghai Lake vast landscape" class="gallery-image">
+                        </div>
+                        <div class="photo-gallery">
+                            <img src="Tibetan_edge_1.jpg" alt="Tibetan region grasslands" class="gallery-image">
+                        </div>
+                        <div class="photo-gallery">
+                            <img src="Tibetan_edge_2.jpg" alt="Tibetan plateau landscape" class="gallery-image">
+                        </div>
+                    </div>
+                </div>
+            </article>
+        </div>
+
+        <section class="food-section">
+            <h3>Food & Allergens</h3>
+            <div class="food-intro">
+                <p>Qinghai cuisine emerges from the convergence of three culinary traditions: Hui Muslim, Tibetan, and Han Chinese. Yak butter, spicy noodles, hand-pulled dough, and slow-cooked lamb define the regional palate. If you have food allergies or dietary restrictions, the AllerGuide app helps you navigate every dish safely.</p>
+            </div>
+
+            <div class="allerguide-cards" id="allerguide-container">
+                <!-- AllerGuide cards will be loaded here -->
+                <div style="grid-column: 1 / -1; text-align: center; color: #999; padding: 2rem;">
+                    Loading Qinghai dishes from AllerGuide...
+                </div>
+            </div>
+
+            <div class="allerguide-link">
+                <p>For a complete, detailed guide to allergens and dietary accommodations across the world, download the <strong>AllerGuide app</strong>. It integrates restaurant data, dish information, and real-time allergy management tools.</p>
+                <a id="allerguide-btn" href="https://allerguide.app" class="allerguide-cta" target="_blank">Download AllerGuide</a>
+            </div>
+        </section>
+
+        <section class="getting-there-section">
+            <h3>Getting There</h3>
+            <div class="getting-there-content">
+                <div class="getting-there-text">
+                    <p>Xining Caotang Airport (XIY) serves the city with connections to major Chinese hubs including Beijing, Shanghai, Chengdu, and Xi'an. The airport lies about 25 kilometers east of downtown, roughly 40 minutes by taxi or airport shuttle. The approach offers dramatic views of the Qinghai plateau as you descend.</p>
+
+                    <p>The high-speed rail network provides a compelling alternative for those traveling within China. Direct service connects Xining to Xi'an (about 8 hours), Beijing (approximately 12 hours), and other regional centers. The railway experience itself—moving through changing landscapes from central plains to plateau transitions—offers its own value. You watch China's geography transform through the window.</p>
+
+                    <p>From downtown, navigation is straightforward: the Muslim Quarter clusters near central mosques, while Nanshan Temple sits on the eastern hills. Parks and museums distribute across the city but all remain within reasonable taxi distance. Once you understand the core districts, Xining reveals itself as surprisingly walkable and accessible to travelers willing to navigate without English signage.</p>
+                </div>
+                <div class="getting-there-image">
+                    <!-- Placeholder for transit image if you have one -->
                 </div>
             </div>
         </section>
 
-        <!-- Tibetan Culture Section -->
-        <section class="section-two-column">
-            <div class="column-text">
-                <h2 class="section-title">Paths of Devotion</h2>
-                <p>An hour's drive from Xining, the Kumbum Monastery stands as one of Tibetan Buddhism's most sacred sites. Built in 1583 on the birthplace of Je Tsongkhapa, the monastery is a labyrinth of golden roofs, prayer wheels, and monks moving between ancient chambers. The scale is overwhelming—thousands of stupas, butter lamps reflecting in the darkness, pilgrims circumambulating with prayer beads in hand.</p>
-                <p>Within the city itself, Nanshan Temple offers a more intimate encounter with Tibetan spiritual practice. Perched on a hillside overlooking Xining, the temple complex draws both devout practitioners and curious travelers. The views from its terraces encompass the entire city—a literal and symbolic vantage point for understanding how Tibetan Buddhism coexists with other faiths and traditions in this remarkable place.</p>
-                <p>What strikes visitors most is the openness of these sacred spaces. Pilgrims, monks, tourists and photographers move through these sites with a kind of mutual respect that seems increasingly rare in the modern world. Here, devotion and curiosity are not opposed but intertwined.</p>
-            </div>
-            <div class="column-images">
-                <div class="photo-gallery">
-                    <img src="Kumbum_monastery_1.jpg" alt="Kumbum Monastery golden roof detail" class="gallery-image">
+        <section class="locations-section">
+            <h3>Key Locations</h3>
+            <div class="locations-grid">
+                <div class="location-item">
+                    <div class="location-name">Dongguan Mosque</div>
+                    <div class="location-type">Religious Site</div>
+                    <div class="location-description">Central Muslim Quarter. One of China's oldest and most significant mosques. Traditional Chinese architecture frames Islamic spiritual space. Active community center, not a museum.</div>
                 </div>
-                <div class="photo-gallery">
-                    <img src="Kumbum_monastery_3.jpg" alt="Kumbum Monastery roofscape" class="gallery-image">
-                </div>
-                <div class="photo-gallery">
-                    <img src="Kumbum_monastery_5.jpg" alt="Kumbum Monastery interior courtyard" class="gallery-image">
-                </div>
-                <div class="photo-gallery">
-                    <img src="Nanshan_temple_1.jpg" alt="Nanshan Temple architecture" class="gallery-image">
-                </div>
-                <div class="photo-gallery">
-                    <img src="Nanshan_Temple_2.jpg" alt="Nanshan Temple overlooking city" class="gallery-image">
-                </div>
-            </div>
-        </section>
 
-        <!-- City Life Section -->
-        <section class="section-two-column">
-            <div class="column-text">
-                <h2 class="section-title">Urban Rhythms</h2>
-                <p>The Qinghai Provincial Museum traces the region's complex history through its collections—artifacts from the ancient Silk Road, exhibits on minority cultures, and contemporary photography documenting rapid urban change. It's a place where Xining confronts its own transformation, literally surrounded by building cranes and construction noise.</p>
-                <p>Nanshan Park offers respite from the city's intensity. Here, locals exercise, practice tai chi, and simply breathe in the mountain air that defines the Qinghai plateau. Vendors sell roasted chestnuts and dried fruit. Children play while their grandparents watch. It's a scene repeated across urban China, yet in Xining it carries the weight of cultural complexity—different traditions sharing the same public space, finding common ground in the universal human need for fresh air and community.</p>
-            </div>
-            <div class="column-images">
-                <div class="photo-gallery">
-                    <img src="Qinghai_provincial_museum.jpg" alt="Qinghai Provincial Museum exterior" class="gallery-image">
+                <div class="location-item">
+                    <div class="location-name">Nanguan Mosque</div>
+                    <div class="location-type">Religious Site</div>
+                    <div class="location-description">Muslim Quarter. Contemporary mosque serving growing community. Represents continuity and change within Hui Muslim tradition. Newer structure reflects modern Xining.</div>
                 </div>
-                <div class="photo-gallery">
-                    <img src="Nanshan_Park.jpg" alt="Nanshan Park with city views" class="gallery-image">
-                </div>
-            </div>
-        </section>
 
-        <!-- Qinghai Province Surroundings Section -->
-        <section class="section-two-column">
-            <div class="column-text">
-                <h2 class="section-title">Edge of the Plateau</h2>
-                <p>Beyond Xining's urban boundaries lies the vast Qinghai plateau—one of Earth's most dramatic landscapes. Qinghai Lake, the country's largest saltwater lake, stretches endlessly under impossibly clear skies. In summer, the surrounding meadows erupt with wildflowers. In winter, the lake's surface turns to ice, and the few visitors who venture this far must confront the plateau's raw indifference to human comfort.</p>
-                <p>The Tibetan edge—regions where Han Chinese presence diminishes and traditional Tibetan culture reasserts itself—represents a geographical and cultural boundary. Here, prayer flags replace street signs, yaks graze where cars would go in the cities. It's a reminder that Xining, for all its cosmopolitan complexity, is ultimately an outpost of Chinese civilization, surrounded by vast territories where other worlds persist.</p>
-            </div>
-            <div class="column-images">
-                <div class="photo-gallery">
-                    <img src="Qinghai_lake.jpg" alt="Qinghai Lake vast landscape" class="gallery-image">
+                <div class="location-item">
+                    <div class="location-name">Kumbum Monastery</div>
+                    <div class="location-type">Sacred Site</div>
+                    <div class="location-description">One hour from city. One of Tibetan Buddhism's most sacred sites, built 1583 on birthplace of Je Tsongkhapa. Sprawling complex with thousands of stupas, prayer wheels, active monks. Pilgrimage destination.</div>
                 </div>
-                <div class="photo-gallery">
-                    <img src="Tibetan_edge_1.jpg" alt="Tibetan region grasslands" class="gallery-image">
+
+                <div class="location-item">
+                    <div class="location-name">Nanshan Temple</div>
+                    <div class="location-type">Religious Site</div>
+                    <div class="location-description">Eastern hillside overlooking city. Tibetan Buddhist temple complex offering intimate spiritual practice. Prayer flags, meditation spaces, city views. Active worship site open to respectful visitors.</div>
                 </div>
-                <div class="photo-gallery">
-                    <img src="Tibetan_edge_2.jpg" alt="Tibetan plateau landscape" class="gallery-image">
+
+                <div class="location-item">
+                    <div class="location-name">Qinghai Provincial Museum</div>
+                    <div class="location-type">Museum</div>
+                    <div class="location-description">Contemporary architecture. Regional history, Silk Road artifacts, minority culture exhibits. Minimalist design reflecting Xining's forward-looking approach to heritage preservation.</div>
+                </div>
+
+                <div class="location-item">
+                    <div class="location-name">Nanshan Park</div>
+                    <div class="location-type">Recreation</div>
+                    <div class="location-description">Eastern hills with city views. Local gathering space for exercise, rest, community. Vendors, benches, walking paths. Shows how Xining's diverse communities share public space.</div>
+                </div>
+
+                <div class="location-item">
+                    <div class="location-name">Qinghai Lake</div>
+                    <div class="location-type">Nature</div>
+                    <div class="location-description">China's largest saltwater lake. Hour from city. Vast landscape with seasonal transformations: wildflowers in summer, ice in winter. Scale defines Xining's relationship to surrounding geography.</div>
+                </div>
+
+                <div class="location-item">
+                    <div class="location-name">Tibetan Edge</div>
+                    <div class="location-type">Landscape</div>
+                    <div class="location-description">Regions beyond city where Tibetan culture reasserts itself. Prayer flags, yak herds, traditional settlements. Demonstrates cultural gradation as geography shifts from Han to Tibetan domains.</div>
                 </div>
             </div>
         </section>
+    </main>
+
+    <footer>
+        <p>Notes from Xining — A series by <a href="../../../about.html">Ben Colella</a></p>
+        <p style="margin-top: 1rem; font-size: 0.85rem; color: #999;">Photography and essays documenting architecture, food, urban life, and landscape.</p>
+    </footer>
+
+    <!-- Dish Detail Modal -->
+    <div class="dish-modal" id="dishModal">
+        <button class="modal-close-btn" id="modalCloseBtn">×</button>
+        <div class="dish-modal-content">
+            <img id="modalDishImage" src="" alt="" class="dish-modal-image">
+            <div class="dish-modal-body">
+                <div class="modal-dish-name" id="modalDishName"></div>
+                <div class="modal-dish-native" id="modalDishNative"></div>
+                <div class="modal-tags" id="modalTags"></div>
+                <div id="modalSafeBanner" class="safe-banner" style="display: none;">
+                    Safe based on your allergen profile
+                </div>
+                <div class="modal-description" id="modalDescription"></div>
+                <div class="allergen-section-title">Allergen Information</div>
+                <div class="modal-allergen-grid" id="modalAllergenGrid"></div>
+            </div>
+        </div>
     </div>
 
-    <!-- Allerguide Section -->
-    <section class="allerguide-section">
-        <h2 class="section-header">Flavors of Qinghai</h2>
-        <p style="margin-bottom: 2rem; color: #666;">Explore the distinctive cuisine of Xining and Qinghai province—where Hui, Tibetan and Han traditions converge in remarkable dishes.</p>
-
-        <div class="food-cards-container" id="food-cards"></div>
-
-        <div class="allerguide-cta">
-            <p>Use AllerGuide to track your personal allergen profile and discover which dishes are safe for you.</p>
-            <button class="allerguide-button" id="allerguide-btn">Download AllerGuide</button>
-        </div>
-    </section>
-
-    <!-- Getting There Section -->
-    <section class="getting-there">
-        <h2 class="section-header">Getting There</h2>
-
-        <div class="locations-grid">
-            <div class="location-item">
-                <h4>Xining Caotang Airport</h4>
-                <p>Served by major carriers with connections to Beijing, Shanghai, Chengdu and other hub cities. Modern terminal with English signage.</p>
-            </div>
-            <div class="location-item">
-                <h4>High-Speed Rail</h4>
-                <p>Direct service to Xi'an (3 hours) and Beijing (11 hours). The railway approach offers stunning views of the Qinghai landscape.</p>
-            </div>
-            <div class="location-item">
-                <h4>Public Transportation</h4>
-                <p>Extensive bus network connects the city. Taxis and ride-sharing apps work reliably. Hotels can arrange drivers for longer journeys.</p>
-            </div>
-            <div class="location-item">
-                <h4>Best Base</h4>
-                <p>Stay in the city center near People's Square for access to both Muslim Quarter and modern Xining, or on Nanshan for mountain proximity.</p>
-            </div>
-        </div>
-    </section>
-
     <script>
-        // Supabase configuration
+        // Supabase Configuration
         const SUPABASE_URL = 'https://sueqfqewflletzhdesyd.supabase.co';
         const SUPABASE_KEY = 'sb_publishable_6k1xtJLke9LVRAdVuSVaQg_atzcTVKg';
 
-        // Allergen severity levels and colors
-        const allergenSeverity = {
-            'Severe': 'allergen-severe',
-            'Moderate': 'allergen-moderate',
-            'Mild': 'allergen-mild',
-            'None': 'allergen-none'
+        // Allergen metadata with icons and severity levels
+        const allergenMetadata = {
+            Sesame: { icon: '芝', severity: 'severe' },
+            Treenuts: { icon: '🌰', severity: 'severe' },
+            Peanuts: { icon: '🥜', severity: 'severe' },
+            Gluten: { icon: '🌾', severity: 'severe' },
+            Crustaceans: { icon: '🦐', severity: 'severe' },
+            Molluscs: { icon: '🦪', severity: 'severe' },
+            Fish: { icon: '🐟', severity: 'severe' },
+            Eggs: { icon: '🥚', severity: 'severe' },
+            Dairy: { icon: '🥛', severity: 'severe' },
+            Soybeans: { icon: '豆', severity: 'moderate' },
+            Mustard: { icon: '芥', severity: 'moderate' },
+            Celery: { icon: '🥬', severity: 'moderate' },
+            Buckwheat: { icon: '蕎', severity: 'moderate' },
+            Sulfites: { icon: '亜', severity: 'moderate' },
+            Lupin: { icon: '🌿', severity: 'moderate' },
+            Peas: { icon: '豌', severity: 'mild' },
+            Lentils: { icon: '렌', severity: 'mild' },
+            Apples: { icon: '🍎', severity: 'mild' },
+            Bananas: { icon: '🍌', severity: 'mild' },
+            Kiwi: { icon: '🥝', severity: 'mild' },
+            Oranges: { icon: '🍊', severity: 'mild' },
+            'Beehive Products': { icon: '🍯', severity: 'mild' },
+            Cilantro: { icon: '🌿', severity: 'mild' },
+            Pork: { icon: '🥓', severity: 'mild' }
         };
 
-        async function fetchFoodData() {
+        async function fetchQinghaiDishes() {
+            const container = document.getElementById('allerguide-container');
+
             try {
                 const response = await fetch(
-                    `${SUPABASE_URL}/rest/v1/dishes?region=eq.Qinghai&select=*`,
+                    `${SUPABASE_URL}/rest/v1/dishes?Region=eq.Qinghai&select=*`,
                     {
                         headers: {
                             'apikey': SUPABASE_KEY,
@@ -534,60 +1261,185 @@
                     }
                 );
 
-                if (!response.ok) throw new Error('Failed to fetch dishes');
+                if (!response.ok) {
+                    throw new Error(`HTTP error! status: ${response.status}`);
+                }
 
                 const dishes = await response.json();
-                renderFoodCards(dishes);
+
+                if (!dishes || dishes.length === 0) {
+                    container.innerHTML = '<div class="cards-loading">No dishes found for Qinghai. Check back soon!</div>';
+                    return;
+                }
+
+                // Clear loading state
+                container.innerHTML = '';
+
+                // Render each dish card
+                dishes.forEach(dish => {
+                    const card = createDishCard(dish);
+                    container.appendChild(card);
+                });
+
             } catch (error) {
-                console.error('Error fetching food data:', error);
-                document.getElementById('food-cards').innerHTML = '<p style="color: #666;">Unable to load food data at this time.</p>';
+                console.error('Error fetching dishes:', error);
+                container.innerHTML = `<div class="cards-loading">Error loading dishes: ${error.message}</div>`;
             }
         }
 
-        function renderFoodCards(dishes) {
-            const container = document.getElementById('food-cards');
-            container.innerHTML = '';
+        function createDishCard(dish) {
+            const card = document.createElement('div');
+            card.className = 'allerguide-card';
 
-            dishes.slice(0, 6).forEach(dish => {
-                const card = document.createElement('div');
-                card.className = 'food-card';
+            // Check if dish is safe (no allergens present)
+            const isSafe = !hasAnyAllergens(dish);
 
-                const allergens = dish.allergens ? JSON.parse(dish.allergens) : {};
-                const allergensList = Object.entries(allergens).map(([name, severity]) => ({
-                    name,
-                    severity: severity || 'None',
-                    class: allergenSeverity[severity] || 'allergen-none'
-                }));
+            // Create card HTML
+            card.innerHTML = `
+                <div style="position: relative;">
+                    ${dish.image_url ? `<img src="${dish.image_url}" alt="${dish.name}" class="card-image">` : '<div class="card-image-placeholder">🍽️</div>'}
+                    ${isSafe ? '<div class="card-safe-badge">✓</div>' : ''}
+                </div>
+                <div class="card-content">
+                    <div class="dish-name">${dish.name}</div>
+                    ${dish.native_name ? `<div class="dish-native-name">${dish.native_name}</div>` : ''}
+                    <div class="dish-region">🇨🇳 ${dish.country}</div>
+                </div>
+            `;
 
-                const allergensHTML = allergensList
-                    .slice(0, 12)
-                    .map(allergen => `
-                        <div class="allergen-item">
-                            <span class="allergen-dot ${allergen.class}"></span>
-                            <span style="font-size: 0.75rem;">${allergen.name.substring(0, 12)}</span>
-                        </div>
-                    `).join('');
-
-                card.innerHTML = `
-                    <div class="food-name">${dish.name}</div>
-                    <p style="font-size: 0.85rem; color: #666; margin-bottom: 0.5rem;">${dish.description || ''}</p>
-                    <div class="allergens-grid">
-                        ${allergensHTML}
-                    </div>
-                `;
-
-                container.appendChild(card);
+            // Add click handler to show details in modal
+            card.addEventListener('click', () => {
+                openDishModal(dish);
             });
+
+            return card;
         }
 
-        // Handle AllerGuide button click
-        document.getElementById('allerguide-btn').addEventListener('click', () => {
-            const userAgent = window.navigator.userAgent;
-            if (userAgent.includes('iPhone')) {
-                window.location.href = 'https://apps.apple.com/app/allerguide/id1234567890';
-            } else {
-                window.location.href = 'https://allerguide.app';
+        function openDishModal(dish) {
+            const modal = document.getElementById('dishModal');
+            const isSafe = !hasAnyAllergens(dish);
+
+            // Populate modal
+            document.getElementById('modalDishName').textContent = dish.name;
+            document.getElementById('modalDishNative').textContent = dish.native_name || '';
+            document.getElementById('modalDescription').textContent = dish.description || 'No description available.';
+
+            // Populate tags
+            const tagsContainer = document.getElementById('modalTags');
+            tagsContainer.innerHTML = '';
+            if (dish.country) {
+                const tag = document.createElement('div');
+                tag.className = 'modal-tag';
+                tag.textContent = `🇨🇳 ${dish.country}`;
+                tagsContainer.appendChild(tag);
             }
+            if (dish.category) {
+                const tag = document.createElement('div');
+                tag.className = 'modal-tag';
+                tag.textContent = dish.category;
+                tagsContainer.appendChild(tag);
+            }
+
+            // Hide safe banner
+            const safeBanner = document.getElementById('modalSafeBanner');
+            safeBanner.style.display = 'none';
+
+            // Set image
+            const modalImage = document.getElementById('modalDishImage');
+            modalImage.src = dish.image_url || '';
+            modalImage.alt = dish.name;
+
+            // Populate allergen grid
+            const allergenGrid = document.getElementById('modalAllergenGrid');
+            allergenGrid.innerHTML = '';
+
+            const allergenFields = ['Sesame', 'Treenuts', 'Peanuts', 'Gluten', 'Crustaceans',
+                                   'Molluscs', 'Fish', 'Eggs', 'Dairy', 'Soybeans', 'Mustard',
+                                   'Celery', 'Buckwheat', 'Sulfites', 'Lupin', 'Peas', 'Lentils',
+                                   'Apples', 'Bananas', 'Kiwi', 'Oranges', 'Beehive Products', 'Cilantro', 'Pork'];
+
+            allergenFields.forEach(allergen => {
+                const isPresent = dish[allergen] === true;
+                const metadata = allergenMetadata[allergen] || { icon: '⚠️', severity: 'severe' };
+
+                const item = document.createElement('div');
+                item.className = `modal-allergen-item ${isPresent ? metadata.severity : 'not-present'}`;
+
+                if (isPresent) {
+                    item.innerHTML = `
+                        <div class="modal-allergen-icon">
+                            ${metadata.icon}
+                        </div>
+                        <div class="modal-allergen-label ${metadata.severity}">${allergen}</div>
+                    `;
+                } else {
+                    item.innerHTML = `
+                        <div class="modal-allergen-icon">
+                            ${metadata.icon}
+                        </div>
+                        <div class="modal-allergen-label">${allergen}</div>
+                    `;
+                }
+
+                allergenGrid.appendChild(item);
+            });
+
+            // Show modal
+            modal.classList.add('active');
+            document.body.style.overflow = 'hidden';
+        }
+
+        function closeDishModal() {
+            const modal = document.getElementById('dishModal');
+            modal.classList.remove('active');
+            document.body.style.overflow = 'auto';
+        }
+
+        function hasAnyAllergens(dish) {
+            const allergenFields = ['Sesame', 'Treenuts', 'Peanuts', 'Gluten', 'Crustaceans',
+                                   'Molluscs', 'Fish', 'Eggs', 'Dairy', 'Soybeans', 'Mustard',
+                                   'Celery', 'Buckwheat', 'Sulfites', 'Lupin', 'Peas', 'Lentils',
+                                   'Apples', 'Bananas', 'Kiwi', 'Oranges', 'Beehive Products', 'Cilantro', 'Pork'];
+            return allergenFields.some(field => dish[field] === true);
+        }
+
+        // Modal close handlers
+        document.getElementById('modalCloseBtn').addEventListener('click', closeDishModal);
+
+        document.getElementById('dishModal').addEventListener('click', (e) => {
+            if (e.target.id === 'dishModal') {
+                closeDishModal();
+            }
+        });
+
+        // Close modal on Escape key
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'Escape') {
+                const modal = document.getElementById('dishModal');
+                if (modal.classList.contains('active')) {
+                    closeDishModal();
+                }
+            }
+        });
+
+        // Detect iPhone and set AllerGuide link
+        function setAllerGuideLinkForDevice() {
+            const allerguideBtn = document.getElementById('allerguide-btn');
+            const isIPhone = /iPhone|iPad|iPod/.test(navigator.userAgent);
+
+            if (isIPhone) {
+                allerguideBtn.href = 'https://apps.apple.com/app/allerguide/id1234567890';
+                allerguideBtn.target = '_blank';
+            } else {
+                allerguideBtn.href = 'https://allerguide.app';
+                allerguideBtn.target = '_blank';
+            }
+        }
+
+        // Set AllerGuide link when page loads
+        document.addEventListener('DOMContentLoaded', () => {
+            setAllerGuideLinkForDevice();
+            fetchQinghaiDishes();
         });
 
         // Header scroll effect
@@ -600,11 +1452,6 @@
                 header.classList.remove('scrolled');
             }
             lastScrollTop = window.scrollY;
-        });
-
-        // Load food data on page load
-        window.addEventListener('DOMContentLoaded', () => {
-            fetchFoodData();
         });
     </script>
 </body>

@@ -4,51 +4,1245 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Notes from Chengdu — Editorial</title>
-    <style>@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap');*{margin:0;padding:0;box-sizing:border-box;}html,body{width:100%;}body{font-family:'Space Mono',monospace;background-color:#fafafa;color:#1a1a1a;line-height:1.7;zoom:75%;}h1,h2,h3,h4,h5,h6{font-family:'Space Mono',monospace;font-weight:700;letter-spacing:0.05em;text-transform:uppercase;margin-bottom:1rem;}header{position:fixed;top:0;left:0;right:0;padding:2rem 4rem;background:rgba(255,255,255,0.98);z-index:100;border-bottom:1px solid #e0e0e0;transition:all 0.3s ease;}header.scrolled{padding:1rem 4rem;box-shadow:0 2px 12px rgba(0,0,0,0.08);}.header-content{display:flex;justify-content:space-between;align-items:center;max-width:1600px;margin:0 auto;}.logo{font-size:0.9rem;letter-spacing:0.08em;text-decoration:none;color:#1a1a1a;transition:opacity 0.3s ease;}.logo:hover{opacity:0.6;}nav{display:flex;gap:2rem;}nav a{color:#1a1a1a;text-decoration:none;font-size:0.9rem;letter-spacing:0.05em;transition:opacity 0.3s ease;}nav a:hover{opacity:0.6;}body{padding-top:80px;}main{max-width:900px;margin:0 auto;padding:4rem 2rem;}.editorial-hero{margin-bottom:4rem;text-align:center;}.series-badge{font-size:0.75rem;letter-spacing:0.15em;color:#666;margin-bottom:1rem;}.editorial-title{font-size:2.5rem;margin-bottom:0.5rem;letter-spacing:0.08em;}.issue-info{font-size:1rem;letter-spacing:0.08em;color:#666;margin-bottom:1.5rem;}.editorial-subtitle{font-size:1.3rem;color:#333;font-weight:400;letter-spacing:0.02em;margin-bottom:2rem;line-height:1.5;}.editorial-cover-img{width:100%;height:auto;max-height:60vh;object-fit:cover;margin-bottom:3rem;border:1px solid #e0e0e0;}.editorial-content{display:grid;grid-template-columns:2fr 1fr;gap:3rem;margin-bottom:4rem;}.essay{line-height:1.8;font-size:1rem;}.essay p{margin-bottom:1.5rem;}.essentials{background-color:#f5f5f5;padding:2rem;border:1px solid #e0e0e0;height:fit-content;position:sticky;top:120px;}.essentials h3{font-size:0.9rem;margin-bottom:1.5rem;}.essential-item{margin-bottom:1.5rem;font-size:0.9rem;}.essential-label{font-weight:700;letter-spacing:0.05em;margin-bottom:0.3rem;font-size:0.8rem;text-transform:uppercase;}.essential-value{color:#333;line-height:1.6;}.pdf-viewer{background-color:#f0f0f0;border:1px solid #e0e0e0;padding:2rem;text-align:center;margin:3rem 0;min-height:600px;display:flex;align-items:center;justify-content:center;flex-direction:column;gap:1rem;}.pdf-viewer p{color:#666;font-size:0.95rem;}.pdf-download-btn{display:inline-block;padding:0.8rem 2rem;background-color:#1a1a1a;color:white;text-decoration:none;border:none;cursor:pointer;letter-spacing:0.05em;font-size:0.9rem;transition:all 0.3s ease;font-family:'Space Mono',monospace;}.pdf-download-btn:hover{opacity:0.8;transform:translateY(-2px);}.editorial-nav{display:grid;grid-template-columns:1fr 1fr;gap:2rem;margin:4rem 0;border-top:1px solid #e0e0e0;border-bottom:1px solid #e0e0e0;padding:2rem 0;}.nav-item{text-decoration:none;color:#1a1a1a;display:block;transition:all 0.3s ease;}.nav-item:hover{opacity:0.6;}.nav-label{font-size:0.8rem;letter-spacing:0.1em;color:#999;margin-bottom:0.5rem;text-transform:uppercase;}.nav-title{font-size:1.1rem;letter-spacing:0.05em;}.nav-item.prev{text-align:left;}.nav-item.next{text-align:right;}.nav-item.disabled{opacity:0.3;pointer-events:none;cursor:not-allowed;}footer{background-color:#1a1a1a;color:#ffffff;padding:3rem 4rem;margin-top:6rem;text-align:center;font-size:0.95rem;letter-spacing:0.05em;}footer a{color:#ffffff;text-decoration:none;transition:opacity 0.3s ease;}footer a:hover{opacity:0.7;}@media(max-width:1024px){main{padding:3rem 2rem;}header{padding:1.5rem 2rem;}.editorial-content{grid-template-columns:1fr;}.essentials{position:static;margin-bottom:2rem;}.editorial-title{font-size:2rem;}}@media(max-width:768px){main{padding:2rem 1rem;}header{padding:1rem;}.header-content{flex-direction:column;gap:1rem;}.editorial-title{font-size:1.5rem;}.editorial-subtitle{font-size:1.1rem;}.essay{font-size:0.95rem;}.editorial-nav{grid-template-columns:1fr;}nav{gap:1rem;}nav a{font-size:0.85rem;}}</style>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html, body {
+            width: 100%;
+        }
+
+        body {
+            font-family: 'Reross Quadratic', 'Space Mono', monospace;
+            background-color: #fafafa;
+            color: #1a1a1a;
+            line-height: 1.7;
+        }
+
+        h1, h2, h3, h4, h5, h6 {
+            font-family: 'Plakato Inline Pro', 'Space Mono', monospace;
+            font-weight: 700;
+            letter-spacing: 0.05em;
+            text-transform: uppercase;
+            margin-bottom: 1rem;
+        }
+
+        /* Header */
+        header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            padding: 1rem 2rem;
+            background: rgba(255, 255, 255, 0.98);
+            z-index: 100;
+            border-bottom: 1px solid #e0e0e0;
+            transition: all 0.3s ease;
+        }
+
+        header.scrolled {
+            padding: 0.75rem 2rem;
+            box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+        }
+
+        body {
+            padding-top: 80px;
+        }
+
+        /* Main Container */
+        main {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 4rem 2rem;
+        }
+
+        /* Hero Section */
+        .editorial-hero {
+            margin-bottom: 4rem;
+            text-align: center;
+        }
+
+        .series-badge {
+            font-size: 0.75rem;
+            letter-spacing: 0.15em;
+            color: #666;
+            margin-bottom: 1rem;
+        }
+
+        .editorial-title {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+            letter-spacing: 0.08em;
+        }
+
+        .issue-info {
+            font-size: 1rem;
+            letter-spacing: 0.08em;
+            color: #666;
+            margin-bottom: 1.5rem;
+        }
+
+        .editorial-subtitle {
+            font-size: 1.3rem;
+            color: #333;
+            font-weight: 400;
+            letter-spacing: 0.02em;
+            margin-bottom: 2rem;
+            line-height: 1.5;
+        }
+
+        .editorial-cover-img {
+            width: 100%;
+            height: auto;
+            margin-bottom: 3rem;
+            border: 1px solid #e0e0e0;
+        }
+
+        /* Essentials Grid Section */
+        .essentials-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 2rem 3rem;
+            margin-bottom: 4rem;
+            padding: 2rem 0;
+            border-top: 1px solid #e0e0e0;
+            border-bottom: 1px solid #e0e0e0;
+        }
+
+        .essentials-grid h3 {
+            grid-column: 1 / -1;
+            margin-bottom: 1rem;
+            font-size: 1.1rem;
+        }
+
+        .essentials-grid .essential-item {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .essential-label {
+            font-weight: 700;
+            letter-spacing: 0.05em;
+            margin-bottom: 0.3rem;
+            font-size: 0.8rem;
+            text-transform: uppercase;
+        }
+
+        .essential-value {
+            color: #333;
+            line-height: 1.6;
+        }
+
+        /* Editorial Content */
+        .editorial-content {
+            display: block;
+            margin-bottom: 4rem;
+            flex: 1;
+        }
+
+        .essay {
+            line-height: 1.8;
+            font-size: 1rem;
+        }
+
+        .essay p {
+            margin-bottom: 1.5rem;
+        }
+
+        .essay h2 {
+            font-size: 1.4rem;
+            margin-top: 2.5rem;
+            margin-bottom: 1rem;
+            letter-spacing: 0.08em;
+        }
+
+        .essay h2:first-child {
+            margin-top: 0;
+        }
+
+        /* Food Section - AllerGuide Style */
+        .food-section {
+            max-width: 900px;
+            margin: 4rem auto;
+            padding: 4rem 2rem;
+        }
+
+        .food-section h3 {
+            font-size: 1.2rem;
+            margin-bottom: 2rem;
+            letter-spacing: 0.08em;
+        }
+
+        .food-intro {
+            font-size: 1rem;
+            line-height: 1.8;
+            margin-bottom: 2rem;
+            max-width: 700px;
+        }
+
+        .allerguide-cards {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+            gap: 1rem;
+            margin-bottom: 3rem;
+        }
+
+        .allerguide-card {
+            background-color: white;
+            border: 1px solid #e0e0e0;
+            border-radius: 12px;
+            overflow: hidden;
+            transition: all 0.3s ease;
+            cursor: pointer;
+            position: relative;
+        }
+
+        .allerguide-card:hover {
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            transform: translateY(-2px);
+        }
+
+        .card-image {
+            width: 100%;
+            height: 140px;
+            background-color: #f5f5f5;
+            object-fit: cover;
+            display: block;
+        }
+
+        .card-image-placeholder {
+            width: 100%;
+            height: 140px;
+            background-color: #f5f5f5;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #ccc;
+            font-size: 2rem;
+        }
+
+        .card-safe-badge {
+            position: absolute;
+            top: 8px;
+            right: 8px;
+            width: 28px;
+            height: 28px;
+            background-color: #2d9f7d;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 16px;
+            font-weight: bold;
+        }
+
+        .card-content {
+            padding: 12px;
+        }
+
+        .dish-name {
+            font-size: 0.95rem;
+            font-weight: 600;
+            margin-bottom: 4px;
+            line-height: 1.3;
+            color: #1a1a1a;
+        }
+
+        .dish-native-name {
+            font-size: 0.8rem;
+            color: #666;
+            margin-bottom: 6px;
+        }
+
+        .dish-region {
+            font-size: 0.75rem;
+            color: #999;
+            display: flex;
+            align-items: center;
+            gap: 4px;
+        }
+
+        /* Loading State */
+        .cards-loading {
+            grid-column: 1 / -1;
+            text-align: center;
+            padding: 2rem;
+            color: #999;
+        }
+
+        .allerguide-link {
+            margin-top: 3rem;
+            padding: 2rem;
+            background: linear-gradient(135deg, #e8f5e9 0%, #f0f4f8 100%);
+            border-left: 4px solid #2d9f7d;
+            border-radius: 8px;
+            text-align: center;
+        }
+
+        .allerguide-link p {
+            margin-bottom: 1rem;
+            font-size: 0.95rem;
+            line-height: 1.6;
+            color: #333;
+        }
+
+        .allerguide-cta {
+            display: inline-block;
+            padding: 0.9rem 2rem;
+            background-color: #2d9f7d;
+            color: white;
+            text-decoration: none;
+            font-size: 0.9rem;
+            letter-spacing: 0.05em;
+            border-radius: 8px;
+            font-weight: 600;
+            transition: all 0.3s ease;
+        }
+
+        .allerguide-cta:hover {
+            background-color: #258966;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(45, 159, 125, 0.2);
+        }
+
+        /* Dish Detail Modal */
+        .dish-modal {
+            display: none;
+            position: fixed;
+            z-index: 1000;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5);
+            overflow-y: auto;
+        }
+
+        .dish-modal.active {
+            display: flex;
+            align-items: flex-start;
+            justify-content: center;
+            padding-top: 20px;
+        }
+
+        .dish-modal-content {
+            background-color: white;
+            max-width: 600px;
+            width: 100%;
+            border-radius: 12px;
+            overflow: hidden;
+            margin-bottom: 40px;
+            animation: slideUp 0.3s ease;
+        }
+
+        @keyframes slideUp {
+            from {
+                transform: translateY(30px);
+                opacity: 0;
+            }
+            to {
+                transform: translateY(0);
+                opacity: 1;
+            }
+        }
+
+        .modal-close-btn {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            width: 44px;
+            height: 44px;
+            background-color: rgba(255, 107, 107, 0.9);
+            border: none;
+            border-radius: 50%;
+            color: white;
+            font-size: 24px;
+            cursor: pointer;
+            z-index: 1001;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: all 0.3s ease;
+        }
+
+        .modal-close-btn:hover {
+            background-color: rgba(255, 107, 107, 1);
+        }
+
+        .dish-modal-image {
+            width: 100%;
+            height: 250px;
+            object-fit: cover;
+            display: block;
+            position: relative;
+        }
+
+        .dish-modal-body {
+            padding: 24px;
+        }
+
+        .modal-dish-name {
+            font-size: 28px;
+            font-weight: 700;
+            margin-bottom: 4px;
+            color: #1a1a1a;
+        }
+
+        .modal-dish-native {
+            font-size: 14px;
+            color: #666;
+            margin-bottom: 16px;
+        }
+
+        .modal-tags {
+            display: flex;
+            gap: 8px;
+            margin-bottom: 16px;
+            flex-wrap: wrap;
+        }
+
+        .modal-tag {
+            background-color: #f0f0f0;
+            padding: 6px 12px;
+            border-radius: 16px;
+            font-size: 0.8rem;
+            color: #666;
+        }
+
+        .modal-description {
+            padding: 12px 16px;
+            background-color: #f9f9f9;
+            border-left: 4px solid #2d9f7d;
+            margin-bottom: 24px;
+            line-height: 1.6;
+            font-size: 0.95rem;
+            color: #555;
+        }
+
+        .allergen-section-title {
+            font-size: 0.75rem;
+            font-weight: 700;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+            color: #999;
+            margin-bottom: 16px;
+        }
+
+        .modal-allergen-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 12px;
+        }
+
+        .modal-allergen-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            position: relative;
+        }
+
+        .modal-allergen-icon {
+            width: 56px;
+            height: 56px;
+            background-color: white;
+            border: 2px solid #e0e0e0;
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 24px;
+            margin-bottom: 8px;
+            position: relative;
+        }
+
+        .modal-allergen-item.severe .modal-allergen-icon {
+            border-color: #e74c3c;
+            background-color: #ffebee;
+        }
+
+        .modal-allergen-item.moderate .modal-allergen-icon {
+            border-color: #f39c12;
+            background-color: #fff3e0;
+        }
+
+        .modal-allergen-item.mild .modal-allergen-icon {
+            border-color: #2d9f7d;
+            background-color: #e8f5e9;
+        }
+
+        .modal-allergen-label {
+            font-size: 0.8rem;
+            color: #666;
+            font-weight: 500;
+        }
+
+        /* Getting There Section */
+        .getting-there-section {
+            max-width: 900px;
+            margin: 4rem auto;
+            padding: 4rem 2rem;
+        }
+
+        .getting-there-section h3 {
+            font-size: 1.2rem;
+            margin-bottom: 2rem;
+            letter-spacing: 0.08em;
+        }
+
+        .getting-there-content {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 2.5rem;
+        }
+
+        .getting-there-text {
+            display: flex;
+            flex-direction: column;
+            gap: 1.5rem;
+        }
+
+        /* Locations Section */
+        .locations-section {
+            max-width: 900px;
+            margin: 4rem auto;
+            padding: 4rem 2rem;
+        }
+
+        .locations-section h3 {
+            font-size: 1.2rem;
+            margin-bottom: 2rem;
+            letter-spacing: 0.08em;
+        }
+
+        .locations-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 2rem;
+            margin-bottom: 4rem;
+        }
+
+        .location-item {
+            padding: 1.5rem;
+            border: 1px solid #e0e0e0;
+            background-color: #f9f9f9;
+        }
+
+        .location-name {
+            font-weight: 700;
+            letter-spacing: 0.05em;
+            margin-bottom: 0.5rem;
+            font-size: 0.95rem;
+        }
+
+        .location-type {
+            font-size: 0.8rem;
+            color: #999;
+            letter-spacing: 0.05em;
+            text-transform: uppercase;
+            margin-bottom: 0.8rem;
+        }
+
+        .location-description {
+            font-size: 0.9rem;
+            line-height: 1.6;
+            color: #333;
+        }
+
+        /* Photo Galleries */
+        .section-two-column {
+            display: grid;
+            grid-template-columns: 1fr 370px;
+            gap: 2.5rem;
+            align-items: start;
+            margin-bottom: 3rem;
+        }
+
+        .column-text {
+            display: flex;
+            flex-direction: column;
+            gap: 1.5rem;
+        }
+
+        .column-images {
+            display: flex;
+            flex-direction: column;
+            gap: 2rem;
+            width: 370px;
+            flex-shrink: 0;
+        }
+
+        .column-images .photo-gallery {
+            width: 370px;
+            margin: 0;
+            padding: 0;
+            border: none;
+            background-color: transparent;
+        }
+
+        .gallery-image {
+            width: 100%;
+            height: auto;
+            display: block;
+            border: 1px solid #e0e0e0;
+        }
+
+        @media (max-width: 900px) {
+            .section-two-column {
+                grid-template-columns: 1fr;
+                gap: 2rem;
+            }
+
+            .getting-there-content {
+                grid-template-columns: 1fr;
+                gap: 2rem;
+            }
+
+            .essentials-grid {
+                grid-template-columns: 1fr;
+                margin-left: 0;
+            }
+
+            .locations-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        /* Footer */
+        footer {
+            background-color: #1a1a1a;
+            color: #ffffff;
+            padding: 3rem 4rem;
+            margin-top: 6rem;
+            text-align: center;
+            font-size: 0.95rem;
+            letter-spacing: 0.05em;
+        }
+
+        footer a {
+            color: #ffffff;
+            text-decoration: none;
+            transition: opacity 0.3s ease;
+        }
+
+        footer a:hover {
+            opacity: 0.7;
+        }
+
+        /* Responsive */
+        @media (max-width: 1024px) {
+            main {
+                padding: 3rem 2rem;
+            }
+
+            header {
+                padding: 1.5rem 2rem;
+            }
+
+            .editorial-title {
+                font-size: 2rem;
+            }
+        }
+
+        @media (max-width: 768px) {
+            main {
+                padding: 2rem 1rem;
+            }
+
+            header {
+                padding: 1rem;
+            }
+
+            .editorial-title {
+                font-size: 1.5rem;
+            }
+
+            .editorial-subtitle {
+                font-size: 1.1rem;
+            }
+
+            .essay {
+                font-size: 0.95rem;
+            }
+
+            nav {
+                gap: 1rem;
+            }
+
+            nav a {
+                font-size: 0.85rem;
+            }
+        }
+
+        @media (max-width: 600px) {
+            .dish-modal-content {
+                width: 95%;
+                margin-left: auto;
+                margin-right: auto;
+            }
+
+            .modal-allergen-grid {
+                grid-template-columns: repeat(3, 1fr);
+            }
+
+            .dish-modal-body {
+                padding: 16px;
+            }
+
+            .modal-close-btn {
+                top: 10px;
+                right: 10px;
+            }
+        }
+    </style>
 </head>
 <body>
     <header id="header">
-        <div class="header-content">
-            <a href="../../../index.html" class="logo">FOTOS BY BEN</a>
-            <nav><a href="../../../index.html">Gallery</a><a href="../../index.html">Editorials</a><a href="../../../about.html">About</a></nav>
+        <div style="display: flex; justify-content: space-between; align-items: center;">
+            <a href="../../../index.html" style="text-decoration: none;">
+                <img src="../../../logo.png" alt="Fotos by Ben" style="height: 20px; width: auto;">
+            </a>
+            <nav style="display: flex; gap: 2rem;">
+                <a href="../../../index.html" style="color: #1a1a1a; text-decoration: none; font-size: 0.9rem; letter-spacing: 0.05em; transition: opacity 0.3s ease;" onmouseover="this.style.opacity='0.6'" onmouseout="this.style.opacity='1'">Gallery</a>
+                <a href="../../index.html" style="color: #1a1a1a; text-decoration: none; font-size: 0.9rem; letter-spacing: 0.05em; transition: opacity 0.3s ease;" onmouseover="this.style.opacity='0.6'" onmouseout="this.style.opacity='1'">Editorials</a>
+                <a href="../../../about.html" style="color: #1a1a1a; text-decoration: none; font-size: 0.9rem; letter-spacing: 0.05em; transition: opacity 0.3s ease;" onmouseover="this.style.opacity='0.6'" onmouseout="this.style.opacity='1'">About</a>
+            </nav>
         </div>
     </header>
+
     <main>
         <div class="editorial-hero">
-            <div class="series-badge">NOTES FROM CITY — EDITORIAL SERIES</div>
-            <h1 class="editorial-title">Notes from Chengdu</h1>
-            <div class="issue-info">Issue 05</div>
-            <p class="editorial-subtitle">Land of abundant resources and culture</p>
+            <div class="series-badge">NOTES FROM THE WORLD — EDITORIAL SERIES</div>
+            <h1 class="editorial-title">Notes from Chengdu 成都</h1>
+            <div class="issue-info">Issue 04</div>
+            <p class="editorial-subtitle">Where ancient engineering, sacred forests, and urban vitality converge in Sichuan's most compelling city</p>
         </div>
-        <img src="../../images/editorials/chengdu-cover.jpg" alt="Chengdu cover" class="editorial-cover-img">
+
+        <section class="editorial-hero">
+            <img src="Header.jpg" alt="Chengdu landscape" class="editorial-cover-img">
+        </section>
+
+        <section class="essentials-grid">
+            <h3>The Essentials</h3>
+            <div class="essential-item">
+                <div class="essential-label">City</div>
+                <div class="essential-value">Chengdu, Sichuan Province 成都</div>
+            </div>
+            <div class="essential-item">
+                <div class="essential-label">Population</div>
+                <div class="essential-value">~10 million in metropolitan area</div>
+            </div>
+            <div class="essential-item">
+                <div class="essential-label">Elevation</div>
+                <div class="essential-value">505 m (1,657 ft)</div>
+            </div>
+            <div class="essential-item">
+                <div class="essential-label">Best Time</div>
+                <div class="essential-value">March–May, September–November</div>
+            </div>
+            <div class="essential-item">
+                <div class="essential-label">Language</div>
+                <div class="essential-value">Mandarin, Sichuan dialect</div>
+            </div>
+            <div class="essential-item">
+                <div class="essential-label">Currency</div>
+                <div class="essential-value">Chinese Yuan (CNY)</div>
+            </div>
+            <div class="essential-item">
+                <div class="essential-label">Daily Budget</div>
+                <div class="essential-value">$30–60 USD</div>
+            </div>
+            <div class="essential-item">
+                <div class="essential-label">Visa</div>
+                <div class="essential-value">30-Day visa free (EU)/China Visa Required (US)</div>
+            </div>
+        </section>
+
         <div class="editorial-content">
             <article class="essay">
-                <p>Chengdu is a city that rewards wandering. Known throughout China as a place of leisure and abundance, it carries an almost bohemian air compared to the more industrious metropolitan centers. Here, tradition hasn't been erased but rather woven into daily life—in the tea culture, in the food, in the way people move through their day.</p>
-                <p>The city is famous for its pandas, yes, but also for its culinary sophistication, its temple culture, and its artistic community. For the photographer, Chengdu offers subtlety: morning mist in the parks, the careful arrangement of a tea table, the intricate embroidery of traditional crafts, the genuine smiles of locals unaccustomed to rushing.</p>
-                <p>This is a city that teaches patience. The rewards come not from grand gestures but from presence—from the willingness to sit, observe, and wait for the moment when authenticity reveals itself.</p>
+                <h2>Chengdu: Sichuan's Heart and Soul</h2>
+                <p>Chengdu represents something rare: a major Chinese city that has maintained its cultural identity while embracing rapid modernization. The city sits at the heart of Sichuan Province, a region that has historically resisted homogenization and retained distinctive traditions, cuisine, and aesthetic sensibilities. To understand Chengdu is to understand how a Chinese city can be simultaneously deeply local and thoroughly contemporary—how tradition can coexist with neon, how engineering marvels two thousand years old can frame urban parks, how endangered species can live in the middle of a metropolis.</p>
+
+                <h2>Pandas: Living Symbols in the Urban Landscape</h2>
+                <div class="section-two-column">
+                    <div class="column-text">
+                        <p>Chengdu is the world's panda capital. The city hosts the Giant Panda Research Base, the most important facility for panda conservation outside their natural habitat. These massive, gentle herbivores have become synonymous with Chengdu's identity, appearing in logos, architecture, and public consciousness in ways that transform the city's relationship to its own image. Seeing pandas in Chengdu is not tourism—it is pilgrimage to the heart of a species' survival.</p>
+
+                        <p>Walking the research base, you encounter pandas in various stages of life: new mothers protecting newborns, juveniles playing with an exuberance that feels almost human, older pandas content with the simple act of eating bamboo hour after hour. The facility's design balances conservation with education, allowing visitors to observe pandas while maintaining environments that support authentic behavior. This balance—between human needs for access and animal needs for space—defines much of contemporary conservation philosophy.</p>
+
+                        <p>The pandas represent something deeper about Chengdu's character: a city that takes its relationship with nature seriously. The research base exists because Sichuan's bamboo forests provided the ecosystem that pandas evolved within. Chengdu has chosen to honor that relationship by hosting the world's most advanced panda conservation program. Walking among pandas in a modern city creates cognitive dissonance that clarifies something essential: humans and endangered species can coexist if we make the choice to allow it.</p>
+                    </div>
+                    <div class="column-images">
+                        <div class="photo-gallery">
+                            <img src="Panda_1.jpg" alt="Panda in natural environment" class="gallery-image">
+                        </div>
+                        <div class="photo-gallery">
+                            <img src="Panda_2.jpg" alt="Panda resting" class="gallery-image">
+                        </div>
+                        <div class="photo-gallery">
+                            <img src="Panda_3.jpg" alt="Panda close-up" class="gallery-image">
+                        </div>
+                        <div class="photo-gallery">
+                            <img src="Panda_4.jpg" alt="Panda behavior" class="gallery-image">
+                        </div>
+                        <div class="photo-gallery">
+                            <img src="Panda_6.jpg" alt="Panda portrait" class="gallery-image">
+                        </div>
+                        <div class="photo-gallery">
+                            <img src="Panda_7.jpg" alt="Panda in habitat" class="gallery-image">
+                        </div>
+                    </div>
+                </div>
+
+                <h2>Sichuan Traditions: The Soul of Regional Identity</h2>
+                <div class="section-two-column">
+                    <div class="column-text">
+                        <p>Sichuan culture represents thousands of years of accumulated practice, aesthetic refinement, and philosophical commitment. Unlike regions that have been absorbed into broader Chinese urban uniformity, Sichuan maintains distinctive traditions that define daily life, leisure, food, and social interaction. Chengdu is where these traditions remain most visible: you encounter them in tea houses where people still spend entire afternoons playing mahjong, in street vendors preparing food according to recipes unchanged for centuries, in the way local architecture incorporates traditional elements alongside modern materials.</p>
+
+                        <p>The tradition of opera, embroidery, landscape painting, and literary culture runs deep in Chengdu. These are not museum artifacts but living practices. You find embroiderers still creating intricate brocade textiles in workshops, musicians studying classical instruments, scholars engaging with literary traditions stretching back centuries. Chengdu hasn't preserved these traditions in amber—it practices them as part of ongoing life. This continuity gives the city a depth that newer Chinese cities cannot match.</p>
+
+                        <p>Walking Chengdu's streets reveals this tradition constantly. The spice blend in a street noodle vendor's broth represents Sichuan culinary philosophy developed over centuries. The way elderly men gather in parks to practice calligraphy or engage in quiet games reflects Daoist principles about harmony and leisure. Traditional crafts persist not because tourists want souvenirs but because locals value them as part of who they are. This is what Sichuan tradition means in Chengdu: not performance but continuity.</p>
+                    </div>
+                    <div class="column-images">
+                        <div class="photo-gallery">
+                            <img src="Sichuan_tradition_1.jpg" alt="Sichuan cultural practice" class="gallery-image">
+                        </div>
+                        <div class="photo-gallery">
+                            <img src="Sichuan_tradition_2.jpg" alt="Sichuan traditional craft" class="gallery-image">
+                        </div>
+                    </div>
+                </div>
+
+                <h2>Dujiangyan: Ancient Engineering Meets Modern Water Management</h2>
+                <div class="section-two-column">
+                    <div class="column-text">
+                        <p>Thirty kilometers from Chengdu stands Dujiangyan, one of the world's oldest hydraulic engineering systems still in operation. Built in the 3rd century BCE, the system diverts water from the Min River using simple principles—a fish-mouth weir, an artificial island for dividing flow, a spillway canal for flood control. No dams. No concrete. No electricity. Just geometry and understanding of water physics. Two thousand years later, it still prevents flooding and supplies water to millions of people across the Chengdu plain.</p>
+
+                        <p>Walking Dujiangyan reveals something profound about engineering consciousness: the project's designer, Li Bing, created a system that works with water rather than against it. The weir doesn't block the river—it guides it. The spillway allows excess water to escape without catastrophic failure. The system demonstrates that infrastructure doesn't require modern technology to be sophisticated. What it requires is understanding: knowledge of water behavior, topography, seasonal variation, and the long-term relationship between humans and hydraulic systems.</p>
+
+                        <p>Modern Dujiangyan preserves the original engineering while allowing contemporary management. Tourists walk paths alongside the ancient stones; engineers monitor water flow with instruments Li Bing could never have imagined, yet the principles remain unchanged. This coexistence of ancient and modern, of traditional engineering and contemporary management, makes Dujiangyan a meditation on how knowledge accumulates across centuries. Chengdu's prosperity depends on water managed according to principles established over two thousand years ago.</p>
+                    </div>
+                    <div class="column-images">
+                        <div class="photo-gallery">
+                            <img src="Duijangyuan_1.jpg" alt="Dujiangyan ancient engineering" class="gallery-image">
+                        </div>
+                        <div class="photo-gallery">
+                            <img src="Duijangyuan_2.jpg" alt="Dujiangyan water system" class="gallery-image">
+                        </div>
+                        <div class="photo-gallery">
+                            <img src="Duijangyuan_3.jpg" alt="Dujiangyan landscape" class="gallery-image">
+                        </div>
+                    </div>
+                </div>
+
+                <h2>Architecture: Tradition and Transformation in Urban Space</h2>
+                <div class="section-two-column">
+                    <div class="column-text">
+                        <p>Chengdu's architecture tells the story of a city navigating modernity while maintaining cultural identity. The old city center contains traditional structures—low-rise neighborhoods, narrow streets designed for foot traffic, courtyards that concentrate activity inward. But increasingly, contemporary architecture dominates: skyscrapers, shopping centers, modern office parks. The interesting architecture happens at the boundary: buildings that incorporate traditional materials and proportions into contemporary designs, streetscapes that blend historical preservation with new construction.</p>
+
+                        <p>What distinguishes Chengdu's architectural approach is that it doesn't simply preserve old buildings as museums. Instead, the city adapts old neighborhoods, creates new buildings that acknowledge traditional design language, and allows commerce to move into historical areas without sterilizing them. Traditional teahouses operate in newly renovated spaces. Old neighborhoods become vibrant centers of contemporary life rather than frozen historical zones. This approach keeps tradition alive by making it economically viable.</p>
+
+                        <p>The contemporary architecture reflects Chengdu's ambitions: the city is modernizing rapidly, becoming a major commercial and technological center. New buildings announce this transformation in glass and steel. Yet even these modern structures often incorporate traditional decorative elements, reference local materials, or create proportions that echo historical precedents. Chengdu is building a future that knows where it came from.</p>
+                    </div>
+                    <div class="column-images">
+                        <div class="photo-gallery">
+                            <img src="Architecture_1.jpg" alt="Chengdu modern architecture" class="gallery-image">
+                        </div>
+                        <div class="photo-gallery">
+                            <img src="Architecture_2.jpg" alt="Chengdu urban development" class="gallery-image">
+                        </div>
+                        <div class="photo-gallery">
+                            <img src="Architecture_3.jpg" alt="Chengdu architectural detail" class="gallery-image">
+                        </div>
+                    </div>
+                </div>
+
+                <h2>Street Life: Where Locals Live Their Days</h2>
+                <div class="section-two-column">
+                    <div class="column-text">
+                        <p>The true character of Chengdu emerges in its street life—the spaces where locals move through daily routines without performing for visitors. This is where you see Sichuan traditions in action: the old woman operating a street noodle stall with practiced efficiency, the teenagers gathering outside shops, the elderly men playing mahjong at outdoor tables, the vendors selling specialty snacks to people who have bought from them for years. Street life in Chengdu feels lived-in and authentic in ways that packaged tourism cannot replicate.</p>
+
+                        <p>Night transforms Chengdu's streets into something electric. Neon signs illuminate neighborhoods in colors that feel distinctly contemporary, creating a visual language that contrasts sharply with daytime streetscapes. Night markets come alive with food vendors, music, young people gathering for entertainment. The city reveals a different personality after dark—more energetic, more willing to embrace spectacle and pleasure. This duality—between traditional daytime and neon-lit night—defines much of contemporary Chengdu's aesthetic.</p>
+
+                        <p>What strikes visitors most is the integration of leisure into daily life. Unlike more hurried Chinese cities, Chengdu preserves the Sichuan philosophy that time itself is a value. Sitting in a tea house for hours is not inefficiency—it's alignment with proper living. Walking slowly through neighborhoods, stopping to chat with vendors, allowing the day to unfold rather than rushing through it—these are not lost traditions in Chengdu, they are still normative. The street life reflects this philosophy: a city that works hard but refuses to sacrifice human connection and simple pleasure.</p>
+                    </div>
+                    <div class="column-images">
+                        <div class="photo-gallery">
+                            <img src="Street_life_1.jpg" alt="Chengdu street scene" class="gallery-image">
+                        </div>
+                        <div class="photo-gallery">
+                            <img src="Street_life_2.jpg" alt="Chengdu street commerce" class="gallery-image">
+                        </div>
+                        <div class="photo-gallery">
+                            <img src="Street_life_3.jpg" alt="Chengdu neighborhood life" class="gallery-image">
+                        </div>
+                        <div class="photo-gallery">
+                            <img src="Street_life_4.jpg" alt="Chengdu evening street" class="gallery-image">
+                        </div>
+                        <div class="photo-gallery">
+                            <img src="Street_life_5.jpg" alt="Chengdu night scene" class="gallery-image">
+                        </div>
+                    </div>
+                </div>
             </article>
-            <aside class="essentials">
-                <h3>The Essentials</h3>
-                <div class="essential-item"><div class="essential-label">Region</div><div class="essential-value">Sichuan Province</div></div>
-                <div class="essential-item"><div class="essential-label">Elevation</div><div class="essential-value">505 m (1,657 ft)</div></div>
-                <div class="essential-item"><div class="essential-label">Population</div><div class="essential-value">~16 million</div></div>
-                <div class="essential-item"><div class="essential-label">Best Time</div><div class="essential-value">February–May, September–November</div></div>
-                <div class="essential-item"><div class="essential-label">Language</div><div class="essential-value">Mandarin, Sichuan dialect</div></div>
-                <div class="essential-item"><div class="essential-label">Currency</div><div class="essential-value">Chinese Yuan (CNY)</div></div>
-                <div class="essential-item"><div class="essential-label">Daily Budget</div><div class="essential-value">$30–60 USD</div></div>
-                <div class="essential-item"><div class="essential-label">Visa</div><div class="essential-value">China visa required</div></div>
-            </aside>
         </div>
-        <div class="pdf-viewer"><p>Full editorial PDF coming soon</p><button class="pdf-download-btn" disabled>PDF Not Yet Available</button></div>
-        <div class="editorial-nav">
-            <a href="../xining/" class="nav-item prev"><div class="nav-label">← Previous</div><div class="nav-title">Notes from Xining</div></a>
-            <a href="../chongqing/" class="nav-item next"><div class="nav-label">Next →</div><div class="nav-title">Notes from Chongqing</div></a>
-        </div>
+
+        <section class="food-section">
+            <h3>Food & Flavors</h3>
+            <div class="food-intro">
+                <p>Sichuan cuisine is legendary for its complexity and sophistication—a sophisticated approach to flavor that emphasizes heat, numbing sensations, and layered spice. Chengdu is where Sichuan cooking is at its best: hand-pulled noodles in chili oil, hotpot where diners cook raw ingredients in boiling broth, spiced preserved vegetables, and countless preparations that balance fire with nuance. If you have food allergies or dietary restrictions, the AllerGuide app helps you navigate this bold culinary landscape safely.</p>
+            </div>
+
+            <div class="allerguide-cards" id="allerguide-container">
+                <!-- AllerGuide cards will be loaded here -->
+                <div style="grid-column: 1 / -1; text-align: center; color: #999; padding: 2rem;">
+                    Loading Sichuan dishes from AllerGuide...
+                </div>
+            </div>
+
+            <div class="allerguide-link">
+                <p>For a complete, detailed guide to allergens and dietary accommodations across the world, download the <strong>AllerGuide app</strong>. It integrates restaurant data, dish information, and real-time allergy management tools.</p>
+                <a id="allerguide-btn" href="https://allerguide.app" class="allerguide-cta" target="_blank">Download AllerGuide</a>
+            </div>
+        </section>
+
+        <section class="getting-there-section">
+            <h3>Getting There</h3>
+            <div class="getting-there-content">
+                <div class="getting-there-text">
+                    <p><strong>By Air:</strong> Chengdu Shuangliu International Airport (CTU) is a major hub serving flights from Beijing, Shanghai, Xi'an, Chongqing, and numerous other Chinese cities. The airport sits about 16 kilometers southwest of downtown, roughly 30 minutes by taxi or metro. The airport is modern and well-connected, with clear English signage and efficient transit to the city center.</p>
+
+                    <p><strong>By Train:</strong> High-speed rail connects Chengdu to most major Chinese cities. The journey from Beijing takes approximately 10 hours; from Shanghai about 12 hours. The rail experience offers views of China's geography changing from plains to mountains to valleys. Chengdu's main high-speed rail station is modern and efficiently connected to the metro system.</p>
+
+                    <p><strong>Within the City:</strong> Chengdu has developed an extensive metro system making most areas accessible. Taxis and rideshare apps work efficiently. The city's manageable size means most neighborhoods are reachable within 30 minutes. Neighborhoods worth exploring are widely distributed: traditional areas in the old city center, tea house culture near Wangjiang Park, the panda research base north of the city, and Dujiangyan about 30 kilometers away by road.</p>
+
+                    <p><strong>Day Trips:</strong> Dujiangyan is accessible as a day trip by bus or car from central Chengdu. Most hotels can arrange transportation. The journey takes 1-1.5 hours depending on traffic.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="locations-section">
+            <h3>Key Locations</h3>
+            <div class="locations-grid">
+                <div class="location-item">
+                    <div class="location-name">Giant Panda Research Base</div>
+                    <div class="location-type">Conservation & Research</div>
+                    <div class="location-description">Home to the world's most important panda conservation program. Multiple pandas at various life stages visible in naturalistic habitats. Museum exhibits on conservation. Walking paths through bamboo forests. Northwest of downtown.</div>
+                </div>
+
+                <div class="location-item">
+                    <div class="location-name">Wangjiang Park</div>
+                    <div class="location-type">Cultural Landscape</div>
+                    <div class="location-description">Ancient tea house culture center. Locals gather for traditional tea, chess, mahjong. Historic buildings among landscaped grounds. Access to Fragrant River and river-view pavilions. Living museum of Sichuan leisure traditions.</div>
+                </div>
+
+                <div class="location-item">
+                    <div class="location-name">Dujiangyan</div>
+                    <div class="location-type">Ancient Engineering Site</div>
+                    <div class="location-description">2000+ year old hydraulic system still managing water for Chengdu plain. Fish-mouth weir, spillway canal, water diversion system. Walking paths, temple structures, educational exhibits. 30 km from downtown. Day trip destination.</div>
+                </div>
+
+                <div class="location-item">
+                    <div class="location-name">Chengdu Old City Center</div>
+                    <div class="location-type">Historic District</div>
+                    <div class="location-description">Preserved neighborhoods with traditional architecture, narrow streets, courtyard structures. Street vendors, traditional shops, local restaurants. Evening markets. Walking-oriented neighborhood showing pre-modern urban layout.</div>
+                </div>
+
+                <div class="location-item">
+                    <div class="location-name">Chengdu Contemporary Architecture</div>
+                    <div class="location-type">Urban Development</div>
+                    <div class="location-description">Modern commercial districts, office towers, shopping centers reflecting rapid urban transformation. Represents contemporary Chengdu ambitions. Contrasts with traditional areas showing city's dual nature.</div>
+                </div>
+
+                <div class="location-item">
+                    <div class="location-name">Street Food Markets</div>
+                    <div class="location-type">Culinary Culture</div>
+                    <div class="location-description">Evening and night markets where street vendors prepare Sichuan specialties. Hand-pulled noodles, hotpot, preserved vegetables, regional snacks. Most authentic Sichuan cooking experience. Present throughout neighborhoods.</div>
+                </div>
+
+                <div class="location-item">
+                    <div class="location-name">Tea Houses</div>
+                    <div class="location-type">Social Space</div>
+                    <div class="location-description">Traditional and modern tea houses throughout city. Spaces for mahjong, chess, conversation, and simply sitting. Many in parks or historic buildings. Central to Sichuan leisure philosophy. Daytime gathering spaces for locals.</div>
+                </div>
+
+                <div class="location-item">
+                    <div class="location-name">Neon-lit Entertainment Districts</div>
+                    <div class="location-type">Contemporary Urban</div>
+                    <div class="location-description">Night markets, restaurant districts, entertainment areas lit with neon signs. Young people gathering spaces. Evening and night vitality. Different personality from daytime Chengdu. Shopping and entertainment hub.</div>
+                </div>
+            </div>
+        </section>
     </main>
+
     <footer>
         <p>Notes from Chengdu — A series by <a href="../../../about.html">Ben Colella</a></p>
-        <p style="margin-top:1rem;font-size:0.85rem;color:#999;">Photography and essays on architecture, food, urban life, and landscape.</p>
+        <p style="margin-top: 1rem; font-size: 0.85rem; color: #999;">Photography and essays documenting architecture, food, urban life, and landscape.</p>
     </footer>
-    <script>let lastScrollTop=0;window.addEventListener('scroll',()=>{const header=document.getElementById('header');if(window.scrollY>50){header.classList.add('scrolled');}else{header.classList.remove('scrolled');}lastScrollTop=window.scrollY;});</script>
+
+    <!-- Dish Detail Modal -->
+    <div class="dish-modal" id="dishModal">
+        <button class="modal-close-btn" id="modalCloseBtn">×</button>
+        <div class="dish-modal-content">
+            <img id="modalDishImage" src="" alt="" class="dish-modal-image">
+            <div class="dish-modal-body">
+                <div class="modal-dish-name" id="modalDishName"></div>
+                <div class="modal-dish-native" id="modalDishNative"></div>
+                <div class="modal-tags" id="modalTags"></div>
+                <div id="modalSafeBanner" class="safe-banner" style="display: none;">
+                    Safe based on your allergen profile
+                </div>
+                <div class="modal-description" id="modalDescription"></div>
+                <div class="allergen-section-title">Allergen Information</div>
+                <div class="modal-allergen-grid" id="modalAllergenGrid"></div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Supabase Configuration
+        const SUPABASE_URL = 'https://sueqfqewflletzhdesyd.supabase.co';
+        const SUPABASE_KEY = 'sb_publishable_6k1xtJLke9LVRAdVuSVaQg_atzcTVKg';
+
+        // Allergen metadata with icons and severity levels
+        const allergenMetadata = {
+            Sesame: { icon: '芝', severity: 'severe' },
+            Treenuts: { icon: '🌰', severity: 'severe' },
+            Peanuts: { icon: '🥜', severity: 'severe' },
+            Gluten: { icon: '🌾', severity: 'severe' },
+            Crustaceans: { icon: '🦐', severity: 'severe' },
+            Molluscs: { icon: '🦪', severity: 'severe' },
+            Fish: { icon: '🐟', severity: 'severe' },
+            Eggs: { icon: '🥚', severity: 'severe' },
+            Dairy: { icon: '🥛', severity: 'severe' },
+            Soybeans: { icon: '豆', severity: 'moderate' },
+            Mustard: { icon: '芥', severity: 'moderate' },
+            Celery: { icon: '🥬', severity: 'moderate' },
+            Buckwheat: { icon: '蕎', severity: 'moderate' },
+            Sulfites: { icon: '亜', severity: 'moderate' },
+            Lupin: { icon: '🌿', severity: 'moderate' },
+            Peas: { icon: '豌', severity: 'mild' },
+            Lentils: { icon: '렌', severity: 'mild' },
+            Apples: { icon: '🍎', severity: 'mild' },
+            Bananas: { icon: '🍌', severity: 'mild' },
+            Kiwi: { icon: '🥝', severity: 'mild' },
+            Oranges: { icon: '🍊', severity: 'mild' },
+            'Beehive Products': { icon: '🍯', severity: 'mild' },
+            Cilantro: { icon: '🌿', severity: 'mild' },
+            Pork: { icon: '🥓', severity: 'mild' }
+        };
+
+        async function fetchSichuanDishes() {
+            const container = document.getElementById('allerguide-container');
+
+            try {
+                const response = await fetch(
+                    `${SUPABASE_URL}/rest/v1/dishes?Region=eq.Sichuan&select=*`,
+                    {
+                        headers: {
+                            'apikey': SUPABASE_KEY,
+                            'Authorization': `Bearer ${SUPABASE_KEY}`
+                        }
+                    }
+                );
+
+                if (!response.ok) {
+                    throw new Error(`HTTP error! status: ${response.status}`);
+                }
+
+                const dishes = await response.json();
+
+                if (!dishes || dishes.length === 0) {
+                    container.innerHTML = '<div class="cards-loading">No dishes found for Sichuan. Check back soon!</div>';
+                    return;
+                }
+
+                // Clear loading state
+                container.innerHTML = '';
+
+                // Render each dish card
+                dishes.forEach(dish => {
+                    const card = createDishCard(dish);
+                    container.appendChild(card);
+                });
+
+            } catch (error) {
+                console.error('Error fetching dishes:', error);
+                container.innerHTML = `<div class="cards-loading">Error loading dishes: ${error.message}</div>`;
+            }
+        }
+
+        function createDishCard(dish) {
+            const card = document.createElement('div');
+            card.className = 'allerguide-card';
+
+            // Check if dish is safe (no allergens present)
+            const isSafe = !hasAnyAllergens(dish);
+
+            // Create card HTML
+            card.innerHTML = `
+                <div style="position: relative;">
+                    ${dish.image_url ? `<img src="${dish.image_url}" alt="${dish.name}" class="card-image">` : '<div class="card-image-placeholder">🍽️</div>'}
+                    ${isSafe ? '<div class="card-safe-badge">✓</div>' : ''}
+                </div>
+                <div class="card-content">
+                    <div class="dish-name">${dish.name}</div>
+                    ${dish.native_name ? `<div class="dish-native-name">${dish.native_name}</div>` : ''}
+                    <div class="dish-region">🇨🇳 ${dish.country}</div>
+                </div>
+            `;
+
+            // Add click handler to show details in modal
+            card.addEventListener('click', () => {
+                openDishModal(dish);
+            });
+
+            return card;
+        }
+
+        function openDishModal(dish) {
+            const modal = document.getElementById('dishModal');
+
+            // Populate modal
+            document.getElementById('modalDishName').textContent = dish.name;
+            document.getElementById('modalDishNative').textContent = dish.native_name || '';
+            document.getElementById('modalDescription').textContent = dish.description || 'No description available.';
+
+            // Populate tags
+            const tagsContainer = document.getElementById('modalTags');
+            tagsContainer.innerHTML = '';
+            if (dish.country) {
+                const tag = document.createElement('div');
+                tag.className = 'modal-tag';
+                tag.textContent = `🇨🇳 ${dish.country}`;
+                tagsContainer.appendChild(tag);
+            }
+            if (dish.category) {
+                const tag = document.createElement('div');
+                tag.className = 'modal-tag';
+                tag.textContent = dish.category;
+                tagsContainer.appendChild(tag);
+            }
+
+            // Hide safe banner
+            const safeBanner = document.getElementById('modalSafeBanner');
+            safeBanner.style.display = 'none';
+
+            // Set image
+            const modalImage = document.getElementById('modalDishImage');
+            modalImage.src = dish.image_url || '';
+            modalImage.alt = dish.name;
+
+            // Populate allergen grid
+            const allergenGrid = document.getElementById('modalAllergenGrid');
+            allergenGrid.innerHTML = '';
+
+            const allergenFields = ['Sesame', 'Treenuts', 'Peanuts', 'Gluten', 'Crustaceans',
+                                   'Molluscs', 'Fish', 'Eggs', 'Dairy', 'Soybeans', 'Mustard',
+                                   'Celery', 'Buckwheat', 'Sulfites', 'Lupin', 'Peas', 'Lentils',
+                                   'Apples', 'Bananas', 'Kiwi', 'Oranges', 'Beehive Products', 'Cilantro', 'Pork'];
+
+            allergenFields.forEach(allergen => {
+                const isPresent = dish[allergen] === true;
+                const metadata = allergenMetadata[allergen] || { icon: '⚠️', severity: 'severe' };
+
+                const item = document.createElement('div');
+                item.className = `modal-allergen-item ${isPresent ? metadata.severity : 'not-present'}`;
+
+                if (isPresent) {
+                    item.innerHTML = `
+                        <div class="modal-allergen-icon">
+                            ${metadata.icon}
+                        </div>
+                        <div class="modal-allergen-label ${metadata.severity}">${allergen}</div>
+                    `;
+                } else {
+                    item.innerHTML = `
+                        <div class="modal-allergen-icon">
+                            ${metadata.icon}
+                        </div>
+                        <div class="modal-allergen-label">${allergen}</div>
+                    `;
+                }
+
+                allergenGrid.appendChild(item);
+            });
+
+            // Show modal
+            modal.classList.add('active');
+            document.body.style.overflow = 'hidden';
+        }
+
+        function closeDishModal() {
+            const modal = document.getElementById('dishModal');
+            modal.classList.remove('active');
+            document.body.style.overflow = 'auto';
+        }
+
+        function hasAnyAllergens(dish) {
+            const allergenFields = ['Sesame', 'Treenuts', 'Peanuts', 'Gluten', 'Crustaceans',
+                                   'Molluscs', 'Fish', 'Eggs', 'Dairy', 'Soybeans', 'Mustard',
+                                   'Celery', 'Buckwheat', 'Sulfites', 'Lupin', 'Peas', 'Lentils',
+                                   'Apples', 'Bananas', 'Kiwi', 'Oranges', 'Beehive Products', 'Cilantro', 'Pork'];
+            return allergenFields.some(field => dish[field] === true);
+        }
+
+        // Modal close handlers
+        document.getElementById('modalCloseBtn').addEventListener('click', closeDishModal);
+
+        document.getElementById('dishModal').addEventListener('click', (e) => {
+            if (e.target.id === 'dishModal') {
+                closeDishModal();
+            }
+        });
+
+        // Close modal on Escape key
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'Escape') {
+                const modal = document.getElementById('dishModal');
+                if (modal.classList.contains('active')) {
+                    closeDishModal();
+                }
+            }
+        });
+
+        // Detect iPhone and set AllerGuide link
+        function setAllerGuideLinkForDevice() {
+            const allerguideBtn = document.getElementById('allerguide-btn');
+            const isIPhone = /iPhone|iPad|iPod/.test(navigator.userAgent);
+
+            if (isIPhone) {
+                allerguideBtn.href = 'https://apps.apple.com/app/allerguide/id1234567890';
+                allerguideBtn.target = '_blank';
+            } else {
+                allerguideBtn.href = 'https://allerguide.app';
+                allerguideBtn.target = '_blank';
+            }
+        }
+
+        // Set AllerGuide link when page loads
+        document.addEventListener('DOMContentLoaded', () => {
+            setAllerGuideLinkForDevice();
+            fetchSichuanDishes();
+        });
+
+        // Header scroll effect
+        let lastScrollTop = 0;
+        window.addEventListener('scroll', () => {
+            const header = document.getElementById('header');
+            if (window.scrollY > 50) {
+                header.classList.add('scrolled');
+            } else {
+                header.classList.remove('scrolled');
+            }
+            lastScrollTop = window.scrollY;
+        });
+    </script>
 </body>
 </html>

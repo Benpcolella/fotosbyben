@@ -1,0 +1,1204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notes from Gansu — Editorial</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html, body {
+            width: 100%;
+        }
+
+        body {
+            font-family: 'Reross Quadratic', 'Space Mono', monospace;
+            background-color: #fafafa;
+            color: #1a1a1a;
+            line-height: 1.7;
+        }
+
+        h1, h2, h3, h4, h5, h6 {
+            font-family: 'Plakato Inline Pro', 'Space Mono', monospace;
+            font-weight: 700;
+            letter-spacing: 0.05em;
+            text-transform: uppercase;
+            margin-bottom: 1rem;
+        }
+
+        /* Header */
+        header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            padding: 1rem 2rem;
+            background: rgba(255, 255, 255, 0.98);
+            z-index: 100;
+            border-bottom: 1px solid #e0e0e0;
+            transition: all 0.3s ease;
+        }
+
+        header.scrolled {
+            padding: 0.75rem 2rem;
+            box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+        }
+
+        body {
+            padding-top: 80px;
+        }
+
+        /* Main Container */
+        main {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 4rem 2rem;
+        }
+
+        /* Hero Section */
+        .editorial-hero {
+            margin-bottom: 4rem;
+            text-align: center;
+        }
+
+        .series-badge {
+            font-size: 0.75rem;
+            letter-spacing: 0.15em;
+            color: #666;
+            margin-bottom: 1rem;
+        }
+
+        .editorial-title {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+            letter-spacing: 0.08em;
+        }
+
+        .issue-info {
+            font-size: 1rem;
+            letter-spacing: 0.08em;
+            color: #666;
+            margin-bottom: 1.5rem;
+        }
+
+        .editorial-subtitle {
+            font-size: 1.3rem;
+            color: #333;
+            font-weight: 400;
+            letter-spacing: 0.02em;
+            margin-bottom: 2rem;
+            line-height: 1.5;
+        }
+
+        .editorial-cover-img {
+            width: 100%;
+            height: auto;
+            margin-bottom: 3rem;
+            border: 1px solid #e0e0e0;
+        }
+
+        /* Essentials Grid Section */
+        .essentials-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 2rem 3rem;
+            margin-bottom: 4rem;
+            padding: 2rem 0;
+            border-top: 1px solid #e0e0e0;
+            border-bottom: 1px solid #e0e0e0;
+        }
+
+        .essentials-grid h3 {
+            grid-column: 1 / -1;
+            margin-bottom: 1rem;
+            font-size: 1.1rem;
+        }
+
+        .essentials-grid .essential-item {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .essential-label {
+            font-weight: 700;
+            letter-spacing: 0.05em;
+            margin-bottom: 0.3rem;
+            font-size: 0.8rem;
+            text-transform: uppercase;
+        }
+
+        .essential-value {
+            color: #333;
+            line-height: 1.6;
+        }
+
+        /* Editorial Content */
+        .editorial-content {
+            display: block;
+            margin-bottom: 4rem;
+            flex: 1;
+        }
+
+        .essay {
+            line-height: 1.8;
+            font-size: 1rem;
+        }
+
+        .essay p {
+            margin-bottom: 1.5rem;
+        }
+
+        .essay h2 {
+            font-size: 1.4rem;
+            margin-top: 2.5rem;
+            margin-bottom: 1rem;
+            letter-spacing: 0.08em;
+        }
+
+        .essay h2:first-child {
+            margin-top: 0;
+        }
+
+        /* Food Section - AllerGuide Style */
+        .food-section {
+            max-width: 900px;
+            margin: 4rem auto;
+            padding: 4rem 2rem;
+        }
+
+        .food-section h3 {
+            font-size: 1.2rem;
+            margin-bottom: 2rem;
+            letter-spacing: 0.08em;
+        }
+
+        .food-intro {
+            font-size: 1rem;
+            line-height: 1.8;
+            margin-bottom: 2rem;
+            max-width: 700px;
+        }
+
+        .allerguide-cards {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+            gap: 1rem;
+            margin-bottom: 3rem;
+        }
+
+        .allerguide-card {
+            background-color: white;
+            border: 1px solid #e0e0e0;
+            border-radius: 12px;
+            overflow: hidden;
+            transition: all 0.3s ease;
+            cursor: pointer;
+            position: relative;
+        }
+
+        .allerguide-card:hover {
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            transform: translateY(-2px);
+        }
+
+        .card-image {
+            width: 100%;
+            height: 140px;
+            background-color: #f5f5f5;
+            object-fit: cover;
+            display: block;
+        }
+
+        .card-image-placeholder {
+            width: 100%;
+            height: 140px;
+            background-color: #f5f5f5;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #ccc;
+            font-size: 2rem;
+        }
+
+        .card-safe-badge {
+            position: absolute;
+            top: 8px;
+            right: 8px;
+            width: 28px;
+            height: 28px;
+            background-color: #2d9f7d;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 16px;
+            font-weight: bold;
+        }
+
+        .card-content {
+            padding: 12px;
+        }
+
+        .dish-name {
+            font-size: 0.95rem;
+            font-weight: 600;
+            margin-bottom: 4px;
+            line-height: 1.3;
+            color: #1a1a1a;
+        }
+
+        .dish-native-name {
+            font-size: 0.8rem;
+            color: #666;
+            margin-bottom: 6px;
+        }
+
+        .dish-region {
+            font-size: 0.75rem;
+            color: #999;
+            display: flex;
+            align-items: center;
+            gap: 4px;
+        }
+
+        /* Loading State */
+        .cards-loading {
+            grid-column: 1 / -1;
+            text-align: center;
+            padding: 2rem;
+            color: #999;
+        }
+
+        .allerguide-link {
+            margin-top: 3rem;
+            padding: 2rem;
+            background: linear-gradient(135deg, #e8f5e9 0%, #f0f4f8 100%);
+            border-left: 4px solid #2d9f7d;
+            border-radius: 8px;
+            text-align: center;
+        }
+
+        .allerguide-link p {
+            margin-bottom: 1rem;
+            font-size: 0.95rem;
+            line-height: 1.6;
+            color: #333;
+        }
+
+        .allerguide-cta {
+            display: inline-block;
+            padding: 0.9rem 2rem;
+            background-color: #2d9f7d;
+            color: white;
+            text-decoration: none;
+            font-size: 0.9rem;
+            letter-spacing: 0.05em;
+            border-radius: 8px;
+            font-weight: 600;
+            transition: all 0.3s ease;
+        }
+
+        .allerguide-cta:hover {
+            background-color: #258966;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(45, 159, 125, 0.2);
+        }
+
+        /* Dish Detail Modal */
+        .dish-modal {
+            display: none;
+            position: fixed;
+            z-index: 1000;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5);
+            overflow-y: auto;
+        }
+
+        .dish-modal.active {
+            display: flex;
+            align-items: flex-start;
+            justify-content: center;
+            padding-top: 20px;
+        }
+
+        .dish-modal-content {
+            background-color: white;
+            max-width: 600px;
+            width: 100%;
+            border-radius: 12px;
+            overflow: hidden;
+            margin-bottom: 40px;
+            animation: slideUp 0.3s ease;
+        }
+
+        @keyframes slideUp {
+            from {
+                transform: translateY(30px);
+                opacity: 0;
+            }
+            to {
+                transform: translateY(0);
+                opacity: 1;
+            }
+        }
+
+        .modal-close-btn {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            width: 44px;
+            height: 44px;
+            background-color: rgba(255, 107, 107, 0.9);
+            border: none;
+            border-radius: 50%;
+            color: white;
+            font-size: 24px;
+            cursor: pointer;
+            z-index: 1001;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: all 0.3s ease;
+        }
+
+        .modal-close-btn:hover {
+            background-color: rgba(255, 107, 107, 1);
+        }
+
+        .dish-modal-image {
+            width: 100%;
+            height: 250px;
+            object-fit: cover;
+            display: block;
+            position: relative;
+        }
+
+        .dish-modal-body {
+            padding: 24px;
+        }
+
+        .modal-dish-name {
+            font-size: 28px;
+            font-weight: 700;
+            margin-bottom: 4px;
+            color: #1a1a1a;
+        }
+
+        .modal-dish-native {
+            font-size: 14px;
+            color: #666;
+            margin-bottom: 16px;
+        }
+
+        .modal-tags {
+            display: flex;
+            gap: 8px;
+            margin-bottom: 16px;
+            flex-wrap: wrap;
+        }
+
+        .modal-tag {
+            background-color: #f0f0f0;
+            padding: 6px 12px;
+            border-radius: 16px;
+            font-size: 0.8rem;
+            color: #666;
+        }
+
+        .modal-description {
+            padding: 12px 16px;
+            background-color: #f9f9f9;
+            border-left: 4px solid #2d9f7d;
+            margin-bottom: 24px;
+            line-height: 1.6;
+            font-size: 0.95rem;
+            color: #555;
+        }
+
+        .allergen-section-title {
+            font-size: 0.75rem;
+            font-weight: 700;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+            color: #999;
+            margin-bottom: 16px;
+        }
+
+        .modal-allergen-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 12px;
+        }
+
+        .modal-allergen-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            position: relative;
+        }
+
+        .modal-allergen-icon {
+            width: 56px;
+            height: 56px;
+            background-color: white;
+            border: 2px solid #e0e0e0;
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 24px;
+            margin-bottom: 8px;
+            position: relative;
+        }
+
+        .modal-allergen-item.severe .modal-allergen-icon {
+            border-color: #e74c3c;
+            background-color: #ffebee;
+        }
+
+        .modal-allergen-item.moderate .modal-allergen-icon {
+            border-color: #f39c12;
+            background-color: #fff3e0;
+        }
+
+        .modal-allergen-item.mild .modal-allergen-icon {
+            border-color: #2d9f7d;
+            background-color: #e8f5e9;
+        }
+
+        .modal-allergen-label {
+            font-size: 0.8rem;
+            color: #666;
+            font-weight: 500;
+        }
+
+        /* Getting There Section */
+        .getting-there-section {
+            max-width: 900px;
+            margin: 4rem auto;
+            padding: 4rem 2rem;
+        }
+
+        .getting-there-section h3 {
+            font-size: 1.2rem;
+            margin-bottom: 2rem;
+            letter-spacing: 0.08em;
+        }
+
+        .getting-there-content {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 2.5rem;
+        }
+
+        .getting-there-text {
+            display: flex;
+            flex-direction: column;
+            gap: 1.5rem;
+        }
+
+        /* Locations Section */
+        .locations-section {
+            max-width: 900px;
+            margin: 4rem auto;
+            padding: 4rem 2rem;
+        }
+
+        .locations-section h3 {
+            font-size: 1.2rem;
+            margin-bottom: 2rem;
+            letter-spacing: 0.08em;
+        }
+
+        .locations-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 2rem;
+            margin-bottom: 4rem;
+        }
+
+        .location-item {
+            padding: 1.5rem;
+            border: 1px solid #e0e0e0;
+            background-color: #f9f9f9;
+        }
+
+        .location-name {
+            font-weight: 700;
+            letter-spacing: 0.05em;
+            margin-bottom: 0.5rem;
+            font-size: 0.95rem;
+        }
+
+        .location-type {
+            font-size: 0.8rem;
+            color: #999;
+            letter-spacing: 0.05em;
+            text-transform: uppercase;
+            margin-bottom: 0.8rem;
+        }
+
+        .location-description {
+            font-size: 0.9rem;
+            line-height: 1.6;
+            color: #333;
+        }
+
+        /* Photo Galleries */
+        .section-two-column {
+            display: grid;
+            grid-template-columns: 1fr 370px;
+            gap: 2.5rem;
+            align-items: start;
+            margin-bottom: 3rem;
+        }
+
+        .column-text {
+            display: flex;
+            flex-direction: column;
+            gap: 1.5rem;
+        }
+
+        .column-images {
+            display: flex;
+            flex-direction: column;
+            gap: 2rem;
+            width: 370px;
+            flex-shrink: 0;
+        }
+
+        .column-images .photo-gallery {
+            width: 370px;
+            margin: 0;
+            padding: 0;
+            border: none;
+            background-color: transparent;
+        }
+
+        .gallery-image {
+            width: 100%;
+            height: auto;
+            display: block;
+            border: 1px solid #e0e0e0;
+        }
+
+        @media (max-width: 900px) {
+            .section-two-column {
+                grid-template-columns: 1fr;
+                gap: 2rem;
+            }
+
+            .getting-there-content {
+                grid-template-columns: 1fr;
+                gap: 2rem;
+            }
+
+            .essentials-grid {
+                grid-template-columns: 1fr;
+                margin-left: 0;
+            }
+
+            .locations-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        /* Footer */
+        footer {
+            background-color: #1a1a1a;
+            color: #ffffff;
+            padding: 3rem 4rem;
+            margin-top: 6rem;
+            text-align: center;
+            font-size: 0.95rem;
+            letter-spacing: 0.05em;
+        }
+
+        footer a {
+            color: #ffffff;
+            text-decoration: none;
+            transition: opacity 0.3s ease;
+        }
+
+        footer a:hover {
+            opacity: 0.7;
+        }
+
+        /* Responsive */
+        @media (max-width: 1024px) {
+            main {
+                padding: 3rem 2rem;
+            }
+
+            header {
+                padding: 1.5rem 2rem;
+            }
+
+            .editorial-title {
+                font-size: 2rem;
+            }
+        }
+
+        @media (max-width: 768px) {
+            main {
+                padding: 2rem 1rem;
+            }
+
+            header {
+                padding: 1rem;
+            }
+
+            .editorial-title {
+                font-size: 1.5rem;
+            }
+
+            .editorial-subtitle {
+                font-size: 1.1rem;
+            }
+
+            .essay {
+                font-size: 0.95rem;
+            }
+
+            nav {
+                gap: 1rem;
+            }
+
+            nav a {
+                font-size: 0.85rem;
+            }
+        }
+
+        @media (max-width: 600px) {
+            .dish-modal-content {
+                width: 95%;
+                margin-left: auto;
+                margin-right: auto;
+            }
+
+            .modal-allergen-grid {
+                grid-template-columns: repeat(3, 1fr);
+            }
+
+            .dish-modal-body {
+                padding: 16px;
+            }
+
+            .modal-close-btn {
+                top: 10px;
+                right: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header id="header">
+        <div style="display: flex; justify-content: space-between; align-items: center;">
+            <a href="../../../index.html" style="text-decoration: none;">
+                <img src="../../../logo.png" alt="Fotos by Ben" style="height: 20px; width: auto;">
+            </a>
+            <nav style="display: flex; gap: 2rem;">
+                <a href="../../../index.html" style="color: #1a1a1a; text-decoration: none; font-size: 0.9rem; letter-spacing: 0.05em; transition: opacity 0.3s ease;" onmouseover="this.style.opacity='0.6'" onmouseout="this.style.opacity='1'">Gallery</a>
+                <a href="../../index.html" style="color: #1a1a1a; text-decoration: none; font-size: 0.9rem; letter-spacing: 0.05em; transition: opacity 0.3s ease;" onmouseover="this.style.opacity='0.6'" onmouseout="this.style.opacity='1'">Editorials</a>
+                <a href="../../../about.html" style="color: #1a1a1a; text-decoration: none; font-size: 0.9rem; letter-spacing: 0.05em; transition: opacity 0.3s ease;" onmouseover="this.style.opacity='0.6'" onmouseout="this.style.opacity='1'">About</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="editorial-hero">
+            <div class="series-badge">NOTES FROM THE WORLD — EDITORIAL SERIES</div>
+            <h1 class="editorial-title">Notes from Gansu 甘肃</h1>
+            <div class="issue-info">Issue 03</div>
+            <p class="editorial-subtitle">Following the Silk Road through deserts, grasslands, and urban transformation—how three cities tell the story of a region</p>
+        </div>
+
+        <section class="editorial-hero">
+            <img src="Scene.jpg" alt="Gansu landscape" class="editorial-cover-img">
+        </section>
+
+        <section class="essentials-grid">
+            <h3>The Essentials</h3>
+            <div class="essential-item">
+                <div class="essential-label">Province</div>
+                <div class="essential-value">Gansu 甘肃 (Sweet Province)</div>
+            </div>
+            <div class="essential-item">
+                <div class="essential-label">Key Cities</div>
+                <div class="essential-value">Dunhuang, Zhangye, Lanzhou</div>
+            </div>
+            <div class="essential-item">
+                <div class="essential-label">Geography</div>
+                <div class="essential-value">Silk Road corridor connecting east and west through desert and mountains</div>
+            </div>
+            <div class="essential-item">
+                <div class="essential-label">Best Time</div>
+                <div class="essential-value">April–October</div>
+            </div>
+            <div class="essential-item">
+                <div class="essential-label">Language</div>
+                <div class="essential-value">Mandarin Chinese, regional dialects</div>
+            </div>
+            <div class="essential-item">
+                <div class="essential-label">Currency</div>
+                <div class="essential-value">Chinese Yuan (CNY)</div>
+            </div>
+            <div class="essential-item">
+                <div class="essential-label">Daily Budget</div>
+                <div class="essential-value">$25–45 USD</div>
+            </div>
+            <div class="essential-item">
+                <div class="essential-label">Visa</div>
+                <div class="essential-value">30-Day visa free (EU)/China Visa Required (US)</div>
+            </div>
+        </section>
+
+        <div class="editorial-content">
+            <article class="essay">
+                <h2>Gansu: A Province Written in Silk Roads and Sand</h2>
+                <p>Gansu province is not a unified city but a corridor—a sliver of land that stretches across western China like a narrow passage between mountains and deserts. To understand Gansu is to understand the Silk Road not as a historical artifact but as a living principle: connection across distance, cultural exchange enabled by geography, commerce and culture flowing from east to west and back again. Three cities tell this story: Dunhuang at the western edge where Chinese civilization meets Central Asian influence, Zhangye in the middle ground where landscape overwhelms human settlement, and Lanzhou at the eastern threshold where trade routes converge and the region transforms into modern urbanism.</p>
+
+                <p>These three cities work together to reveal how a province functions as a corridor rather than a destination. Each represents a different stage of the Silk Road experience and a different layer of Gansu's character. Travel through them in sequence and you move through time as much as geography—from ancient cultural crossroads to dramatic natural landscapes to contemporary Chinese urban life.</p>
+
+                <h2>Dunhuang: Where the Silk Road Meets the Desert</h2>
+                <div class="section-two-column">
+                    <div class="column-text">
+                        <p>At Gansu's western edge, Dunhuang exists as a threshold city. For over two thousand years, this oasis town marked the boundary of Chinese civilization. Beyond it lay the desert and Central Asia. Merchants paused here to collect supplies, information, and courage before crossing the Taklamakan—one of the world's harshest deserts. The city accumulated not just goods but cultures: Silk Road traders, Buddhist monks, military officials, artisans bringing techniques from Persia and India.</p>
+
+                        <p>The Mogao Caves, carved into cliffs at the desert's edge, represent the spiritual heart of this exchange. Thousands of Buddhist cave temples stretch across the rock face, filled with sculptures, paintings, and manuscripts that document a thousand years of artistic evolution. Each cave tells a story of a merchant, monk, or artist who invested resources into creating a space of spiritual refuge or artistic expression. Walking the caves, you see how Buddhism transformed as it moved along the Silk Road—adopted and adapted by Chinese artists, the visual language becoming increasingly Chinese while the spiritual core remained Buddhist.</p>
+
+                        <p>Modern Dunhuang is a smaller city, but it retains the character of a place that once mattered to the world's commerce. The streets still feel like a meeting point, even as the caravans are gone. The Gobi Desert extends in every direction, and the oasis itself feels fragile, improbable—a green pocket of life maintained through water management and determination. This precariousness is part of Dunhuang's charm. The city exists because people chose to make it exist.</p>
+                    </div>
+                    <div class="column-images">
+                        <div class="photo-gallery">
+                            <img src="Dunhuang_1.jpg" alt="Dunhuang desert landscape" class="gallery-image">
+                        </div>
+                        <div class="photo-gallery">
+                            <img src="Dunhuang_2.jpg" alt="Dunhuang cultural site" class="gallery-image">
+                        </div>
+                        <div class="photo-gallery">
+                            <img src="Dunhuang_3.jpg" alt="Dunhuang architecture" class="gallery-image">
+                        </div>
+                    </div>
+                </div>
+
+                <h2>Zhangye: The Dramatic Middle Ground</h2>
+                <div class="section-two-column">
+                    <div class="column-text">
+                        <p>Moving east from Dunhuang, the landscape transforms. The stark desert gives way to something equally dramatic but entirely different: the Zhangye Danxia—striped mountains of impossible colors created by mineral deposits oxidizing over millions of years. Red, yellow, purple, and green layers stack atop each other, visible only from specific vantage points where the scale becomes comprehensible. This is geology as spectacle, the earth revealing its history in color and striations.</p>
+
+                        <p>Zhangye sits not as a major city but as a base for experiencing this landscape. The Gobi Desert still surrounds it, but here the geography asserts itself more dramatically than any human settlement can. The landscape is the dominant feature—humans are present but secondary. This middle section of Gansu represents the transition between Dunhuang's desert oasis character and Lanzhou's urban transformation. Zhangye is the place where you stop to observe the land itself, where Gansu's geology becomes the narrative.</p>
+
+                        <p>The city serves as both gateway and staging point for deeper exploration of Gansu's natural wonders. Visitors come to witness the Danxia landscape, to experience the scale of the Gobi, to understand that western China's beauty often comes from what appears hostile to human habitation. The colored mountains are beautiful precisely because they are inhospitable, because they represent millions of years of natural processes indifferent to human purposes.</p>
+                    </div>
+                    <div class="column-images">
+                        <div class="photo-gallery">
+                            <img src="Zhangye_1.jpg" alt="Zhangye Danxia colorful mountains" class="gallery-image">
+                        </div>
+                        <div class="photo-gallery">
+                            <img src="Zhangye_2.jpg" alt="Zhangye landscape views" class="gallery-image">
+                        </div>
+                        <div class="photo-gallery">
+                            <img src="Zhangye_3.jpg" alt="Zhangye geological formations" class="gallery-image">
+                        </div>
+                    </div>
+                </div>
+
+                <h2>Lanzhou: The Convergence Point and Modern Hub</h2>
+                <div class="section-two-column">
+                    <div class="column-text">
+                        <p>By the time you reach Lanzhou, you have crossed from margin to center. This city of three million sits at the convergence of trade routes and political power. The Yellow River flows through it, and the city spreads across the river valleys in a way that feels purposeful and urbanely dense. Lanzhou is where Gansu's provincial government sits, where infrastructure converges, where modern China becomes visible after the oases and deserts of the west.</p>
+
+                        <p>Walking Lanzhou reveals a city in transformation. Modern shopping centers stand near older neighborhoods. High-speed rail connects it to Beijing and other major hubs. Manufacturing and commercial districts cluster in efficient zones. The city feels like a contemporary Chinese urban center that happens to sit at the western end of China's interior. This is the hub where the Silk Road's historical significance becomes economic reality—goods still flow through Lanzhou, though now via container ships and high-speed trains rather than camel caravans.</p>
+
+                        <p>Lanzhou also represents Gansu's modern identity: not as historical artifact but as functioning province with contemporary concerns. The Yellow River's dramatic gorge winds through the city, creating natural drama within an urban setting. Lanzhou people are pragmatic, forward-looking, focused on the city's role as regional center rather than its historical significance. This pragmatism is partly what makes Lanzhou distinct—it refuses to be reduced to a Silk Road symbol. It is simply a city doing the work of a city.</p>
+                    </div>
+                    <div class="column-images">
+                        <div class="photo-gallery">
+                            <img src="Lanzhou_1.jpg" alt="Lanzhou city skyline" class="gallery-image">
+                        </div>
+                        <div class="photo-gallery">
+                            <img src="Lanzhou_2.jpg" alt="Lanzhou urban landscape" class="gallery-image">
+                        </div>
+                        <div class="photo-gallery">
+                            <img src="Lanzhou_3.jpg" alt="Lanzhou Yellow River" class="gallery-image">
+                        </div>
+                        <div class="photo-gallery">
+                            <img src="Lanzhou_4.jpg" alt="Lanzhou infrastructure" class="gallery-image">
+                        </div>
+                    </div>
+                </div>
+
+                <h2>How They Work Together: Reading Gansu as a Corridor</h2>
+                <p>Gansu makes sense only when you understand it as a system rather than as individual cities. Dunhuang is the threshold—the place where you understand Gansu's historical significance and the harsh geography that made the Silk Road necessary. Zhangye is the landscape—the place where Gansu's natural drama becomes apparent and where you comprehend the scale of western China. Lanzhou is the conclusion—the place where history becomes infrastructure, where the Silk Road's legacy manifests as modern commerce and urban function.</p>
+
+                <p>Traveling through all three in sequence creates a narrative arc. You move from peripheral to central, from historical to contemporary, from extreme landscape to urban complexity. Each city prepares you for the next. Dunhuang's isolation makes Zhangye's dramatic geology comprehensible. Zhangye's scale makes Lanzhou's urban density feel appropriate and necessary. Lanzhou's modernity retroactively clarifies what Dunhuang represented—not a quaint historical site but a crucial node in a functioning system of exchange and communication.</p>
+
+                <p>This is Gansu's true character: not as a single place but as a passage. The province exists because it connects east to west, because its geography forces this corridor to be the route. Its cities function as stages in that larger narrative. Understanding Gansu requires accepting this role—not as limitation but as the source of the region's distinctive identity and historical importance.</p>
+            </article>
+        </div>
+
+        <section class="food-section">
+            <h3>Food & Flavors</h3>
+            <div class="food-intro">
+                <p>Gansu cuisine reflects its position as a Silk Road corridor: hand-pulled noodles, meat-filled pastries, spiced wheat-based dishes, and tea traditions imported from Central Asia. The province's food embodies cultural exchange—Islamic, Tibetan, and Han Chinese cooking traditions merged into a distinctive regional palate. If you have food allergies or dietary restrictions, the AllerGuide app helps you navigate every dish safely.</p>
+            </div>
+
+            <div class="allerguide-cards" id="allerguide-container">
+                <!-- AllerGuide cards will be loaded here -->
+                <div style="grid-column: 1 / -1; text-align: center; color: #999; padding: 2rem;">
+                    Loading Gansu dishes from AllerGuide...
+                </div>
+            </div>
+
+            <div class="allerguide-link">
+                <p>For a complete, detailed guide to allergens and dietary accommodations across the world, download the <strong>AllerGuide app</strong>. It integrates restaurant data, dish information, and real-time allergy management tools.</p>
+                <a id="allerguide-btn" href="https://allerguide.app" class="allerguide-cta" target="_blank">Download AllerGuide</a>
+            </div>
+        </section>
+
+        <section class="getting-there-section">
+            <h3>Getting There & Regional Route</h3>
+            <div class="getting-there-content">
+                <div class="getting-there-text">
+                    <p><strong>Entry Points:</strong> Lanzhou Zhongchuan International Airport (LAN) receives flights from major cities including Beijing, Shanghai, Chengdu, and Xi'an. The airport sits about 60 kilometers north of the city, roughly 45 minutes by shuttle or taxi. Alternatively, Dunhuang Airport (DNH) serves the western region with limited connections, primarily from Lanzhou and Xi'an.</p>
+
+                    <p><strong>The Regional Route:</strong> Most travelers experience Gansu as a progression from west to east. Fly into Dunhuang, experience the Mogao Caves and desert landscape, then travel east by bus or car to Zhangye (4-5 hours). Spend time in the Danxia landscape, then continue to Lanzhou (5-6 hours). High-speed rail from Lanzhou connects to the broader Chinese network. This west-to-east route provides narrative coherence—moving from margin to center, from historical to contemporary.</p>
+
+                    <p><strong>Alternative Approach:</strong> Starting in Lanzhou and traveling west reverses the narrative—beginning in contemporary urbanism before encountering increasingly dramatic landscape and deeper history. Both routes reveal Gansu's character but frame it differently.</p>
+
+                    <p><strong>Transportation Between Cities:</strong> Long-distance buses connect Dunhuang, Zhangye, and Lanzhou but are slow. Car rental with driver is more comfortable and allows flexibility for landscape stops. High-speed rail connects Lanzhou to major Chinese cities (Beijing, Shanghai, Xi'an, Chengdu). From Lanzhou, all three cities are accessible and form a logical regional route.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="locations-section">
+            <h3>Key Locations</h3>
+            <div class="locations-grid">
+                <div class="location-item">
+                    <div class="location-name">Mogao Caves</div>
+                    <div class="location-type">Archaeological Site</div>
+                    <div class="location-description">Outside Dunhuang. Thousands of Buddhist cave temples carved over 1000+ years. Sculptures, paintings, manuscripts documenting Silk Road cultural exchange. UNESCO World Heritage Site. Access requires reservation.</div>
+                </div>
+
+                <div class="location-item">
+                    <div class="location-name">Dunhuang Oasis</div>
+                    <div class="location-type">Cultural Landscape</div>
+                    <div class="location-description">City center surrounded by Gobi Desert. Green agricultural area maintained through irrigation. Represents human persistence in hostile environment. Historical meeting point for Silk Road trade.</div>
+                </div>
+
+                <div class="location-item">
+                    <div class="location-name">Zhangye Danxia</div>
+                    <div class="location-type">Natural Landscape</div>
+                    <div class="location-description">Colored mountain range with striped geological formations. Red, yellow, purple, and green mineral layers. Located 35 km from Zhangye city. Dramatic landscape photography destination.</div>
+                </div>
+
+                <div class="location-item">
+                    <div class="location-name">Zhangye City</div>
+                    <div class="location-type">Regional Hub</div>
+                    <div class="location-description">Middle point between Dunhuang and Lanzhou. Base for Danxia landscape exploration. Smaller than Lanzhou but well-equipped with hotels and transportation. Center for western Gansu tourism.</div>
+                </div>
+
+                <div class="location-item">
+                    <div class="location-name">Lanzhou City</div>
+                    <div class="location-type">Provincial Center</div>
+                    <div class="location-description">Three million people. Located on Yellow River. Provincial government seat. Modern infrastructure including high-speed rail. Contemporary Chinese urban center representing Gansu's modern identity.</div>
+                </div>
+
+                <div class="location-item">
+                    <div class="location-name">Yellow River Gorge</div>
+                    <div class="location-type">Natural Feature</div>
+                    <div class="location-description">Dramatic river canyon running through Lanzhou. Creation of dramatic natural drama within urban setting. Accessible parks and viewing areas throughout city.</div>
+                </div>
+
+                <div class="location-item">
+                    <div class="location-name">Silk Road Historical Route</div>
+                    <div class="location-type">Historical Corridor</div>
+                    <div class="location-description">Entire province functions as Silk Road passage. Journey from Dunhuang through Zhangye to Lanzhou retraces historical trade routes. Geographic corridor connecting east and west China.</div>
+                </div>
+
+                <div class="location-item">
+                    <div class="location-name">Gobi Desert</div>
+                    <div class="location-type">Natural Landscape</div>
+                    <div class="location-description">Surrounds western and central Gansu. Harsh environment that made Silk Road necessary. Visible from roads between cities. Experience of vast, inhospitable landscape that shaped region's history.</div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Notes from Gansu — A series by <a href="../../../about.html">Ben Colella</a></p>
+        <p style="margin-top: 1rem; font-size: 0.85rem; color: #999;">Photography and essays documenting architecture, food, urban life, and landscape.</p>
+    </footer>
+
+    <!-- Dish Detail Modal -->
+    <div class="dish-modal" id="dishModal">
+        <button class="modal-close-btn" id="modalCloseBtn">×</button>
+        <div class="dish-modal-content">
+            <img id="modalDishImage" src="" alt="" class="dish-modal-image">
+            <div class="dish-modal-body">
+                <div class="modal-dish-name" id="modalDishName"></div>
+                <div class="modal-dish-native" id="modalDishNative"></div>
+                <div class="modal-tags" id="modalTags"></div>
+                <div id="modalSafeBanner" class="safe-banner" style="display: none;">
+                    Safe based on your allergen profile
+                </div>
+                <div class="modal-description" id="modalDescription"></div>
+                <div class="allergen-section-title">Allergen Information</div>
+                <div class="modal-allergen-grid" id="modalAllergenGrid"></div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Supabase Configuration
+        const SUPABASE_URL = 'https://sueqfqewflletzhdesyd.supabase.co';
+        const SUPABASE_KEY = 'sb_publishable_6k1xtJLke9LVRAdVuSVaQg_atzcTVKg';
+
+        // Allergen metadata with icons and severity levels
+        const allergenMetadata = {
+            Sesame: { icon: '芝', severity: 'severe' },
+            Treenuts: { icon: '🌰', severity: 'severe' },
+            Peanuts: { icon: '🥜', severity: 'severe' },
+            Gluten: { icon: '🌾', severity: 'severe' },
+            Crustaceans: { icon: '🦐', severity: 'severe' },
+            Molluscs: { icon: '🦪', severity: 'severe' },
+            Fish: { icon: '🐟', severity: 'severe' },
+            Eggs: { icon: '🥚', severity: 'severe' },
+            Dairy: { icon: '🥛', severity: 'severe' },
+            Soybeans: { icon: '豆', severity: 'moderate' },
+            Mustard: { icon: '芥', severity: 'moderate' },
+            Celery: { icon: '🥬', severity: 'moderate' },
+            Buckwheat: { icon: '蕎', severity: 'moderate' },
+            Sulfites: { icon: '亜', severity: 'moderate' },
+            Lupin: { icon: '🌿', severity: 'moderate' },
+            Peas: { icon: '豌', severity: 'mild' },
+            Lentils: { icon: '렌', severity: 'mild' },
+            Apples: { icon: '🍎', severity: 'mild' },
+            Bananas: { icon: '🍌', severity: 'mild' },
+            Kiwi: { icon: '🥝', severity: 'mild' },
+            Oranges: { icon: '🍊', severity: 'mild' },
+            'Beehive Products': { icon: '🍯', severity: 'mild' },
+            Cilantro: { icon: '🌿', severity: 'mild' },
+            Pork: { icon: '🥓', severity: 'mild' }
+        };
+
+        async function fetchGansuDishes() {
+            const container = document.getElementById('allerguide-container');
+
+            try {
+                const response = await fetch(
+                    `${SUPABASE_URL}/rest/v1/dishes?Region=eq.Gansu&select=*`,
+                    {
+                        headers: {
+                            'apikey': SUPABASE_KEY,
+                            'Authorization': `Bearer ${SUPABASE_KEY}`
+                        }
+                    }
+                );
+
+                if (!response.ok) {
+                    throw new Error(`HTTP error! status: ${response.status}`);
+                }
+
+                const dishes = await response.json();
+
+                if (!dishes || dishes.length === 0) {
+                    container.innerHTML = '<div class="cards-loading">No dishes found for Gansu. Check back soon!</div>';
+                    return;
+                }
+
+                // Clear loading state
+                container.innerHTML = '';
+
+                // Render each dish card
+                dishes.forEach(dish => {
+                    const card = createDishCard(dish);
+                    container.appendChild(card);
+                });
+
+            } catch (error) {
+                console.error('Error fetching dishes:', error);
+                container.innerHTML = `<div class="cards-loading">Error loading dishes: ${error.message}</div>`;
+            }
+        }
+
+        function createDishCard(dish) {
+            const card = document.createElement('div');
+            card.className = 'allerguide-card';
+
+            // Check if dish is safe (no allergens present)
+            const isSafe = !hasAnyAllergens(dish);
+
+            // Create card HTML
+            card.innerHTML = `
+                <div style="position: relative;">
+                    ${dish.image_url ? `<img src="${dish.image_url}" alt="${dish.name}" class="card-image">` : '<div class="card-image-placeholder">🍽️</div>'}
+                    ${isSafe ? '<div class="card-safe-badge">✓</div>' : ''}
+                </div>
+                <div class="card-content">
+                    <div class="dish-name">${dish.name}</div>
+                    ${dish.native_name ? `<div class="dish-native-name">${dish.native_name}</div>` : ''}
+                    <div class="dish-region">🇨🇳 ${dish.country}</div>
+                </div>
+            `;
+
+            // Add click handler to show details in modal
+            card.addEventListener('click', () => {
+                openDishModal(dish);
+            });
+
+            return card;
+        }
+
+        function openDishModal(dish) {
+            const modal = document.getElementById('dishModal');
+
+            // Populate modal
+            document.getElementById('modalDishName').textContent = dish.name;
+            document.getElementById('modalDishNative').textContent = dish.native_name || '';
+            document.getElementById('modalDescription').textContent = dish.description || 'No description available.';
+
+            // Populate tags
+            const tagsContainer = document.getElementById('modalTags');
+            tagsContainer.innerHTML = '';
+            if (dish.country) {
+                const tag = document.createElement('div');
+                tag.className = 'modal-tag';
+                tag.textContent = `🇨🇳 ${dish.country}`;
+                tagsContainer.appendChild(tag);
+            }
+            if (dish.category) {
+                const tag = document.createElement('div');
+                tag.className = 'modal-tag';
+                tag.textContent = dish.category;
+                tagsContainer.appendChild(tag);
+            }
+
+            // Hide safe banner
+            const safeBanner = document.getElementById('modalSafeBanner');
+            safeBanner.style.display = 'none';
+
+            // Set image
+            const modalImage = document.getElementById('modalDishImage');
+            modalImage.src = dish.image_url || '';
+            modalImage.alt = dish.name;
+
+            // Populate allergen grid
+            const allergenGrid = document.getElementById('modalAllergenGrid');
+            allergenGrid.innerHTML = '';
+
+            const allergenFields = ['Sesame', 'Treenuts', 'Peanuts', 'Gluten', 'Crustaceans',
+                                   'Molluscs', 'Fish', 'Eggs', 'Dairy', 'Soybeans', 'Mustard',
+                                   'Celery', 'Buckwheat', 'Sulfites', 'Lupin', 'Peas', 'Lentils',
+                                   'Apples', 'Bananas', 'Kiwi', 'Oranges', 'Beehive Products', 'Cilantro', 'Pork'];
+
+            allergenFields.forEach(allergen => {
+                const isPresent = dish[allergen] === true;
+                const metadata = allergenMetadata[allergen] || { icon: '⚠️', severity: 'severe' };
+
+                const item = document.createElement('div');
+                item.className = `modal-allergen-item ${isPresent ? metadata.severity : 'not-present'}`;
+
+                if (isPresent) {
+                    item.innerHTML = `
+                        <div class="modal-allergen-icon">
+                            ${metadata.icon}
+                        </div>
+                        <div class="modal-allergen-label ${metadata.severity}">${allergen}</div>
+                    `;
+                } else {
+                    item.innerHTML = `
+                        <div class="modal-allergen-icon">
+                            ${metadata.icon}
+                        </div>
+                        <div class="modal-allergen-label">${allergen}</div>
+                    `;
+                }
+
+                allergenGrid.appendChild(item);
+            });
+
+            // Show modal
+            modal.classList.add('active');
+            document.body.style.overflow = 'hidden';
+        }
+
+        function closeDishModal() {
+            const modal = document.getElementById('dishModal');
+            modal.classList.remove('active');
+            document.body.style.overflow = 'auto';
+        }
+
+        function hasAnyAllergens(dish) {
+            const allergenFields = ['Sesame', 'Treenuts', 'Peanuts', 'Gluten', 'Crustaceans',
+                                   'Molluscs', 'Fish', 'Eggs', 'Dairy', 'Soybeans', 'Mustard',
+                                   'Celery', 'Buckwheat', 'Sulfites', 'Lupin', 'Peas', 'Lentils',
+                                   'Apples', 'Bananas', 'Kiwi', 'Oranges', 'Beehive Products', 'Cilantro', 'Pork'];
+            return allergenFields.some(field => dish[field] === true);
+        }
+
+        // Modal close handlers
+        document.getElementById('modalCloseBtn').addEventListener('click', closeDishModal);
+
+        document.getElementById('dishModal').addEventListener('click', (e) => {
+            if (e.target.id === 'dishModal') {
+                closeDishModal();
+            }
+        });
+
+        // Close modal on Escape key
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'Escape') {
+                const modal = document.getElementById('dishModal');
+                if (modal.classList.contains('active')) {
+                    closeDishModal();
+                }
+            }
+        });
+
+        // Detect iPhone and set AllerGuide link
+        function setAllerGuideLinkForDevice() {
+            const allerguideBtn = document.getElementById('allerguide-btn');
+            const isIPhone = /iPhone|iPad|iPod/.test(navigator.userAgent);
+
+            if (isIPhone) {
+                allerguideBtn.href = 'https://apps.apple.com/app/allerguide/id1234567890';
+                allerguideBtn.target = '_blank';
+            } else {
+                allerguideBtn.href = 'https://allerguide.app';
+                allerguideBtn.target = '_blank';
+            }
+        }
+
+        // Set AllerGuide link when page loads
+        document.addEventListener('DOMContentLoaded', () => {
+            setAllerGuideLinkForDevice();
+            fetchGansuDishes();
+        });
+
+        // Header scroll effect
+        let lastScrollTop = 0;
+        window.addEventListener('scroll', () => {
+            const header = document.getElementById('header');
+            if (window.scrollY > 50) {
+                header.classList.add('scrolled');
+            } else {
+                header.classList.remove('scrolled');
+            }
+            lastScrollTop = window.scrollY;
+        });
+    </script>
+</body>
+</html>

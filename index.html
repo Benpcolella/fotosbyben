@@ -94,6 +94,32 @@
             font-size: 1.2rem;
             max-width: 600px;
             letter-spacing: 0.05em;
+            margin-bottom: 2rem;
+        }
+
+        .hero-cta {
+            display: flex;
+            gap: 1.5rem;
+            flex-wrap: wrap;
+        }
+
+        .cta-button {
+            padding: 0.75rem 1.5rem;
+            border: 2px solid white;
+            background: transparent;
+            color: white;
+            font-size: 0.9rem;
+            cursor: pointer;
+            text-decoration: none;
+            display: inline-block;
+            letter-spacing: 0.05em;
+            transition: all 0.3s ease;
+            font-family: 'Space Mono', monospace;
+        }
+
+        .cta-button:hover {
+            background: white;
+            color: #1a1a1a;
         }
 
         /* Main Container */
@@ -222,15 +248,60 @@
             right: 0;
         }
 
+        /* Post-Portfolio CTA */
+        .post-portfolio-cta {
+            background-color: #f5f5f5;
+            padding: 4rem;
+            margin: 6rem auto 0;
+            max-width: 1600px;
+            text-align: center;
+        }
+
+        .post-portfolio-cta h2 {
+            font-size: 2rem;
+            margin-bottom: 1.5rem;
+            letter-spacing: 0.05em;
+        }
+
+        .post-portfolio-cta p {
+            font-size: 1rem;
+            max-width: 700px;
+            margin: 0 auto 2rem;
+            line-height: 1.8;
+            color: #555;
+        }
+
+        .post-portfolio-cta a {
+            color: #1a1a1a;
+            text-decoration: none;
+            border-bottom: 2px solid #1a1a1a;
+            transition: opacity 0.3s ease;
+        }
+
+        .post-portfolio-cta a:hover {
+            opacity: 0.6;
+        }
+
         /* Footer */
         footer {
             background-color: #1a1a1a;
             color: #ffffff;
             padding: 3rem 4rem;
-            margin-top: 6rem;
+            margin-top: 0;
             text-align: center;
             font-size: 0.95rem;
             letter-spacing: 0.05em;
+        }
+
+        footer a {
+            color: #ffffff;
+            text-decoration: none;
+            border-bottom: 1px solid #ffffff;
+            transition: opacity 0.3s ease;
+        }
+
+        footer a:hover {
+            opacity: 0.8;
         }
 
         /* Responsive */
@@ -295,7 +366,11 @@
         <div class="hero-overlay">
             <div class="hero-text">
                 <h1>Visual Stories</h1>
-                <p>A curated collection exploring the interaction between the natural, built and human<br>environments</p>
+                <p>A curated collection exploring how places are experienced—and showcasing them in ways that move people. Let's talk.</p>
+                <div class="hero-cta">
+                    <a href="about.html#lets-collaborate" class="cta-button">Email Me</a>
+                    <a href="#gallery" class="cta-button">See My Work</a>
+                </div>
             </div>
         </div>
     </section>
@@ -304,8 +379,15 @@
         <div class="gallery" id="gallery"></div>
     </main>
 
+    <section class="post-portfolio-cta">
+        <h2>Like What You See?</h2>
+        <p>This is how I think about photography. Strategic. Specific to place. Rooted in understanding. If your project needs this kind of vision, let's talk.</p>
+        <p>Email <a href="mailto:benpcolella@gmail.com">benpcolella@gmail.com</a> or <a href="about.html#lets-collaborate">schedule a call</a>.</p>
+    </section>
+
     <footer>
-        <p>© 2026 Photography Portfolio. All rights reserved.</p>
+        <p>© 2026 Fotos by Ben | Always accepting new collaborations</p>
+        <p style="margin-top: 1rem; font-size: 0.9rem;">Email: <a href="mailto:benpcolella@gmail.com">benpcolella@gmail.com</a> | Instagram: <a href="https://instagram.com/fotosbyben" target="_blank">@fotosbyben</a></p>
     </footer>
 
     <!-- Image Modal -->

@@ -451,29 +451,15 @@
                 gallery.appendChild(column);
             });
 
-            // Sequential column-by-column loading: left → middle → right
+            // Sequential loading across columns (round-robin)
             const allImages = document.querySelectorAll('img[data-src]');
 
-            // Create loading order: column 0 (0,3,6...), then column 1 (1,4,7...), then column 2 (2,5,8...)
-            const loadOrder = [];
-            for (let col = 0; col < 3; col++) {
-                for (let row = 0; row < images.length; row++) {
-                    const index = row * 3 + col;
-                    if (index < allImages.length) {
-                        loadOrder.push(index);
-                    }
-                }
-            }
-
+            // Load images in order: row by row across all columns
             let loadIndex = 0;
 
             function loadNextImage() {
-                if (loadIndex < loadOrder.length) {
-                    const imgIndex = loadOrder[loadIndex];
-                    const img = allImages[imgIndex];
-                    if (img) {
-                        img.src = img.dataset.src;
-                    }
+                if (loadIndex < allImages.length) {
+                    allImages[loadIndex].src = allImages[loadIndex].dataset.src;
                     loadIndex++;
                     // Load next image after a small delay to smooth bandwidth usage
                     setTimeout(loadNextImage, 50);

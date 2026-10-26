@@ -129,38 +129,29 @@
             padding: 0 1.2rem;
         }
 
-        /* Masonry Gallery */
+        /* Gallery grid: photos read left to right, top to bottom */
         .gallery {
-            display: flex;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
             gap: 0.4rem;
             margin-bottom: 2rem;
-        }
-
-        .gallery-column {
-            flex: 1;
-            display: flex;
-            flex-direction: column;
-            gap: 0.4rem;
-            align-items: stretch;
-            justify-content: flex-start;
         }
 
         .gallery-item {
             position: relative;
             cursor: pointer;
+            aspect-ratio: 1 / 1;
+            overflow: hidden;
+            background-color: #f0f0f0;
             border: 1px solid #e0e0e0;
             transition: all 0.3s ease;
-            background-color: transparent;
         }
 
         .gallery-item img {
             display: block;
             width: 100%;
-            height: auto;
-        }
-
-        .gallery-item.landscape {
-            /* Natural sizing */
+            height: 100%;
+            object-fit: cover;
         }
 
         .gallery-item:hover {
@@ -169,10 +160,10 @@
             transform: translateY(-4px);
         }
 
-        .gallery-item img {
-            width: 100%;
-            height: auto;
-            display: block;
+        @media (max-width: 600px) {
+            .gallery {
+                grid-template-columns: repeat(2, 1fr);
+            }
         }
 
         /* Image Modal */
@@ -414,61 +405,24 @@
 
         let currentModalIndex = 0;
 
-        // Initialize gallery - fast render
+        // Initialize gallery: photos in file order, lazy-loaded thumbnails
         function initializeGallery() {
             const gallery = document.getElementById('gallery');
-            const columns = [[], [], []];
 
-            // Fast distribution across 3 columns
             images.forEach((img, index) => {
-                columns[index % 3].push({img, index});
+                const item = document.createElement('div');
+                item.className = 'gallery-item';
+
+                const imgElement = document.createElement('img');
+                imgElement.src = `thumbs/${img}`;
+                imgElement.alt = 'Photograph';
+                imgElement.loading = 'lazy';
+                imgElement.decoding = 'async';
+
+                item.appendChild(imgElement);
+                item.addEventListener('click', () => openModal(index));
+                gallery.appendChild(item);
             });
-
-            // Render columns immediately
-            columns.forEach((columnItems, colIdx) => {
-                const column = document.createElement('div');
-                column.className = 'gallery-column';
-
-                columnItems.forEach(({img, index}) => {
-                    const item = document.createElement('div');
-                    item.className = 'gallery-item';
-                    const imgElement = document.createElement('img');
-                    imgElement.dataset.src = `thumbs/${img}`;
-                    imgElement.alt = 'Photograph';
-                    imgElement.style.backgroundColor = '#f0f0f0';
-
-                    imgElement.onload = function() {
-                        if (this.naturalWidth > this.naturalHeight) {
-                            item.classList.add('landscape');
-                        }
-                        this.style.backgroundColor = 'transparent';
-                    };
-
-                    item.appendChild(imgElement);
-                    item.addEventListener('click', () => openModal(index));
-                    column.appendChild(item);
-                });
-
-                gallery.appendChild(column);
-            });
-
-            // Sequential loading across columns (round-robin)
-            const allImages = document.querySelectorAll('img[data-src]');
-
-            // Load images in order: row by row across all columns
-            let loadIndex = 0;
-
-            function loadNextImage() {
-                if (loadIndex < allImages.length) {
-                    allImages[loadIndex].src = allImages[loadIndex].dataset.src;
-                    loadIndex++;
-                    // Load next image after a small delay to smooth bandwidth usage
-                    setTimeout(loadNextImage, 50);
-                }
-            }
-
-            // Start loading immediately
-            loadNextImage();
         }
 
         // Modal functions

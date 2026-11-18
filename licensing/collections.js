@@ -446,8 +446,8 @@ window.LICENSING_COLLECTIONS = [
       },
       {
         "id": "MKE-34",
-        "title": "MKE-34: Wing Over the Plaza",
-        "description": "The museum's white wing curves over a plaza under a clear sky.",
+        "title": "MKE-34: Motorcyclist by the Wing",
+        "description": "The museum's wings seen across a lot, with a motorcyclist passing.",
         "w": 1333,
         "h": 2000,
         "uses": [
@@ -459,10 +459,10 @@ window.LICENSING_COLLECTIONS = [
       },
       {
         "id": "MKE-35",
-        "title": "MKE-35: Motorcyclist by the Wing",
-        "description": "The museum's wings seen across a lot, with a motorcyclist passing.",
-        "w": 1333,
-        "h": 2000,
+        "title": "MKE-35: Aerial Autumn Basilica",
+        "description": "Aerial view of a red-towered church among orange autumn trees.",
+        "w": 2000,
+        "h": 1125,
         "uses": [
           "Web",
           "Social media"
@@ -472,8 +472,8 @@ window.LICENSING_COLLECTIONS = [
       },
       {
         "id": "MKE-36",
-        "title": "MKE-36: Aerial Autumn Church",
-        "description": "Aerial view of a gray-roofed building among orange autumn trees.",
+        "title": "MKE-36: Arched Bridge at Sunrise",
+        "description": "A steel arch bridge over a river at sunrise, with a sailboat on the water.",
         "w": 1600,
         "h": 2000,
         "uses": [
@@ -486,10 +486,10 @@ window.LICENSING_COLLECTIONS = [
       },
       {
         "id": "MKE-37",
-        "title": "MKE-37: Aerial Autumn Basilica",
-        "description": "Aerial view of a red-towered church among orange autumn trees.",
-        "w": 2000,
-        "h": 1125,
+        "title": "MKE-37: Historic Corner Storefront",
+        "description": "A historic brick building with domed turrets, cars on the street, and a pedestrian.",
+        "w": 1333,
+        "h": 2000,
         "uses": [
           "Web",
           "Social media"
@@ -499,9 +499,9 @@ window.LICENSING_COLLECTIONS = [
       },
       {
         "id": "MKE-38",
-        "title": "MKE-38: Aerial Autumn Basilica (alt)",
-        "description": "Aerial view of a red-towered church among orange autumn trees, from a slightly different angle.",
-        "w": 1599,
+        "title": "MKE-38: Harbor with Yellow Sky",
+        "description": "A harbor filled with moored boats and trees, under a pale yellow sky.",
+        "w": 1333,
         "h": 2000,
         "uses": [
           "Web",
@@ -512,8 +512,8 @@ window.LICENSING_COLLECTIONS = [
       },
       {
         "id": "MKE-39",
-        "title": "MKE-39: Arched Bridge at Sunrise",
-        "description": "A steel arch bridge over a river at sunrise, with a sailboat on the water.",
+        "title": "MKE-39: Skyline and Marina",
+        "description": "The skyline across the water, with sailboats moored in the foreground.",
         "w": 1600,
         "h": 2000,
         "uses": [
@@ -526,8 +526,8 @@ window.LICENSING_COLLECTIONS = [
       },
       {
         "id": "MKE-40",
-        "title": "MKE-40: Historic Corner Storefront",
-        "description": "A historic brick building with domed turrets, cars on the street, and a pedestrian.",
+        "title": "MKE-40: Overpass and Towers",
+        "description": "A highway overpass curves past downtown towers on a clear day.",
         "w": 1333,
         "h": 2000,
         "uses": [
@@ -539,8 +539,8 @@ window.LICENSING_COLLECTIONS = [
       },
       {
         "id": "MKE-41",
-        "title": "MKE-41: Harbor with Yellow Sky",
-        "description": "A harbor filled with moored boats and trees, under a pale yellow sky.",
+        "title": "MKE-41: Quiet Shoreline Skyline",
+        "description": "A low skyline across the lake at dusk, with a single boat.",
         "w": 1333,
         "h": 2000,
         "uses": [
@@ -552,8 +552,21 @@ window.LICENSING_COLLECTIONS = [
       },
       {
         "id": "MKE-42",
-        "title": "MKE-42: Skyline and Marina",
-        "description": "The skyline across the water, with sailboats moored in the foreground.",
+        "title": "MKE-42: Lawn and Skyline",
+        "description": "Downtown towers rise above a green lawn and a river.",
+        "w": 1333,
+        "h": 2000,
+        "uses": [
+          "Web",
+          "Social media"
+        ],
+        "original": "milwaukee/originals/MKE-42.jpg",
+        "web": "milwaukee/web/MKE-42.jpg"
+      },
+      {
+        "id": "MKE-43",
+        "title": "MKE-43: Sailboats at the Breakwall",
+        "description": "The skyline at dusk, with sailboats moored along the breakwall.",
         "w": 1600,
         "h": 2000,
         "uses": [
@@ -561,26 +574,13 @@ window.LICENSING_COLLECTIONS = [
           "Social media",
           "Print up to 8.0 × 10.0 in (200 dpi)"
         ],
-        "original": "milwaukee/originals/MKE-42.jpg",
-        "web": "milwaukee/web/MKE-42.jpg"
-      },
-      {
-        "id": "MKE-43",
-        "title": "MKE-43: Overpass and Towers",
-        "description": "A highway overpass curves past downtown towers on a clear day.",
-        "w": 1333,
-        "h": 2000,
-        "uses": [
-          "Web",
-          "Social media"
-        ],
         "original": "milwaukee/originals/MKE-43.jpg",
         "web": "milwaukee/web/MKE-43.jpg"
       },
       {
         "id": "MKE-44",
-        "title": "MKE-44: Quiet Shoreline Skyline",
-        "description": "A low skyline across the lake at dusk, with a single boat.",
+        "title": "MKE-44: Leaves and Lakefront",
+        "description": "Silhouetted leaves frame the skyline across the water at dusk.",
         "w": 1333,
         "h": 2000,
         "uses": [
@@ -592,8 +592,8 @@ window.LICENSING_COLLECTIONS = [
       },
       {
         "id": "MKE-45",
-        "title": "MKE-45: Skyline Through the Leaves",
-        "description": "The skyline across the lake, framed by foliage in the foreground.",
+        "title": "MKE-45: City Bus on the Bridge",
+        "description": "A green-and-blue city bus crosses a bridge, with the skyline behind.",
         "w": 1333,
         "h": 2000,
         "uses": [
@@ -605,10 +605,10 @@ window.LICENSING_COLLECTIONS = [
       },
       {
         "id": "MKE-46",
-        "title": "MKE-46: Lawn and Skyline",
-        "description": "Downtown towers rise above a green lawn and a river.",
-        "w": 1333,
-        "h": 2000,
+        "title": "MKE-46: Lakeshore Path and Bench",
+        "description": "Aerial view of the lakeshore: a cyclist on a path, and two people on a bench above the rocks.",
+        "w": 1200,
+        "h": 1500,
         "uses": [
           "Web",
           "Social media"
@@ -618,8 +618,21 @@ window.LICENSING_COLLECTIONS = [
       },
       {
         "id": "MKE-47",
-        "title": "MKE-47: Sailboats at the Breakwall",
-        "description": "The skyline at dusk, with sailboats moored along the breakwall.",
+        "title": "MKE-47: Path Toward the Skyline",
+        "description": "A concrete path curves through grass toward the skyline, with golden reeds.",
+        "w": 1333,
+        "h": 2000,
+        "uses": [
+          "Web",
+          "Social media"
+        ],
+        "original": "milwaukee/originals/MKE-47.jpg",
+        "web": "milwaukee/web/MKE-47.jpg"
+      },
+      {
+        "id": "MKE-48",
+        "title": "MKE-48: Harbor Sailboats",
+        "description": "Sailboats moored in a harbor, with a line of trees behind.",
         "w": 1600,
         "h": 2000,
         "uses": [
@@ -627,39 +640,25 @@ window.LICENSING_COLLECTIONS = [
           "Social media",
           "Print up to 8.0 × 10.0 in (200 dpi)"
         ],
-        "original": "milwaukee/originals/MKE-47.jpg",
-        "web": "milwaukee/web/MKE-47.jpg"
-      },
-      {
-        "id": "MKE-48",
-        "title": "MKE-48: Leaves and Lakefront",
-        "description": "Silhouetted leaves frame the skyline across the water at dusk.",
-        "w": 1333,
-        "h": 2000,
-        "uses": [
-          "Web",
-          "Social media"
-        ],
         "original": "milwaukee/originals/MKE-48.jpg",
         "web": "milwaukee/web/MKE-48.jpg"
       },
       {
         "id": "MKE-49",
-        "title": "MKE-49: City Bus on the Bridge",
-        "description": "A green-and-blue city bus crosses a bridge, with the skyline behind.",
-        "w": 1333,
-        "h": 2000,
+        "title": "MKE-49: Corner Cafe from Above",
+        "description": "Aerial view of a brick corner building with outdoor tables and a street sign below.",
+        "w": 1000,
+        "h": 1500,
         "uses": [
-          "Web",
-          "Social media"
+          "Web (small)"
         ],
         "original": "milwaukee/originals/MKE-49.jpg",
         "web": "milwaukee/web/MKE-49.jpg"
       },
       {
         "id": "MKE-50",
-        "title": "MKE-50: Fisherman at the Water's Edge",
-        "description": "A person sits on rocks at the water's edge, with the skyline and a tower behind.",
+        "title": "MKE-50: Smith Supply Storefront",
+        "description": "A man on a bicycle passes a brick building with painted advertising, and a parked black Jeep.",
         "w": 1333,
         "h": 2000,
         "uses": [
@@ -671,34 +670,8 @@ window.LICENSING_COLLECTIONS = [
       },
       {
         "id": "MKE-51",
-        "title": "MKE-51: Lakeshore Path and Bench",
-        "description": "Aerial view of the lakeshore: a cyclist on a path, and two people on a bench above the rocks.",
-        "w": 1200,
-        "h": 1500,
-        "uses": [
-          "Web",
-          "Social media"
-        ],
-        "original": "milwaukee/originals/MKE-51.jpg",
-        "web": "milwaukee/web/MKE-51.jpg"
-      },
-      {
-        "id": "MKE-52",
-        "title": "MKE-52: Path Toward the Skyline",
-        "description": "A concrete path curves through grass toward the skyline, with golden reeds.",
-        "w": 1333,
-        "h": 2000,
-        "uses": [
-          "Web",
-          "Social media"
-        ],
-        "original": "milwaukee/originals/MKE-52.jpg",
-        "web": "milwaukee/web/MKE-52.jpg"
-      },
-      {
-        "id": "MKE-53",
-        "title": "MKE-53: Harbor Sailboats",
-        "description": "Sailboats moored in a harbor, with a line of trees behind.",
+        "title": "MKE-51: Mill and Boat Dock",
+        "description": "A red-brick factory building beside the river, with a boat dock below.",
         "w": 1600,
         "h": 2000,
         "uses": [
@@ -706,27 +679,56 @@ window.LICENSING_COLLECTIONS = [
           "Social media",
           "Print up to 8.0 × 10.0 in (200 dpi)"
         ],
+        "original": "milwaukee/originals/MKE-51.jpg",
+        "web": "milwaukee/web/MKE-51.jpg"
+      },
+      {
+        "id": "MKE-52",
+        "title": "MKE-52: Fireworks and Reflections",
+        "description": "Fireworks light the night sky above reflections on the water.",
+        "w": 1600,
+        "h": 2000,
+        "uses": [
+          "Web",
+          "Social media",
+          "Print up to 8.0 × 10.0 in (200 dpi)"
+        ],
+        "original": "milwaukee/originals/MKE-52.jpg",
+        "web": "milwaukee/web/MKE-52.jpg"
+      },
+      {
+        "id": "MKE-53",
+        "title": "MKE-53: Basilica Reflection",
+        "description": "A domed church reflected in a still pond, framed by overhanging trees.",
+        "w": 1333,
+        "h": 2000,
+        "uses": [
+          "Web",
+          "Social media"
+        ],
         "original": "milwaukee/originals/MKE-53.jpg",
         "web": "milwaukee/web/MKE-53.jpg"
       },
       {
         "id": "MKE-54",
-        "title": "MKE-54: Corner Cafe from Above",
-        "description": "Aerial view of a brick corner building with outdoor tables and a street sign below.",
-        "w": 1000,
-        "h": 1500,
+        "title": "MKE-54: Freighter and Sailboat",
+        "description": "A sailboat and a freighter on open lake water beyond a rock breakwall.",
+        "w": 1600,
+        "h": 2000,
         "uses": [
-          "Web (small)"
+          "Web",
+          "Social media",
+          "Print up to 8.0 × 10.0 in (200 dpi)"
         ],
         "original": "milwaukee/originals/MKE-54.jpg",
         "web": "milwaukee/web/MKE-54.jpg"
       },
       {
         "id": "MKE-55",
-        "title": "MKE-55: Smith Supply Storefront",
-        "description": "A man on a bicycle passes a brick building with painted advertising, and a parked black Jeep.",
-        "w": 1333,
-        "h": 2000,
+        "title": "MKE-55: Waterfall and Stone House",
+        "description": "A waterfall spills over a stone weir, with a small stone house on the lake at sunset.",
+        "w": 2000,
+        "h": 1333,
         "uses": [
           "Web",
           "Social media"
@@ -736,49 +738,34 @@ window.LICENSING_COLLECTIONS = [
       },
       {
         "id": "MKE-56",
-        "title": "MKE-56: Mill and Boat Dock",
-        "description": "A red-brick factory building beside the river, with a boat dock below.",
-        "w": 1600,
-        "h": 2000,
-        "uses": [
-          "Web",
-          "Social media",
-          "Print up to 8.0 × 10.0 in (200 dpi)"
-        ],
-        "original": "milwaukee/originals/MKE-56.jpg",
-        "web": "milwaukee/web/MKE-56.jpg"
-      },
-      {
-        "id": "MKE-57",
-        "title": "MKE-57: Fireworks and Reflections",
-        "description": "Fireworks light the night sky above reflections on the water.",
-        "w": 1600,
-        "h": 2000,
-        "uses": [
-          "Web",
-          "Social media",
-          "Print up to 8.0 × 10.0 in (200 dpi)"
-        ],
-        "original": "milwaukee/originals/MKE-57.jpg",
-        "web": "milwaukee/web/MKE-57.jpg"
-      },
-      {
-        "id": "MKE-58",
-        "title": "MKE-58: Basilica Reflection",
-        "description": "A domed church reflected in a still pond, framed by overhanging trees.",
+        "title": "MKE-56: Waterfall at the Weir",
+        "description": "A waterfall spills over a stone weir into green water, with a small pavilion on the far bank.",
         "w": 1333,
         "h": 2000,
         "uses": [
           "Web",
           "Social media"
         ],
-        "original": "milwaukee/originals/MKE-58.jpg",
-        "web": "milwaukee/web/MKE-58.jpg"
+        "original": "milwaukee/originals/MKE-56.jpg",
+        "web": "milwaukee/web/MKE-56.jpg"
       },
       {
-        "id": "MKE-59",
-        "title": "MKE-59: Freighter and Sailboat",
-        "description": "A sailboat and a freighter on open lake water beyond a rock breakwall.",
+        "id": "MKE-57",
+        "title": "MKE-57: Underside of the Wing",
+        "description": "Looking up at the dark underside of a museum wing, framing a bright opening.",
+        "w": 2000,
+        "h": 1333,
+        "uses": [
+          "Web",
+          "Social media"
+        ],
+        "original": "milwaukee/originals/MKE-57.jpg",
+        "web": "milwaukee/web/MKE-57.jpg"
+      },
+      {
+        "id": "MKE-58",
+        "title": "MKE-58: Geese at the Shore",
+        "description": "Two Canada geese on a sandy beach, with the city skyline across the water at sunset.",
         "w": 1600,
         "h": 2000,
         "uses": [
@@ -786,15 +773,28 @@ window.LICENSING_COLLECTIONS = [
           "Social media",
           "Print up to 8.0 × 10.0 in (200 dpi)"
         ],
+        "original": "milwaukee/originals/MKE-58.jpg",
+        "web": "milwaukee/web/MKE-58.jpg"
+      },
+      {
+        "id": "MKE-59",
+        "title": "MKE-59: Arched Glass Hall",
+        "description": "A bright, glass-walled hall with arched ceilings and seating areas.",
+        "w": 1333,
+        "h": 2000,
+        "uses": [
+          "Web",
+          "Social media"
+        ],
         "original": "milwaukee/originals/MKE-59.jpg",
         "web": "milwaukee/web/MKE-59.jpg"
       },
       {
         "id": "MKE-60",
-        "title": "MKE-60: Waterfall and Stone House",
-        "description": "A waterfall spills over a stone weir, with a small stone house on the lake at sunset.",
-        "w": 2000,
-        "h": 1333,
+        "title": "MKE-60: Red Sculptures on Black Facade",
+        "description": "Red sculptural forms mounted on a dark ribbed facade.",
+        "w": 1333,
+        "h": 2000,
         "uses": [
           "Web",
           "Social media"
@@ -804,8 +804,8 @@ window.LICENSING_COLLECTIONS = [
       },
       {
         "id": "MKE-61",
-        "title": "MKE-61: Waterfall at the Weir",
-        "description": "A waterfall spills over a stone weir into green water, with a small pavilion on the far bank.",
+        "title": "MKE-61: Kayaker by the Mill",
+        "description": "A long brick industrial building along the river, with a kayaker on red kayak.",
         "w": 1333,
         "h": 2000,
         "uses": [
@@ -817,8 +817,8 @@ window.LICENSING_COLLECTIONS = [
       },
       {
         "id": "MKE-62",
-        "title": "MKE-62: Underside of the Wing",
-        "description": "Looking up at the dark underside of a museum wing, framing a bright opening.",
+        "title": "MKE-62: Arched Bridge over the River",
+        "description": "An arched bridge crosses the river, with brick mill buildings behind.",
         "w": 2000,
         "h": 1333,
         "uses": [
@@ -830,34 +830,34 @@ window.LICENSING_COLLECTIONS = [
       },
       {
         "id": "MKE-63",
-        "title": "MKE-63: Geese at the Shore",
-        "description": "Two Canada geese on a sandy beach, with the city skyline across the water at sunset.",
-        "w": 1600,
+        "title": "MKE-63: Red Sculptures on Black Grid",
+        "description": "Red sculptural forms mounted on a dark perforated facade.",
+        "w": 1332,
         "h": 2000,
         "uses": [
           "Web",
-          "Social media",
-          "Print up to 8.0 × 10.0 in (200 dpi)"
+          "Social media"
         ],
         "original": "milwaukee/originals/MKE-63.jpg",
         "web": "milwaukee/web/MKE-63.jpg"
       },
       {
         "id": "MKE-64",
-        "title": "MKE-64: Tree on the Lawn",
-        "description": "A tree on a green lawn in warm evening light.",
-        "w": 1000,
-        "h": 1500,
+        "title": "MKE-64: Ornate Stone Entrance",
+        "description": "The arched entrance of an ornate stone building, with a clock above the doors.",
+        "w": 1333,
+        "h": 2000,
         "uses": [
-          "Web (small)"
+          "Web",
+          "Social media"
         ],
         "original": "milwaukee/originals/MKE-64.jpg",
         "web": "milwaukee/web/MKE-64.jpg"
       },
       {
         "id": "MKE-65",
-        "title": "MKE-65: Lone Tree in Golden Light",
-        "description": "A single tree on a sunlit grassy park at golden hour.",
+        "title": "MKE-65: Sandstone Civic Building",
+        "description": "An ornate sandstone building with a flagpole, and a motorcycle parked out front.",
         "w": 1333,
         "h": 2000,
         "uses": [
@@ -869,8 +869,8 @@ window.LICENSING_COLLECTIONS = [
       },
       {
         "id": "MKE-66",
-        "title": "MKE-66: Symmetrical Stairwell",
-        "description": "A symmetrical view up a tall, warm-toned stairwell lined with ringed balconies.",
+        "title": "MKE-66: Columned Civic Building",
+        "description": "A neoclassical columned building, with a red-and-orange truck parked on the street.",
         "w": 1333,
         "h": 2000,
         "uses": [
@@ -882,10 +882,10 @@ window.LICENSING_COLLECTIONS = [
       },
       {
         "id": "MKE-67",
-        "title": "MKE-67: Arched Glass Hall",
-        "description": "A bright, glass-walled hall with arched ceilings and seating areas.",
-        "w": 1333,
-        "h": 2000,
+        "title": "MKE-67: Pavilion Framing the Lake",
+        "description": "A concrete-and-glass pavilion frames a view of the lake and lighthouse.",
+        "w": 2000,
+        "h": 1333,
         "uses": [
           "Web",
           "Social media"
@@ -895,8 +895,8 @@ window.LICENSING_COLLECTIONS = [
       },
       {
         "id": "MKE-68",
-        "title": "MKE-68: Red Sculptures on Black Facade",
-        "description": "Red sculptural forms mounted on a dark ribbed facade.",
+        "title": "MKE-68: Victorian Tower on the Corner",
+        "description": "A red-brick Victorian building with a turret and tower, lined by street trees.",
         "w": 1333,
         "h": 2000,
         "uses": [
@@ -908,8 +908,8 @@ window.LICENSING_COLLECTIONS = [
       },
       {
         "id": "MKE-69",
-        "title": "MKE-69: Brick Mill and Moored Boats",
-        "description": "A historic brick mill along the river, with boats moored at a dock.",
+        "title": "MKE-69: Looking Up the Tower",
+        "description": "A dramatic angled view up a glass tower, with a sign and a clock beside it.",
         "w": 1333,
         "h": 2000,
         "uses": [
@@ -921,8 +921,8 @@ window.LICENSING_COLLECTIONS = [
       },
       {
         "id": "MKE-70",
-        "title": "MKE-70: Kayaker by the Mill",
-        "description": "A long brick industrial building along the river, with a kayaker on red kayak.",
+        "title": "MKE-70: Traffic Signal and Tower",
+        "description": "A traffic signal in front of a pale tower.",
         "w": 1333,
         "h": 2000,
         "uses": [
@@ -934,8 +934,8 @@ window.LICENSING_COLLECTIONS = [
       },
       {
         "id": "MKE-71",
-        "title": "MKE-71: River and Mill Row",
-        "description": "Brick mill buildings line the river, with a bridge in the distance.",
+        "title": "MKE-71: Modern Tower and Victorian Facade",
+        "description": "A dark modern tower rises behind an ornate Victorian building with balconies.",
         "w": 1333,
         "h": 2000,
         "uses": [
@@ -947,22 +947,23 @@ window.LICENSING_COLLECTIONS = [
       },
       {
         "id": "MKE-72",
-        "title": "MKE-72: Arched Bridge over the River",
-        "description": "An arched bridge crosses the river, with brick mill buildings behind.",
-        "w": 2000,
-        "h": 1333,
+        "title": "MKE-72: Bench by the Lake",
+        "description": "A person sits on a bench above the lake, surrounded by tall grass.",
+        "w": 1600,
+        "h": 2000,
         "uses": [
           "Web",
-          "Social media"
+          "Social media",
+          "Print up to 8.0 × 10.0 in (200 dpi)"
         ],
         "original": "milwaukee/originals/MKE-72.jpg",
         "web": "milwaukee/web/MKE-72.jpg"
       },
       {
         "id": "MKE-73",
-        "title": "MKE-73: Orange Columns and Red Sculptures",
-        "description": "Orange sculptural columns and red forms against a brick building.",
-        "w": 1333,
+        "title": "MKE-73: Red Sculpture by the Lagoon",
+        "description": "A red sculpture stands beside a museum wing, reflected in still water.",
+        "w": 1334,
         "h": 2000,
         "uses": [
           "Web",
@@ -973,9 +974,9 @@ window.LICENSING_COLLECTIONS = [
       },
       {
         "id": "MKE-74",
-        "title": "MKE-74: Red Sculptures on Black Grid",
-        "description": "Red sculptural forms mounted on a dark perforated facade.",
-        "w": 1332,
+        "title": "MKE-74: Red Sculpture in the Field",
+        "description": "A red sculpture rises from a grassy field, with a museum and steel structure behind.",
+        "w": 1333,
         "h": 2000,
         "uses": [
           "Web",
@@ -986,8 +987,8 @@ window.LICENSING_COLLECTIONS = [
       },
       {
         "id": "MKE-75",
-        "title": "MKE-75: Ornate Stone Entrance",
-        "description": "The arched entrance of an ornate stone building, with a clock above the doors.",
+        "title": "MKE-75: Red Sculpture by the River",
+        "description": "A red sculpture beside a glass museum building, reflected in the water.",
         "w": 1333,
         "h": 2000,
         "uses": [
@@ -999,9 +1000,9 @@ window.LICENSING_COLLECTIONS = [
       },
       {
         "id": "MKE-76",
-        "title": "MKE-76: Sandstone Civic Building",
-        "description": "An ornate sandstone building with a flagpole, and a motorcycle parked out front.",
-        "w": 1333,
+        "title": "MKE-76: Wildflowers and Brick",
+        "description": "Tall grass and wildflowers in front of red-brick buildings, with a blue sign on a pole.",
+        "w": 1334,
         "h": 2000,
         "uses": [
           "Web",
@@ -1012,8 +1013,8 @@ window.LICENSING_COLLECTIONS = [
       },
       {
         "id": "MKE-77",
-        "title": "MKE-77: Columned Civic Building",
-        "description": "A neoclassical columned building, with a red-and-orange truck parked on the street.",
+        "title": "MKE-77: Fire Engine on the Street",
+        "description": "A red fire engine parked in front of a brick building.",
         "w": 1333,
         "h": 2000,
         "uses": [
@@ -1025,10 +1026,10 @@ window.LICENSING_COLLECTIONS = [
       },
       {
         "id": "MKE-78",
-        "title": "MKE-78: Pavilion Framing the Lake",
-        "description": "A concrete-and-glass pavilion frames a view of the lake and lighthouse.",
-        "w": 2000,
-        "h": 1333,
+        "title": "MKE-78: Black Sports Car on Brick",
+        "description": "A black sports car parked in front of a brick building.",
+        "w": 1333,
+        "h": 2000,
         "uses": [
           "Web",
           "Social media"
@@ -1038,9 +1039,9 @@ window.LICENSING_COLLECTIONS = [
       },
       {
         "id": "MKE-79",
-        "title": "MKE-79: Arched Brick Storefronts",
-        "description": "A historic brick building with arched windows, and a few people on the sidewalk.",
-        "w": 1334,
+        "title": "MKE-79: Signals and Skyline",
+        "description": "Traffic signals in the foreground, with a tower in the distance.",
+        "w": 1333,
         "h": 2000,
         "uses": [
           "Web",
@@ -1051,8 +1052,8 @@ window.LICENSING_COLLECTIONS = [
       },
       {
         "id": "MKE-80",
-        "title": "MKE-80: Victorian Tower on the Corner",
-        "description": "A red-brick Victorian building with a turret and tower, lined by street trees.",
+        "title": "MKE-80: Brick Factory Arches",
+        "description": "A red-brick factory building with arched windows, seen from below.",
         "w": 1333,
         "h": 2000,
         "uses": [
@@ -1064,21 +1065,20 @@ window.LICENSING_COLLECTIONS = [
       },
       {
         "id": "MKE-81",
-        "title": "MKE-81: Looking Up the Tower",
-        "description": "A dramatic angled view up a glass tower, with a sign and a clock beside it.",
-        "w": 1333,
-        "h": 2000,
+        "title": "MKE-81: Gazebo and the Tower",
+        "description": "A gazebo in a green park, with a brick tower behind.",
+        "w": 1000,
+        "h": 1500,
         "uses": [
-          "Web",
-          "Social media"
+          "Web (small)"
         ],
         "original": "milwaukee/originals/MKE-81.jpg",
         "web": "milwaukee/web/MKE-81.jpg"
       },
       {
         "id": "MKE-82",
-        "title": "MKE-82: Traffic Signal and Tower",
-        "description": "A traffic signal in front of a pale tower.",
+        "title": "MKE-82: Museum Wings in the Trees",
+        "description": "The white curved wings of a museum rise above green trees.",
         "w": 1333,
         "h": 2000,
         "uses": [
@@ -1090,8 +1090,8 @@ window.LICENSING_COLLECTIONS = [
       },
       {
         "id": "MKE-83",
-        "title": "MKE-83: Modern Tower and Victorian Facade",
-        "description": "A dark modern tower rises behind an ornate Victorian building with balconies.",
+        "title": "MKE-83: Curved White Wing",
+        "description": "A curved white museum wing rises above trees in the foreground.",
         "w": 1333,
         "h": 2000,
         "uses": [
@@ -1103,23 +1103,22 @@ window.LICENSING_COLLECTIONS = [
       },
       {
         "id": "MKE-84",
-        "title": "MKE-84: Bench by the Lake",
-        "description": "A person sits on a bench above the lake, surrounded by tall grass.",
-        "w": 1600,
+        "title": "MKE-84: Signal at the Museum",
+        "description": "Traffic signals hang in front of a curved white museum wing.",
+        "w": 1333,
         "h": 2000,
         "uses": [
           "Web",
-          "Social media",
-          "Print up to 8.0 × 10.0 in (200 dpi)"
+          "Social media"
         ],
         "original": "milwaukee/originals/MKE-84.jpg",
         "web": "milwaukee/web/MKE-84.jpg"
       },
       {
         "id": "MKE-85",
-        "title": "MKE-85: Red Sculpture by the Lagoon",
-        "description": "A red sculpture stands beside a museum wing, reflected in still water.",
-        "w": 1334,
+        "title": "MKE-85: Perforated Frame, White Wing",
+        "description": "Looking through a perforated black metal frame at the white museum wing.",
+        "w": 1333,
         "h": 2000,
         "uses": [
           "Web",
@@ -1130,8 +1129,8 @@ window.LICENSING_COLLECTIONS = [
       },
       {
         "id": "MKE-86",
-        "title": "MKE-86: Red Sculpture in the Field",
-        "description": "A red sculpture rises from a grassy field, with a museum and steel structure behind.",
+        "title": "MKE-86: Perforated Frame, Church Spire",
+        "description": "Looking through a perforated black metal frame at a church spire in the distance.",
         "w": 1333,
         "h": 2000,
         "uses": [
@@ -1143,8 +1142,8 @@ window.LICENSING_COLLECTIONS = [
       },
       {
         "id": "MKE-87",
-        "title": "MKE-87: Red Sculpture by the River",
-        "description": "A red sculpture beside a glass museum building, reflected in the water.",
+        "title": "MKE-87: Perforated Frame, Museum",
+        "description": "Looking through a perforated black metal frame at the white museum wing.",
         "w": 1333,
         "h": 2000,
         "uses": [
@@ -1156,9 +1155,9 @@ window.LICENSING_COLLECTIONS = [
       },
       {
         "id": "MKE-88",
-        "title": "MKE-88: Wildflowers and Brick",
-        "description": "Tall grass and wildflowers in front of red-brick buildings, with a blue sign on a pole.",
-        "w": 1334,
+        "title": "MKE-88: Museum Wings and Lifts",
+        "description": "Two white museum wings and a glass atrium, with orange lifts and a car at the curb.",
+        "w": 1333,
         "h": 2000,
         "uses": [
           "Web",
@@ -1169,8 +1168,8 @@ window.LICENSING_COLLECTIONS = [
       },
       {
         "id": "MKE-89",
-        "title": "MKE-89: Fire Engine on the Street",
-        "description": "A red fire engine parked in front of a brick building.",
+        "title": "MKE-89: Vagabond Patio",
+        "description": "An ivy-covered building with a silver Airstream trailer and a blue fence.",
         "w": 1333,
         "h": 2000,
         "uses": [
@@ -1182,8 +1181,8 @@ window.LICENSING_COLLECTIONS = [
       },
       {
         "id": "MKE-90",
-        "title": "MKE-90: Black Sports Car on Brick",
-        "description": "A black sports car parked in front of a brick building.",
+        "title": "MKE-90: Corner Bar and Skater",
+        "description": "A historic corner bar with neon signage, and a skateboarder on the sidewalk.",
         "w": 1333,
         "h": 2000,
         "uses": [
@@ -1195,8 +1194,8 @@ window.LICENSING_COLLECTIONS = [
       },
       {
         "id": "MKE-91",
-        "title": "MKE-91: Signals and Skyline",
-        "description": "Traffic signals in the foreground, with a tower in the distance.",
+        "title": "MKE-91: World Famous Drive-In Sign",
+        "description": "Neon sign reading 'Leon's', 'World Famous' and 'Frozen Custard', against a pale sky.",
         "w": 1333,
         "h": 2000,
         "uses": [
@@ -1208,8 +1207,8 @@ window.LICENSING_COLLECTIONS = [
       },
       {
         "id": "MKE-92",
-        "title": "MKE-92: Brick Factory Arches",
-        "description": "A red-brick factory building with arched windows, seen from below.",
+        "title": "MKE-92: Brick and Lot",
+        "description": "Modern and brick buildings beside a grassy lot under a cloudy sky.",
         "w": 1333,
         "h": 2000,
         "uses": [
@@ -1221,8 +1220,8 @@ window.LICENSING_COLLECTIONS = [
       },
       {
         "id": "MKE-93",
-        "title": "MKE-93: Gazebo and the Tower",
-        "description": "A gazebo in a green park, with a brick tower behind.",
+        "title": "MKE-93: Colectivo Coffee",
+        "description": "A brick storefront with a red awning and teal chairs under a large tree.",
         "w": 1000,
         "h": 1500,
         "uses": [
@@ -1233,8 +1232,8 @@ window.LICENSING_COLLECTIONS = [
       },
       {
         "id": "MKE-94",
-        "title": "MKE-94: Museum Wings in the Trees",
-        "description": "The white curved wings of a museum rise above green trees.",
+        "title": "MKE-94: Kayaks and Skyline (alt)",
+        "description": "The skyline across the river, framed more closely, with kayakers on the water.",
         "w": 1333,
         "h": 2000,
         "uses": [
@@ -1246,8 +1245,8 @@ window.LICENSING_COLLECTIONS = [
       },
       {
         "id": "MKE-95",
-        "title": "MKE-95: Curved White Wing",
-        "description": "A curved white museum wing rises above trees in the foreground.",
+        "title": "MKE-95: Public Market Corner",
+        "description": "The Milwaukee Public Market sign, with people crossing the street.",
         "w": 1333,
         "h": 2000,
         "uses": [
@@ -1259,175 +1258,7 @@ window.LICENSING_COLLECTIONS = [
       },
       {
         "id": "MKE-96",
-        "title": "MKE-96: Signal at the Museum",
-        "description": "Traffic signals hang in front of a curved white museum wing.",
-        "w": 1333,
-        "h": 2000,
-        "uses": [
-          "Web",
-          "Social media"
-        ],
-        "original": "milwaukee/originals/MKE-96.jpg",
-        "web": "milwaukee/web/MKE-96.jpg"
-      },
-      {
-        "id": "MKE-97",
-        "title": "MKE-97: Perforated Frame, White Wing",
-        "description": "Looking through a perforated black metal frame at the white museum wing.",
-        "w": 1333,
-        "h": 2000,
-        "uses": [
-          "Web",
-          "Social media"
-        ],
-        "original": "milwaukee/originals/MKE-97.jpg",
-        "web": "milwaukee/web/MKE-97.jpg"
-      },
-      {
-        "id": "MKE-98",
-        "title": "MKE-98: Perforated Frame, Church Spire",
-        "description": "Looking through a perforated black metal frame at a church spire in the distance.",
-        "w": 1333,
-        "h": 2000,
-        "uses": [
-          "Web",
-          "Social media"
-        ],
-        "original": "milwaukee/originals/MKE-98.jpg",
-        "web": "milwaukee/web/MKE-98.jpg"
-      },
-      {
-        "id": "MKE-99",
-        "title": "MKE-99: Perforated Frame, Museum",
-        "description": "Looking through a perforated black metal frame at the white museum wing.",
-        "w": 1333,
-        "h": 2000,
-        "uses": [
-          "Web",
-          "Social media"
-        ],
-        "original": "milwaukee/originals/MKE-99.jpg",
-        "web": "milwaukee/web/MKE-99.jpg"
-      },
-      {
-        "id": "MKE-100",
-        "title": "MKE-100: Museum Wings and Lifts",
-        "description": "Two white museum wings and a glass atrium, with orange lifts and a car at the curb.",
-        "w": 1333,
-        "h": 2000,
-        "uses": [
-          "Web",
-          "Social media"
-        ],
-        "original": "milwaukee/originals/MKE-100.jpg",
-        "web": "milwaukee/web/MKE-100.jpg"
-      },
-      {
-        "id": "MKE-101",
-        "title": "MKE-101: Vagabond Patio",
-        "description": "An ivy-covered building with a silver Airstream trailer and a blue fence.",
-        "w": 1333,
-        "h": 2000,
-        "uses": [
-          "Web",
-          "Social media"
-        ],
-        "original": "milwaukee/originals/MKE-101.jpg",
-        "web": "milwaukee/web/MKE-101.jpg"
-      },
-      {
-        "id": "MKE-102",
-        "title": "MKE-102: Classic Chevrolet",
-        "description": "A dark blue Chevrolet parked on a city street, with a red car behind.",
-        "w": 1333,
-        "h": 2000,
-        "uses": [
-          "Web",
-          "Social media"
-        ],
-        "original": "milwaukee/originals/MKE-102.jpg",
-        "web": "milwaukee/web/MKE-102.jpg"
-      },
-      {
-        "id": "MKE-103",
-        "title": "MKE-103: Corner Bar and Skater",
-        "description": "A historic corner bar with neon signage, and a skateboarder on the sidewalk.",
-        "w": 1333,
-        "h": 2000,
-        "uses": [
-          "Web",
-          "Social media"
-        ],
-        "original": "milwaukee/originals/MKE-103.jpg",
-        "web": "milwaukee/web/MKE-103.jpg"
-      },
-      {
-        "id": "MKE-104",
-        "title": "MKE-104: World Famous Drive-In Sign",
-        "description": "Neon sign reading 'Leon's', 'World Famous' and 'Frozen Custard', against a pale sky.",
-        "w": 1333,
-        "h": 2000,
-        "uses": [
-          "Web",
-          "Social media"
-        ],
-        "original": "milwaukee/originals/MKE-104.jpg",
-        "web": "milwaukee/web/MKE-104.jpg"
-      },
-      {
-        "id": "MKE-105",
-        "title": "MKE-105: Brick and Lot",
-        "description": "Modern and brick buildings beside a grassy lot under a cloudy sky.",
-        "w": 1333,
-        "h": 2000,
-        "uses": [
-          "Web",
-          "Social media"
-        ],
-        "original": "milwaukee/originals/MKE-105.jpg",
-        "web": "milwaukee/web/MKE-105.jpg"
-      },
-      {
-        "id": "MKE-106",
-        "title": "MKE-106: Colectivo Coffee",
-        "description": "A brick storefront with a red awning and teal chairs under a large tree.",
-        "w": 1000,
-        "h": 1500,
-        "uses": [
-          "Web (small)"
-        ],
-        "original": "milwaukee/originals/MKE-106.jpg",
-        "web": "milwaukee/web/MKE-106.jpg"
-      },
-      {
-        "id": "MKE-107",
-        "title": "MKE-107: Kayaks and Skyline (alt)",
-        "description": "The skyline across the river, framed more closely, with kayakers on the water.",
-        "w": 1333,
-        "h": 2000,
-        "uses": [
-          "Web",
-          "Social media"
-        ],
-        "original": "milwaukee/originals/MKE-107.jpg",
-        "web": "milwaukee/web/MKE-107.jpg"
-      },
-      {
-        "id": "MKE-108",
-        "title": "MKE-108: Public Market Corner",
-        "description": "The Milwaukee Public Market sign, with people crossing the street.",
-        "w": 1333,
-        "h": 2000,
-        "uses": [
-          "Web",
-          "Social media"
-        ],
-        "original": "milwaukee/originals/MKE-108.jpg",
-        "web": "milwaukee/web/MKE-108.jpg"
-      },
-      {
-        "id": "MKE-109",
-        "title": "MKE-109: Stadium from Above",
+        "title": "MKE-96: Stadium from Above",
         "description": "Aerial view of a baseball stadium with its wings open, surrounded by parking.",
         "w": 1500,
         "h": 2000,
@@ -1435,8 +1266,8 @@ window.LICENSING_COLLECTIONS = [
           "Web",
           "Social media"
         ],
-        "original": "milwaukee/originals/MKE-109.jpg",
-        "web": "milwaukee/web/MKE-109.jpg"
+        "original": "milwaukee/originals/MKE-96.jpg",
+        "web": "milwaukee/web/MKE-96.jpg"
       }
     ]
   }

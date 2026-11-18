@@ -1,0 +1,127 @@
+[
+  {
+    "id": "MKE-34",
+    "source": "172.jpg",
+    "title": "MKE-34: Wing Over the Plaza",
+    "description": "The museum's white wing curves over a plaza under a clear sky.",
+    "release_notes": [
+      "Landmark architecture: confirm property permission"
+    ],
+    "featured": true
+  },
+  {
+    "id": "MKE-36",
+    "source": "174.jpg",
+    "title": "MKE-36: Aerial Autumn Church",
+    "description": "Aerial view of a gray-roofed building among orange autumn trees.",
+    "release_notes": [
+      "Building name not confirmed"
+    ],
+    "featured": true
+  },
+  {
+    "id": "MKE-38",
+    "source": "176.jpg",
+    "title": "MKE-38: Aerial Autumn Basilica (alt)",
+    "description": "Aerial view of a red-towered church among orange autumn trees, from a slightly different angle.",
+    "release_notes": [
+      "Near-duplicate of MKE-37: choose one"
+    ],
+    "featured": true
+  },
+  {
+    "id": "MKE-45",
+    "source": "184.jpg",
+    "title": "MKE-45: Skyline Through the Leaves",
+    "description": "The skyline across the lake, framed by foliage in the foreground.",
+    "release_notes": [],
+    "featured": true
+  },
+  {
+    "id": "MKE-50",
+    "source": "191.jpg",
+    "title": "MKE-50: Fisherman at the Water's Edge",
+    "description": "A person sits on rocks at the water's edge, with the skyline and a tower behind.",
+    "release_notes": [
+      "Person visible: confirm release"
+    ],
+    "featured": true
+  },
+  {
+    "id": "MKE-64",
+    "source": "208.jpg",
+    "title": "MKE-64: Tree on the Lawn",
+    "description": "A tree on a green lawn in warm evening light.",
+    "release_notes": [],
+    "featured": true
+  },
+  {
+    "id": "MKE-65",
+    "source": "209.jpg",
+    "title": "MKE-65: Lone Tree in Golden Light",
+    "description": "A single tree on a sunlit grassy park at golden hour.",
+    "release_notes": [],
+    "featured": true
+  },
+  {
+    "id": "MKE-66",
+    "source": "210.jpg",
+    "title": "MKE-66: Symmetrical Stairwell",
+    "description": "A symmetrical view up a tall, warm-toned stairwell lined with ringed balconies.",
+    "release_notes": [
+      "Interior of building: confirm property permission"
+    ],
+    "featured": true
+  },
+  {
+    "id": "MKE-69",
+    "source": "213.jpg",
+    "title": "MKE-69: Brick Mill and Moored Boats",
+    "description": "A historic brick mill along the river, with boats moored at a dock.",
+    "release_notes": [
+      "Building name not confirmed"
+    ],
+    "featured": true
+  },
+  {
+    "id": "MKE-71",
+    "source": "215.jpg",
+    "title": "MKE-71: River and Mill Row",
+    "description": "Brick mill buildings line the river, with a bridge in the distance.",
+    "release_notes": [
+      "Building name not confirmed"
+    ],
+    "featured": true
+  },
+  {
+    "id": "MKE-73",
+    "source": "218.jpg",
+    "title": "MKE-73: Orange Columns and Red Sculptures",
+    "description": "Orange sculptural columns and red forms against a brick building.",
+    "release_notes": [
+      "Public artwork: confirm artist and permission"
+    ],
+    "featured": true
+  },
+  {
+    "id": "MKE-79",
+    "source": "226.jpg",
+    "title": "MKE-79: Arched Brick Storefronts",
+    "description": "A historic brick building with arched windows, and a few people on the sidewalk.",
+    "release_notes": [
+      "Pedestrians visible: confirm release if used"
+    ],
+    "featured": true
+  },
+  {
+    "id": "MKE-102",
+    "source": "250.jpg",
+    "title": "MKE-102: Classic Chevrolet",
+    "description": "A dark blue Chevrolet parked on a city street, with a red car behind.",
+    "release_notes": [
+      "License plate visible: confirm before use",
+      "Vehicle branding visible: confirm before use"
+    ],
+    "featured": true
+  }
+]

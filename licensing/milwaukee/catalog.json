@@ -203,7 +203,7 @@
     "release_notes": [
       "Kayakers visible: confirm release",
       "Bank and building signage visible: confirm before use",
-      "Near-duplicate of MKE-107: choose one"
+      "Near-duplicate of MKE-94: choose one"
     ],
     "featured": true
   },
@@ -326,18 +326,8 @@
   },
   {
     "id": "MKE-34",
-    "source": "172.jpg",
-    "title": "MKE-34: Wing Over the Plaza",
-    "description": "The museum's white wing curves over a plaza under a clear sky.",
-    "release_notes": [
-      "Landmark architecture: confirm property permission"
-    ],
-    "featured": true
-  },
-  {
-    "id": "MKE-35",
     "source": "173.jpg",
-    "title": "MKE-35: Motorcyclist by the Wing",
+    "title": "MKE-34: Motorcyclist by the Wing",
     "description": "The museum's wings seen across a lot, with a motorcyclist passing.",
     "release_notes": [
       "Person visible (motorcycle): confirm release",
@@ -346,40 +336,20 @@
     "featured": true
   },
   {
-    "id": "MKE-36",
-    "source": "174.jpg",
-    "title": "MKE-36: Aerial Autumn Church",
-    "description": "Aerial view of a gray-roofed building among orange autumn trees.",
-    "release_notes": [
-      "Building name not confirmed"
-    ],
-    "featured": true
-  },
-  {
-    "id": "MKE-37",
+    "id": "MKE-35",
     "source": "175.jpg",
-    "title": "MKE-37: Aerial Autumn Basilica",
+    "title": "MKE-35: Aerial Autumn Basilica",
     "description": "Aerial view of a red-towered church among orange autumn trees.",
     "release_notes": [
       "Building name not confirmed",
-      "Near-duplicate of MKE-38: choose one"
+      "Near-duplicate of MKE-38 (removed): choose one"
     ],
     "featured": true
   },
   {
-    "id": "MKE-38",
-    "source": "176.jpg",
-    "title": "MKE-38: Aerial Autumn Basilica (alt)",
-    "description": "Aerial view of a red-towered church among orange autumn trees, from a slightly different angle.",
-    "release_notes": [
-      "Near-duplicate of MKE-37: choose one"
-    ],
-    "featured": true
-  },
-  {
-    "id": "MKE-39",
+    "id": "MKE-36",
     "source": "177.jpg",
-    "title": "MKE-39: Arched Bridge at Sunrise",
+    "title": "MKE-36: Arched Bridge at Sunrise",
     "description": "A steel arch bridge over a river at sunrise, with a sailboat on the water.",
     "release_notes": [
       "Bridge name not confirmed"
@@ -387,9 +357,9 @@
     "featured": true
   },
   {
-    "id": "MKE-40",
+    "id": "MKE-37",
     "source": "178.jpg",
-    "title": "MKE-40: Historic Corner Storefront",
+    "title": "MKE-37: Historic Corner Storefront",
     "description": "A historic brick building with domed turrets, cars on the street, and a pedestrian.",
     "release_notes": [
       "Building signage: confirm before use",
@@ -398,25 +368,25 @@
     "featured": true
   },
   {
-    "id": "MKE-41",
+    "id": "MKE-38",
     "source": "179.jpg",
-    "title": "MKE-41: Harbor with Yellow Sky",
+    "title": "MKE-38: Harbor with Yellow Sky",
     "description": "A harbor filled with moored boats and trees, under a pale yellow sky.",
     "release_notes": [],
     "featured": true
   },
   {
-    "id": "MKE-42",
+    "id": "MKE-39",
     "source": "180.jpg",
-    "title": "MKE-42: Skyline and Marina",
+    "title": "MKE-39: Skyline and Marina",
     "description": "The skyline across the water, with sailboats moored in the foreground.",
     "release_notes": [],
     "featured": true
   },
   {
-    "id": "MKE-43",
+    "id": "MKE-40",
     "source": "181.jpg",
-    "title": "MKE-43: Overpass and Towers",
+    "title": "MKE-40: Overpass and Towers",
     "description": "A highway overpass curves past downtown towers on a clear day.",
     "release_notes": [
       "Road signage: confirm before use"
@@ -424,25 +394,17 @@
     "featured": true
   },
   {
-    "id": "MKE-44",
+    "id": "MKE-41",
     "source": "183.jpg",
-    "title": "MKE-44: Quiet Shoreline Skyline",
+    "title": "MKE-41: Quiet Shoreline Skyline",
     "description": "A low skyline across the lake at dusk, with a single boat.",
     "release_notes": [],
     "featured": true
   },
   {
-    "id": "MKE-45",
-    "source": "184.jpg",
-    "title": "MKE-45: Skyline Through the Leaves",
-    "description": "The skyline across the lake, framed by foliage in the foreground.",
-    "release_notes": [],
-    "featured": true
-  },
-  {
-    "id": "MKE-46",
+    "id": "MKE-42",
     "source": "185.jpg",
-    "title": "MKE-46: Lawn and Skyline",
+    "title": "MKE-42: Lawn and Skyline",
     "description": "Downtown towers rise above a green lawn and a river.",
     "release_notes": [
       "Small figures visible: confirm release if used commercially"
@@ -450,25 +412,25 @@
     "featured": true
   },
   {
-    "id": "MKE-47",
+    "id": "MKE-43",
     "source": "186.jpg",
-    "title": "MKE-47: Sailboats at the Breakwall",
+    "title": "MKE-43: Sailboats at the Breakwall",
     "description": "The skyline at dusk, with sailboats moored along the breakwall.",
     "release_notes": [],
     "featured": true
   },
   {
-    "id": "MKE-48",
+    "id": "MKE-44",
     "source": "189.jpg",
-    "title": "MKE-48: Leaves and Lakefront",
+    "title": "MKE-44: Leaves and Lakefront",
     "description": "Silhouetted leaves frame the skyline across the water at dusk.",
     "release_notes": [],
     "featured": true
   },
   {
-    "id": "MKE-49",
+    "id": "MKE-45",
     "source": "190.jpg",
-    "title": "MKE-49: City Bus on the Bridge",
+    "title": "MKE-45: City Bus on the Bridge",
     "description": "A green-and-blue city bus crosses a bridge, with the skyline behind.",
     "release_notes": [
       "Transit branding (RideMCTS) visible: confirm before commercial use"
@@ -476,19 +438,9 @@
     "featured": true
   },
   {
-    "id": "MKE-50",
-    "source": "191.jpg",
-    "title": "MKE-50: Fisherman at the Water's Edge",
-    "description": "A person sits on rocks at the water's edge, with the skyline and a tower behind.",
-    "release_notes": [
-      "Person visible: confirm release"
-    ],
-    "featured": true
-  },
-  {
-    "id": "MKE-51",
+    "id": "MKE-46",
     "source": "192.jpg",
-    "title": "MKE-51: Lakeshore Path and Bench",
+    "title": "MKE-46: Lakeshore Path and Bench",
     "description": "Aerial view of the lakeshore: a cyclist on a path, and two people on a bench above the rocks.",
     "release_notes": [
       "Two people and a cyclist visible: confirm release"
@@ -496,25 +448,25 @@
     "featured": true
   },
   {
-    "id": "MKE-52",
+    "id": "MKE-47",
     "source": "193.jpg",
-    "title": "MKE-52: Path Toward the Skyline",
+    "title": "MKE-47: Path Toward the Skyline",
     "description": "A concrete path curves through grass toward the skyline, with golden reeds.",
     "release_notes": [],
     "featured": true
   },
   {
-    "id": "MKE-53",
+    "id": "MKE-48",
     "source": "194.jpg",
-    "title": "MKE-53: Harbor Sailboats",
+    "title": "MKE-48: Harbor Sailboats",
     "description": "Sailboats moored in a harbor, with a line of trees behind.",
     "release_notes": [],
     "featured": true
   },
   {
-    "id": "MKE-54",
+    "id": "MKE-49",
     "source": "195.jpg",
-    "title": "MKE-54: Corner Cafe from Above",
+    "title": "MKE-49: Corner Cafe from Above",
     "description": "Aerial view of a brick corner building with outdoor tables and a street sign below.",
     "release_notes": [
       "Cafe signage visible: confirm before use",
@@ -523,9 +475,9 @@
     "featured": true
   },
   {
-    "id": "MKE-55",
+    "id": "MKE-50",
     "source": "196.jpg",
-    "title": "MKE-55: Smith Supply Storefront",
+    "title": "MKE-50: Smith Supply Storefront",
     "description": "A man on a bicycle passes a brick building with painted advertising, and a parked black Jeep.",
     "release_notes": [
       "Painted signage 'Smith Supply Co.': confirm before use",
@@ -534,9 +486,9 @@
     "featured": true
   },
   {
-    "id": "MKE-56",
+    "id": "MKE-51",
     "source": "199.jpg",
-    "title": "MKE-56: Mill and Boat Dock",
+    "title": "MKE-51: Mill and Boat Dock",
     "description": "A red-brick factory building beside the river, with a boat dock below.",
     "release_notes": [
       "Building name not confirmed",
@@ -545,9 +497,9 @@
     "featured": true
   },
   {
-    "id": "MKE-57",
+    "id": "MKE-52",
     "source": "201.jpg",
-    "title": "MKE-57: Fireworks and Reflections",
+    "title": "MKE-52: Fireworks and Reflections",
     "description": "Fireworks light the night sky above reflections on the water.",
     "release_notes": [
       "Event photo: confirm event permission"
@@ -555,9 +507,9 @@
     "featured": true
   },
   {
-    "id": "MKE-58",
+    "id": "MKE-53",
     "source": "202.jpg",
-    "title": "MKE-58: Basilica Reflection",
+    "title": "MKE-53: Basilica Reflection",
     "description": "A domed church reflected in a still pond, framed by overhanging trees.",
     "release_notes": [
       "Building name not confirmed"
@@ -565,17 +517,17 @@
     "featured": true
   },
   {
-    "id": "MKE-59",
+    "id": "MKE-54",
     "source": "203.jpg",
-    "title": "MKE-59: Freighter and Sailboat",
+    "title": "MKE-54: Freighter and Sailboat",
     "description": "A sailboat and a freighter on open lake water beyond a rock breakwall.",
     "release_notes": [],
     "featured": true
   },
   {
-    "id": "MKE-60",
+    "id": "MKE-55",
     "source": "204.jpg",
-    "title": "MKE-60: Waterfall and Stone House",
+    "title": "MKE-55: Waterfall and Stone House",
     "description": "A waterfall spills over a stone weir, with a small stone house on the lake at sunset.",
     "release_notes": [
       "Building name not confirmed"
@@ -583,17 +535,17 @@
     "featured": true
   },
   {
-    "id": "MKE-61",
+    "id": "MKE-56",
     "source": "205.jpg",
-    "title": "MKE-61: Waterfall at the Weir",
+    "title": "MKE-56: Waterfall at the Weir",
     "description": "A waterfall spills over a stone weir into green water, with a small pavilion on the far bank.",
     "release_notes": [],
     "featured": true
   },
   {
-    "id": "MKE-62",
+    "id": "MKE-57",
     "source": "206.jpg",
-    "title": "MKE-62: Underside of the Wing",
+    "title": "MKE-57: Underside of the Wing",
     "description": "Looking up at the dark underside of a museum wing, framing a bright opening.",
     "release_notes": [
       "Landmark architecture: confirm property permission"
@@ -601,43 +553,17 @@
     "featured": true
   },
   {
-    "id": "MKE-63",
+    "id": "MKE-58",
     "source": "207.jpg",
-    "title": "MKE-63: Geese at the Shore",
+    "title": "MKE-58: Geese at the Shore",
     "description": "Two Canada geese on a sandy beach, with the city skyline across the water at sunset.",
     "release_notes": [],
     "featured": true
   },
   {
-    "id": "MKE-64",
-    "source": "208.jpg",
-    "title": "MKE-64: Tree on the Lawn",
-    "description": "A tree on a green lawn in warm evening light.",
-    "release_notes": [],
-    "featured": true
-  },
-  {
-    "id": "MKE-65",
-    "source": "209.jpg",
-    "title": "MKE-65: Lone Tree in Golden Light",
-    "description": "A single tree on a sunlit grassy park at golden hour.",
-    "release_notes": [],
-    "featured": true
-  },
-  {
-    "id": "MKE-66",
-    "source": "210.jpg",
-    "title": "MKE-66: Symmetrical Stairwell",
-    "description": "A symmetrical view up a tall, warm-toned stairwell lined with ringed balconies.",
-    "release_notes": [
-      "Interior of building: confirm property permission"
-    ],
-    "featured": true
-  },
-  {
-    "id": "MKE-67",
+    "id": "MKE-59",
     "source": "211.jpg",
-    "title": "MKE-67: Arched Glass Hall",
+    "title": "MKE-59: Arched Glass Hall",
     "description": "A bright, glass-walled hall with arched ceilings and seating areas.",
     "release_notes": [
       "Interior of building: confirm property permission"
@@ -645,30 +571,20 @@
     "featured": true
   },
   {
-    "id": "MKE-68",
+    "id": "MKE-60",
     "source": "212.jpg",
-    "title": "MKE-68: Red Sculptures on Black Facade",
+    "title": "MKE-60: Red Sculptures on Black Facade",
     "description": "Red sculptural forms mounted on a dark ribbed facade.",
     "release_notes": [
       "Public artwork: confirm artist and permission",
-      "Near-duplicate of MKE-74: choose one"
+      "Near-duplicate of MKE-63: choose one"
     ],
     "featured": true
   },
   {
-    "id": "MKE-69",
-    "source": "213.jpg",
-    "title": "MKE-69: Brick Mill and Moored Boats",
-    "description": "A historic brick mill along the river, with boats moored at a dock.",
-    "release_notes": [
-      "Building name not confirmed"
-    ],
-    "featured": true
-  },
-  {
-    "id": "MKE-70",
+    "id": "MKE-61",
     "source": "214.jpg",
-    "title": "MKE-70: Kayaker by the Mill",
+    "title": "MKE-61: Kayaker by the Mill",
     "description": "A long brick industrial building along the river, with a kayaker on red kayak.",
     "release_notes": [
       "Person visible: confirm release",
@@ -677,19 +593,9 @@
     "featured": true
   },
   {
-    "id": "MKE-71",
-    "source": "215.jpg",
-    "title": "MKE-71: River and Mill Row",
-    "description": "Brick mill buildings line the river, with a bridge in the distance.",
-    "release_notes": [
-      "Building name not confirmed"
-    ],
-    "featured": true
-  },
-  {
-    "id": "MKE-72",
+    "id": "MKE-62",
     "source": "216.jpg",
-    "title": "MKE-72: Arched Bridge over the River",
+    "title": "MKE-62: Arched Bridge over the River",
     "description": "An arched bridge crosses the river, with brick mill buildings behind.",
     "release_notes": [
       "Bridge name not confirmed"
@@ -697,30 +603,20 @@
     "featured": true
   },
   {
-    "id": "MKE-73",
-    "source": "218.jpg",
-    "title": "MKE-73: Orange Columns and Red Sculptures",
-    "description": "Orange sculptural columns and red forms against a brick building.",
-    "release_notes": [
-      "Public artwork: confirm artist and permission"
-    ],
-    "featured": true
-  },
-  {
-    "id": "MKE-74",
+    "id": "MKE-63",
     "source": "219.jpg",
-    "title": "MKE-74: Red Sculptures on Black Grid",
+    "title": "MKE-63: Red Sculptures on Black Grid",
     "description": "Red sculptural forms mounted on a dark perforated facade.",
     "release_notes": [
       "Public artwork: confirm artist and permission",
-      "Near-duplicate of MKE-68 (red sculptures): choose one"
+      "Near-duplicate of MKE-60 (red sculptures): choose one"
     ],
     "featured": true
   },
   {
-    "id": "MKE-75",
+    "id": "MKE-64",
     "source": "220.jpg",
-    "title": "MKE-75: Ornate Stone Entrance",
+    "title": "MKE-64: Ornate Stone Entrance",
     "description": "The arched entrance of an ornate stone building, with a clock above the doors.",
     "release_notes": [
       "Building name not confirmed"
@@ -728,9 +624,9 @@
     "featured": true
   },
   {
-    "id": "MKE-76",
+    "id": "MKE-65",
     "source": "222.jpg",
-    "title": "MKE-76: Sandstone Civic Building",
+    "title": "MKE-65: Sandstone Civic Building",
     "description": "An ornate sandstone building with a flagpole, and a motorcycle parked out front.",
     "release_notes": [
       "Building name not confirmed",
@@ -739,9 +635,9 @@
     "featured": true
   },
   {
-    "id": "MKE-77",
+    "id": "MKE-66",
     "source": "223.jpg",
-    "title": "MKE-77: Columned Civic Building",
+    "title": "MKE-66: Columned Civic Building",
     "description": "A neoclassical columned building, with a red-and-orange truck parked on the street.",
     "release_notes": [
       "Building name not confirmed",
@@ -750,9 +646,9 @@
     "featured": true
   },
   {
-    "id": "MKE-78",
+    "id": "MKE-67",
     "source": "224.jpg",
-    "title": "MKE-78: Pavilion Framing the Lake",
+    "title": "MKE-67: Pavilion Framing the Lake",
     "description": "A concrete-and-glass pavilion frames a view of the lake and lighthouse.",
     "release_notes": [
       "Landmark architecture: confirm property permission"
@@ -760,19 +656,9 @@
     "featured": true
   },
   {
-    "id": "MKE-79",
-    "source": "226.jpg",
-    "title": "MKE-79: Arched Brick Storefronts",
-    "description": "A historic brick building with arched windows, and a few people on the sidewalk.",
-    "release_notes": [
-      "Pedestrians visible: confirm release if used"
-    ],
-    "featured": true
-  },
-  {
-    "id": "MKE-80",
+    "id": "MKE-68",
     "source": "227.jpg",
-    "title": "MKE-80: Victorian Tower on the Corner",
+    "title": "MKE-68: Victorian Tower on the Corner",
     "description": "A red-brick Victorian building with a turret and tower, lined by street trees.",
     "release_notes": [
       "Building name not confirmed"
@@ -780,9 +666,9 @@
     "featured": true
   },
   {
-    "id": "MKE-81",
+    "id": "MKE-69",
     "source": "228.jpg",
-    "title": "MKE-81: Looking Up the Tower",
+    "title": "MKE-69: Looking Up the Tower",
     "description": "A dramatic angled view up a glass tower, with a sign and a clock beside it.",
     "release_notes": [
       "Building signage visible: confirm before use"
@@ -790,9 +676,9 @@
     "featured": true
   },
   {
-    "id": "MKE-82",
+    "id": "MKE-70",
     "source": "229.jpg",
-    "title": "MKE-82: Traffic Signal and Tower",
+    "title": "MKE-70: Traffic Signal and Tower",
     "description": "A traffic signal in front of a pale tower.",
     "release_notes": [
       "Pedestrian signal visible: confirm before use"
@@ -800,9 +686,9 @@
     "featured": true
   },
   {
-    "id": "MKE-83",
+    "id": "MKE-71",
     "source": "230.jpg",
-    "title": "MKE-83: Modern Tower and Victorian Facade",
+    "title": "MKE-71: Modern Tower and Victorian Facade",
     "description": "A dark modern tower rises behind an ornate Victorian building with balconies.",
     "release_notes": [
       "Building name not confirmed"
@@ -810,9 +696,9 @@
     "featured": true
   },
   {
-    "id": "MKE-84",
+    "id": "MKE-72",
     "source": "231.jpg",
-    "title": "MKE-84: Bench by the Lake",
+    "title": "MKE-72: Bench by the Lake",
     "description": "A person sits on a bench above the lake, surrounded by tall grass.",
     "release_notes": [
       "Person visible: confirm release"
@@ -820,9 +706,9 @@
     "featured": true
   },
   {
-    "id": "MKE-85",
+    "id": "MKE-73",
     "source": "232.jpg",
-    "title": "MKE-85: Red Sculpture by the Lagoon",
+    "title": "MKE-73: Red Sculpture by the Lagoon",
     "description": "A red sculpture stands beside a museum wing, reflected in still water.",
     "release_notes": [
       "Public artwork: confirm artist and permission"
@@ -830,9 +716,9 @@
     "featured": true
   },
   {
-    "id": "MKE-86",
+    "id": "MKE-74",
     "source": "233.jpg",
-    "title": "MKE-86: Red Sculpture in the Field",
+    "title": "MKE-74: Red Sculpture in the Field",
     "description": "A red sculpture rises from a grassy field, with a museum and steel structure behind.",
     "release_notes": [
       "Public artwork: confirm artist and permission"
@@ -840,9 +726,9 @@
     "featured": true
   },
   {
-    "id": "MKE-87",
+    "id": "MKE-75",
     "source": "234.jpg",
-    "title": "MKE-87: Red Sculpture by the River",
+    "title": "MKE-75: Red Sculpture by the River",
     "description": "A red sculpture beside a glass museum building, reflected in the water.",
     "release_notes": [
       "Public artwork: confirm artist and permission"
@@ -850,9 +736,9 @@
     "featured": true
   },
   {
-    "id": "MKE-88",
+    "id": "MKE-76",
     "source": "235.jpg",
-    "title": "MKE-88: Wildflowers and Brick",
+    "title": "MKE-76: Wildflowers and Brick",
     "description": "Tall grass and wildflowers in front of red-brick buildings, with a blue sign on a pole.",
     "release_notes": [
       "Blue sign: confirm before use"
@@ -860,9 +746,9 @@
     "featured": true
   },
   {
-    "id": "MKE-89",
+    "id": "MKE-77",
     "source": "236.jpg",
-    "title": "MKE-89: Fire Engine on the Street",
+    "title": "MKE-77: Fire Engine on the Street",
     "description": "A red fire engine parked in front of a brick building.",
     "release_notes": [
       "Vehicle livery visible: confirm before use"
@@ -870,9 +756,9 @@
     "featured": true
   },
   {
-    "id": "MKE-90",
+    "id": "MKE-78",
     "source": "237.jpg",
-    "title": "MKE-90: Black Sports Car on Brick",
+    "title": "MKE-78: Black Sports Car on Brick",
     "description": "A black sports car parked in front of a brick building.",
     "release_notes": [
       "Vehicle branding: confirm before use"
@@ -880,17 +766,17 @@
     "featured": true
   },
   {
-    "id": "MKE-91",
+    "id": "MKE-79",
     "source": "238.jpg",
-    "title": "MKE-91: Signals and Skyline",
+    "title": "MKE-79: Signals and Skyline",
     "description": "Traffic signals in the foreground, with a tower in the distance.",
     "release_notes": [],
     "featured": true
   },
   {
-    "id": "MKE-92",
+    "id": "MKE-80",
     "source": "239.jpg",
-    "title": "MKE-92: Brick Factory Arches",
+    "title": "MKE-80: Brick Factory Arches",
     "description": "A red-brick factory building with arched windows, seen from below.",
     "release_notes": [
       "Building name not confirmed"
@@ -898,9 +784,9 @@
     "featured": true
   },
   {
-    "id": "MKE-93",
+    "id": "MKE-81",
     "source": "240.jpg",
-    "title": "MKE-93: Gazebo and the Tower",
+    "title": "MKE-81: Gazebo and the Tower",
     "description": "A gazebo in a green park, with a brick tower behind.",
     "release_notes": [
       "Landmark building: confirm before use",
@@ -909,9 +795,9 @@
     "featured": true
   },
   {
-    "id": "MKE-94",
+    "id": "MKE-82",
     "source": "241.jpg",
-    "title": "MKE-94: Museum Wings in the Trees",
+    "title": "MKE-82: Museum Wings in the Trees",
     "description": "The white curved wings of a museum rise above green trees.",
     "release_notes": [
       "Landmark architecture: confirm property permission"
@@ -919,9 +805,9 @@
     "featured": true
   },
   {
-    "id": "MKE-95",
+    "id": "MKE-83",
     "source": "242.jpg",
-    "title": "MKE-95: Curved White Wing",
+    "title": "MKE-83: Curved White Wing",
     "description": "A curved white museum wing rises above trees in the foreground.",
     "release_notes": [
       "Landmark architecture: confirm property permission"
@@ -929,9 +815,9 @@
     "featured": true
   },
   {
-    "id": "MKE-96",
+    "id": "MKE-84",
     "source": "243.jpg",
-    "title": "MKE-96: Signal at the Museum",
+    "title": "MKE-84: Signal at the Museum",
     "description": "Traffic signals hang in front of a curved white museum wing.",
     "release_notes": [
       "Landmark architecture: confirm property permission",
@@ -940,9 +826,9 @@
     "featured": true
   },
   {
-    "id": "MKE-97",
+    "id": "MKE-85",
     "source": "244.jpg",
-    "title": "MKE-97: Perforated Frame, White Wing",
+    "title": "MKE-85: Perforated Frame, White Wing",
     "description": "Looking through a perforated black metal frame at the white museum wing.",
     "release_notes": [
       "Landmark architecture: confirm property permission"
@@ -950,9 +836,9 @@
     "featured": true
   },
   {
-    "id": "MKE-98",
+    "id": "MKE-86",
     "source": "245.jpg",
-    "title": "MKE-98: Perforated Frame, Church Spire",
+    "title": "MKE-86: Perforated Frame, Church Spire",
     "description": "Looking through a perforated black metal frame at a church spire in the distance.",
     "release_notes": [
       "Building name not confirmed"
@@ -960,9 +846,9 @@
     "featured": true
   },
   {
-    "id": "MKE-99",
+    "id": "MKE-87",
     "source": "246.jpg",
-    "title": "MKE-99: Perforated Frame, Museum",
+    "title": "MKE-87: Perforated Frame, Museum",
     "description": "Looking through a perforated black metal frame at the white museum wing.",
     "release_notes": [
       "Landmark architecture: confirm property permission"
@@ -970,9 +856,9 @@
     "featured": true
   },
   {
-    "id": "MKE-100",
+    "id": "MKE-88",
     "source": "247.jpg",
-    "title": "MKE-100: Museum Wings and Lifts",
+    "title": "MKE-88: Museum Wings and Lifts",
     "description": "Two white museum wings and a glass atrium, with orange lifts and a car at the curb.",
     "release_notes": [
       "Planetarium name visible on building: confirm before use",
@@ -981,9 +867,9 @@
     "featured": true
   },
   {
-    "id": "MKE-101",
+    "id": "MKE-89",
     "source": "248.jpg",
-    "title": "MKE-101: Vagabond Patio",
+    "title": "MKE-89: Vagabond Patio",
     "description": "An ivy-covered building with a silver Airstream trailer and a blue fence.",
     "release_notes": [
       "Business signage visible (Vagabond): confirm before use"
@@ -991,20 +877,9 @@
     "featured": true
   },
   {
-    "id": "MKE-102",
-    "source": "250.jpg",
-    "title": "MKE-102: Classic Chevrolet",
-    "description": "A dark blue Chevrolet parked on a city street, with a red car behind.",
-    "release_notes": [
-      "License plate visible: confirm before use",
-      "Vehicle branding visible: confirm before use"
-    ],
-    "featured": true
-  },
-  {
-    "id": "MKE-103",
+    "id": "MKE-90",
     "source": "251.jpg",
-    "title": "MKE-103: Corner Bar and Skater",
+    "title": "MKE-90: Corner Bar and Skater",
     "description": "A historic corner bar with neon signage, and a skateboarder on the sidewalk.",
     "release_notes": [
       "Business signage visible (Regano's, Blatz, Roman Coin): confirm before use",
@@ -1013,9 +888,9 @@
     "featured": true
   },
   {
-    "id": "MKE-104",
+    "id": "MKE-91",
     "source": "253.jpg",
-    "title": "MKE-104: World Famous Drive-In Sign",
+    "title": "MKE-91: World Famous Drive-In Sign",
     "description": "Neon sign reading 'Leon's', 'World Famous' and 'Frozen Custard', against a pale sky.",
     "release_notes": [
       "Business signage visible (Leon's): confirm before use"
@@ -1023,17 +898,17 @@
     "featured": true
   },
   {
-    "id": "MKE-105",
+    "id": "MKE-92",
     "source": "254.jpg",
-    "title": "MKE-105: Brick and Lot",
+    "title": "MKE-92: Brick and Lot",
     "description": "Modern and brick buildings beside a grassy lot under a cloudy sky.",
     "release_notes": [],
     "featured": true
   },
   {
-    "id": "MKE-106",
+    "id": "MKE-93",
     "source": "255.jpg",
-    "title": "MKE-106: Colectivo Coffee",
+    "title": "MKE-93: Colectivo Coffee",
     "description": "A brick storefront with a red awning and teal chairs under a large tree.",
     "release_notes": [
       "Business signage visible (Colectivo): confirm before use"
@@ -1041,9 +916,9 @@
     "featured": true
   },
   {
-    "id": "MKE-107",
+    "id": "MKE-94",
     "source": "257.jpg",
-    "title": "MKE-107: Kayaks and Skyline (alt)",
+    "title": "MKE-94: Kayaks and Skyline (alt)",
     "description": "The skyline across the river, framed more closely, with kayakers on the water.",
     "release_notes": [
       "Kayakers visible: confirm release",
@@ -1052,9 +927,9 @@
     "featured": true
   },
   {
-    "id": "MKE-108",
+    "id": "MKE-95",
     "source": "258.jpg",
-    "title": "MKE-108: Public Market Corner",
+    "title": "MKE-95: Public Market Corner",
     "description": "The Milwaukee Public Market sign, with people crossing the street.",
     "release_notes": [
       "Market signage visible: confirm before use",
@@ -1063,9 +938,9 @@
     "featured": true
   },
   {
-    "id": "MKE-109",
+    "id": "MKE-96",
     "source": "260.jpg",
-    "title": "MKE-109: Stadium from Above",
+    "title": "MKE-96: Stadium from Above",
     "description": "Aerial view of a baseball stadium with its wings open, surrounded by parking.",
     "release_notes": [
       "Stadium naming: confirm venue name before use"

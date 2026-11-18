@@ -27,16 +27,16 @@
         .coll-main h1 { font-size: 2.2rem; margin-bottom: 0.75rem; }
         .coll-desc { color: #555; max-width: 640px; margin-bottom: 0.5rem; }
         .coll-count { font-size: 0.8rem; letter-spacing: 0.1em; color: #888; margin-bottom: 3rem; }
-        .lic-row { display: grid; grid-template-columns: 3fr 2fr; gap: 2.5rem; align-items: start; padding: 2.5rem 0; border-top: 1px solid #e0e0e0; }
+        .lic-row { display: grid; grid-template-columns: auto 1fr; gap: 2.5rem; align-items: center; padding: 1.5rem 0; border-top: 1px solid #e0e0e0; }
         .lic-photo { display: block; background: #f0f0f0; }
-        .lic-photo img { display: block; width: 100%; height: auto; }
+        .lic-photo img { display: block; height: 42vh; width: auto; max-width: 100%; -webkit-user-drag: none; user-select: none; -webkit-user-select: none; pointer-events: auto; }
         .lic-meta h3 { font-size: 1rem; margin-bottom: 1rem; }
         .lic-meta dl { display: grid; grid-template-columns: auto 1fr; gap: 0.3rem 1rem; font-size: 0.85rem; margin-bottom: 1rem; }
         .lic-meta dt { color: #888; letter-spacing: 0.05em; text-transform: uppercase; }
         .lic-meta dd { color: #1a1a1a; }
         .lic-meta p { color: #555; line-height: 1.7; margin-bottom: 1rem; }
         .lic-meta a { font-size: 0.85rem; color: #1a1a1a; border-bottom: 1px solid #1a1a1a; text-decoration: none; }
-        @media (max-width: 768px) { .lic-row { grid-template-columns: 1fr; gap: 1.25rem; padding: 2rem 0; } .coll-main h1 { font-size: 1.8rem; } }
+        @media (max-width: 768px) { .lic-row { grid-template-columns: 1fr; gap: 1.25rem; padding: 2rem 0; } .lic-photo img { height: auto; width: 100%; } .coll-main h1 { font-size: 1.8rem; } }
 
     </style>
 </head>
@@ -82,6 +82,8 @@
             document.getElementById('coll-count').textContent = collection.photos.length + ' IMAGES';
 
             const list = document.getElementById('photos');
+            document.addEventListener('contextmenu', e => { if (e.target.tagName === 'IMG') e.preventDefault(); });
+            document.addEventListener('dragstart', e => { if (e.target.tagName === 'IMG') e.preventDefault(); });
             if (!collection.photos.length) {
                 const empty = document.createElement('p');
                 empty.className = 'coll-desc';
@@ -92,10 +94,8 @@
                 const row = document.createElement('article');
                 row.className = 'lic-row';
 
-                const photo = document.createElement('a');
+                const photo = document.createElement('div');
                 photo.className = 'lic-photo';
-                photo.href = p.original ? p.original : '../Images/' + p.n + '.jpg';
-                photo.target = '_blank';
                 const img = document.createElement('img');
                 img.src = p.web ? p.web : '../optimized/' + p.n + '.jpg';
                 img.alt = p.title;
@@ -126,11 +126,7 @@
                 }
                 const desc = document.createElement('p');
                 desc.textContent = p.description;
-                const full = document.createElement('a');
-                full.href = p.original ? p.original : '../Images/' + p.n + '.jpg';
-                full.target = '_blank';
-                full.textContent = 'Full-resolution file';
-                meta.append(h, dl, desc, full);
+                meta.append(h, dl, desc);
 
                 row.append(photo, meta);
                 list.appendChild(row);

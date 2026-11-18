@@ -94,10 +94,10 @@
 
                 const photo = document.createElement('a');
                 photo.className = 'lic-photo';
-                photo.href = p.original ? '../' + p.original : '../Images/' + p.n + '.jpg';
+                photo.href = p.original ? p.original : '../Images/' + p.n + '.jpg';
                 photo.target = '_blank';
                 const img = document.createElement('img');
-                img.src = p.web ? '../' + p.web : '../optimized/' + p.n + '.jpg';
+                img.src = p.web ? p.web : '../optimized/' + p.n + '.jpg';
                 img.alt = p.title;
                 img.width = p.w;
                 img.height = p.h;
@@ -127,7 +127,7 @@
                 const desc = document.createElement('p');
                 desc.textContent = p.description;
                 const full = document.createElement('a');
-                full.href = p.original ? '../' + p.original : '../Images/' + p.n + '.jpg';
+                full.href = p.original ? p.original : '../Images/' + p.n + '.jpg';
                 full.target = '_blank';
                 full.textContent = 'Full-resolution file';
                 meta.append(h, dl, desc, full);

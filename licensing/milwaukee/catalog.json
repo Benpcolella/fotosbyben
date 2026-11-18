@@ -432,5 +432,535 @@
     "release_notes": [
       "Building name not confirmed"
     ]
+  },
+  {
+    "id": "MKE-51",
+    "source": "205.jpg",
+    "title": "Waterfall at the Weir",
+    "description": "A waterfall spills over a stone weir into green water, with a small pavilion on the far bank.",
+    "release_notes": []
+  },
+  {
+    "id": "MKE-52",
+    "source": "206.jpg",
+    "title": "Underside of the Wing",
+    "description": "Looking up at the dark underside of a museum wing, framing a bright opening.",
+    "release_notes": [
+      "Landmark architecture: confirm property permission"
+    ]
+  },
+  {
+    "id": "MKE-53",
+    "source": "207.jpg",
+    "title": "Geese at the Shore",
+    "description": "Two Canada geese on a sandy beach, with the city skyline across the water at sunset.",
+    "release_notes": []
+  },
+  {
+    "id": "MKE-54",
+    "source": "208.jpg",
+    "title": "Tree on the Lawn",
+    "description": "A tree on a green lawn in warm evening light.",
+    "release_notes": []
+  },
+  {
+    "id": "MKE-55",
+    "source": "209.jpg",
+    "title": "Lone Tree in Golden Light",
+    "description": "A single tree on a sunlit grassy park at golden hour.",
+    "release_notes": []
+  },
+  {
+    "id": "MKE-56",
+    "source": "210.jpg",
+    "title": "Symmetrical Stairwell",
+    "description": "A symmetrical view up a tall, warm-toned stairwell lined with ringed balconies.",
+    "release_notes": [
+      "Interior of building: confirm property permission"
+    ]
+  },
+  {
+    "id": "MKE-57",
+    "source": "211.jpg",
+    "title": "Arched Glass Hall",
+    "description": "A bright, glass-walled hall with arched ceilings and seating areas.",
+    "release_notes": [
+      "Interior of building: confirm property permission"
+    ]
+  },
+  {
+    "id": "MKE-58",
+    "source": "212.jpg",
+    "title": "Red Sculptures on Black Facade",
+    "description": "Red sculptural forms mounted on a dark ribbed facade.",
+    "release_notes": [
+      "Public artwork: confirm artist and permission",
+      "Near-duplicate of MKE-65: choose one"
+    ]
+  },
+  {
+    "id": "MKE-59",
+    "source": "213.jpg",
+    "title": "Brick Mill and Moored Boats",
+    "description": "A historic brick mill along the river, with boats moored at a dock.",
+    "release_notes": [
+      "Building name not confirmed"
+    ]
+  },
+  {
+    "id": "MKE-60",
+    "source": "214.jpg",
+    "title": "Kayaker by the Mill",
+    "description": "A long brick industrial building along the river, with a kayaker on red kayak.",
+    "release_notes": [
+      "Person visible: confirm release",
+      "Building name not confirmed"
+    ]
+  },
+  {
+    "id": "MKE-61",
+    "source": "215.jpg",
+    "title": "River and Mill Row",
+    "description": "Brick mill buildings line the river, with a bridge in the distance.",
+    "release_notes": [
+      "Building name not confirmed"
+    ]
+  },
+  {
+    "id": "MKE-62",
+    "source": "216.jpg",
+    "title": "Arched Bridge over the River",
+    "description": "An arched bridge crosses the river, with brick mill buildings behind.",
+    "release_notes": [
+      "Bridge name not confirmed"
+    ]
+  },
+  {
+    "id": "MKE-63",
+    "source": "217.jpg",
+    "title": "Umbrellas Overhead",
+    "description": "Colorful umbrellas hang from a ceiling in blue, yellow, red and green.",
+    "release_notes": [
+      "Interior of building: confirm property permission"
+    ]
+  },
+  {
+    "id": "MKE-64",
+    "source": "218.jpg",
+    "title": "Orange Columns and Red Sculptures",
+    "description": "Orange sculptural columns and red forms against a brick building.",
+    "release_notes": [
+      "Public artwork: confirm artist and permission"
+    ]
+  },
+  {
+    "id": "MKE-65",
+    "source": "219.jpg",
+    "title": "Red Sculptures on Black Grid",
+    "description": "Red sculptural forms mounted on a dark perforated facade.",
+    "release_notes": [
+      "Public artwork: confirm artist and permission",
+      "Near-duplicate of MKE-58 (red sculptures): choose one"
+    ]
+  },
+  {
+    "id": "MKE-66",
+    "source": "220.jpg",
+    "title": "Ornate Stone Entrance",
+    "description": "The arched entrance of an ornate stone building, with a clock above the doors.",
+    "release_notes": [
+      "Building name not confirmed"
+    ]
+  },
+  {
+    "id": "MKE-67",
+    "source": "221.jpg",
+    "title": "Ornate Facade and Dome",
+    "description": "An ornate mid-rise facade with arched windows and a dome behind.",
+    "release_notes": [
+      "Building name not confirmed"
+    ]
+  },
+  {
+    "id": "MKE-68",
+    "source": "222.jpg",
+    "title": "Sandstone Civic Building",
+    "description": "An ornate sandstone building with a flagpole, and a motorcycle parked out front.",
+    "release_notes": [
+      "Building name not confirmed",
+      "Motorcycle visible: confirm before use"
+    ]
+  },
+  {
+    "id": "MKE-69",
+    "source": "223.jpg",
+    "title": "Columned Civic Building",
+    "description": "A neoclassical columned building, with a red-and-orange truck parked on the street.",
+    "release_notes": [
+      "Building name not confirmed",
+      "Truck branding visible: confirm before use"
+    ]
+  },
+  {
+    "id": "MKE-70",
+    "source": "224.jpg",
+    "title": "Pavilion Framing the Lake",
+    "description": "A concrete-and-glass pavilion frames a view of the lake and lighthouse.",
+    "release_notes": [
+      "Landmark architecture: confirm property permission"
+    ]
+  },
+  {
+    "id": "MKE-71",
+    "source": "225.jpg",
+    "title": "Calm Lake with a Single Boat",
+    "description": "Calm blue lake with a single boat near the horizon.",
+    "release_notes": []
+  },
+  {
+    "id": "MKE-72",
+    "source": "226.jpg",
+    "title": "Arched Brick Storefronts",
+    "description": "A historic brick building with arched windows, and a few people on the sidewalk.",
+    "release_notes": [
+      "Pedestrians visible: confirm release if used"
+    ]
+  },
+  {
+    "id": "MKE-73",
+    "source": "227.jpg",
+    "title": "Victorian Tower on the Corner",
+    "description": "A red-brick Victorian building with a turret and tower, lined by street trees.",
+    "release_notes": [
+      "Building name not confirmed"
+    ]
+  },
+  {
+    "id": "MKE-74",
+    "source": "228.jpg",
+    "title": "Looking Up the Tower",
+    "description": "A dramatic angled view up a glass tower, with a sign and a clock beside it.",
+    "release_notes": [
+      "Building signage visible: confirm before use"
+    ]
+  },
+  {
+    "id": "MKE-75",
+    "source": "229.jpg",
+    "title": "Traffic Signal and Tower",
+    "description": "A traffic signal in front of a pale tower.",
+    "release_notes": [
+      "Pedestrian signal visible: confirm before use"
+    ]
+  },
+  {
+    "id": "MKE-76",
+    "source": "230.jpg",
+    "title": "Modern Tower and Victorian Facade",
+    "description": "A dark modern tower rises behind an ornate Victorian building with balconies.",
+    "release_notes": [
+      "Building name not confirmed"
+    ]
+  },
+  {
+    "id": "MKE-77",
+    "source": "231.jpg",
+    "title": "Bench by the Lake",
+    "description": "A person sits on a bench above the lake, surrounded by tall grass.",
+    "release_notes": [
+      "Person visible: confirm release"
+    ]
+  },
+  {
+    "id": "MKE-78",
+    "source": "232.jpg",
+    "title": "Red Sculpture by the Lagoon",
+    "description": "A red sculpture stands beside a museum wing, reflected in still water.",
+    "release_notes": [
+      "Public artwork: confirm artist and permission"
+    ]
+  },
+  {
+    "id": "MKE-79",
+    "source": "233.jpg",
+    "title": "Red Sculpture in the Field",
+    "description": "A red sculpture rises from a grassy field, with a museum and steel structure behind.",
+    "release_notes": [
+      "Public artwork: confirm artist and permission"
+    ]
+  },
+  {
+    "id": "MKE-80",
+    "source": "234.jpg",
+    "title": "Red Sculpture by the River",
+    "description": "A red sculpture beside a glass museum building, reflected in the water.",
+    "release_notes": [
+      "Public artwork: confirm artist and permission"
+    ]
+  },
+  {
+    "id": "MKE-81",
+    "source": "235.jpg",
+    "title": "Wildflowers and Brick",
+    "description": "Tall grass and wildflowers in front of red-brick buildings, with a blue sign on a pole.",
+    "release_notes": [
+      "Blue sign: confirm before use"
+    ]
+  },
+  {
+    "id": "MKE-82",
+    "source": "236.jpg",
+    "title": "Fire Engine on the Street",
+    "description": "A red fire engine parked in front of a brick building.",
+    "release_notes": [
+      "Vehicle livery visible: confirm before use"
+    ]
+  },
+  {
+    "id": "MKE-83",
+    "source": "237.jpg",
+    "title": "Black Sports Car on Brick",
+    "description": "A black sports car parked in front of a brick building.",
+    "release_notes": [
+      "Vehicle branding: confirm before use"
+    ]
+  },
+  {
+    "id": "MKE-84",
+    "source": "238.jpg",
+    "title": "Signals and Skyline",
+    "description": "Traffic signals in the foreground, with a tower in the distance.",
+    "release_notes": []
+  },
+  {
+    "id": "MKE-85",
+    "source": "239.jpg",
+    "title": "Brick Factory Arches",
+    "description": "A red-brick factory building with arched windows, seen from below.",
+    "release_notes": [
+      "Building name not confirmed"
+    ]
+  },
+  {
+    "id": "MKE-86",
+    "source": "240.jpg",
+    "title": "Gazebo and the Tower",
+    "description": "A gazebo in a green park, with a brick tower behind.",
+    "release_notes": [
+      "Landmark building: confirm before use",
+      "People visible: confirm release"
+    ]
+  },
+  {
+    "id": "MKE-87",
+    "source": "241.jpg",
+    "title": "Museum Wings in the Trees",
+    "description": "The white curved wings of a museum rise above green trees.",
+    "release_notes": [
+      "Landmark architecture: confirm property permission"
+    ]
+  },
+  {
+    "id": "MKE-88",
+    "source": "242.jpg",
+    "title": "Curved White Wing",
+    "description": "A curved white museum wing rises above trees in the foreground.",
+    "release_notes": [
+      "Landmark architecture: confirm property permission"
+    ]
+  },
+  {
+    "id": "MKE-89",
+    "source": "243.jpg",
+    "title": "Signal at the Museum",
+    "description": "Traffic signals hang in front of a curved white museum wing.",
+    "release_notes": [
+      "Landmark architecture: confirm property permission",
+      "Street sign visible: confirm before use"
+    ]
+  },
+  {
+    "id": "MKE-90",
+    "source": "244.jpg",
+    "title": "Perforated Frame, White Wing",
+    "description": "Looking through a perforated black metal frame at the white museum wing.",
+    "release_notes": [
+      "Landmark architecture: confirm property permission"
+    ]
+  },
+  {
+    "id": "MKE-91",
+    "source": "245.jpg",
+    "title": "Perforated Frame, Church Spire",
+    "description": "Looking through a perforated black metal frame at a church spire in the distance.",
+    "release_notes": [
+      "Building name not confirmed"
+    ]
+  },
+  {
+    "id": "MKE-92",
+    "source": "246.jpg",
+    "title": "Perforated Frame, Museum",
+    "description": "Looking through a perforated black metal frame at the white museum wing.",
+    "release_notes": [
+      "Landmark architecture: confirm property permission"
+    ]
+  },
+  {
+    "id": "MKE-93",
+    "source": "247.jpg",
+    "title": "Museum Wings and Lifts",
+    "description": "Two white museum wings and a glass atrium, with orange lifts and a car at the curb.",
+    "release_notes": [
+      "Planetarium name visible on building: confirm before use",
+      "Equipment branding: confirm before use"
+    ]
+  },
+  {
+    "id": "MKE-94",
+    "source": "248.jpg",
+    "title": "Vagabond Patio",
+    "description": "An ivy-covered building with a silver Airstream trailer and a blue fence.",
+    "release_notes": [
+      "Business signage visible (Vagabond): confirm before use"
+    ]
+  },
+  {
+    "id": "MKE-95",
+    "source": "249.jpg",
+    "title": "Vagabond Marquee",
+    "description": "Ivy covers a building beneath the Vagabond marquee, with a Brewery sign above.",
+    "release_notes": [
+      "Business signage visible (Vagabond): confirm before use"
+    ]
+  },
+  {
+    "id": "MKE-96",
+    "source": "250.jpg",
+    "title": "Classic Chevrolet",
+    "description": "A dark blue Chevrolet parked on a city street, with a red car behind.",
+    "release_notes": [
+      "License plate visible: confirm before use",
+      "Vehicle branding visible: confirm before use"
+    ]
+  },
+  {
+    "id": "MKE-97",
+    "source": "251.jpg",
+    "title": "Corner Bar and Skater",
+    "description": "A historic corner bar with neon signage, and a skateboarder on the sidewalk.",
+    "release_notes": [
+      "Business signage visible (Regano's, Blatz, Roman Coin): confirm before use",
+      "Person visible: confirm release"
+    ]
+  },
+  {
+    "id": "MKE-98",
+    "source": "252.jpg",
+    "title": "Frozen Custard Stand at Dusk",
+    "description": "A frozen-custard stand with red barriers and a giant cone sign, at dusk.",
+    "release_notes": [
+      "Business signage visible (Leon's): confirm before use"
+    ]
+  },
+  {
+    "id": "MKE-99",
+    "source": "253.jpg",
+    "title": "World Famous Drive-In Sign",
+    "description": "Neon sign reading 'Leon's', 'World Famous' and 'Frozen Custard', against a pale sky.",
+    "release_notes": [
+      "Business signage visible (Leon's): confirm before use"
+    ]
+  },
+  {
+    "id": "MKE-100",
+    "source": "254.jpg",
+    "title": "Brick and Lot",
+    "description": "Modern and brick buildings beside a grassy lot under a cloudy sky.",
+    "release_notes": []
+  },
+  {
+    "id": "MKE-101",
+    "source": "255.jpg",
+    "title": "Colectivo Coffee",
+    "description": "A brick storefront with a red awning and teal chairs under a large tree.",
+    "release_notes": [
+      "Business signage visible (Colectivo): confirm before use"
+    ]
+  },
+  {
+    "id": "MKE-102",
+    "source": "256.jpg",
+    "title": "Kayaks and Skyline",
+    "description": "The skyline across the river, with kayakers on the water.",
+    "release_notes": [
+      "Kayakers visible: confirm release",
+      "Bank and building signage visible: confirm before use",
+      "Near-duplicate of MKE-103: choose one"
+    ]
+  },
+  {
+    "id": "MKE-103",
+    "source": "257.jpg",
+    "title": "Kayaks and Skyline (alt)",
+    "description": "The skyline across the river, framed more closely, with kayakers on the water.",
+    "release_notes": [
+      "Kayakers visible: confirm release",
+      "Near-duplicate of MKE-102 (kayaks and skyline): choose one"
+    ]
+  },
+  {
+    "id": "MKE-104",
+    "source": "258.jpg",
+    "title": "Public Market Corner",
+    "description": "The Milwaukee Public Market sign, with people crossing the street.",
+    "release_notes": [
+      "Market signage visible: confirm before use",
+      "People visible: confirm release"
+    ]
+  },
+  {
+    "id": "MKE-105",
+    "source": "259.jpg",
+    "title": "Public Market Interior",
+    "description": "Inside the Milwaukee Public Market, with a chocolate display and shoppers below.",
+    "release_notes": [
+      "People visible: confirm release",
+      "Brand signage visible: confirm before use"
+    ]
+  },
+  {
+    "id": "MKE-106",
+    "source": "260.jpg",
+    "title": "Stadium from Above",
+    "description": "Aerial view of a baseball stadium with its wings open, surrounded by parking.",
+    "release_notes": [
+      "Stadium naming: confirm venue name before use"
+    ]
+  },
+  {
+    "id": "MKE-107",
+    "source": "261.jpg",
+    "title": "Tower Facade in Light and Shade",
+    "description": "A tall tower facade split between shadow and sunlight, against a pale sky.",
+    "release_notes": [
+      "Building name not confirmed"
+    ]
+  },
+  {
+    "id": "MKE-108",
+    "source": "262.jpg",
+    "title": "Lighthouse and the Lake",
+    "description": "A lighthouse on a breakwater in Lake Michigan, with rocks and grass in front.",
+    "release_notes": []
+  },
+  {
+    "id": "MKE-109",
+    "source": "263.jpg",
+    "title": "Brick and Bronze Tower",
+    "description": "Ornate brick buildings in front of a bronze-toned tower.",
+    "release_notes": [
+      "Building name not confirmed"
+    ]
   }
 ]

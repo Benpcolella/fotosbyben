@@ -94,10 +94,10 @@
 
                 const photo = document.createElement('a');
                 photo.className = 'lic-photo';
-                photo.href = '../Images/' + p.n + '.jpg';
+                photo.href = p.original ? '../' + p.original : '../Images/' + p.n + '.jpg';
                 photo.target = '_blank';
                 const img = document.createElement('img');
-                img.src = '../optimized/' + p.n + '.jpg';
+                img.src = p.web ? '../' + p.web : '../optimized/' + p.n + '.jpg';
                 img.alt = p.title;
                 img.width = p.w;
                 img.height = p.h;
@@ -115,10 +115,19 @@
                 const dd = document.createElement('dd');
                 dd.textContent = p.w + ' × ' + p.h + ' px';
                 dl.append(dt, dd);
+                if (p.id) {
+                    [['ID', p.id], ['Uses', p.uses.join(', ')]].forEach(([k, v]) => {
+                        const t = document.createElement('dt');
+                        t.textContent = k;
+                        const d = document.createElement('dd');
+                        d.textContent = v;
+                        dl.append(t, d);
+                    });
+                }
                 const desc = document.createElement('p');
                 desc.textContent = p.description;
                 const full = document.createElement('a');
-                full.href = '../Images/' + p.n + '.jpg';
+                full.href = p.original ? '../' + p.original : '../Images/' + p.n + '.jpg';
                 full.target = '_blank';
                 full.textContent = 'Full-resolution file';
                 meta.append(h, dl, desc, full);

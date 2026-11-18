@@ -292,13 +292,14 @@ window.LICENSING_COLLECTIONS = [
       },
       {
         "id": "MKE-21",
-        "title": "MKE-21: Kayaks and Skyline",
-        "description": "The skyline across the river, with kayakers on the water.",
-        "w": 2000,
-        "h": 1333,
+        "title": "MKE-21: Kayaks and Historic Third Ward",
+        "description": "The historic Third Ward across the river, with kayakers on the water.",
+        "w": 6130,
+        "h": 4087,
         "uses": [
           "Web",
-          "Social media"
+          "Social media",
+          "Print up to 30.6 × 20.4 in (200 dpi)"
         ],
         "original": "milwaukee/originals/MKE-21.jpg",
         "web": "milwaukee/web/MKE-21.jpg"
@@ -306,12 +307,13 @@ window.LICENSING_COLLECTIONS = [
       {
         "id": "MKE-22",
         "title": "MKE-22: Public Market Interior",
-        "description": "Inside the Milwaukee Public Market, with a chocolate display and shoppers below.",
-        "w": 1333,
-        "h": 2000,
+        "description": "Inside the Milwaukee Public Market, a long exposure shows motion through the space, with a chocolate display and shoppers below.",
+        "w": 3858,
+        "h": 5788,
         "uses": [
           "Web",
-          "Social media"
+          "Social media",
+          "Print up to 19.3 × 28.9 in (200 dpi)"
         ],
         "original": "milwaukee/originals/MKE-22.jpg",
         "web": "milwaukee/web/MKE-22.jpg"
@@ -320,12 +322,12 @@ window.LICENSING_COLLECTIONS = [
         "id": "MKE-23",
         "title": "MKE-23: Tower Facade in Light and Shade",
         "description": "A tall tower facade split between shadow and sunlight, against a pale sky.",
-        "w": 1600,
-        "h": 2000,
+        "w": 2985,
+        "h": 3731,
         "uses": [
           "Web",
           "Social media",
-          "Print up to 8.0 × 10.0 in (200 dpi)"
+          "Print up to 14.9 × 18.7 in (200 dpi)"
         ],
         "original": "milwaukee/originals/MKE-23.jpg",
         "web": "milwaukee/web/MKE-23.jpg"
@@ -334,11 +336,12 @@ window.LICENSING_COLLECTIONS = [
         "id": "MKE-24",
         "title": "MKE-24: Lighthouse and the Lake",
         "description": "A lighthouse on a breakwater in Lake Michigan, with rocks and grass in front.",
-        "w": 1333,
-        "h": 2000,
+        "w": 3597,
+        "h": 5395,
         "uses": [
           "Web",
-          "Social media"
+          "Social media",
+          "Print up to 18.0 × 27.0 in (200 dpi)"
         ],
         "original": "milwaukee/originals/MKE-24.jpg",
         "web": "milwaukee/web/MKE-24.jpg"
@@ -347,24 +350,26 @@ window.LICENSING_COLLECTIONS = [
         "id": "MKE-25",
         "title": "MKE-25: Brick and Bronze Tower",
         "description": "Ornate brick buildings in front of a bronze-toned tower.",
-        "w": 1333,
-        "h": 2000,
+        "w": 3421,
+        "h": 5131,
         "uses": [
           "Web",
-          "Social media"
+          "Social media",
+          "Print up to 17.1 × 25.7 in (200 dpi)"
         ],
         "original": "milwaukee/originals/MKE-25.jpg",
         "web": "milwaukee/web/MKE-25.jpg"
       },
       {
         "id": "MKE-26",
-        "title": "MKE-26: Iron and Glass Skylight",
-        "description": "A symmetrical view up through a historic iron-and-glass skylight.",
-        "w": 2000,
-        "h": 1333,
+        "title": "MKE-26: Milwaukee City Hall Atrium",
+        "description": "A symmetrical view up through the atrium of Milwaukee City Hall.",
+        "w": 5836,
+        "h": 3891,
         "uses": [
           "Web",
-          "Social media"
+          "Social media",
+          "Print up to 29.2 × 19.5 in (200 dpi)"
         ],
         "original": "milwaukee/originals/MKE-26.jpg",
         "web": "milwaukee/web/MKE-26.jpg"
@@ -373,11 +378,12 @@ window.LICENSING_COLLECTIONS = [
         "id": "MKE-27",
         "title": "MKE-27: Wing Detail",
         "description": "Close view of a white wing of the Milwaukee Art Museum against a blue sky.",
-        "w": 1333,
-        "h": 2000,
+        "w": 4160,
+        "h": 6240,
         "uses": [
           "Web",
-          "Social media"
+          "Social media",
+          "Print up to 20.8 × 31.2 in (200 dpi)"
         ],
         "original": "milwaukee/originals/MKE-27.jpg",
         "web": "milwaukee/web/MKE-27.jpg"
@@ -386,11 +392,12 @@ window.LICENSING_COLLECTIONS = [
         "id": "MKE-28",
         "title": "MKE-28: Tower Facade and Fire Escape",
         "description": "Black-and-white view up a tall office tower, with a fire escape running its height.",
-        "w": 1125,
-        "h": 1500,
+        "w": 2860,
+        "h": 3814,
         "uses": [
           "Web",
-          "Social media"
+          "Social media",
+          "Print up to 14.3 × 19.1 in (200 dpi)"
         ],
         "original": "milwaukee/originals/MKE-28.jpg",
         "web": "milwaukee/web/MKE-28.jpg"
@@ -398,7 +405,7 @@ window.LICENSING_COLLECTIONS = [
       {
         "id": "MKE-29",
         "title": "MKE-29: Lone Sailboat",
-        "description": "Aerial view of a single white sailboat on deep blue open water.",
+        "description": "Aerial view of a single white sailboat on Lake Michigan's deep blue open water.",
         "w": 1410,
         "h": 1761,
         "uses": [
@@ -412,11 +419,12 @@ window.LICENSING_COLLECTIONS = [
         "id": "MKE-30",
         "title": "MKE-30: Museum and Lawn",
         "description": "The Milwaukee Art Museum wings over a green lawn, with clouds and downtown beyond.",
-        "w": 2000,
-        "h": 1333,
+        "w": 5671,
+        "h": 3781,
         "uses": [
           "Web",
-          "Social media"
+          "Social media",
+          "Print up to 28.4 × 18.9 in (200 dpi)"
         ],
         "original": "milwaukee/originals/MKE-30.jpg",
         "web": "milwaukee/web/MKE-30.jpg"
@@ -424,39 +432,41 @@ window.LICENSING_COLLECTIONS = [
       {
         "id": "MKE-31",
         "title": "MKE-31: Steel and Glass Vault",
-        "description": "Looking up a grid of white steel and glass in an abstract, symmetrical composition.",
-        "w": 1333,
-        "h": 2000,
+        "description": "Looking up a grid of white steel and glass inside the Milwaukee Art Museum, in an abstract, symmetrical composition.",
+        "w": 3897,
+        "h": 5846,
         "uses": [
           "Web",
-          "Social media"
+          "Social media",
+          "Print up to 19.5 × 29.2 in (200 dpi)"
         ],
         "original": "milwaukee/originals/MKE-31.jpg",
         "web": "milwaukee/web/MKE-31.jpg"
       },
       {
         "id": "MKE-32",
-        "title": "MKE-32: Stairs and Steel",
-        "description": "Angled view of white steel beams and a staircase, in an abstract composition.",
-        "w": 1334,
-        "h": 2000,
+        "title": "MKE-32: Museum Architectural Details",
+        "description": "Angled view of white steel beams in an abstract composition, showing the architectural details of the Milwaukee Art Museum.",
+        "w": 3269,
+        "h": 4902,
         "uses": [
           "Web",
-          "Social media"
+          "Social media",
+          "Print up to 16.3 × 24.5 in (200 dpi)"
         ],
         "original": "milwaukee/originals/MKE-32.jpg",
         "web": "milwaukee/web/MKE-32.jpg"
       },
       {
         "id": "MKE-33",
-        "title": "MKE-33: Red Sculpture by the Wing",
-        "description": "A red sculpture in the foreground, with the museum's white wing rising behind it.",
-        "w": 1600,
-        "h": 2000,
+        "title": "MKE-33: Metal Sculpture by the Wing",
+        "description": "A red metal sculpture in the foreground, with the museum's white wing rising behind it.",
+        "w": 4160,
+        "h": 5200,
         "uses": [
           "Web",
           "Social media",
-          "Print up to 8.0 × 10.0 in (200 dpi)"
+          "Print up to 20.8 × 26.0 in (200 dpi)"
         ],
         "original": "milwaukee/originals/MKE-33.jpg",
         "web": "milwaukee/web/MKE-33.jpg"
@@ -464,65 +474,69 @@ window.LICENSING_COLLECTIONS = [
       {
         "id": "MKE-34",
         "title": "MKE-34: Motorcyclist by the Wing",
-        "description": "The museum's wings seen across a lot, with a motorcyclist passing.",
-        "w": 1333,
-        "h": 2000,
+        "description": "The museum's wings seen across the street, with a motorcyclist passing.",
+        "w": 4002,
+        "h": 6003,
         "uses": [
           "Web",
-          "Social media"
+          "Social media",
+          "Print up to 20.0 × 30.0 in (200 dpi)"
         ],
         "original": "milwaukee/originals/MKE-34.jpg",
         "web": "milwaukee/web/MKE-34.jpg"
       },
       {
         "id": "MKE-35",
-        "title": "MKE-35: Aerial Autumn Basilica",
-        "description": "Aerial view of a red-towered church among orange autumn trees.",
-        "w": 2000,
-        "h": 1125,
+        "title": "MKE-35: Holy Hill Basilica",
+        "description": "Aerial view of the red-towered Holy Hill Basilica among orange autumn trees.",
+        "w": 3850,
+        "h": 2166,
         "uses": [
           "Web",
-          "Social media"
+          "Social media",
+          "Print up to 19.2 × 10.8 in (200 dpi)"
         ],
         "original": "milwaukee/originals/MKE-35.jpg",
         "web": "milwaukee/web/MKE-35.jpg"
       },
       {
         "id": "MKE-36",
-        "title": "MKE-36: Arched Bridge at Sunrise",
-        "description": "A steel arch bridge over a river at sunrise, with a sailboat on the water.",
-        "w": 1600,
-        "h": 2000,
+        "title": "MKE-36: Hoan Bridge at Sunrise",
+        "description": "The Hoan Bridge over the river at sunrise, with a sailboat on the water.",
+        "w": 2211,
+        "h": 2763,
         "uses": [
           "Web",
           "Social media",
-          "Print up to 8.0 × 10.0 in (200 dpi)"
+          "Print up to 11.1 × 13.8 in (200 dpi)"
         ],
         "original": "milwaukee/originals/MKE-36.jpg",
         "web": "milwaukee/web/MKE-36.jpg"
       },
       {
         "id": "MKE-37",
-        "title": "MKE-37: Historic Corner Storefront",
-        "description": "A historic brick building with domed turrets, cars on the street, and a pedestrian.",
-        "w": 1333,
-        "h": 2000,
+        "title": "MKE-37: Oriental Theater",
+        "description": "The historic Oriental Theater, a brick building with domed turrets, cars on the street, and a pedestrian.",
+        "w": 4032,
+        "h": 6048,
         "uses": [
           "Web",
-          "Social media"
+          "Social media",
+          "Print up to 20.2 × 30.2 in (200 dpi)"
         ],
         "original": "milwaukee/originals/MKE-37.jpg",
         "web": "milwaukee/web/MKE-37.jpg"
       },
       {
         "id": "MKE-38",
-        "title": "MKE-38: Harbor with Yellow Sky",
-        "description": "A harbor filled with moored boats and trees, under a pale yellow sky.",
-        "w": 1333,
-        "h": 2000,
+        "title": "MKE-38: Harbor with Blue Sky",
+        "description": "A harbor filled with moored boats and trees, under a pale blue sky.",
+        "w": 4160,
+        "h": 6240,
         "uses": [
           "Web",
-          "Social media"
+          "Social media",
+          "Print up to 20.8 × 31.2 in (200 dpi)"
         ],
         "original": "milwaukee/originals/MKE-38.jpg",
         "web": "milwaukee/web/MKE-38.jpg"
@@ -531,25 +545,26 @@ window.LICENSING_COLLECTIONS = [
         "id": "MKE-39",
         "title": "MKE-39: Skyline and Marina",
         "description": "The skyline across the water, with sailboats moored in the foreground.",
-        "w": 1600,
-        "h": 2000,
+        "w": 3253,
+        "h": 4066,
         "uses": [
           "Web",
           "Social media",
-          "Print up to 8.0 × 10.0 in (200 dpi)"
+          "Print up to 16.3 × 20.3 in (200 dpi)"
         ],
         "original": "milwaukee/originals/MKE-39.jpg",
         "web": "milwaukee/web/MKE-39.jpg"
       },
       {
         "id": "MKE-40",
-        "title": "MKE-40: Overpass and Towers",
-        "description": "A highway overpass curves past downtown towers on a clear day.",
-        "w": 1333,
-        "h": 2000,
+        "title": "MKE-40: Overpass and Skyline",
+        "description": "A highway overpass curves past the downtown skyline on a clear day.",
+        "w": 4160,
+        "h": 6240,
         "uses": [
           "Web",
-          "Social media"
+          "Social media",
+          "Print up to 20.8 × 31.2 in (200 dpi)"
         ],
         "original": "milwaukee/originals/MKE-40.jpg",
         "web": "milwaukee/web/MKE-40.jpg"

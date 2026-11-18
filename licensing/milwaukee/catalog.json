@@ -278,25 +278,33 @@
   {
     "id": "MKE-21",
     "source": "256.jpg",
-    "title": "MKE-21: Kayaks and Skyline",
-    "description": "The skyline across the river, with kayakers on the water.",
+    "title": "MKE-21: Kayaks and Historic Third Ward",
+    "description": "The historic Third Ward across the river, with kayakers on the water.",
     "release_notes": [
       "Kayakers visible: confirm release",
       "Bank and building signage visible: confirm before use",
       "Near-duplicate of MKE-94: choose one"
     ],
-    "featured": true
+    "featured": true,
+    "resolution": [
+      6130,
+      4087
+    ]
   },
   {
     "id": "MKE-22",
     "source": "259.jpg",
     "title": "MKE-22: Public Market Interior",
-    "description": "Inside the Milwaukee Public Market, with a chocolate display and shoppers below.",
+    "description": "Inside the Milwaukee Public Market, a long exposure shows motion through the space, with a chocolate display and shoppers below.",
     "release_notes": [
       "People visible: confirm release",
       "Brand signage visible: confirm before use"
     ],
-    "featured": true
+    "featured": true,
+    "resolution": [
+      3858,
+      5788
+    ]
   },
   {
     "id": "MKE-23",
@@ -306,7 +314,11 @@
     "release_notes": [
       "Building name not confirmed"
     ],
-    "featured": true
+    "featured": true,
+    "resolution": [
+      2985,
+      3731
+    ]
   },
   {
     "id": "MKE-24",
@@ -314,7 +326,11 @@
     "title": "MKE-24: Lighthouse and the Lake",
     "description": "A lighthouse on a breakwater in Lake Michigan, with rocks and grass in front.",
     "release_notes": [],
-    "featured": true
+    "featured": true,
+    "resolution": [
+      3597,
+      5395
+    ]
   },
   {
     "id": "MKE-25",
@@ -324,17 +340,25 @@
     "release_notes": [
       "Building name not confirmed"
     ],
-    "featured": true
+    "featured": true,
+    "resolution": [
+      3421,
+      5131
+    ]
   },
   {
     "id": "MKE-26",
     "source": "159.jpg",
-    "title": "MKE-26: Iron and Glass Skylight",
-    "description": "A symmetrical view up through a historic iron-and-glass skylight.",
+    "title": "MKE-26: Milwaukee City Hall Atrium",
+    "description": "A symmetrical view up through the atrium of Milwaukee City Hall.",
     "release_notes": [
       "Confirm building name and location for the record"
     ],
-    "featured": true
+    "featured": true,
+    "resolution": [
+      5836,
+      3891
+    ]
   },
   {
     "id": "MKE-27",
@@ -344,7 +368,11 @@
     "release_notes": [
       "Landmark architecture: confirm property permission"
     ],
-    "featured": true
+    "featured": true,
+    "resolution": [
+      4160,
+      6240
+    ]
   },
   {
     "id": "MKE-28",
@@ -354,15 +382,23 @@
     "release_notes": [
       "Building name not confirmed"
     ],
-    "featured": true
+    "featured": true,
+    "resolution": [
+      2860,
+      3814
+    ]
   },
   {
     "id": "MKE-29",
     "source": "164.jpg",
     "title": "MKE-29: Lone Sailboat",
-    "description": "Aerial view of a single white sailboat on deep blue open water.",
+    "description": "Aerial view of a single white sailboat on Lake Michigan's deep blue open water.",
     "release_notes": [],
-    "featured": true
+    "featured": true,
+    "resolution": [
+      1410,
+      1761
+    ]
   },
   {
     "id": "MKE-30",
@@ -372,88 +408,124 @@
     "release_notes": [
       "Landmark architecture: confirm property permission"
     ],
-    "featured": true
+    "featured": true,
+    "resolution": [
+      5671,
+      3781
+    ]
   },
   {
     "id": "MKE-31",
     "source": "168.jpg",
     "title": "MKE-31: Steel and Glass Vault",
-    "description": "Looking up a grid of white steel and glass in an abstract, symmetrical composition.",
+    "description": "Looking up a grid of white steel and glass inside the Milwaukee Art Museum, in an abstract, symmetrical composition.",
     "release_notes": [
       "Interior of museum: confirm property permission"
     ],
-    "featured": true
+    "featured": true,
+    "resolution": [
+      3897,
+      5846
+    ]
   },
   {
     "id": "MKE-32",
     "source": "169.jpg",
-    "title": "MKE-32: Stairs and Steel",
-    "description": "Angled view of white steel beams and a staircase, in an abstract composition.",
+    "title": "MKE-32: Museum Architectural Details",
+    "description": "Angled view of white steel beams in an abstract composition, showing the architectural details of the Milwaukee Art Museum.",
     "release_notes": [
       "Interior of museum: confirm property permission"
     ],
-    "featured": true
+    "featured": true,
+    "resolution": [
+      3269,
+      4902
+    ]
   },
   {
     "id": "MKE-33",
     "source": "171.jpg",
-    "title": "MKE-33: Red Sculpture by the Wing",
-    "description": "A red sculpture in the foreground, with the museum's white wing rising behind it.",
+    "title": "MKE-33: Metal Sculpture by the Wing",
+    "description": "A red metal sculpture in the foreground, with the museum's white wing rising behind it.",
     "release_notes": [
       "Landmark architecture and public sculpture: confirm permission"
     ],
-    "featured": true
+    "featured": true,
+    "resolution": [
+      4160,
+      5200
+    ]
   },
   {
     "id": "MKE-34",
     "source": "173.jpg",
     "title": "MKE-34: Motorcyclist by the Wing",
-    "description": "The museum's wings seen across a lot, with a motorcyclist passing.",
+    "description": "The museum's wings seen across the street, with a motorcyclist passing.",
     "release_notes": [
       "Person visible (motorcycle): confirm release",
       "Landmark architecture: confirm property permission"
     ],
-    "featured": true
+    "featured": true,
+    "resolution": [
+      4002,
+      6003
+    ]
   },
   {
     "id": "MKE-35",
     "source": "175.jpg",
-    "title": "MKE-35: Aerial Autumn Basilica",
-    "description": "Aerial view of a red-towered church among orange autumn trees.",
+    "title": "MKE-35: Holy Hill Basilica",
+    "description": "Aerial view of the red-towered Holy Hill Basilica among orange autumn trees.",
     "release_notes": [
       "Building name not confirmed",
       "Near-duplicate of MKE-38 (removed): choose one"
     ],
-    "featured": true
+    "featured": true,
+    "resolution": [
+      3850,
+      2166
+    ]
   },
   {
     "id": "MKE-36",
     "source": "177.jpg",
-    "title": "MKE-36: Arched Bridge at Sunrise",
-    "description": "A steel arch bridge over a river at sunrise, with a sailboat on the water.",
+    "title": "MKE-36: Hoan Bridge at Sunrise",
+    "description": "The Hoan Bridge over the river at sunrise, with a sailboat on the water.",
     "release_notes": [
       "Bridge name not confirmed"
     ],
-    "featured": true
+    "featured": true,
+    "resolution": [
+      2211,
+      2763
+    ]
   },
   {
     "id": "MKE-37",
     "source": "178.jpg",
-    "title": "MKE-37: Historic Corner Storefront",
-    "description": "A historic brick building with domed turrets, cars on the street, and a pedestrian.",
+    "title": "MKE-37: Oriental Theater",
+    "description": "The historic Oriental Theater, a brick building with domed turrets, cars on the street, and a pedestrian.",
     "release_notes": [
       "Building signage: confirm before use",
       "Pedestrian visible: confirm release"
     ],
-    "featured": true
+    "featured": true,
+    "resolution": [
+      4032,
+      6048
+    ]
   },
   {
     "id": "MKE-38",
     "source": "179.jpg",
-    "title": "MKE-38: Harbor with Yellow Sky",
-    "description": "A harbor filled with moored boats and trees, under a pale yellow sky.",
+    "title": "MKE-38: Harbor with Blue Sky",
+    "description": "A harbor filled with moored boats and trees, under a pale blue sky.",
     "release_notes": [],
-    "featured": true
+    "featured": true,
+    "resolution": [
+      4160,
+      6240
+    ]
   },
   {
     "id": "MKE-39",
@@ -461,17 +533,25 @@
     "title": "MKE-39: Skyline and Marina",
     "description": "The skyline across the water, with sailboats moored in the foreground.",
     "release_notes": [],
-    "featured": true
+    "featured": true,
+    "resolution": [
+      3253,
+      4066
+    ]
   },
   {
     "id": "MKE-40",
     "source": "181.jpg",
-    "title": "MKE-40: Overpass and Towers",
-    "description": "A highway overpass curves past downtown towers on a clear day.",
+    "title": "MKE-40: Overpass and Skyline",
+    "description": "A highway overpass curves past the downtown skyline on a clear day.",
     "release_notes": [
       "Road signage: confirm before use"
     ],
-    "featured": true
+    "featured": true,
+    "resolution": [
+      4160,
+      6240
+    ]
   },
   {
     "id": "MKE-41",

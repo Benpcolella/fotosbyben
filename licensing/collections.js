@@ -14,11 +14,12 @@ window.LICENSING_COLLECTIONS = [
         "id": "MKE-01",
         "title": "MKE-01: Aerial Surfer",
         "description": "A surfer rides a white-capped wave on Lake Michigan, seen from above.",
-        "w": 1599,
-        "h": 2000,
+        "w": 1817,
+        "h": 2272,
         "uses": [
           "Web",
-          "Social media"
+          "Social media",
+          "Print up to 9.1 × 11.4 in (200 dpi)"
         ],
         "original": "milwaukee/originals/MKE-01.jpg",
         "web": "milwaukee/web/MKE-01.jpg"
@@ -27,12 +28,12 @@ window.LICENSING_COLLECTIONS = [
         "id": "MKE-02",
         "title": "MKE-02: Public Market at Dusk",
         "description": "The Milwaukee skyline at sunset, above the Public Market and I-794.",
-        "w": 1600,
-        "h": 2000,
+        "w": 1850,
+        "h": 2250,
         "uses": [
           "Web",
           "Social media",
-          "Print up to 8.0 × 10.0 in (200 dpi)"
+          "Print up to 9.2 × 11.2 in (200 dpi)"
         ],
         "original": "milwaukee/originals/MKE-02.jpg",
         "web": "milwaukee/web/MKE-02.jpg"
@@ -41,11 +42,12 @@ window.LICENSING_COLLECTIONS = [
         "id": "MKE-03",
         "title": "MKE-03: Lake Michigan Kayaker",
         "description": "The Milwaukee skyline across Lake Michigan at sunset, with a lone kayaker on the water.",
-        "w": 1599,
-        "h": 2000,
+        "w": 2342,
+        "h": 2929,
         "uses": [
           "Web",
-          "Social media"
+          "Social media",
+          "Print up to 11.7 × 14.6 in (200 dpi)"
         ],
         "original": "milwaukee/originals/MKE-03.jpg",
         "web": "milwaukee/web/MKE-03.jpg"

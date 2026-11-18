@@ -7,7 +7,11 @@
     "release_notes": [
       "Person visible, not identifiable: confirm release if used commercially"
     ],
-    "featured": true
+    "featured": true,
+    "resolution": [
+      1817,
+      2272
+    ]
   },
   {
     "id": "MKE-02",
@@ -17,7 +21,11 @@
     "release_notes": [
       "Visible signage: US Bank, PNC Bank, Milwaukee Public Market"
     ],
-    "featured": true
+    "featured": true,
+    "resolution": [
+      1850,
+      2250
+    ]
   },
   {
     "id": "MKE-03",
@@ -27,7 +35,11 @@
     "release_notes": [
       "Person visible (silhouette): confirm release if used commercially"
     ],
-    "featured": true
+    "featured": true,
+    "resolution": [
+      2342,
+      2929
+    ]
   },
   {
     "id": "MKE-04",

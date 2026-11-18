@@ -572,12 +572,13 @@ window.LICENSING_COLLECTIONS = [
       {
         "id": "MKE-41",
         "title": "MKE-41: Quiet Shoreline Skyline",
-        "description": "A low skyline across the lake at dusk, with a single boat.",
-        "w": 1333,
-        "h": 2000,
+        "description": "A low skyline across the lake at dusk, with a kayaker.",
+        "w": 2342,
+        "h": 2929,
         "uses": [
           "Web",
-          "Social media"
+          "Social media",
+          "Print up to 11.7 × 14.6 in (200 dpi)"
         ],
         "original": "milwaukee/originals/MKE-41.jpg",
         "web": "milwaukee/web/MKE-41.jpg"
@@ -585,12 +586,13 @@ window.LICENSING_COLLECTIONS = [
       {
         "id": "MKE-42",
         "title": "MKE-42: Lawn and Skyline",
-        "description": "Downtown towers rise above a green lawn and a river.",
-        "w": 1333,
-        "h": 2000,
+        "description": "Downtown towers rise above a green lawn and a river, where a man plays with his dog.",
+        "w": 3504,
+        "h": 5257,
         "uses": [
           "Web",
-          "Social media"
+          "Social media",
+          "Print up to 17.5 × 26.3 in (200 dpi)"
         ],
         "original": "milwaukee/originals/MKE-42.jpg",
         "web": "milwaukee/web/MKE-42.jpg"
@@ -598,13 +600,13 @@ window.LICENSING_COLLECTIONS = [
       {
         "id": "MKE-43",
         "title": "MKE-43: Sailboats at the Breakwall",
-        "description": "The skyline at dusk, with sailboats moored along the breakwall.",
-        "w": 1600,
-        "h": 2000,
+        "description": "The skyline at sunset, with sailboats moored along the breakwall.",
+        "w": 2531,
+        "h": 3163,
         "uses": [
           "Web",
           "Social media",
-          "Print up to 8.0 × 10.0 in (200 dpi)"
+          "Print up to 12.7 × 15.8 in (200 dpi)"
         ],
         "original": "milwaukee/originals/MKE-43.jpg",
         "web": "milwaukee/web/MKE-43.jpg"
@@ -612,25 +614,27 @@ window.LICENSING_COLLECTIONS = [
       {
         "id": "MKE-44",
         "title": "MKE-44: Leaves and Lakefront",
-        "description": "Silhouetted leaves frame the skyline across the water at dusk.",
-        "w": 1333,
-        "h": 2000,
+        "description": "Silhouetted leaves frame the skyline across the water at sunset.",
+        "w": 3133,
+        "h": 4700,
         "uses": [
           "Web",
-          "Social media"
+          "Social media",
+          "Print up to 15.7 × 23.5 in (200 dpi)"
         ],
         "original": "milwaukee/originals/MKE-44.jpg",
         "web": "milwaukee/web/MKE-44.jpg"
       },
       {
         "id": "MKE-45",
-        "title": "MKE-45: City Bus on the Bridge",
-        "description": "A green-and-blue city bus crosses a bridge, with the skyline behind.",
-        "w": 1333,
-        "h": 2000,
+        "title": "MKE-45: MCTS Bus on the 6th Street Viaduct",
+        "description": "A green-and-blue MCTS bus crosses the 6th Street Viaduct, with the skyline behind.",
+        "w": 4160,
+        "h": 6240,
         "uses": [
           "Web",
-          "Social media"
+          "Social media",
+          "Print up to 20.8 × 31.2 in (200 dpi)"
         ],
         "original": "milwaukee/originals/MKE-45.jpg",
         "web": "milwaukee/web/MKE-45.jpg"
@@ -638,12 +642,13 @@ window.LICENSING_COLLECTIONS = [
       {
         "id": "MKE-46",
         "title": "MKE-46: Lakeshore Path and Bench",
-        "description": "Aerial view of the lakeshore: a cyclist on a path, and two people on a bench above the rocks.",
-        "w": 1200,
-        "h": 1500,
+        "description": "Overhead view of the lakeshore: a cyclist on a path, and two people on a bench above the rocks.",
+        "w": 2292,
+        "h": 2865,
         "uses": [
           "Web",
-          "Social media"
+          "Social media",
+          "Print up to 11.5 × 14.3 in (200 dpi)"
         ],
         "original": "milwaukee/originals/MKE-46.jpg",
         "web": "milwaukee/web/MKE-46.jpg"
@@ -651,12 +656,13 @@ window.LICENSING_COLLECTIONS = [
       {
         "id": "MKE-47",
         "title": "MKE-47: Path Toward the Skyline",
-        "description": "A concrete path curves through grass toward the skyline, with golden reeds.",
-        "w": 1333,
-        "h": 2000,
+        "description": "A jogging path at Lakeshore State Park curves through grass toward the skyline, with golden reeds.",
+        "w": 4160,
+        "h": 6240,
         "uses": [
           "Web",
-          "Social media"
+          "Social media",
+          "Print up to 20.8 × 31.2 in (200 dpi)"
         ],
         "original": "milwaukee/originals/MKE-47.jpg",
         "web": "milwaukee/web/MKE-47.jpg"
@@ -664,52 +670,55 @@ window.LICENSING_COLLECTIONS = [
       {
         "id": "MKE-48",
         "title": "MKE-48: Harbor Sailboats",
-        "description": "Sailboats moored in a harbor, with a line of trees behind.",
-        "w": 1600,
-        "h": 2000,
+        "description": "Sailboats moored in a harbor on Lake Michigan, with a line of trees behind.",
+        "w": 2255,
+        "h": 2819,
         "uses": [
           "Web",
           "Social media",
-          "Print up to 8.0 × 10.0 in (200 dpi)"
+          "Print up to 11.3 × 14.1 in (200 dpi)"
         ],
         "original": "milwaukee/originals/MKE-48.jpg",
         "web": "milwaukee/web/MKE-48.jpg"
       },
       {
         "id": "MKE-49",
-        "title": "MKE-49: Corner Cafe from Above",
-        "description": "Aerial view of a brick corner building with outdoor tables and a street sign below.",
-        "w": 1000,
-        "h": 1500,
+        "title": "MKE-49: Strange Town Cafe",
+        "description": "Aerial view of the Strange Town Cafe, a brick corner building with outdoor tables and a street sign below.",
+        "w": 4160,
+        "h": 6240,
         "uses": [
-          "Web (small)"
+          "Web",
+          "Social media",
+          "Print up to 20.8 × 31.2 in (200 dpi)"
         ],
         "original": "milwaukee/originals/MKE-49.jpg",
         "web": "milwaukee/web/MKE-49.jpg"
       },
       {
         "id": "MKE-50",
-        "title": "MKE-50: Smith Supply Storefront",
-        "description": "A man on a bicycle passes a brick building with painted advertising, and a parked black Jeep.",
-        "w": 1333,
-        "h": 2000,
+        "title": "MKE-50: Historic Walker's Point Lofts",
+        "description": "A man on a bicycle passes a historic Walker's Point loft building with painted advertising, and a parked black Jeep.",
+        "w": 3645,
+        "h": 5468,
         "uses": [
           "Web",
-          "Social media"
+          "Social media",
+          "Print up to 18.2 × 27.3 in (200 dpi)"
         ],
         "original": "milwaukee/originals/MKE-50.jpg",
         "web": "milwaukee/web/MKE-50.jpg"
       },
       {
         "id": "MKE-51",
-        "title": "MKE-51: Mill and Boat Dock",
-        "description": "A red-brick factory building beside the river, with a boat dock below.",
-        "w": 1600,
-        "h": 2000,
+        "title": "MKE-51: Milwaukee Institute of Art and Design Building",
+        "description": "A red-brick Milwaukee Institute of Art and Design building beside the river, with a boat dock below.",
+        "w": 4050,
+        "h": 5062,
         "uses": [
           "Web",
           "Social media",
-          "Print up to 8.0 × 10.0 in (200 dpi)"
+          "Print up to 20.2 × 25.3 in (200 dpi)"
         ],
         "original": "milwaukee/originals/MKE-51.jpg",
         "web": "milwaukee/web/MKE-51.jpg"
@@ -717,26 +726,27 @@ window.LICENSING_COLLECTIONS = [
       {
         "id": "MKE-52",
         "title": "MKE-52: Fireworks and Reflections",
-        "description": "Fireworks light the night sky above reflections on the water.",
-        "w": 1600,
-        "h": 2000,
+        "description": "Fireworks light the night sky above the skyline, with reflections on the water.",
+        "w": 3739,
+        "h": 4674,
         "uses": [
           "Web",
           "Social media",
-          "Print up to 8.0 × 10.0 in (200 dpi)"
+          "Print up to 18.7 × 23.4 in (200 dpi)"
         ],
         "original": "milwaukee/originals/MKE-52.jpg",
         "web": "milwaukee/web/MKE-52.jpg"
       },
       {
         "id": "MKE-53",
-        "title": "MKE-53: Basilica Reflection",
-        "description": "A domed church reflected in a still pond, framed by overhanging trees.",
-        "w": 1333,
-        "h": 2000,
+        "title": "MKE-53: St. Joseph's Basilica",
+        "description": "A domed church, St. Joseph's Basilica on Milwaukee's South Side, reflected in a still pond, framed by overhanging trees.",
+        "w": 3911,
+        "h": 5868,
         "uses": [
           "Web",
-          "Social media"
+          "Social media",
+          "Print up to 19.6 × 29.3 in (200 dpi)"
         ],
         "original": "milwaukee/originals/MKE-53.jpg",
         "web": "milwaukee/web/MKE-53.jpg"
@@ -744,13 +754,13 @@ window.LICENSING_COLLECTIONS = [
       {
         "id": "MKE-54",
         "title": "MKE-54: Freighter and Sailboat",
-        "description": "A sailboat and a freighter on open lake water beyond a rock breakwall.",
-        "w": 1600,
-        "h": 2000,
+        "description": "A sailboat and a freighter on Lake Michigan, beyond a rock breakwall.",
+        "w": 1810,
+        "h": 2263,
         "uses": [
           "Web",
           "Social media",
-          "Print up to 8.0 × 10.0 in (200 dpi)"
+          "Print up to 9.1 × 11.3 in (200 dpi)"
         ],
         "original": "milwaukee/originals/MKE-54.jpg",
         "web": "milwaukee/web/MKE-54.jpg"
@@ -758,12 +768,13 @@ window.LICENSING_COLLECTIONS = [
       {
         "id": "MKE-55",
         "title": "MKE-55: Waterfall and Stone House",
-        "description": "A waterfall spills over a stone weir, with a small stone house on the lake at sunset.",
-        "w": 2000,
-        "h": 1333,
+        "description": "A waterfall spills over a stone weir in Grant Park, with a small stone house on the lake at sunset.",
+        "w": 6216,
+        "h": 4144,
         "uses": [
           "Web",
-          "Social media"
+          "Social media",
+          "Print up to 31.1 × 20.7 in (200 dpi)"
         ],
         "original": "milwaukee/originals/MKE-55.jpg",
         "web": "milwaukee/web/MKE-55.jpg"
@@ -771,12 +782,13 @@ window.LICENSING_COLLECTIONS = [
       {
         "id": "MKE-56",
         "title": "MKE-56: Waterfall at the Weir",
-        "description": "A waterfall spills over a stone weir into green water, with a small pavilion on the far bank.",
-        "w": 1333,
-        "h": 2000,
+        "description": "A waterfall spills over a stone weir into green water in Grant Park, with a small pavilion on the far bank.",
+        "w": 3949,
+        "h": 5924,
         "uses": [
           "Web",
-          "Social media"
+          "Social media",
+          "Print up to 19.7 × 29.6 in (200 dpi)"
         ],
         "original": "milwaukee/originals/MKE-56.jpg",
         "web": "milwaukee/web/MKE-56.jpg"
@@ -784,12 +796,13 @@ window.LICENSING_COLLECTIONS = [
       {
         "id": "MKE-57",
         "title": "MKE-57: Underside of the Wing",
-        "description": "Looking up at the dark underside of a museum wing, framing a bright opening.",
-        "w": 2000,
-        "h": 1333,
+        "description": "Looking up at the dark underside of a museum wing at the Milwaukee Veterans Memorial, framing a bright opening.",
+        "w": 6240,
+        "h": 4160,
         "uses": [
           "Web",
-          "Social media"
+          "Social media",
+          "Print up to 31.2 × 20.8 in (200 dpi)"
         ],
         "original": "milwaukee/originals/MKE-57.jpg",
         "web": "milwaukee/web/MKE-57.jpg"
@@ -798,12 +811,12 @@ window.LICENSING_COLLECTIONS = [
         "id": "MKE-58",
         "title": "MKE-58: Geese at the Shore",
         "description": "Two Canada geese on a sandy beach, with the city skyline across the water at sunset.",
-        "w": 1600,
-        "h": 2000,
+        "w": 4016,
+        "h": 5020,
         "uses": [
           "Web",
           "Social media",
-          "Print up to 8.0 × 10.0 in (200 dpi)"
+          "Print up to 20.1 × 25.1 in (200 dpi)"
         ],
         "original": "milwaukee/originals/MKE-58.jpg",
         "web": "milwaukee/web/MKE-58.jpg"
@@ -812,24 +825,26 @@ window.LICENSING_COLLECTIONS = [
         "id": "MKE-59",
         "title": "MKE-59: Arched Glass Hall",
         "description": "A bright, glass-walled hall with arched ceilings and seating areas.",
-        "w": 1333,
-        "h": 2000,
+        "w": 4160,
+        "h": 6240,
         "uses": [
           "Web",
-          "Social media"
+          "Social media",
+          "Print up to 20.8 × 31.2 in (200 dpi)"
         ],
         "original": "milwaukee/originals/MKE-59.jpg",
         "web": "milwaukee/web/MKE-59.jpg"
       },
       {
         "id": "MKE-60",
-        "title": "MKE-60: Red Sculptures on Black Facade",
-        "description": "Red sculptural forms mounted on a dark ribbed facade.",
-        "w": 1333,
-        "h": 2000,
+        "title": "MKE-60: Red Ladybug Sculptures on Black Facade",
+        "description": "Red ladybug sculptures mounted on a dark ribbed facade.",
+        "w": 2080,
+        "h": 3120,
         "uses": [
           "Web",
-          "Social media"
+          "Social media",
+          "Print up to 10.4 × 15.6 in (200 dpi)"
         ],
         "original": "milwaukee/originals/MKE-60.jpg",
         "web": "milwaukee/web/MKE-60.jpg"

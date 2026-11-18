@@ -557,160 +557,228 @@
     "id": "MKE-41",
     "source": "183.jpg",
     "title": "MKE-41: Quiet Shoreline Skyline",
-    "description": "A low skyline across the lake at dusk, with a single boat.",
+    "description": "A low skyline across the lake at dusk, with a kayaker.",
     "release_notes": [],
-    "featured": true
+    "featured": true,
+    "resolution": [
+      2342,
+      2929
+    ]
   },
   {
     "id": "MKE-42",
     "source": "185.jpg",
     "title": "MKE-42: Lawn and Skyline",
-    "description": "Downtown towers rise above a green lawn and a river.",
+    "description": "Downtown towers rise above a green lawn and a river, where a man plays with his dog.",
     "release_notes": [
       "Small figures visible: confirm release if used commercially"
     ],
-    "featured": true
+    "featured": true,
+    "resolution": [
+      3504,
+      5257
+    ]
   },
   {
     "id": "MKE-43",
     "source": "186.jpg",
     "title": "MKE-43: Sailboats at the Breakwall",
-    "description": "The skyline at dusk, with sailboats moored along the breakwall.",
+    "description": "The skyline at sunset, with sailboats moored along the breakwall.",
     "release_notes": [],
-    "featured": true
+    "featured": true,
+    "resolution": [
+      2531,
+      3163
+    ]
   },
   {
     "id": "MKE-44",
     "source": "189.jpg",
     "title": "MKE-44: Leaves and Lakefront",
-    "description": "Silhouetted leaves frame the skyline across the water at dusk.",
+    "description": "Silhouetted leaves frame the skyline across the water at sunset.",
     "release_notes": [],
-    "featured": true
+    "featured": true,
+    "resolution": [
+      3133,
+      4700
+    ]
   },
   {
     "id": "MKE-45",
     "source": "190.jpg",
-    "title": "MKE-45: City Bus on the Bridge",
-    "description": "A green-and-blue city bus crosses a bridge, with the skyline behind.",
+    "title": "MKE-45: MCTS Bus on the 6th Street Viaduct",
+    "description": "A green-and-blue MCTS bus crosses the 6th Street Viaduct, with the skyline behind.",
     "release_notes": [
       "Transit branding (RideMCTS) visible: confirm before commercial use"
     ],
-    "featured": true
+    "featured": true,
+    "resolution": [
+      4160,
+      6240
+    ]
   },
   {
     "id": "MKE-46",
     "source": "192.jpg",
     "title": "MKE-46: Lakeshore Path and Bench",
-    "description": "Aerial view of the lakeshore: a cyclist on a path, and two people on a bench above the rocks.",
+    "description": "Overhead view of the lakeshore: a cyclist on a path, and two people on a bench above the rocks.",
     "release_notes": [
       "Two people and a cyclist visible: confirm release"
     ],
-    "featured": true
+    "featured": true,
+    "resolution": [
+      2292,
+      2865
+    ]
   },
   {
     "id": "MKE-47",
     "source": "193.jpg",
     "title": "MKE-47: Path Toward the Skyline",
-    "description": "A concrete path curves through grass toward the skyline, with golden reeds.",
+    "description": "A jogging path at Lakeshore State Park curves through grass toward the skyline, with golden reeds.",
     "release_notes": [],
-    "featured": true
+    "featured": true,
+    "resolution": [
+      4160,
+      6240
+    ]
   },
   {
     "id": "MKE-48",
     "source": "194.jpg",
     "title": "MKE-48: Harbor Sailboats",
-    "description": "Sailboats moored in a harbor, with a line of trees behind.",
+    "description": "Sailboats moored in a harbor on Lake Michigan, with a line of trees behind.",
     "release_notes": [],
-    "featured": true
+    "featured": true,
+    "resolution": [
+      2255,
+      2819
+    ]
   },
   {
     "id": "MKE-49",
     "source": "195.jpg",
-    "title": "MKE-49: Corner Cafe from Above",
-    "description": "Aerial view of a brick corner building with outdoor tables and a street sign below.",
+    "title": "MKE-49: Strange Town Cafe",
+    "description": "Aerial view of the Strange Town Cafe, a brick corner building with outdoor tables and a street sign below.",
     "release_notes": [
       "Cafe signage visible: confirm before use",
       "Diners visible: confirm release"
     ],
-    "featured": true
+    "featured": true,
+    "resolution": [
+      4160,
+      6240
+    ]
   },
   {
     "id": "MKE-50",
     "source": "196.jpg",
-    "title": "MKE-50: Smith Supply Storefront",
-    "description": "A man on a bicycle passes a brick building with painted advertising, and a parked black Jeep.",
+    "title": "MKE-50: Historic Walker's Point Lofts",
+    "description": "A man on a bicycle passes a historic Walker's Point loft building with painted advertising, and a parked black Jeep.",
     "release_notes": [
       "Painted signage 'Smith Supply Co.': confirm before use",
       "Person visible: confirm release"
     ],
-    "featured": true
+    "featured": true,
+    "resolution": [
+      3645,
+      5468
+    ]
   },
   {
     "id": "MKE-51",
     "source": "199.jpg",
-    "title": "MKE-51: Mill and Boat Dock",
-    "description": "A red-brick factory building beside the river, with a boat dock below.",
+    "title": "MKE-51: Milwaukee Institute of Art and Design Building",
+    "description": "A red-brick Milwaukee Institute of Art and Design building beside the river, with a boat dock below.",
     "release_notes": [
       "Building name not confirmed",
       "Boat branding visible: confirm before use"
     ],
-    "featured": true
+    "featured": true,
+    "resolution": [
+      4050,
+      5062
+    ]
   },
   {
     "id": "MKE-52",
     "source": "201.jpg",
     "title": "MKE-52: Fireworks and Reflections",
-    "description": "Fireworks light the night sky above reflections on the water.",
+    "description": "Fireworks light the night sky above the skyline, with reflections on the water.",
     "release_notes": [
       "Event photo: confirm event permission"
     ],
-    "featured": true
+    "featured": true,
+    "resolution": [
+      3739,
+      4674
+    ]
   },
   {
     "id": "MKE-53",
     "source": "202.jpg",
-    "title": "MKE-53: Basilica Reflection",
-    "description": "A domed church reflected in a still pond, framed by overhanging trees.",
+    "title": "MKE-53: St. Joseph's Basilica",
+    "description": "A domed church, St. Joseph's Basilica on Milwaukee's South Side, reflected in a still pond, framed by overhanging trees.",
     "release_notes": [
       "Building name not confirmed"
     ],
-    "featured": true
+    "featured": true,
+    "resolution": [
+      3911,
+      5868
+    ]
   },
   {
     "id": "MKE-54",
     "source": "203.jpg",
     "title": "MKE-54: Freighter and Sailboat",
-    "description": "A sailboat and a freighter on open lake water beyond a rock breakwall.",
+    "description": "A sailboat and a freighter on Lake Michigan, beyond a rock breakwall.",
     "release_notes": [],
-    "featured": true
+    "featured": true,
+    "resolution": [
+      1810,
+      2263
+    ]
   },
   {
     "id": "MKE-55",
     "source": "204.jpg",
     "title": "MKE-55: Waterfall and Stone House",
-    "description": "A waterfall spills over a stone weir, with a small stone house on the lake at sunset.",
+    "description": "A waterfall spills over a stone weir in Grant Park, with a small stone house on the lake at sunset.",
     "release_notes": [
       "Building name not confirmed"
     ],
-    "featured": true
+    "featured": true,
+    "resolution": [
+      6216,
+      4144
+    ]
   },
   {
     "id": "MKE-56",
     "source": "205.jpg",
     "title": "MKE-56: Waterfall at the Weir",
-    "description": "A waterfall spills over a stone weir into green water, with a small pavilion on the far bank.",
+    "description": "A waterfall spills over a stone weir into green water in Grant Park, with a small pavilion on the far bank.",
     "release_notes": [],
-    "featured": true
+    "featured": true,
+    "resolution": [
+      3949,
+      5924
+    ]
   },
   {
     "id": "MKE-57",
     "source": "206.jpg",
     "title": "MKE-57: Underside of the Wing",
-    "description": "Looking up at the dark underside of a museum wing, framing a bright opening.",
+    "description": "Looking up at the dark underside of a museum wing at the Milwaukee Veterans Memorial, framing a bright opening.",
     "release_notes": [
       "Landmark architecture: confirm property permission"
     ],
-    "featured": true
+    "featured": true,
+    "resolution": [
+      6240,
+      4160
+    ]
   },
   {
     "id": "MKE-58",
@@ -718,7 +786,11 @@
     "title": "MKE-58: Geese at the Shore",
     "description": "Two Canada geese on a sandy beach, with the city skyline across the water at sunset.",
     "release_notes": [],
-    "featured": true
+    "featured": true,
+    "resolution": [
+      4016,
+      5020
+    ]
   },
   {
     "id": "MKE-59",
@@ -728,18 +800,26 @@
     "release_notes": [
       "Interior of building: confirm property permission"
     ],
-    "featured": true
+    "featured": true,
+    "resolution": [
+      4160,
+      6240
+    ]
   },
   {
     "id": "MKE-60",
     "source": "212.jpg",
-    "title": "MKE-60: Red Sculptures on Black Facade",
-    "description": "Red sculptural forms mounted on a dark ribbed facade.",
+    "title": "MKE-60: Red Ladybug Sculptures on Black Facade",
+    "description": "Red ladybug sculptures mounted on a dark ribbed facade.",
     "release_notes": [
       "Public artwork: confirm artist and permission",
       "Near-duplicate of MKE-63: choose one"
     ],
-    "featured": true
+    "featured": true,
+    "resolution": [
+      2080,
+      3120
+    ]
   },
   {
     "id": "MKE-61",

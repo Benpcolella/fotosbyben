@@ -72,7 +72,7 @@
             a.href = 'licensing/collection.html?c=' + encodeURIComponent(c.slug);
 
             const img = document.createElement('img');
-            img.src = 'thumbs/' + c.cover + '.jpg';
+            img.src = typeof c.cover === 'number' ? 'thumbs/' + c.cover + '.jpg' : c.cover.src;
             img.alt = c.title;
             img.loading = 'lazy';
 
@@ -85,7 +85,8 @@
             h.textContent = c.title;
             overlay.append(count, h);
 
-            a.append(img, overlay);
+            a.append(img);
+            if (!c.designed) a.append(overlay);
             grid.appendChild(a);
         });
     </script>

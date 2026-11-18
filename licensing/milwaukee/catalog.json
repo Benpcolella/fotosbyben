@@ -1,7 +1,436 @@
 [
-  {"id": "MKE-01", "source": "155.jpg", "title": "Aerial Surfer", "description": "A surfer rides a white-capped wave, seen from above.", "release_notes": ["Person visible, not identifiable: confirm release if used commercially"]},
-  {"id": "MKE-02", "source": "156.jpg", "title": "Public Market at Dusk", "description": "The Milwaukee skyline at sunset, above the Public Market and the freeway.", "release_notes": ["Visible signage: US Bank, PNC Bank, Milwaukee Public Market"]},
-  {"id": "MKE-03", "source": "157.jpg", "title": "Lake Michigan Kayaker", "description": "The Milwaukee skyline across Lake Michigan at sunrise, with a lone kayaker on the water.", "release_notes": ["Person visible (silhouette): confirm release if used commercially"]},
-  {"id": "MKE-04", "source": "158.jpg", "title": "Calatrava Hall", "description": "Inside the Calatrava wing, two silhouetted figures stand before a glass wall overlooking the lake.", "release_notes": ["Two people visible (silhouette): confirm release", "Architectural interior: confirm property/venue permission for commercial use"]},
-  {"id": "MKE-05", "source": "159.jpg", "title": "Iron and Glass Skylight", "description": "A symmetrical view up through a historic iron-and-glass skylight.", "release_notes": ["Confirm building name and location for the record"]}
+  {
+    "id": "MKE-01",
+    "source": "155.jpg",
+    "title": "Aerial Surfer",
+    "description": "A surfer rides a white-capped wave, seen from above.",
+    "release_notes": [
+      "Person visible, not identifiable: confirm release if used commercially"
+    ]
+  },
+  {
+    "id": "MKE-02",
+    "source": "156.jpg",
+    "title": "Public Market at Dusk",
+    "description": "The Milwaukee skyline at sunset, above the Public Market and the freeway.",
+    "release_notes": [
+      "Visible signage: US Bank, PNC Bank, Milwaukee Public Market"
+    ]
+  },
+  {
+    "id": "MKE-03",
+    "source": "157.jpg",
+    "title": "Lake Michigan Kayaker",
+    "description": "The Milwaukee skyline across Lake Michigan at sunrise, with a lone kayaker on the water.",
+    "release_notes": [
+      "Person visible (silhouette): confirm release if used commercially"
+    ]
+  },
+  {
+    "id": "MKE-04",
+    "source": "158.jpg",
+    "title": "Calatrava Hall",
+    "description": "Inside the Calatrava wing, two silhouetted figures stand before a glass wall overlooking the lake.",
+    "release_notes": [
+      "Two people visible (silhouette): confirm release",
+      "Architectural interior: confirm property/venue permission for commercial use"
+    ]
+  },
+  {
+    "id": "MKE-05",
+    "source": "159.jpg",
+    "title": "Iron and Glass Skylight",
+    "description": "A symmetrical view up through a historic iron-and-glass skylight.",
+    "release_notes": [
+      "Confirm building name and location for the record"
+    ]
+  },
+  {
+    "id": "MKE-06",
+    "source": "160.jpg",
+    "title": "Quadracci Wings at Blue Hour",
+    "description": "Low view of the white wings of the Milwaukee Art Museum against a blue sky.",
+    "release_notes": [
+      "Landmark architecture: confirm property permission for commercial use"
+    ]
+  },
+  {
+    "id": "MKE-07",
+    "source": "161.jpg",
+    "title": "Lakefront Skyline at Sunset",
+    "description": "The Milwaukee skyline across the lake at sunset, with a small boat on the water.",
+    "release_notes": []
+  },
+  {
+    "id": "MKE-08",
+    "source": "162.jpg",
+    "title": "Wing Detail",
+    "description": "Close view of a white wing of the Milwaukee Art Museum against a blue sky.",
+    "release_notes": [
+      "Landmark architecture: confirm property permission"
+    ]
+  },
+  {
+    "id": "MKE-09",
+    "source": "163.jpg",
+    "title": "Tower Facade and Fire Escape",
+    "description": "Black-and-white view up a tall office tower, with a fire escape running its height.",
+    "release_notes": [
+      "Building name not confirmed"
+    ]
+  },
+  {
+    "id": "MKE-10",
+    "source": "164.jpg",
+    "title": "Lone Sailboat",
+    "description": "Aerial view of a single white sailboat on deep blue open water.",
+    "release_notes": []
+  },
+  {
+    "id": "MKE-11",
+    "source": "165.jpg",
+    "title": "Wings at Dusk",
+    "description": "The Milwaukee Art Museum wings, lit at dusk against a deep blue sky.",
+    "release_notes": [
+      "Landmark architecture: confirm property permission"
+    ]
+  },
+  {
+    "id": "MKE-12",
+    "source": "166.jpg",
+    "title": "Museum and Lawn",
+    "description": "The Milwaukee Art Museum wings over a green lawn, with clouds and downtown beyond.",
+    "release_notes": [
+      "Landmark architecture: confirm property permission"
+    ]
+  },
+  {
+    "id": "MKE-13",
+    "source": "167.jpg",
+    "title": "Museum Mast and Glass",
+    "description": "Close view of the museum's white wing, its tall mast rising above the glass base.",
+    "release_notes": [
+      "Landmark architecture: confirm property permission"
+    ]
+  },
+  {
+    "id": "MKE-14",
+    "source": "168.jpg",
+    "title": "Steel and Glass Vault",
+    "description": "Looking up a grid of white steel and glass in an abstract, symmetrical composition.",
+    "release_notes": [
+      "Interior of museum: confirm property permission"
+    ]
+  },
+  {
+    "id": "MKE-15",
+    "source": "169.jpg",
+    "title": "Stairs and Steel",
+    "description": "Angled view of white steel beams and a staircase, in an abstract composition.",
+    "release_notes": [
+      "Interior of museum: confirm property permission"
+    ]
+  },
+  {
+    "id": "MKE-16",
+    "source": "170.jpg",
+    "title": "Glass Hall Reflection",
+    "description": "Two silhouetted people stand in a glass-walled hall above reflective water.",
+    "release_notes": [
+      "Two people visible (silhouette): confirm release",
+      "Interior of museum: confirm property permission"
+    ]
+  },
+  {
+    "id": "MKE-17",
+    "source": "171.jpg",
+    "title": "Red Sculpture by the Wing",
+    "description": "A red sculpture in the foreground, with the museum's white wing rising behind it.",
+    "release_notes": [
+      "Landmark architecture and public sculpture: confirm permission"
+    ]
+  },
+  {
+    "id": "MKE-18",
+    "source": "172.jpg",
+    "title": "Wing Over the Plaza",
+    "description": "The museum's white wing curves over a plaza under a clear sky.",
+    "release_notes": [
+      "Landmark architecture: confirm property permission"
+    ]
+  },
+  {
+    "id": "MKE-19",
+    "source": "173.jpg",
+    "title": "Motorcyclist by the Wing",
+    "description": "The museum's wings seen across a lot, with a motorcyclist passing.",
+    "release_notes": [
+      "Person visible (motorcycle): confirm release",
+      "Landmark architecture: confirm property permission"
+    ]
+  },
+  {
+    "id": "MKE-20",
+    "source": "174.jpg",
+    "title": "Aerial Autumn Church",
+    "description": "Aerial view of a gray-roofed building among orange autumn trees.",
+    "release_notes": [
+      "Building name not confirmed"
+    ]
+  },
+  {
+    "id": "MKE-21",
+    "source": "175.jpg",
+    "title": "Aerial Autumn Basilica",
+    "description": "Aerial view of a red-towered church among orange autumn trees.",
+    "release_notes": [
+      "Building name not confirmed",
+      "Near-duplicate of MKE-22: choose one"
+    ]
+  },
+  {
+    "id": "MKE-22",
+    "source": "176.jpg",
+    "title": "Aerial Autumn Basilica (alt)",
+    "description": "Aerial view of a red-towered church among orange autumn trees, from a slightly different angle.",
+    "release_notes": [
+      "Near-duplicate of MKE-21: choose one"
+    ]
+  },
+  {
+    "id": "MKE-23",
+    "source": "177.jpg",
+    "title": "Arched Bridge at Sunrise",
+    "description": "A steel arch bridge over a river at sunrise, with a sailboat on the water.",
+    "release_notes": [
+      "Bridge name not confirmed"
+    ]
+  },
+  {
+    "id": "MKE-24",
+    "source": "178.jpg",
+    "title": "Historic Corner Storefront",
+    "description": "A historic brick building with domed turrets, cars on the street, and a pedestrian.",
+    "release_notes": [
+      "Building signage: confirm before use",
+      "Pedestrian visible: confirm release"
+    ]
+  },
+  {
+    "id": "MKE-25",
+    "source": "179.jpg",
+    "title": "Harbor with Yellow Sky",
+    "description": "A harbor filled with moored boats and trees, under a pale yellow sky.",
+    "release_notes": []
+  },
+  {
+    "id": "MKE-26",
+    "source": "180.jpg",
+    "title": "Skyline and Marina",
+    "description": "The skyline across the water, with sailboats moored in the foreground.",
+    "release_notes": []
+  },
+  {
+    "id": "MKE-27",
+    "source": "181.jpg",
+    "title": "Overpass and Towers",
+    "description": "A highway overpass curves past downtown towers on a clear day.",
+    "release_notes": [
+      "Road signage: confirm before use"
+    ]
+  },
+  {
+    "id": "MKE-28",
+    "source": "182.jpg",
+    "title": "Dusk Over the Water",
+    "description": "The skyline across the lake at dusk, with a small boat on the water.",
+    "release_notes": []
+  },
+  {
+    "id": "MKE-29",
+    "source": "183.jpg",
+    "title": "Quiet Shoreline Skyline",
+    "description": "A low skyline across the lake at dusk, with a single boat.",
+    "release_notes": []
+  },
+  {
+    "id": "MKE-30",
+    "source": "184.jpg",
+    "title": "Skyline Through the Leaves",
+    "description": "The skyline across the lake, framed by foliage in the foreground.",
+    "release_notes": []
+  },
+  {
+    "id": "MKE-31",
+    "source": "185.jpg",
+    "title": "Lawn and Skyline",
+    "description": "Downtown towers rise above a green lawn and a river.",
+    "release_notes": [
+      "Small figures visible: confirm release if used commercially"
+    ]
+  },
+  {
+    "id": "MKE-32",
+    "source": "186.jpg",
+    "title": "Sailboats at the Breakwall",
+    "description": "The skyline at dusk, with sailboats moored along the breakwall.",
+    "release_notes": []
+  },
+  {
+    "id": "MKE-33",
+    "source": "187.jpg",
+    "title": "Downtown from the River",
+    "description": "Downtown towers rise above the river's edge, with trees and a bridge.",
+    "release_notes": []
+  },
+  {
+    "id": "MKE-34",
+    "source": "188.jpg",
+    "title": "Riverfront Bridge and Skyline",
+    "description": "The downtown skyline above the river and a bridge in the foreground.",
+    "release_notes": [
+      "Visible bank signage (U.S. Bank, Baird): confirm before use"
+    ]
+  },
+  {
+    "id": "MKE-35",
+    "source": "189.jpg",
+    "title": "Leaves and Lakefront",
+    "description": "Silhouetted leaves frame the skyline across the water at dusk.",
+    "release_notes": []
+  },
+  {
+    "id": "MKE-36",
+    "source": "190.jpg",
+    "title": "City Bus on the Bridge",
+    "description": "A green-and-blue city bus crosses a bridge, with the skyline behind.",
+    "release_notes": [
+      "Transit branding (RideMCTS) visible: confirm before commercial use"
+    ]
+  },
+  {
+    "id": "MKE-37",
+    "source": "191.jpg",
+    "title": "Fisherman at the Water's Edge",
+    "description": "A person sits on rocks at the water's edge, with the skyline and a tower behind.",
+    "release_notes": [
+      "Person visible: confirm release"
+    ]
+  },
+  {
+    "id": "MKE-38",
+    "source": "192.jpg",
+    "title": "Lakeshore Path and Bench",
+    "description": "Aerial view of the lakeshore: a cyclist on a path, and two people on a bench above the rocks.",
+    "release_notes": [
+      "Two people and a cyclist visible: confirm release"
+    ]
+  },
+  {
+    "id": "MKE-39",
+    "source": "193.jpg",
+    "title": "Path Toward the Skyline",
+    "description": "A concrete path curves through grass toward the skyline, with golden reeds.",
+    "release_notes": []
+  },
+  {
+    "id": "MKE-40",
+    "source": "194.jpg",
+    "title": "Harbor Sailboats",
+    "description": "Sailboats moored in a harbor, with a line of trees behind.",
+    "release_notes": []
+  },
+  {
+    "id": "MKE-41",
+    "source": "195.jpg",
+    "title": "Corner Cafe from Above",
+    "description": "Aerial view of a brick corner building with outdoor tables and a street sign below.",
+    "release_notes": [
+      "Cafe signage visible: confirm before use",
+      "Diners visible: confirm release"
+    ]
+  },
+  {
+    "id": "MKE-42",
+    "source": "196.jpg",
+    "title": "Smith Supply Storefront",
+    "description": "A man on a bicycle passes a brick building with painted advertising, and a parked black Jeep.",
+    "release_notes": [
+      "Painted signage 'Smith Supply Co.': confirm before use",
+      "Person visible: confirm release"
+    ]
+  },
+  {
+    "id": "MKE-43",
+    "source": "197.jpg",
+    "title": "Brick Mill by the River",
+    "description": "A long red-brick industrial building rises above the river.",
+    "release_notes": [
+      "Building name not confirmed"
+    ]
+  },
+  {
+    "id": "MKE-44",
+    "source": "198.jpg",
+    "title": "Orange Arch Bridge",
+    "description": "The orange arch bridge over the lake, with a lighthouse in the distance.",
+    "release_notes": [
+      "Bridge name not confirmed",
+      "Truck with brand livery visible: confirm before use"
+    ]
+  },
+  {
+    "id": "MKE-45",
+    "source": "199.jpg",
+    "title": "Mill and Boat Dock",
+    "description": "A red-brick factory building beside the river, with a boat dock below.",
+    "release_notes": [
+      "Building name not confirmed",
+      "Boat branding visible: confirm before use"
+    ]
+  },
+  {
+    "id": "MKE-46",
+    "source": "200.jpg",
+    "title": "Fireworks over the Stadium",
+    "description": "Fireworks burst over the lakefront at night, with stadium lights and the skyline.",
+    "release_notes": [
+      "Stadium and bank signage visible: confirm before use",
+      "Event photo: confirm event permission"
+    ]
+  },
+  {
+    "id": "MKE-47",
+    "source": "201.jpg",
+    "title": "Fireworks and Reflections",
+    "description": "Fireworks light the night sky above reflections on the water.",
+    "release_notes": [
+      "Event photo: confirm event permission"
+    ]
+  },
+  {
+    "id": "MKE-48",
+    "source": "202.jpg",
+    "title": "Basilica Reflection",
+    "description": "A domed church reflected in a still pond, framed by overhanging trees.",
+    "release_notes": [
+      "Building name not confirmed"
+    ]
+  },
+  {
+    "id": "MKE-49",
+    "source": "203.jpg",
+    "title": "Freighter and Sailboat",
+    "description": "A sailboat and a freighter on open lake water beyond a rock breakwall.",
+    "release_notes": []
+  },
+  {
+    "id": "MKE-50",
+    "source": "204.jpg",
+    "title": "Waterfall and Stone House",
+    "description": "A waterfall spills over a stone weir, with a small stone house on the lake at sunset.",
+    "release_notes": [
+      "Building name not confirmed"
+    ]
+  }
 ]

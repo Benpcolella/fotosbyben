@@ -56,24 +56,26 @@ window.LICENSING_COLLECTIONS = [
         "id": "MKE-04",
         "title": "MKE-04: Calatrava Hall",
         "description": "Inside the Calatrava wing, two silhouetted figures stand before a glass wall overlooking the lake.",
-        "w": 1333,
-        "h": 2000,
+        "w": 3827,
+        "h": 5740,
         "uses": [
           "Web",
-          "Social media"
+          "Social media",
+          "Print up to 19.1 × 28.7 in (200 dpi)"
         ],
         "original": "milwaukee/originals/MKE-04.jpg",
         "web": "milwaukee/web/MKE-04.jpg"
       },
       {
         "id": "MKE-05",
-        "title": "MKE-05: Quadracci Wings at Blue Hour",
+        "title": "MKE-05: Quadracci Wings at Afternoon",
         "description": "Low view of the white wings of the Milwaukee Art Museum against a blue sky.",
-        "w": 1333,
-        "h": 2000,
+        "w": 3031,
+        "h": 4547,
         "uses": [
           "Web",
-          "Social media"
+          "Social media",
+          "Print up to 15.2 × 22.7 in (200 dpi)"
         ],
         "original": "milwaukee/originals/MKE-05.jpg",
         "web": "milwaukee/web/MKE-05.jpg"
@@ -81,13 +83,13 @@ window.LICENSING_COLLECTIONS = [
       {
         "id": "MKE-06",
         "title": "MKE-06: Lakefront Skyline at Sunset",
-        "description": "The Milwaukee skyline across the lake at sunset, with a small boat on the water.",
-        "w": 1600,
-        "h": 2000,
+        "description": "The Milwaukee skyline across the lake at sunset, with a kayaker on the water.",
+        "w": 2839,
+        "h": 3549,
         "uses": [
           "Web",
           "Social media",
-          "Print up to 8.0 × 10.0 in (200 dpi)"
+          "Print up to 14.2 × 17.7 in (200 dpi)"
         ],
         "original": "milwaukee/originals/MKE-06.jpg",
         "web": "milwaukee/web/MKE-06.jpg"
@@ -96,11 +98,12 @@ window.LICENSING_COLLECTIONS = [
         "id": "MKE-07",
         "title": "MKE-07: Wings at Dusk",
         "description": "The Milwaukee Art Museum wings, lit at dusk against a deep blue sky.",
-        "w": 2000,
-        "h": 1333,
+        "w": 6240,
+        "h": 4160,
         "uses": [
           "Web",
-          "Social media"
+          "Social media",
+          "Print up to 31.2 × 20.8 in (200 dpi)"
         ],
         "original": "milwaukee/originals/MKE-07.jpg",
         "web": "milwaukee/web/MKE-07.jpg"
@@ -108,12 +111,13 @@ window.LICENSING_COLLECTIONS = [
       {
         "id": "MKE-08",
         "title": "MKE-08: Museum Mast and Glass",
-        "description": "Close view of the museum's white wing, its tall mast rising above the glass base.",
-        "w": 1333,
-        "h": 2000,
+        "description": "Close view of the museum's white wings, its tall mast rising above the dramatic form.",
+        "w": 3513,
+        "h": 5269,
         "uses": [
           "Web",
-          "Social media"
+          "Social media",
+          "Print up to 17.6 × 26.3 in (200 dpi)"
         ],
         "original": "milwaukee/originals/MKE-08.jpg",
         "web": "milwaukee/web/MKE-08.jpg"
@@ -121,38 +125,41 @@ window.LICENSING_COLLECTIONS = [
       {
         "id": "MKE-09",
         "title": "MKE-09: Glass Hall Reflection",
-        "description": "Two silhouetted people stand in a glass-walled hall above reflective water.",
-        "w": 1333,
-        "h": 2000,
+        "description": "Two silhouetted visitors stand in a glass-walled hall above reflective water.",
+        "w": 3162,
+        "h": 4743,
         "uses": [
           "Web",
-          "Social media"
+          "Social media",
+          "Print up to 15.8 × 23.7 in (200 dpi)"
         ],
         "original": "milwaukee/originals/MKE-09.jpg",
         "web": "milwaukee/web/MKE-09.jpg"
       },
       {
         "id": "MKE-10",
-        "title": "MKE-10: Dusk Over the Water",
-        "description": "The skyline across the lake at dusk, with a small boat on the water.",
-        "w": 1333,
-        "h": 2000,
+        "title": "MKE-10: Sunset Over the Water",
+        "description": "The skyline across the lake at dusk, with a kayaker on the water.",
+        "w": 4160,
+        "h": 6240,
         "uses": [
           "Web",
-          "Social media"
+          "Social media",
+          "Print up to 20.8 × 31.2 in (200 dpi)"
         ],
         "original": "milwaukee/originals/MKE-10.jpg",
         "web": "milwaukee/web/MKE-10.jpg"
       },
       {
         "id": "MKE-11",
-        "title": "MKE-11: Downtown from the River",
-        "description": "Downtown towers rise above the river's edge, with trees and a bridge.",
-        "w": 1333,
-        "h": 2000,
+        "title": "MKE-11: Skyline from the River",
+        "description": "The Milwaukee skyline rises behind the Menomonee River as kayakers enjoy a peaceful summer day.",
+        "w": 3414,
+        "h": 5122,
         "uses": [
           "Web",
-          "Social media"
+          "Social media",
+          "Print up to 17.1 × 25.6 in (200 dpi)"
         ],
         "original": "milwaukee/originals/MKE-11.jpg",
         "web": "milwaukee/web/MKE-11.jpg"
@@ -160,52 +167,55 @@ window.LICENSING_COLLECTIONS = [
       {
         "id": "MKE-12",
         "title": "MKE-12: Riverfront Bridge and Skyline",
-        "description": "The downtown skyline above the river and a bridge in the foreground.",
-        "w": 1333,
-        "h": 2000,
+        "description": "The downtown skyline rises above the Menomonee River, with a motorcyclist heading toward the city.",
+        "w": 3457,
+        "h": 5186,
         "uses": [
           "Web",
-          "Social media"
+          "Social media",
+          "Print up to 17.3 × 25.9 in (200 dpi)"
         ],
         "original": "milwaukee/originals/MKE-12.jpg",
         "web": "milwaukee/web/MKE-12.jpg"
       },
       {
         "id": "MKE-13",
-        "title": "MKE-13: Brick Mill by the River",
-        "description": "A long red-brick industrial building rises above the river.",
-        "w": 1334,
-        "h": 2000,
+        "title": "MKE-13: Milwaukee Institute of Art and Design",
+        "description": "A long red-brick industrial building rises above the river. A converted mill that found new life as an art school.",
+        "w": 3768,
+        "h": 5651,
         "uses": [
           "Web",
-          "Social media"
+          "Social media",
+          "Print up to 18.8 × 28.3 in (200 dpi)"
         ],
         "original": "milwaukee/originals/MKE-13.jpg",
         "web": "milwaukee/web/MKE-13.jpg"
       },
       {
         "id": "MKE-14",
-        "title": "MKE-14: Orange Arch Bridge",
-        "description": "The orange arch bridge over the lake, with a lighthouse in the distance.",
-        "w": 1600,
-        "h": 2000,
+        "title": "MKE-14: Hoan Bridge",
+        "description": "The Hoan Bridge rises into a blue sky, framing the lighthouses below.",
+        "w": 3929,
+        "h": 4911,
         "uses": [
           "Web",
           "Social media",
-          "Print up to 8.0 × 10.0 in (200 dpi)"
+          "Print up to 19.6 × 24.6 in (200 dpi)"
         ],
         "original": "milwaukee/originals/MKE-14.jpg",
         "web": "milwaukee/web/MKE-14.jpg"
       },
       {
         "id": "MKE-15",
-        "title": "MKE-15: Fireworks over the Stadium",
-        "description": "Fireworks burst over the lakefront at night, with stadium lights and the skyline.",
-        "w": 2000,
-        "h": 1333,
+        "title": "MKE-15: Fireworks over the Skyline",
+        "description": "Fireworks burst over the lakefront at night, over Lakeshore State Park and the skyline.",
+        "w": 6240,
+        "h": 4160,
         "uses": [
           "Web",
-          "Social media"
+          "Social media",
+          "Print up to 31.2 × 20.8 in (200 dpi)"
         ],
         "original": "milwaukee/originals/MKE-15.jpg",
         "web": "milwaukee/web/MKE-15.jpg"
@@ -213,25 +223,27 @@ window.LICENSING_COLLECTIONS = [
       {
         "id": "MKE-16",
         "title": "MKE-16: Umbrellas Overhead",
-        "description": "Colorful umbrellas hang from a ceiling in blue, yellow, red and green.",
-        "w": 1334,
-        "h": 2000,
+        "description": "Colorful umbrellas hang from the I-794 overpass in blue, yellow, red and green, bringing life to the space below.",
+        "w": 2127,
+        "h": 3189,
         "uses": [
           "Web",
-          "Social media"
+          "Social media",
+          "Print up to 10.6 × 15.9 in (200 dpi)"
         ],
         "original": "milwaukee/originals/MKE-16.jpg",
         "web": "milwaukee/web/MKE-16.jpg"
       },
       {
         "id": "MKE-17",
-        "title": "MKE-17: Ornate Facade and Dome",
-        "description": "An ornate mid-rise facade with arched windows and a dome behind.",
-        "w": 1334,
-        "h": 2000,
+        "title": "MKE-17: Ornate Facade and Pfister Hotel",
+        "description": "An ornate mid-rise facade with arched windows and the Pfister Hotel behind.",
+        "w": 3820,
+        "h": 5729,
         "uses": [
           "Web",
-          "Social media"
+          "Social media",
+          "Print up to 19.1 × 28.6 in (200 dpi)"
         ],
         "original": "milwaukee/originals/MKE-17.jpg",
         "web": "milwaukee/web/MKE-17.jpg"
@@ -239,12 +251,13 @@ window.LICENSING_COLLECTIONS = [
       {
         "id": "MKE-18",
         "title": "MKE-18: Calm Lake with a Single Boat",
-        "description": "Calm blue lake with a single boat near the horizon.",
-        "w": 1333,
-        "h": 2000,
+        "description": "Calm blue lake with a single boat, and a seagull passing overhead.",
+        "w": 4160,
+        "h": 6240,
         "uses": [
           "Web",
-          "Social media"
+          "Social media",
+          "Print up to 20.8 × 31.2 in (200 dpi)"
         ],
         "original": "milwaukee/originals/MKE-18.jpg",
         "web": "milwaukee/web/MKE-18.jpg"
@@ -253,11 +266,12 @@ window.LICENSING_COLLECTIONS = [
         "id": "MKE-19",
         "title": "MKE-19: Vagabond Marquee",
         "description": "Ivy covers a building beneath the Vagabond marquee, with a Brewery sign above.",
-        "w": 1333,
-        "h": 2000,
+        "w": 4027,
+        "h": 6041,
         "uses": [
           "Web",
-          "Social media"
+          "Social media",
+          "Print up to 20.1 × 30.2 in (200 dpi)"
         ],
         "original": "milwaukee/originals/MKE-19.jpg",
         "web": "milwaukee/web/MKE-19.jpg"
@@ -265,12 +279,13 @@ window.LICENSING_COLLECTIONS = [
       {
         "id": "MKE-20",
         "title": "MKE-20: Frozen Custard Stand at Dusk",
-        "description": "A frozen-custard stand with red barriers and a giant cone sign, at dusk.",
-        "w": 1333,
-        "h": 2000,
+        "description": "Leon's famous frozen custard stand with red barriers and neon signs at dusk.",
+        "w": 4160,
+        "h": 6240,
         "uses": [
           "Web",
-          "Social media"
+          "Social media",
+          "Print up to 20.8 × 31.2 in (200 dpi)"
         ],
         "original": "milwaukee/originals/MKE-20.jpg",
         "web": "milwaukee/web/MKE-20.jpg"

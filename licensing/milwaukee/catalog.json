@@ -50,25 +50,37 @@
       "Two people visible (silhouette): confirm release",
       "Architectural interior: confirm property/venue permission for commercial use"
     ],
-    "featured": true
+    "featured": true,
+    "resolution": [
+      3827,
+      5740
+    ]
   },
   {
     "id": "MKE-05",
     "source": "160.jpg",
-    "title": "MKE-05: Quadracci Wings at Blue Hour",
+    "title": "MKE-05: Quadracci Wings at Afternoon",
     "description": "Low view of the white wings of the Milwaukee Art Museum against a blue sky.",
     "release_notes": [
       "Landmark architecture: confirm property permission for commercial use"
     ],
-    "featured": true
+    "featured": true,
+    "resolution": [
+      3031,
+      4547
+    ]
   },
   {
     "id": "MKE-06",
     "source": "161.jpg",
     "title": "MKE-06: Lakefront Skyline at Sunset",
-    "description": "The Milwaukee skyline across the lake at sunset, with a small boat on the water.",
+    "description": "The Milwaukee skyline across the lake at sunset, with a kayaker on the water.",
     "release_notes": [],
-    "featured": true
+    "featured": true,
+    "resolution": [
+      2839,
+      3549
+    ]
   },
   {
     "id": "MKE-07",
@@ -78,114 +90,162 @@
     "release_notes": [
       "Landmark architecture: confirm property permission"
     ],
-    "featured": true
+    "featured": true,
+    "resolution": [
+      6240,
+      4160
+    ]
   },
   {
     "id": "MKE-08",
     "source": "167.jpg",
     "title": "MKE-08: Museum Mast and Glass",
-    "description": "Close view of the museum's white wing, its tall mast rising above the glass base.",
+    "description": "Close view of the museum's white wings, its tall mast rising above the dramatic form.",
     "release_notes": [
       "Landmark architecture: confirm property permission"
     ],
-    "featured": true
+    "featured": true,
+    "resolution": [
+      3513,
+      5269
+    ]
   },
   {
     "id": "MKE-09",
     "source": "170.jpg",
     "title": "MKE-09: Glass Hall Reflection",
-    "description": "Two silhouetted people stand in a glass-walled hall above reflective water.",
+    "description": "Two silhouetted visitors stand in a glass-walled hall above reflective water.",
     "release_notes": [
       "Two people visible (silhouette): confirm release",
       "Interior of museum: confirm property permission"
     ],
-    "featured": true
+    "featured": true,
+    "resolution": [
+      3162,
+      4743
+    ]
   },
   {
     "id": "MKE-10",
     "source": "182.jpg",
-    "title": "MKE-10: Dusk Over the Water",
-    "description": "The skyline across the lake at dusk, with a small boat on the water.",
+    "title": "MKE-10: Sunset Over the Water",
+    "description": "The skyline across the lake at dusk, with a kayaker on the water.",
     "release_notes": [],
-    "featured": true
+    "featured": true,
+    "resolution": [
+      4160,
+      6240
+    ]
   },
   {
     "id": "MKE-11",
     "source": "187.jpg",
-    "title": "MKE-11: Downtown from the River",
-    "description": "Downtown towers rise above the river's edge, with trees and a bridge.",
+    "title": "MKE-11: Skyline from the River",
+    "description": "The Milwaukee skyline rises behind the Menomonee River as kayakers enjoy a peaceful summer day.",
     "release_notes": [],
-    "featured": true
+    "featured": true,
+    "resolution": [
+      3414,
+      5122
+    ]
   },
   {
     "id": "MKE-12",
     "source": "188.jpg",
     "title": "MKE-12: Riverfront Bridge and Skyline",
-    "description": "The downtown skyline above the river and a bridge in the foreground.",
+    "description": "The downtown skyline rises above the Menomonee River, with a motorcyclist heading toward the city.",
     "release_notes": [
       "Visible bank signage (U.S. Bank, Baird): confirm before use"
     ],
-    "featured": true
+    "featured": true,
+    "resolution": [
+      3457,
+      5186
+    ]
   },
   {
     "id": "MKE-13",
     "source": "197.jpg",
-    "title": "MKE-13: Brick Mill by the River",
-    "description": "A long red-brick industrial building rises above the river.",
+    "title": "MKE-13: Milwaukee Institute of Art and Design",
+    "description": "A long red-brick industrial building rises above the river. A converted mill that found new life as an art school.",
     "release_notes": [
       "Building name not confirmed"
     ],
-    "featured": true
+    "featured": true,
+    "resolution": [
+      3768,
+      5651
+    ]
   },
   {
     "id": "MKE-14",
     "source": "198.jpg",
-    "title": "MKE-14: Orange Arch Bridge",
-    "description": "The orange arch bridge over the lake, with a lighthouse in the distance.",
+    "title": "MKE-14: Hoan Bridge",
+    "description": "The Hoan Bridge rises into a blue sky, framing the lighthouses below.",
     "release_notes": [
       "Bridge name not confirmed",
       "Truck with brand livery visible: confirm before use"
     ],
-    "featured": true
+    "featured": true,
+    "resolution": [
+      3929,
+      4911
+    ]
   },
   {
     "id": "MKE-15",
     "source": "200.jpg",
-    "title": "MKE-15: Fireworks over the Stadium",
-    "description": "Fireworks burst over the lakefront at night, with stadium lights and the skyline.",
+    "title": "MKE-15: Fireworks over the Skyline",
+    "description": "Fireworks burst over the lakefront at night, over Lakeshore State Park and the skyline.",
     "release_notes": [
       "Stadium and bank signage visible: confirm before use",
       "Event photo: confirm event permission"
     ],
-    "featured": true
+    "featured": true,
+    "resolution": [
+      6240,
+      4160
+    ]
   },
   {
     "id": "MKE-16",
     "source": "217.jpg",
     "title": "MKE-16: Umbrellas Overhead",
-    "description": "Colorful umbrellas hang from a ceiling in blue, yellow, red and green.",
+    "description": "Colorful umbrellas hang from the I-794 overpass in blue, yellow, red and green, bringing life to the space below.",
     "release_notes": [
       "Interior of building: confirm property permission"
     ],
-    "featured": true
+    "featured": true,
+    "resolution": [
+      2127,
+      3189
+    ]
   },
   {
     "id": "MKE-17",
     "source": "221.jpg",
-    "title": "MKE-17: Ornate Facade and Dome",
-    "description": "An ornate mid-rise facade with arched windows and a dome behind.",
+    "title": "MKE-17: Ornate Facade and Pfister Hotel",
+    "description": "An ornate mid-rise facade with arched windows and the Pfister Hotel behind.",
     "release_notes": [
       "Building name not confirmed"
     ],
-    "featured": true
+    "featured": true,
+    "resolution": [
+      3820,
+      5729
+    ]
   },
   {
     "id": "MKE-18",
     "source": "225.jpg",
     "title": "MKE-18: Calm Lake with a Single Boat",
-    "description": "Calm blue lake with a single boat near the horizon.",
+    "description": "Calm blue lake with a single boat, and a seagull passing overhead.",
     "release_notes": [],
-    "featured": true
+    "featured": true,
+    "resolution": [
+      4160,
+      6240
+    ]
   },
   {
     "id": "MKE-19",
@@ -195,17 +255,25 @@
     "release_notes": [
       "Business signage visible (Vagabond): confirm before use"
     ],
-    "featured": true
+    "featured": true,
+    "resolution": [
+      4027,
+      6041
+    ]
   },
   {
     "id": "MKE-20",
     "source": "252.jpg",
     "title": "MKE-20: Frozen Custard Stand at Dusk",
-    "description": "A frozen-custard stand with red barriers and a giant cone sign, at dusk.",
+    "description": "Leon's famous frozen custard stand with red barriers and neon signs at dusk.",
     "release_notes": [
       "Business signage visible (Leon's): confirm before use"
     ],
-    "featured": true
+    "featured": true,
+    "resolution": [
+      4160,
+      6240
+    ]
   },
   {
     "id": "MKE-21",

@@ -13,7 +13,7 @@ window.LICENSING_COLLECTIONS = [
       {
         "id": "MKE-01",
         "title": "MKE-01: Aerial Surfer",
-        "description": "A surfer rides a white-capped wave, seen from above.",
+        "description": "A surfer rides a white-capped wave on Lake Michigan, seen from above.",
         "w": 1599,
         "h": 2000,
         "uses": [
@@ -26,7 +26,7 @@ window.LICENSING_COLLECTIONS = [
       {
         "id": "MKE-02",
         "title": "MKE-02: Public Market at Dusk",
-        "description": "The Milwaukee skyline at sunset, above the Public Market and the freeway.",
+        "description": "The Milwaukee skyline at sunset, above the Public Market and I-794.",
         "w": 1600,
         "h": 2000,
         "uses": [
@@ -40,7 +40,7 @@ window.LICENSING_COLLECTIONS = [
       {
         "id": "MKE-03",
         "title": "MKE-03: Lake Michigan Kayaker",
-        "description": "The Milwaukee skyline across Lake Michigan at sunrise, with a lone kayaker on the water.",
+        "description": "The Milwaukee skyline across Lake Michigan at sunset, with a lone kayaker on the water.",
         "w": 1599,
         "h": 2000,
         "uses": [

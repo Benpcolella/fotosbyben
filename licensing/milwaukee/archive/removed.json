@@ -123,5 +123,15 @@
       "Vehicle branding visible: confirm before use"
     ],
     "featured": true
+  },
+  {
+    "id": "MKE-71",
+    "source": "230.jpg",
+    "title": "MKE-71: Modern Tower and Victorian Facade",
+    "description": "A dark modern tower rises behind an ornate Victorian building with balconies.",
+    "release_notes": [
+      "Building name not confirmed"
+    ],
+    "featured": true
   }
 ]

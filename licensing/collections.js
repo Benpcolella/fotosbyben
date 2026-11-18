@@ -851,52 +851,56 @@ window.LICENSING_COLLECTIONS = [
       },
       {
         "id": "MKE-61",
-        "title": "MKE-61: Kayaker by the Mill",
-        "description": "A long brick industrial building along the river, with a kayaker on red kayak.",
-        "w": 1333,
-        "h": 2000,
+        "title": "MKE-61: Kayaker by MIAD",
+        "description": "A long brick Milwaukee Institute of Art and Design building along the river, with a kayaker on a red kayak.",
+        "w": 3096,
+        "h": 4644,
         "uses": [
           "Web",
-          "Social media"
+          "Social media",
+          "Print up to 15.5 × 23.2 in (200 dpi)"
         ],
         "original": "milwaukee/originals/MKE-61.jpg",
         "web": "milwaukee/web/MKE-61.jpg"
       },
       {
         "id": "MKE-62",
-        "title": "MKE-62: Arched Bridge over the River",
-        "description": "An arched bridge crosses the river, with brick mill buildings behind.",
-        "w": 2000,
-        "h": 1333,
+        "title": "MKE-62: Hoan Bridge over the River",
+        "description": "The Hoan Bridge arches over the river, with brick mill buildings behind.",
+        "w": 5941,
+        "h": 3961,
         "uses": [
           "Web",
-          "Social media"
+          "Social media",
+          "Print up to 29.7 × 19.8 in (200 dpi)"
         ],
         "original": "milwaukee/originals/MKE-62.jpg",
         "web": "milwaukee/web/MKE-62.jpg"
       },
       {
         "id": "MKE-63",
-        "title": "MKE-63: Red Sculptures on Black Grid",
-        "description": "Red sculptural forms mounted on a dark perforated facade.",
-        "w": 1332,
-        "h": 2000,
+        "title": "MKE-63: Red Ladybug Sculptures on Perforated Grid",
+        "description": "Red ladybug sculptures mounted on a dark perforated facade.",
+        "w": 1747,
+        "h": 2623,
         "uses": [
           "Web",
-          "Social media"
+          "Social media",
+          "Print up to 8.7 × 13.1 in (200 dpi)"
         ],
         "original": "milwaukee/originals/MKE-63.jpg",
         "web": "milwaukee/web/MKE-63.jpg"
       },
       {
         "id": "MKE-64",
-        "title": "MKE-64: Ornate Stone Entrance",
-        "description": "The arched entrance of an ornate stone building, with a clock above the doors.",
-        "w": 1333,
-        "h": 2000,
+        "title": "MKE-64: Mitchell Building Entrance",
+        "description": "The arched entrance of the Mitchell Building, an ornate stone building.",
+        "w": 3969,
+        "h": 5954,
         "uses": [
           "Web",
-          "Social media"
+          "Social media",
+          "Print up to 19.8 × 29.8 in (200 dpi)"
         ],
         "original": "milwaukee/originals/MKE-64.jpg",
         "web": "milwaukee/web/MKE-64.jpg"
@@ -904,38 +908,41 @@ window.LICENSING_COLLECTIONS = [
       {
         "id": "MKE-65",
         "title": "MKE-65: Sandstone Civic Building",
-        "description": "An ornate sandstone building with a flagpole, and a motorcycle parked out front.",
-        "w": 1333,
-        "h": 2000,
+        "description": "A layering of historic and contemporary buildings, with a motorcyclist driving past.",
+        "w": 3814,
+        "h": 5721,
         "uses": [
           "Web",
-          "Social media"
+          "Social media",
+          "Print up to 19.1 × 28.6 in (200 dpi)"
         ],
         "original": "milwaukee/originals/MKE-65.jpg",
         "web": "milwaukee/web/MKE-65.jpg"
       },
       {
         "id": "MKE-66",
-        "title": "MKE-66: Columned Civic Building",
-        "description": "A neoclassical columned building, with a red-and-orange truck parked on the street.",
-        "w": 1333,
-        "h": 2000,
+        "title": "MKE-66: Northwestern Mutual Building",
+        "description": "A neoclassical columned building, the Northwestern Mutual Building, with a red-and-orange truck parked on the street.",
+        "w": 3399,
+        "h": 5098,
         "uses": [
           "Web",
-          "Social media"
+          "Social media",
+          "Print up to 17.0 × 25.5 in (200 dpi)"
         ],
         "original": "milwaukee/originals/MKE-66.jpg",
         "web": "milwaukee/web/MKE-66.jpg"
       },
       {
         "id": "MKE-67",
-        "title": "MKE-67: Pavilion Framing the Lake",
-        "description": "A concrete-and-glass pavilion frames a view of the lake and lighthouse.",
-        "w": 2000,
-        "h": 1333,
+        "title": "MKE-67: Veterans Memorial Terrace",
+        "description": "A terrace framed by the Milwaukee Veterans Memorial, overlooking the lake.",
+        "w": 5055,
+        "h": 3670,
         "uses": [
           "Web",
-          "Social media"
+          "Social media",
+          "Print up to 25.3 × 18.4 in (200 dpi)"
         ],
         "original": "milwaukee/originals/MKE-67.jpg",
         "web": "milwaukee/web/MKE-67.jpg"
@@ -944,11 +951,12 @@ window.LICENSING_COLLECTIONS = [
         "id": "MKE-68",
         "title": "MKE-68: Victorian Tower on the Corner",
         "description": "A red-brick Victorian building with a turret and tower, lined by street trees.",
-        "w": 1333,
-        "h": 2000,
+        "w": 3855,
+        "h": 5784,
         "uses": [
           "Web",
-          "Social media"
+          "Social media",
+          "Print up to 19.3 × 28.9 in (200 dpi)"
         ],
         "original": "milwaukee/originals/MKE-68.jpg",
         "web": "milwaukee/web/MKE-68.jpg"
@@ -957,11 +965,12 @@ window.LICENSING_COLLECTIONS = [
         "id": "MKE-69",
         "title": "MKE-69: Looking Up the Tower",
         "description": "A dramatic angled view up a glass tower, with a sign and a clock beside it.",
-        "w": 1333,
-        "h": 2000,
+        "w": 4160,
+        "h": 6240,
         "uses": [
           "Web",
-          "Social media"
+          "Social media",
+          "Print up to 20.8 × 31.2 in (200 dpi)"
         ],
         "original": "milwaukee/originals/MKE-69.jpg",
         "web": "milwaukee/web/MKE-69.jpg"
@@ -970,351 +979,365 @@ window.LICENSING_COLLECTIONS = [
         "id": "MKE-70",
         "title": "MKE-70: Traffic Signal and Tower",
         "description": "A traffic signal in front of a pale tower.",
-        "w": 1333,
-        "h": 2000,
+        "w": 4160,
+        "h": 6240,
         "uses": [
           "Web",
-          "Social media"
+          "Social media",
+          "Print up to 20.8 × 31.2 in (200 dpi)"
         ],
         "original": "milwaukee/originals/MKE-70.jpg",
         "web": "milwaukee/web/MKE-70.jpg"
       },
       {
         "id": "MKE-71",
-        "title": "MKE-71: Modern Tower and Victorian Facade",
-        "description": "A dark modern tower rises behind an ornate Victorian building with balconies.",
-        "w": 1333,
-        "h": 2000,
+        "title": "MKE-71: Bench by the Lake",
+        "description": "A person sits on a bench above the lake on a summer day, where sky, grass and water form strong bands of color and calm.",
+        "w": 1724,
+        "h": 2155,
         "uses": [
           "Web",
-          "Social media"
+          "Social media",
+          "Print up to 8.6 × 10.8 in (200 dpi)"
         ],
         "original": "milwaukee/originals/MKE-71.jpg",
         "web": "milwaukee/web/MKE-71.jpg"
       },
       {
         "id": "MKE-72",
-        "title": "MKE-72: Bench by the Lake",
-        "description": "A person sits on a bench above the lake, surrounded by tall grass.",
-        "w": 1600,
-        "h": 2000,
+        "title": "MKE-72: Harley-Davidson Museum Accent",
+        "description": "A red architectural accent at the Harley-Davidson Museum, beside a museum wing and reflected in still water.",
+        "w": 3780,
+        "h": 5669,
         "uses": [
           "Web",
           "Social media",
-          "Print up to 8.0 × 10.0 in (200 dpi)"
+          "Print up to 18.9 × 28.3 in (200 dpi)"
         ],
         "original": "milwaukee/originals/MKE-72.jpg",
         "web": "milwaukee/web/MKE-72.jpg"
       },
       {
         "id": "MKE-73",
-        "title": "MKE-73: Red Sculpture by the Lagoon",
-        "description": "A red sculpture stands beside a museum wing, reflected in still water.",
-        "w": 1334,
-        "h": 2000,
+        "title": "MKE-73: Harley-Davidson Museum Accent in the Field",
+        "description": "A red architectural accent at the Harley-Davidson Museum rises from a grassy field, with a museum and steel structure behind.",
+        "w": 4160,
+        "h": 6240,
         "uses": [
           "Web",
-          "Social media"
+          "Social media",
+          "Print up to 20.8 × 31.2 in (200 dpi)"
         ],
         "original": "milwaukee/originals/MKE-73.jpg",
         "web": "milwaukee/web/MKE-73.jpg"
       },
       {
         "id": "MKE-74",
-        "title": "MKE-74: Red Sculpture in the Field",
-        "description": "A red sculpture rises from a grassy field, with a museum and steel structure behind.",
-        "w": 1333,
-        "h": 2000,
+        "title": "MKE-74: Harley-Davidson Museum Accent by the River",
+        "description": "A red architectural accent at the Harley-Davidson Museum, reflected in the water beside a glass museum building.",
+        "w": 4090,
+        "h": 6135,
         "uses": [
           "Web",
-          "Social media"
+          "Social media",
+          "Print up to 20.4 × 30.7 in (200 dpi)"
         ],
         "original": "milwaukee/originals/MKE-74.jpg",
         "web": "milwaukee/web/MKE-74.jpg"
       },
       {
         "id": "MKE-75",
-        "title": "MKE-75: Red Sculpture by the River",
-        "description": "A red sculpture beside a glass museum building, reflected in the water.",
-        "w": 1333,
-        "h": 2000,
+        "title": "MKE-75: Water Works Sign Installation",
+        "description": "Tall grass and wildflowers in front of red-brick buildings, with the Water Works sign installation on a pole.",
+        "w": 3844,
+        "h": 5765,
         "uses": [
           "Web",
-          "Social media"
+          "Social media",
+          "Print up to 19.2 × 28.8 in (200 dpi)"
         ],
         "original": "milwaukee/originals/MKE-75.jpg",
         "web": "milwaukee/web/MKE-75.jpg"
       },
       {
         "id": "MKE-76",
-        "title": "MKE-76: Wildflowers and Brick",
-        "description": "Tall grass and wildflowers in front of red-brick buildings, with a blue sign on a pole.",
-        "w": 1334,
-        "h": 2000,
+        "title": "MKE-76: Milwaukee Fire Department Engine",
+        "description": "A red Milwaukee Fire Department engine parked in front of a brick building.",
+        "w": 2754,
+        "h": 3862,
         "uses": [
           "Web",
-          "Social media"
+          "Social media",
+          "Print up to 13.8 × 19.3 in (200 dpi)"
         ],
         "original": "milwaukee/originals/MKE-76.jpg",
         "web": "milwaukee/web/MKE-76.jpg"
       },
       {
         "id": "MKE-77",
-        "title": "MKE-77: Fire Engine on the Street",
-        "description": "A red fire engine parked in front of a brick building.",
-        "w": 1333,
-        "h": 2000,
+        "title": "MKE-77: Black Muscle Car on Brick",
+        "description": "A black muscle car parked in front of a brick building.",
+        "w": 3122,
+        "h": 4683,
         "uses": [
           "Web",
-          "Social media"
+          "Social media",
+          "Print up to 15.6 × 23.4 in (200 dpi)"
         ],
         "original": "milwaukee/originals/MKE-77.jpg",
         "web": "milwaukee/web/MKE-77.jpg"
       },
       {
         "id": "MKE-78",
-        "title": "MKE-78: Black Sports Car on Brick",
-        "description": "A black sports car parked in front of a brick building.",
-        "w": 1333,
-        "h": 2000,
+        "title": "MKE-78: Railroad Crossing Signals",
+        "description": "Railroad crossing signals in the foreground, with a tower in the distance.",
+        "w": 1892,
+        "h": 2838,
         "uses": [
           "Web",
-          "Social media"
+          "Social media",
+          "Print up to 9.5 × 14.2 in (200 dpi)"
         ],
         "original": "milwaukee/originals/MKE-78.jpg",
         "web": "milwaukee/web/MKE-78.jpg"
       },
       {
         "id": "MKE-79",
-        "title": "MKE-79: Signals and Skyline",
-        "description": "Traffic signals in the foreground, with a tower in the distance.",
-        "w": 1333,
-        "h": 2000,
+        "title": "MKE-79: Pritzlaff Building",
+        "description": "A red-brick Pritzlaff building, a converted factory now home to loft apartments, with arched windows seen from below.",
+        "w": 3951,
+        "h": 5926,
         "uses": [
           "Web",
-          "Social media"
+          "Social media",
+          "Print up to 19.8 × 29.6 in (200 dpi)"
         ],
         "original": "milwaukee/originals/MKE-79.jpg",
         "web": "milwaukee/web/MKE-79.jpg"
       },
       {
         "id": "MKE-80",
-        "title": "MKE-80: Brick Factory Arches",
-        "description": "A red-brick factory building with arched windows, seen from below.",
-        "w": 1333,
-        "h": 2000,
+        "title": "MKE-80: Gazebo at Pere Marquette Park",
+        "description": "A gazebo in Pere Marquette Park, with a brick tower behind.",
+        "w": 4091,
+        "h": 6137,
         "uses": [
           "Web",
-          "Social media"
+          "Social media",
+          "Print up to 20.5 × 30.7 in (200 dpi)"
         ],
         "original": "milwaukee/originals/MKE-80.jpg",
         "web": "milwaukee/web/MKE-80.jpg"
       },
       {
         "id": "MKE-81",
-        "title": "MKE-81: Gazebo and the Tower",
-        "description": "A gazebo in a green park, with a brick tower behind.",
-        "w": 1000,
-        "h": 1500,
+        "title": "MKE-81: Wisconsin Nature and Culture Museum Under Construction",
+        "description": "The white curved wings of the Wisconsin Nature and Culture Museum, under construction, rise above green trees.",
+        "w": 3563,
+        "h": 5344,
         "uses": [
-          "Web (small)"
+          "Web",
+          "Social media",
+          "Print up to 17.8 × 26.7 in (200 dpi)"
         ],
         "original": "milwaukee/originals/MKE-81.jpg",
         "web": "milwaukee/web/MKE-81.jpg"
       },
       {
         "id": "MKE-82",
-        "title": "MKE-82: Museum Wings in the Trees",
-        "description": "The white curved wings of a museum rise above green trees.",
-        "w": 1333,
-        "h": 2000,
+        "title": "MKE-82: Wisconsin Nature and Culture Museum Wing",
+        "description": "A curved white wing of the Wisconsin Nature and Culture Museum, under construction, rises above trees in the foreground.",
+        "w": 3784,
+        "h": 5676,
         "uses": [
           "Web",
-          "Social media"
+          "Social media",
+          "Print up to 18.9 × 28.4 in (200 dpi)"
         ],
         "original": "milwaukee/originals/MKE-82.jpg",
         "web": "milwaukee/web/MKE-82.jpg"
       },
       {
         "id": "MKE-83",
-        "title": "MKE-83: Curved White Wing",
-        "description": "A curved white museum wing rises above trees in the foreground.",
-        "w": 1333,
-        "h": 2000,
+        "title": "MKE-83: Signal at the Nature and Culture Museum",
+        "description": "Traffic signals hang in front of a curved white wing of the Wisconsin Nature and Culture Museum, under construction.",
+        "w": 4160,
+        "h": 6240,
         "uses": [
           "Web",
-          "Social media"
+          "Social media",
+          "Print up to 20.8 × 31.2 in (200 dpi)"
         ],
         "original": "milwaukee/originals/MKE-83.jpg",
         "web": "milwaukee/web/MKE-83.jpg"
       },
       {
         "id": "MKE-84",
-        "title": "MKE-84: Signal at the Museum",
-        "description": "Traffic signals hang in front of a curved white museum wing.",
-        "w": 1333,
-        "h": 2000,
+        "title": "MKE-84: Perforated Frame, Nature and Culture Museum",
+        "description": "Looking through a perforated black metal frame at the white wing of the Wisconsin Nature and Culture Museum.",
+        "w": 3916,
+        "h": 5874,
         "uses": [
           "Web",
-          "Social media"
+          "Social media",
+          "Print up to 19.6 × 29.4 in (200 dpi)"
         ],
         "original": "milwaukee/originals/MKE-84.jpg",
         "web": "milwaukee/web/MKE-84.jpg"
       },
       {
         "id": "MKE-85",
-        "title": "MKE-85: Perforated Frame, White Wing",
-        "description": "Looking through a perforated black metal frame at the white museum wing.",
-        "w": 1333,
-        "h": 2000,
+        "title": "MKE-85: Perforated Frame, Church Spire",
+        "description": "Looking through a perforated black metal frame at a church spire in the distance.",
+        "w": 4160,
+        "h": 6240,
         "uses": [
           "Web",
-          "Social media"
+          "Social media",
+          "Print up to 20.8 × 31.2 in (200 dpi)"
         ],
         "original": "milwaukee/originals/MKE-85.jpg",
         "web": "milwaukee/web/MKE-85.jpg"
       },
       {
         "id": "MKE-86",
-        "title": "MKE-86: Perforated Frame, Church Spire",
-        "description": "Looking through a perforated black metal frame at a church spire in the distance.",
-        "w": 1333,
-        "h": 2000,
+        "title": "MKE-86: Perforated Frame, Nature and Culture Museum (alt)",
+        "description": "Looking through a perforated black metal frame at the white wing of the Wisconsin Nature and Culture Museum.",
+        "w": 4160,
+        "h": 6240,
         "uses": [
           "Web",
-          "Social media"
+          "Social media",
+          "Print up to 20.8 × 31.2 in (200 dpi)"
         ],
         "original": "milwaukee/originals/MKE-86.jpg",
         "web": "milwaukee/web/MKE-86.jpg"
       },
       {
         "id": "MKE-87",
-        "title": "MKE-87: Perforated Frame, Museum",
-        "description": "Looking through a perforated black metal frame at the white museum wing.",
-        "w": 1333,
-        "h": 2000,
+        "title": "MKE-87: Nature and Culture Museum with Lifts",
+        "description": "Two white wings of the Wisconsin Nature and Culture Museum, under construction, with orange lifts and a car passing on the street in front.",
+        "w": 4160,
+        "h": 6240,
         "uses": [
           "Web",
-          "Social media"
+          "Social media",
+          "Print up to 20.8 × 31.2 in (200 dpi)"
         ],
         "original": "milwaukee/originals/MKE-87.jpg",
         "web": "milwaukee/web/MKE-87.jpg"
       },
       {
         "id": "MKE-88",
-        "title": "MKE-88: Museum Wings and Lifts",
-        "description": "Two white museum wings and a glass atrium, with orange lifts and a car at the curb.",
-        "w": 1333,
-        "h": 2000,
+        "title": "MKE-88: Vagabond Bar",
+        "description": "An ivy-covered Vagabond Bar with a silver Airstream trailer and a blue fence.",
+        "w": 3691,
+        "h": 5537,
         "uses": [
           "Web",
-          "Social media"
+          "Social media",
+          "Print up to 18.5 × 27.7 in (200 dpi)"
         ],
         "original": "milwaukee/originals/MKE-88.jpg",
         "web": "milwaukee/web/MKE-88.jpg"
       },
       {
         "id": "MKE-89",
-        "title": "MKE-89: Vagabond Patio",
-        "description": "An ivy-covered building with a silver Airstream trailer and a blue fence.",
-        "w": 1333,
-        "h": 2000,
+        "title": "MKE-89: Corner Bar and Skater",
+        "description": "A historic corner bar with neon signage, and a skateboarder on the sidewalk along Brady Street.",
+        "w": 4160,
+        "h": 6240,
         "uses": [
           "Web",
-          "Social media"
+          "Social media",
+          "Print up to 20.8 × 31.2 in (200 dpi)"
         ],
         "original": "milwaukee/originals/MKE-89.jpg",
         "web": "milwaukee/web/MKE-89.jpg"
       },
       {
         "id": "MKE-90",
-        "title": "MKE-90: Corner Bar and Skater",
-        "description": "A historic corner bar with neon signage, and a skateboarder on the sidewalk.",
-        "w": 1333,
-        "h": 2000,
+        "title": "MKE-90: World Famous Drive-In Sign",
+        "description": "The neon sign at Leon's World Famous Drive-In, against a pale sky.",
+        "w": 4085,
+        "h": 6127,
         "uses": [
           "Web",
-          "Social media"
+          "Social media",
+          "Print up to 20.4 × 30.6 in (200 dpi)"
         ],
         "original": "milwaukee/originals/MKE-90.jpg",
         "web": "milwaukee/web/MKE-90.jpg"
       },
       {
         "id": "MKE-91",
-        "title": "MKE-91: World Famous Drive-In Sign",
-        "description": "Neon sign reading 'Leon's', 'World Famous' and 'Frozen Custard', against a pale sky.",
-        "w": 1333,
-        "h": 2000,
+        "title": "MKE-91: Stained Glass Water Tower",
+        "description": "Modern and brick buildings beside a grassy lot, with a stained glass water tower above.",
+        "w": 3624,
+        "h": 5463,
         "uses": [
           "Web",
-          "Social media"
+          "Social media",
+          "Print up to 18.1 × 27.3 in (200 dpi)"
         ],
         "original": "milwaukee/originals/MKE-91.jpg",
         "web": "milwaukee/web/MKE-91.jpg"
       },
       {
         "id": "MKE-92",
-        "title": "MKE-92: Brick and Lot",
-        "description": "Modern and brick buildings beside a grassy lot under a cloudy sky.",
-        "w": 1333,
-        "h": 2000,
+        "title": "MKE-92: Colectivo Coffee",
+        "description": "A quiet cafe patio with teal chairs and tables in the shade of a large tree, beneath a brick storefront with a red awning.",
+        "w": 4160,
+        "h": 6240,
         "uses": [
           "Web",
-          "Social media"
+          "Social media",
+          "Print up to 20.8 × 31.2 in (200 dpi)"
         ],
         "original": "milwaukee/originals/MKE-92.jpg",
         "web": "milwaukee/web/MKE-92.jpg"
       },
       {
         "id": "MKE-93",
-        "title": "MKE-93: Colectivo Coffee",
-        "description": "A brick storefront with a red awning and teal chairs under a large tree.",
-        "w": 1000,
-        "h": 1500,
+        "title": "MKE-93: Kayaks and the Third Ward",
+        "description": "The Third Ward across the river, with kayakers on the water.",
+        "w": 4160,
+        "h": 6240,
         "uses": [
-          "Web (small)"
+          "Web",
+          "Social media",
+          "Print up to 20.8 × 31.2 in (200 dpi)"
         ],
         "original": "milwaukee/originals/MKE-93.jpg",
         "web": "milwaukee/web/MKE-93.jpg"
       },
       {
         "id": "MKE-94",
-        "title": "MKE-94: Kayaks and Skyline (alt)",
-        "description": "The skyline across the river, framed more closely, with kayakers on the water.",
-        "w": 1333,
-        "h": 2000,
+        "title": "MKE-94: Public Market Corner",
+        "description": "The Milwaukee Public Market sign, with visitors crossing the street.",
+        "w": 4160,
+        "h": 6240,
         "uses": [
           "Web",
-          "Social media"
+          "Social media",
+          "Print up to 20.8 × 31.2 in (200 dpi)"
         ],
         "original": "milwaukee/originals/MKE-94.jpg",
         "web": "milwaukee/web/MKE-94.jpg"
       },
       {
         "id": "MKE-95",
-        "title": "MKE-95: Public Market Corner",
-        "description": "The Milwaukee Public Market sign, with people crossing the street.",
-        "w": 1333,
-        "h": 2000,
+        "title": "MKE-95: American Family Field from Above",
+        "description": "Aerial view of American Family Field with its roof open, surrounded by parking.",
+        "w": 2838,
+        "h": 3783,
         "uses": [
           "Web",
-          "Social media"
+          "Social media",
+          "Print up to 14.2 × 18.9 in (200 dpi)"
         ],
         "original": "milwaukee/originals/MKE-95.jpg",
         "web": "milwaukee/web/MKE-95.jpg"
-      },
-      {
-        "id": "MKE-96",
-        "title": "MKE-96: Stadium from Above",
-        "description": "Aerial view of a baseball stadium with its wings open, surrounded by parking.",
-        "w": 1500,
-        "h": 2000,
-        "uses": [
-          "Web",
-          "Social media"
-        ],
-        "original": "milwaukee/originals/MKE-96.jpg",
-        "web": "milwaukee/web/MKE-96.jpg"
       }
     ]
   }

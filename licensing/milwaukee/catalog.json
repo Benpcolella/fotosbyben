@@ -283,7 +283,7 @@
     "release_notes": [
       "Kayakers visible: confirm release",
       "Bank and building signage visible: confirm before use",
-      "Near-duplicate of MKE-94: choose one"
+      "Near-duplicate of MKE-93: choose one"
     ],
     "featured": true,
     "resolution": [
@@ -824,76 +824,104 @@
   {
     "id": "MKE-61",
     "source": "214.jpg",
-    "title": "MKE-61: Kayaker by the Mill",
-    "description": "A long brick industrial building along the river, with a kayaker on red kayak.",
+    "title": "MKE-61: Kayaker by MIAD",
+    "description": "A long brick Milwaukee Institute of Art and Design building along the river, with a kayaker on a red kayak.",
     "release_notes": [
       "Person visible: confirm release",
       "Building name not confirmed"
     ],
-    "featured": true
+    "featured": true,
+    "resolution": [
+      3096,
+      4644
+    ]
   },
   {
     "id": "MKE-62",
     "source": "216.jpg",
-    "title": "MKE-62: Arched Bridge over the River",
-    "description": "An arched bridge crosses the river, with brick mill buildings behind.",
+    "title": "MKE-62: Hoan Bridge over the River",
+    "description": "The Hoan Bridge arches over the river, with brick mill buildings behind.",
     "release_notes": [
       "Bridge name not confirmed"
     ],
-    "featured": true
+    "featured": true,
+    "resolution": [
+      5941,
+      3961
+    ]
   },
   {
     "id": "MKE-63",
     "source": "219.jpg",
-    "title": "MKE-63: Red Sculptures on Black Grid",
-    "description": "Red sculptural forms mounted on a dark perforated facade.",
+    "title": "MKE-63: Red Ladybug Sculptures on Perforated Grid",
+    "description": "Red ladybug sculptures mounted on a dark perforated facade.",
     "release_notes": [
       "Public artwork: confirm artist and permission",
       "Near-duplicate of MKE-60 (red sculptures): choose one"
     ],
-    "featured": true
+    "featured": true,
+    "resolution": [
+      1747,
+      2623
+    ]
   },
   {
     "id": "MKE-64",
     "source": "220.jpg",
-    "title": "MKE-64: Ornate Stone Entrance",
-    "description": "The arched entrance of an ornate stone building, with a clock above the doors.",
+    "title": "MKE-64: Mitchell Building Entrance",
+    "description": "The arched entrance of the Mitchell Building, an ornate stone building.",
     "release_notes": [
       "Building name not confirmed"
     ],
-    "featured": true
+    "featured": true,
+    "resolution": [
+      3969,
+      5954
+    ]
   },
   {
     "id": "MKE-65",
     "source": "222.jpg",
     "title": "MKE-65: Sandstone Civic Building",
-    "description": "An ornate sandstone building with a flagpole, and a motorcycle parked out front.",
+    "description": "A layering of historic and contemporary buildings, with a motorcyclist driving past.",
     "release_notes": [
       "Building name not confirmed",
       "Motorcycle visible: confirm before use"
     ],
-    "featured": true
+    "featured": true,
+    "resolution": [
+      3814,
+      5721
+    ]
   },
   {
     "id": "MKE-66",
     "source": "223.jpg",
-    "title": "MKE-66: Columned Civic Building",
-    "description": "A neoclassical columned building, with a red-and-orange truck parked on the street.",
+    "title": "MKE-66: Northwestern Mutual Building",
+    "description": "A neoclassical columned building, the Northwestern Mutual Building, with a red-and-orange truck parked on the street.",
     "release_notes": [
       "Building name not confirmed",
       "Truck branding visible: confirm before use"
     ],
-    "featured": true
+    "featured": true,
+    "resolution": [
+      3399,
+      5098
+    ]
   },
   {
     "id": "MKE-67",
     "source": "224.jpg",
-    "title": "MKE-67: Pavilion Framing the Lake",
-    "description": "A concrete-and-glass pavilion frames a view of the lake and lighthouse.",
+    "title": "MKE-67: Veterans Memorial Terrace",
+    "description": "A terrace framed by the Milwaukee Veterans Memorial, overlooking the lake.",
     "release_notes": [
       "Landmark architecture: confirm property permission"
     ],
-    "featured": true
+    "featured": true,
+    "resolution": [
+      5055,
+      3670
+    ]
   },
   {
     "id": "MKE-68",
@@ -903,7 +931,11 @@
     "release_notes": [
       "Building name not confirmed"
     ],
-    "featured": true
+    "featured": true,
+    "resolution": [
+      3855,
+      5784
+    ]
   },
   {
     "id": "MKE-69",
@@ -913,7 +945,11 @@
     "release_notes": [
       "Building signage visible: confirm before use"
     ],
-    "featured": true
+    "featured": true,
+    "resolution": [
+      4160,
+      6240
+    ]
   },
   {
     "id": "MKE-70",
@@ -923,268 +959,362 @@
     "release_notes": [
       "Pedestrian signal visible: confirm before use"
     ],
-    "featured": true
+    "featured": true,
+    "resolution": [
+      4160,
+      6240
+    ]
   },
   {
     "id": "MKE-71",
-    "source": "230.jpg",
-    "title": "MKE-71: Modern Tower and Victorian Facade",
-    "description": "A dark modern tower rises behind an ornate Victorian building with balconies.",
-    "release_notes": [
-      "Building name not confirmed"
-    ],
-    "featured": true
-  },
-  {
-    "id": "MKE-72",
     "source": "231.jpg",
-    "title": "MKE-72: Bench by the Lake",
-    "description": "A person sits on a bench above the lake, surrounded by tall grass.",
+    "title": "MKE-71: Bench by the Lake",
+    "description": "A person sits on a bench above the lake on a summer day, where sky, grass and water form strong bands of color and calm.",
     "release_notes": [
       "Person visible: confirm release"
     ],
-    "featured": true
+    "featured": true,
+    "resolution": [
+      1724,
+      2155
+    ]
+  },
+  {
+    "id": "MKE-72",
+    "source": "232.jpg",
+    "title": "MKE-72: Harley-Davidson Museum Accent",
+    "description": "A red architectural accent at the Harley-Davidson Museum, beside a museum wing and reflected in still water.",
+    "release_notes": [
+      "Public artwork: confirm artist and permission"
+    ],
+    "featured": true,
+    "resolution": [
+      3780,
+      5669
+    ]
   },
   {
     "id": "MKE-73",
-    "source": "232.jpg",
-    "title": "MKE-73: Red Sculpture by the Lagoon",
-    "description": "A red sculpture stands beside a museum wing, reflected in still water.",
+    "source": "233.jpg",
+    "title": "MKE-73: Harley-Davidson Museum Accent in the Field",
+    "description": "A red architectural accent at the Harley-Davidson Museum rises from a grassy field, with a museum and steel structure behind.",
     "release_notes": [
       "Public artwork: confirm artist and permission"
     ],
-    "featured": true
+    "featured": true,
+    "resolution": [
+      4160,
+      6240
+    ]
   },
   {
     "id": "MKE-74",
-    "source": "233.jpg",
-    "title": "MKE-74: Red Sculpture in the Field",
-    "description": "A red sculpture rises from a grassy field, with a museum and steel structure behind.",
+    "source": "234.jpg",
+    "title": "MKE-74: Harley-Davidson Museum Accent by the River",
+    "description": "A red architectural accent at the Harley-Davidson Museum, reflected in the water beside a glass museum building.",
     "release_notes": [
       "Public artwork: confirm artist and permission"
     ],
-    "featured": true
+    "featured": true,
+    "resolution": [
+      4090,
+      6135
+    ]
   },
   {
     "id": "MKE-75",
-    "source": "234.jpg",
-    "title": "MKE-75: Red Sculpture by the River",
-    "description": "A red sculpture beside a glass museum building, reflected in the water.",
-    "release_notes": [
-      "Public artwork: confirm artist and permission"
-    ],
-    "featured": true
-  },
-  {
-    "id": "MKE-76",
     "source": "235.jpg",
-    "title": "MKE-76: Wildflowers and Brick",
-    "description": "Tall grass and wildflowers in front of red-brick buildings, with a blue sign on a pole.",
+    "title": "MKE-75: Water Works Sign Installation",
+    "description": "Tall grass and wildflowers in front of red-brick buildings, with the Water Works sign installation on a pole.",
     "release_notes": [
       "Blue sign: confirm before use"
     ],
-    "featured": true
+    "featured": true,
+    "resolution": [
+      3844,
+      5765
+    ]
   },
   {
-    "id": "MKE-77",
+    "id": "MKE-76",
     "source": "236.jpg",
-    "title": "MKE-77: Fire Engine on the Street",
-    "description": "A red fire engine parked in front of a brick building.",
+    "title": "MKE-76: Milwaukee Fire Department Engine",
+    "description": "A red Milwaukee Fire Department engine parked in front of a brick building.",
     "release_notes": [
       "Vehicle livery visible: confirm before use"
     ],
-    "featured": true
+    "featured": true,
+    "resolution": [
+      2754,
+      3862
+    ]
   },
   {
-    "id": "MKE-78",
+    "id": "MKE-77",
     "source": "237.jpg",
-    "title": "MKE-78: Black Sports Car on Brick",
-    "description": "A black sports car parked in front of a brick building.",
+    "title": "MKE-77: Black Muscle Car on Brick",
+    "description": "A black muscle car parked in front of a brick building.",
     "release_notes": [
       "Vehicle branding: confirm before use"
     ],
-    "featured": true
+    "featured": true,
+    "resolution": [
+      3122,
+      4683
+    ]
+  },
+  {
+    "id": "MKE-78",
+    "source": "238.jpg",
+    "title": "MKE-78: Railroad Crossing Signals",
+    "description": "Railroad crossing signals in the foreground, with a tower in the distance.",
+    "release_notes": [],
+    "featured": true,
+    "resolution": [
+      1892,
+      2838
+    ]
   },
   {
     "id": "MKE-79",
-    "source": "238.jpg",
-    "title": "MKE-79: Signals and Skyline",
-    "description": "Traffic signals in the foreground, with a tower in the distance.",
-    "release_notes": [],
-    "featured": true
-  },
-  {
-    "id": "MKE-80",
     "source": "239.jpg",
-    "title": "MKE-80: Brick Factory Arches",
-    "description": "A red-brick factory building with arched windows, seen from below.",
+    "title": "MKE-79: Pritzlaff Building",
+    "description": "A red-brick Pritzlaff building, a converted factory now home to loft apartments, with arched windows seen from below.",
     "release_notes": [
       "Building name not confirmed"
     ],
-    "featured": true
+    "featured": true,
+    "resolution": [
+      3951,
+      5926
+    ]
   },
   {
-    "id": "MKE-81",
+    "id": "MKE-80",
     "source": "240.jpg",
-    "title": "MKE-81: Gazebo and the Tower",
-    "description": "A gazebo in a green park, with a brick tower behind.",
+    "title": "MKE-80: Gazebo at Pere Marquette Park",
+    "description": "A gazebo in Pere Marquette Park, with a brick tower behind.",
     "release_notes": [
       "Landmark building: confirm before use",
       "People visible: confirm release"
     ],
-    "featured": true
+    "featured": true,
+    "resolution": [
+      4091,
+      6137
+    ]
+  },
+  {
+    "id": "MKE-81",
+    "source": "241.jpg",
+    "title": "MKE-81: Wisconsin Nature and Culture Museum Under Construction",
+    "description": "The white curved wings of the Wisconsin Nature and Culture Museum, under construction, rise above green trees.",
+    "release_notes": [
+      "Landmark architecture: confirm property permission"
+    ],
+    "featured": true,
+    "resolution": [
+      3563,
+      5344
+    ]
   },
   {
     "id": "MKE-82",
-    "source": "241.jpg",
-    "title": "MKE-82: Museum Wings in the Trees",
-    "description": "The white curved wings of a museum rise above green trees.",
+    "source": "242.jpg",
+    "title": "MKE-82: Wisconsin Nature and Culture Museum Wing",
+    "description": "A curved white wing of the Wisconsin Nature and Culture Museum, under construction, rises above trees in the foreground.",
     "release_notes": [
       "Landmark architecture: confirm property permission"
     ],
-    "featured": true
+    "featured": true,
+    "resolution": [
+      3784,
+      5676
+    ]
   },
   {
     "id": "MKE-83",
-    "source": "242.jpg",
-    "title": "MKE-83: Curved White Wing",
-    "description": "A curved white museum wing rises above trees in the foreground.",
-    "release_notes": [
-      "Landmark architecture: confirm property permission"
-    ],
-    "featured": true
-  },
-  {
-    "id": "MKE-84",
     "source": "243.jpg",
-    "title": "MKE-84: Signal at the Museum",
-    "description": "Traffic signals hang in front of a curved white museum wing.",
+    "title": "MKE-83: Signal at the Nature and Culture Museum",
+    "description": "Traffic signals hang in front of a curved white wing of the Wisconsin Nature and Culture Museum, under construction.",
     "release_notes": [
       "Landmark architecture: confirm property permission",
       "Street sign visible: confirm before use"
     ],
-    "featured": true
+    "featured": true,
+    "resolution": [
+      4160,
+      6240
+    ]
   },
   {
-    "id": "MKE-85",
+    "id": "MKE-84",
     "source": "244.jpg",
-    "title": "MKE-85: Perforated Frame, White Wing",
-    "description": "Looking through a perforated black metal frame at the white museum wing.",
+    "title": "MKE-84: Perforated Frame, Nature and Culture Museum",
+    "description": "Looking through a perforated black metal frame at the white wing of the Wisconsin Nature and Culture Museum.",
     "release_notes": [
       "Landmark architecture: confirm property permission"
     ],
-    "featured": true
+    "featured": true,
+    "resolution": [
+      3916,
+      5874
+    ]
   },
   {
-    "id": "MKE-86",
+    "id": "MKE-85",
     "source": "245.jpg",
-    "title": "MKE-86: Perforated Frame, Church Spire",
+    "title": "MKE-85: Perforated Frame, Church Spire",
     "description": "Looking through a perforated black metal frame at a church spire in the distance.",
     "release_notes": [
       "Building name not confirmed"
     ],
-    "featured": true
+    "featured": true,
+    "resolution": [
+      4160,
+      6240
+    ]
   },
   {
-    "id": "MKE-87",
+    "id": "MKE-86",
     "source": "246.jpg",
-    "title": "MKE-87: Perforated Frame, Museum",
-    "description": "Looking through a perforated black metal frame at the white museum wing.",
+    "title": "MKE-86: Perforated Frame, Nature and Culture Museum (alt)",
+    "description": "Looking through a perforated black metal frame at the white wing of the Wisconsin Nature and Culture Museum.",
     "release_notes": [
       "Landmark architecture: confirm property permission"
     ],
-    "featured": true
+    "featured": true,
+    "resolution": [
+      4160,
+      6240
+    ]
   },
   {
-    "id": "MKE-88",
+    "id": "MKE-87",
     "source": "247.jpg",
-    "title": "MKE-88: Museum Wings and Lifts",
-    "description": "Two white museum wings and a glass atrium, with orange lifts and a car at the curb.",
+    "title": "MKE-87: Nature and Culture Museum with Lifts",
+    "description": "Two white wings of the Wisconsin Nature and Culture Museum, under construction, with orange lifts and a car passing on the street in front.",
     "release_notes": [
       "Planetarium name visible on building: confirm before use",
       "Equipment branding: confirm before use"
     ],
-    "featured": true
+    "featured": true,
+    "resolution": [
+      4160,
+      6240
+    ]
   },
   {
-    "id": "MKE-89",
+    "id": "MKE-88",
     "source": "248.jpg",
-    "title": "MKE-89: Vagabond Patio",
-    "description": "An ivy-covered building with a silver Airstream trailer and a blue fence.",
+    "title": "MKE-88: Vagabond Bar",
+    "description": "An ivy-covered Vagabond Bar with a silver Airstream trailer and a blue fence.",
     "release_notes": [
       "Business signage visible (Vagabond): confirm before use"
     ],
-    "featured": true
+    "featured": true,
+    "resolution": [
+      3691,
+      5537
+    ]
   },
   {
-    "id": "MKE-90",
+    "id": "MKE-89",
     "source": "251.jpg",
-    "title": "MKE-90: Corner Bar and Skater",
-    "description": "A historic corner bar with neon signage, and a skateboarder on the sidewalk.",
+    "title": "MKE-89: Corner Bar and Skater",
+    "description": "A historic corner bar with neon signage, and a skateboarder on the sidewalk along Brady Street.",
     "release_notes": [
       "Business signage visible (Regano's, Blatz, Roman Coin): confirm before use",
       "Person visible: confirm release"
     ],
-    "featured": true
+    "featured": true,
+    "resolution": [
+      4160,
+      6240
+    ]
   },
   {
-    "id": "MKE-91",
+    "id": "MKE-90",
     "source": "253.jpg",
-    "title": "MKE-91: World Famous Drive-In Sign",
-    "description": "Neon sign reading 'Leon's', 'World Famous' and 'Frozen Custard', against a pale sky.",
+    "title": "MKE-90: World Famous Drive-In Sign",
+    "description": "The neon sign at Leon's World Famous Drive-In, against a pale sky.",
     "release_notes": [
       "Business signage visible (Leon's): confirm before use"
     ],
-    "featured": true
+    "featured": true,
+    "resolution": [
+      4085,
+      6127
+    ]
+  },
+  {
+    "id": "MKE-91",
+    "source": "254.jpg",
+    "title": "MKE-91: Stained Glass Water Tower",
+    "description": "Modern and brick buildings beside a grassy lot, with a stained glass water tower above.",
+    "release_notes": [],
+    "featured": true,
+    "resolution": [
+      3624,
+      5463
+    ]
   },
   {
     "id": "MKE-92",
-    "source": "254.jpg",
-    "title": "MKE-92: Brick and Lot",
-    "description": "Modern and brick buildings beside a grassy lot under a cloudy sky.",
-    "release_notes": [],
-    "featured": true
-  },
-  {
-    "id": "MKE-93",
     "source": "255.jpg",
-    "title": "MKE-93: Colectivo Coffee",
-    "description": "A brick storefront with a red awning and teal chairs under a large tree.",
+    "title": "MKE-92: Colectivo Coffee",
+    "description": "A quiet cafe patio with teal chairs and tables in the shade of a large tree, beneath a brick storefront with a red awning.",
     "release_notes": [
       "Business signage visible (Colectivo): confirm before use"
     ],
-    "featured": true
+    "featured": true,
+    "resolution": [
+      4160,
+      6240
+    ]
   },
   {
-    "id": "MKE-94",
+    "id": "MKE-93",
     "source": "257.jpg",
-    "title": "MKE-94: Kayaks and Skyline (alt)",
-    "description": "The skyline across the river, framed more closely, with kayakers on the water.",
+    "title": "MKE-93: Kayaks and the Third Ward",
+    "description": "The Third Ward across the river, with kayakers on the water.",
     "release_notes": [
       "Kayakers visible: confirm release",
       "Near-duplicate of MKE-21 (kayaks and skyline): choose one"
     ],
-    "featured": true
+    "featured": true,
+    "resolution": [
+      4160,
+      6240
+    ]
   },
   {
-    "id": "MKE-95",
+    "id": "MKE-94",
     "source": "258.jpg",
-    "title": "MKE-95: Public Market Corner",
-    "description": "The Milwaukee Public Market sign, with people crossing the street.",
+    "title": "MKE-94: Public Market Corner",
+    "description": "The Milwaukee Public Market sign, with visitors crossing the street.",
     "release_notes": [
       "Market signage visible: confirm before use",
       "People visible: confirm release"
     ],
-    "featured": true
+    "featured": true,
+    "resolution": [
+      4160,
+      6240
+    ]
   },
   {
-    "id": "MKE-96",
+    "id": "MKE-95",
     "source": "260.jpg",
-    "title": "MKE-96: Stadium from Above",
-    "description": "Aerial view of a baseball stadium with its wings open, surrounded by parking.",
+    "title": "MKE-95: American Family Field from Above",
+    "description": "Aerial view of American Family Field with its roof open, surrounded by parking.",
     "release_notes": [
       "Stadium naming: confirm venue name before use"
     ],
-    "featured": true
+    "featured": true,
+    "resolution": [
+      2838,
+      3783
+    ]
   }
 ]

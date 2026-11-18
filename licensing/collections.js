@@ -64,8 +64,8 @@ window.LICENSING_COLLECTIONS = [
         "web": "milwaukee/web/MKE-04.jpg"
       },
       {
-        "id": "MKE-06",
-        "title": "MKE-06: Quadracci Wings at Blue Hour",
+        "id": "MKE-05",
+        "title": "MKE-05: Quadracci Wings at Blue Hour",
         "description": "Low view of the white wings of the Milwaukee Art Museum against a blue sky.",
         "w": 1333,
         "h": 2000,
@@ -73,12 +73,12 @@ window.LICENSING_COLLECTIONS = [
           "Web",
           "Social media"
         ],
-        "original": "milwaukee/originals/MKE-06.jpg",
-        "web": "milwaukee/web/MKE-06.jpg"
+        "original": "milwaukee/originals/MKE-05.jpg",
+        "web": "milwaukee/web/MKE-05.jpg"
       },
       {
-        "id": "MKE-07",
-        "title": "MKE-07: Lakefront Skyline at Sunset",
+        "id": "MKE-06",
+        "title": "MKE-06: Lakefront Skyline at Sunset",
         "description": "The Milwaukee skyline across the lake at sunset, with a small boat on the water.",
         "w": 1600,
         "h": 2000,
@@ -87,15 +87,67 @@ window.LICENSING_COLLECTIONS = [
           "Social media",
           "Print up to 8.0 × 10.0 in (200 dpi)"
         ],
+        "original": "milwaukee/originals/MKE-06.jpg",
+        "web": "milwaukee/web/MKE-06.jpg"
+      },
+      {
+        "id": "MKE-07",
+        "title": "MKE-07: Wings at Dusk",
+        "description": "The Milwaukee Art Museum wings, lit at dusk against a deep blue sky.",
+        "w": 2000,
+        "h": 1333,
+        "uses": [
+          "Web",
+          "Social media"
+        ],
         "original": "milwaukee/originals/MKE-07.jpg",
         "web": "milwaukee/web/MKE-07.jpg"
       },
       {
+        "id": "MKE-08",
+        "title": "MKE-08: Museum Mast and Glass",
+        "description": "Close view of the museum's white wing, its tall mast rising above the glass base.",
+        "w": 1333,
+        "h": 2000,
+        "uses": [
+          "Web",
+          "Social media"
+        ],
+        "original": "milwaukee/originals/MKE-08.jpg",
+        "web": "milwaukee/web/MKE-08.jpg"
+      },
+      {
+        "id": "MKE-09",
+        "title": "MKE-09: Glass Hall Reflection",
+        "description": "Two silhouetted people stand in a glass-walled hall above reflective water.",
+        "w": 1333,
+        "h": 2000,
+        "uses": [
+          "Web",
+          "Social media"
+        ],
+        "original": "milwaukee/originals/MKE-09.jpg",
+        "web": "milwaukee/web/MKE-09.jpg"
+      },
+      {
+        "id": "MKE-10",
+        "title": "MKE-10: Dusk Over the Water",
+        "description": "The skyline across the lake at dusk, with a small boat on the water.",
+        "w": 1333,
+        "h": 2000,
+        "uses": [
+          "Web",
+          "Social media"
+        ],
+        "original": "milwaukee/originals/MKE-10.jpg",
+        "web": "milwaukee/web/MKE-10.jpg"
+      },
+      {
         "id": "MKE-11",
-        "title": "MKE-11: Wings at Dusk",
-        "description": "The Milwaukee Art Museum wings, lit at dusk against a deep blue sky.",
-        "w": 2000,
-        "h": 1333,
+        "title": "MKE-11: Downtown from the River",
+        "description": "Downtown towers rise above the river's edge, with trees and a bridge.",
+        "w": 1333,
+        "h": 2000,
         "uses": [
           "Web",
           "Social media"
@@ -104,10 +156,23 @@ window.LICENSING_COLLECTIONS = [
         "web": "milwaukee/web/MKE-11.jpg"
       },
       {
-        "id": "MKE-13",
-        "title": "MKE-13: Museum Mast and Glass",
-        "description": "Close view of the museum's white wing, its tall mast rising above the glass base.",
+        "id": "MKE-12",
+        "title": "MKE-12: Riverfront Bridge and Skyline",
+        "description": "The downtown skyline above the river and a bridge in the foreground.",
         "w": 1333,
+        "h": 2000,
+        "uses": [
+          "Web",
+          "Social media"
+        ],
+        "original": "milwaukee/originals/MKE-12.jpg",
+        "web": "milwaukee/web/MKE-12.jpg"
+      },
+      {
+        "id": "MKE-13",
+        "title": "MKE-13: Brick Mill by the River",
+        "description": "A long red-brick industrial building rises above the river.",
+        "w": 1334,
         "h": 2000,
         "uses": [
           "Web",
@@ -117,10 +182,37 @@ window.LICENSING_COLLECTIONS = [
         "web": "milwaukee/web/MKE-13.jpg"
       },
       {
+        "id": "MKE-14",
+        "title": "MKE-14: Orange Arch Bridge",
+        "description": "The orange arch bridge over the lake, with a lighthouse in the distance.",
+        "w": 1600,
+        "h": 2000,
+        "uses": [
+          "Web",
+          "Social media",
+          "Print up to 8.0 × 10.0 in (200 dpi)"
+        ],
+        "original": "milwaukee/originals/MKE-14.jpg",
+        "web": "milwaukee/web/MKE-14.jpg"
+      },
+      {
+        "id": "MKE-15",
+        "title": "MKE-15: Fireworks over the Stadium",
+        "description": "Fireworks burst over the lakefront at night, with stadium lights and the skyline.",
+        "w": 2000,
+        "h": 1333,
+        "uses": [
+          "Web",
+          "Social media"
+        ],
+        "original": "milwaukee/originals/MKE-15.jpg",
+        "web": "milwaukee/web/MKE-15.jpg"
+      },
+      {
         "id": "MKE-16",
-        "title": "MKE-16: Glass Hall Reflection",
-        "description": "Two silhouetted people stand in a glass-walled hall above reflective water.",
-        "w": 1333,
+        "title": "MKE-16: Umbrellas Overhead",
+        "description": "Colorful umbrellas hang from a ceiling in blue, yellow, red and green.",
+        "w": 1334,
         "h": 2000,
         "uses": [
           "Web",
@@ -130,100 +222,8 @@ window.LICENSING_COLLECTIONS = [
         "web": "milwaukee/web/MKE-16.jpg"
       },
       {
-        "id": "MKE-28",
-        "title": "MKE-28: Dusk Over the Water",
-        "description": "The skyline across the lake at dusk, with a small boat on the water.",
-        "w": 1333,
-        "h": 2000,
-        "uses": [
-          "Web",
-          "Social media"
-        ],
-        "original": "milwaukee/originals/MKE-28.jpg",
-        "web": "milwaukee/web/MKE-28.jpg"
-      },
-      {
-        "id": "MKE-33",
-        "title": "MKE-33: Downtown from the River",
-        "description": "Downtown towers rise above the river's edge, with trees and a bridge.",
-        "w": 1333,
-        "h": 2000,
-        "uses": [
-          "Web",
-          "Social media"
-        ],
-        "original": "milwaukee/originals/MKE-33.jpg",
-        "web": "milwaukee/web/MKE-33.jpg"
-      },
-      {
-        "id": "MKE-34",
-        "title": "MKE-34: Riverfront Bridge and Skyline",
-        "description": "The downtown skyline above the river and a bridge in the foreground.",
-        "w": 1333,
-        "h": 2000,
-        "uses": [
-          "Web",
-          "Social media"
-        ],
-        "original": "milwaukee/originals/MKE-34.jpg",
-        "web": "milwaukee/web/MKE-34.jpg"
-      },
-      {
-        "id": "MKE-43",
-        "title": "MKE-43: Brick Mill by the River",
-        "description": "A long red-brick industrial building rises above the river.",
-        "w": 1334,
-        "h": 2000,
-        "uses": [
-          "Web",
-          "Social media"
-        ],
-        "original": "milwaukee/originals/MKE-43.jpg",
-        "web": "milwaukee/web/MKE-43.jpg"
-      },
-      {
-        "id": "MKE-44",
-        "title": "MKE-44: Orange Arch Bridge",
-        "description": "The orange arch bridge over the lake, with a lighthouse in the distance.",
-        "w": 1600,
-        "h": 2000,
-        "uses": [
-          "Web",
-          "Social media",
-          "Print up to 8.0 × 10.0 in (200 dpi)"
-        ],
-        "original": "milwaukee/originals/MKE-44.jpg",
-        "web": "milwaukee/web/MKE-44.jpg"
-      },
-      {
-        "id": "MKE-46",
-        "title": "MKE-46: Fireworks over the Stadium",
-        "description": "Fireworks burst over the lakefront at night, with stadium lights and the skyline.",
-        "w": 2000,
-        "h": 1333,
-        "uses": [
-          "Web",
-          "Social media"
-        ],
-        "original": "milwaukee/originals/MKE-46.jpg",
-        "web": "milwaukee/web/MKE-46.jpg"
-      },
-      {
-        "id": "MKE-63",
-        "title": "MKE-63: Umbrellas Overhead",
-        "description": "Colorful umbrellas hang from a ceiling in blue, yellow, red and green.",
-        "w": 1334,
-        "h": 2000,
-        "uses": [
-          "Web",
-          "Social media"
-        ],
-        "original": "milwaukee/originals/MKE-63.jpg",
-        "web": "milwaukee/web/MKE-63.jpg"
-      },
-      {
-        "id": "MKE-67",
-        "title": "MKE-67: Ornate Facade and Dome",
+        "id": "MKE-17",
+        "title": "MKE-17: Ornate Facade and Dome",
         "description": "An ornate mid-rise facade with arched windows and a dome behind.",
         "w": 1334,
         "h": 2000,
@@ -231,12 +231,12 @@ window.LICENSING_COLLECTIONS = [
           "Web",
           "Social media"
         ],
-        "original": "milwaukee/originals/MKE-67.jpg",
-        "web": "milwaukee/web/MKE-67.jpg"
+        "original": "milwaukee/originals/MKE-17.jpg",
+        "web": "milwaukee/web/MKE-17.jpg"
       },
       {
-        "id": "MKE-71",
-        "title": "MKE-71: Calm Lake with a Single Boat",
+        "id": "MKE-18",
+        "title": "MKE-18: Calm Lake with a Single Boat",
         "description": "Calm blue lake with a single boat near the horizon.",
         "w": 1333,
         "h": 2000,
@@ -244,12 +244,12 @@ window.LICENSING_COLLECTIONS = [
           "Web",
           "Social media"
         ],
-        "original": "milwaukee/originals/MKE-71.jpg",
-        "web": "milwaukee/web/MKE-71.jpg"
+        "original": "milwaukee/originals/MKE-18.jpg",
+        "web": "milwaukee/web/MKE-18.jpg"
       },
       {
-        "id": "MKE-95",
-        "title": "MKE-95: Vagabond Marquee",
+        "id": "MKE-19",
+        "title": "MKE-19: Vagabond Marquee",
         "description": "Ivy covers a building beneath the Vagabond marquee, with a Brewery sign above.",
         "w": 1333,
         "h": 2000,
@@ -257,12 +257,12 @@ window.LICENSING_COLLECTIONS = [
           "Web",
           "Social media"
         ],
-        "original": "milwaukee/originals/MKE-95.jpg",
-        "web": "milwaukee/web/MKE-95.jpg"
+        "original": "milwaukee/originals/MKE-19.jpg",
+        "web": "milwaukee/web/MKE-19.jpg"
       },
       {
-        "id": "MKE-98",
-        "title": "MKE-98: Frozen Custard Stand at Dusk",
+        "id": "MKE-20",
+        "title": "MKE-20: Frozen Custard Stand at Dusk",
         "description": "A frozen-custard stand with red barriers and a giant cone sign, at dusk.",
         "w": 1333,
         "h": 2000,
@@ -270,12 +270,12 @@ window.LICENSING_COLLECTIONS = [
           "Web",
           "Social media"
         ],
-        "original": "milwaukee/originals/MKE-98.jpg",
-        "web": "milwaukee/web/MKE-98.jpg"
+        "original": "milwaukee/originals/MKE-20.jpg",
+        "web": "milwaukee/web/MKE-20.jpg"
       },
       {
-        "id": "MKE-102",
-        "title": "MKE-102: Kayaks and Skyline",
+        "id": "MKE-21",
+        "title": "MKE-21: Kayaks and Skyline",
         "description": "The skyline across the river, with kayakers on the water.",
         "w": 2000,
         "h": 1333,
@@ -283,12 +283,12 @@ window.LICENSING_COLLECTIONS = [
           "Web",
           "Social media"
         ],
-        "original": "milwaukee/originals/MKE-102.jpg",
-        "web": "milwaukee/web/MKE-102.jpg"
+        "original": "milwaukee/originals/MKE-21.jpg",
+        "web": "milwaukee/web/MKE-21.jpg"
       },
       {
-        "id": "MKE-105",
-        "title": "MKE-105: Public Market Interior",
+        "id": "MKE-22",
+        "title": "MKE-22: Public Market Interior",
         "description": "Inside the Milwaukee Public Market, with a chocolate display and shoppers below.",
         "w": 1333,
         "h": 2000,
@@ -296,12 +296,12 @@ window.LICENSING_COLLECTIONS = [
           "Web",
           "Social media"
         ],
-        "original": "milwaukee/originals/MKE-105.jpg",
-        "web": "milwaukee/web/MKE-105.jpg"
+        "original": "milwaukee/originals/MKE-22.jpg",
+        "web": "milwaukee/web/MKE-22.jpg"
       },
       {
-        "id": "MKE-107",
-        "title": "MKE-107: Tower Facade in Light and Shade",
+        "id": "MKE-23",
+        "title": "MKE-23: Tower Facade in Light and Shade",
         "description": "A tall tower facade split between shadow and sunlight, against a pale sky.",
         "w": 1600,
         "h": 2000,
@@ -310,12 +310,12 @@ window.LICENSING_COLLECTIONS = [
           "Social media",
           "Print up to 8.0 × 10.0 in (200 dpi)"
         ],
-        "original": "milwaukee/originals/MKE-107.jpg",
-        "web": "milwaukee/web/MKE-107.jpg"
+        "original": "milwaukee/originals/MKE-23.jpg",
+        "web": "milwaukee/web/MKE-23.jpg"
       },
       {
-        "id": "MKE-108",
-        "title": "MKE-108: Lighthouse and the Lake",
+        "id": "MKE-24",
+        "title": "MKE-24: Lighthouse and the Lake",
         "description": "A lighthouse on a breakwater in Lake Michigan, with rocks and grass in front.",
         "w": 1333,
         "h": 2000,
@@ -323,12 +323,12 @@ window.LICENSING_COLLECTIONS = [
           "Web",
           "Social media"
         ],
-        "original": "milwaukee/originals/MKE-108.jpg",
-        "web": "milwaukee/web/MKE-108.jpg"
+        "original": "milwaukee/originals/MKE-24.jpg",
+        "web": "milwaukee/web/MKE-24.jpg"
       },
       {
-        "id": "MKE-109",
-        "title": "MKE-109: Brick and Bronze Tower",
+        "id": "MKE-25",
+        "title": "MKE-25: Brick and Bronze Tower",
         "description": "Ornate brick buildings in front of a bronze-toned tower.",
         "w": 1333,
         "h": 2000,
@@ -336,8 +336,8 @@ window.LICENSING_COLLECTIONS = [
           "Web",
           "Social media"
         ],
-        "original": "milwaukee/originals/MKE-109.jpg",
-        "web": "milwaukee/web/MKE-109.jpg"
+        "original": "milwaukee/originals/MKE-25.jpg",
+        "web": "milwaukee/web/MKE-25.jpg"
       }
     ]
   }

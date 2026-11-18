@@ -82,6 +82,12 @@
             document.getElementById('coll-count').textContent = collection.photos.length + ' IMAGES';
 
             const list = document.getElementById('photos');
+            if (!collection.photos.length) {
+                const empty = document.createElement('p');
+                empty.className = 'coll-desc';
+                empty.textContent = 'Photos coming soon.';
+                list.appendChild(empty);
+            }
             collection.photos.forEach(p => {
                 const row = document.createElement('article');
                 row.className = 'lic-row';

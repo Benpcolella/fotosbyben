@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Licensing - Benedetto Colella</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap');
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        html, body { width: 100%; }
+        body { font-family: 'Space Mono', monospace; background-color: #fafafa; color: #1a1a1a; line-height: 1.6; padding-top: 80px; }
+        h1, h2, h3 { font-family: 'Space Mono', monospace; font-weight: 700; letter-spacing: 0.05em; text-transform: uppercase; }
+        header { position: fixed; top: 0; left: 0; right: 0; padding: 0.5rem 2rem; background: rgba(255, 255, 255, 0.98); z-index: 100; border-bottom: 1px solid #e0e0e0; }
+        header > div { display: flex; justify-content: space-between; align-items: center; }
+        header nav { display: flex; gap: 2rem; }
+        .nav-link { color: #1a1a1a; text-decoration: none; font-size: 0.9rem; letter-spacing: 0.05em; transition: opacity 0.3s ease; }
+        .nav-link:hover { opacity: 0.6; }
+        footer { background-color: #1a1a1a; color: #ffffff; padding: 3rem 4rem; margin-top: 6rem; text-align: center; font-size: 0.95rem; letter-spacing: 0.05em; }
+        footer a { color: #ffffff; }
+        @media (max-width: 1024px) { header { padding: 1rem 2rem; } }
+        @media (max-width: 768px) { header { padding: 1rem; } footer { padding: 2rem 1.5rem; } }
+
+
+        .coll-main { max-width: 1100px; margin: 0 auto; padding: 2.5rem 1.2rem 1rem; }
+        .back { display: inline-block; font-size: 0.85rem; letter-spacing: 0.05em; color: #1a1a1a; text-decoration: none; border-bottom: 1px solid #1a1a1a; margin-bottom: 2rem; }
+        .coll-main h1 { font-size: 2.2rem; margin-bottom: 0.75rem; }
+        .coll-desc { color: #555; max-width: 640px; margin-bottom: 0.5rem; }
+        .coll-count { font-size: 0.8rem; letter-spacing: 0.1em; color: #888; margin-bottom: 3rem; }
+        .lic-row { display: grid; grid-template-columns: 3fr 2fr; gap: 2.5rem; align-items: start; padding: 2.5rem 0; border-top: 1px solid #e0e0e0; }
+        .lic-photo { display: block; background: #f0f0f0; }
+        .lic-photo img { display: block; width: 100%; height: auto; }
+        .lic-meta h3 { font-size: 1rem; margin-bottom: 1rem; }
+        .lic-meta dl { display: grid; grid-template-columns: auto 1fr; gap: 0.3rem 1rem; font-size: 0.85rem; margin-bottom: 1rem; }
+        .lic-meta dt { color: #888; letter-spacing: 0.05em; text-transform: uppercase; }
+        .lic-meta dd { color: #1a1a1a; }
+        .lic-meta p { color: #555; line-height: 1.7; margin-bottom: 1rem; }
+        .lic-meta a { font-size: 0.85rem; color: #1a1a1a; border-bottom: 1px solid #1a1a1a; text-decoration: none; }
+        @media (max-width: 768px) { .lic-row { grid-template-columns: 1fr; gap: 1.25rem; padding: 2rem 0; } .coll-main h1 { font-size: 1.8rem; } }
+
+    </style>
+</head>
+<body>
+    <header id="header">
+        <div>
+            <a href="../index.html" style="text-decoration: none;">
+                <img src="../logo.png" alt="Fotos by Ben" style="height: 38px; width: auto; display: block;">
+            </a>
+            <nav>
+                <a class="nav-link" href="../index.html">Gallery</a>
+                <a class="nav-link" href="../licensing.html">Licensing</a>
+                <a class="nav-link" href="../about.html">About</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="coll-main" id="coll-main">
+        <a class="back" href="../licensing.html">&larr; All collections</a>
+        <h1 id="coll-title"></h1>
+        <p class="coll-desc" id="coll-desc"></p>
+        <p class="coll-count" id="coll-count"></p>
+        <div id="photos"></div>
+    </main>
+
+    <footer>
+        <p>© 2026 Benedetto Colella | Image licensing available</p>
+        <p style="margin-top: 1rem; font-size: 0.9rem;">Email: <a target="_blank" href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;to=benpcolella@gmail.com" style="color: #ffffff; text-decoration: none; border-bottom: 1px solid #ffffff;">benpcolella@gmail.com</a> | Instagram: <a href="https://instagram.com/benedetto.jpeg" target="_blank" style="color: #ffffff; text-decoration: none; border-bottom: 1px solid #ffffff;">@benedetto.jpeg</a></p>
+    </footer>
+
+    <script src="collections.js"></script>
+    <script>
+        const slug = new URLSearchParams(window.location.search).get('c');
+        const collection = window.LICENSING_COLLECTIONS.find(c => c.slug === slug);
+        const main = document.getElementById('coll-main');
+
+        if (!collection) {
+            document.getElementById('coll-title').textContent = 'Collection not found';
+        } else {
+            document.title = collection.title + ' - Licensing - Benedetto Colella';
+            document.getElementById('coll-title').textContent = collection.title;
+            document.getElementById('coll-desc').textContent = collection.description;
+            document.getElementById('coll-count').textContent = collection.photos.length + ' IMAGES';
+
+            const list = document.getElementById('photos');
+            collection.photos.forEach(p => {
+                const row = document.createElement('article');
+                row.className = 'lic-row';
+
+                const photo = document.createElement('a');
+                photo.className = 'lic-photo';
+                photo.href = '../Images/' + p.n + '.jpg';
+                photo.target = '_blank';
+                const img = document.createElement('img');
+                img.src = '../optimized/' + p.n + '.jpg';
+                img.alt = p.title;
+                img.width = p.w;
+                img.height = p.h;
+                img.loading = 'lazy';
+                img.decoding = 'async';
+                photo.appendChild(img);
+
+                const meta = document.createElement('div');
+                meta.className = 'lic-meta';
+                const h = document.createElement('h3');
+                h.textContent = p.title;
+                const dl = document.createElement('dl');
+                const dt = document.createElement('dt');
+                dt.textContent = 'Resolution';
+                const dd = document.createElement('dd');
+                dd.textContent = p.w + ' × ' + p.h + ' px';
+                dl.append(dt, dd);
+                const desc = document.createElement('p');
+                desc.textContent = p.description;
+                const full = document.createElement('a');
+                full.href = '../Images/' + p.n + '.jpg';
+                full.target = '_blank';
+                full.textContent = 'Full-resolution file';
+                meta.append(h, dl, desc, full);
+
+                row.append(photo, meta);
+                list.appendChild(row);
+            });
+        }
+    </script>
+</body>
+</html>

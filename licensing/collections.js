@@ -1340,5 +1340,16 @@ window.LICENSING_COLLECTIONS = [
         "web": "milwaukee/web/MKE-95.jpg"
       }
     ]
+  },
+  {
+    "slug": "tokyo",
+    "title": "Tokyo",
+    "description": "Tokyo, Japan.",
+    "cover": {
+      "src": "licensing/covers/tokyo.jpg",
+      "designed": true
+    },
+    "designed": true,
+    "photos": []
   }
 ];

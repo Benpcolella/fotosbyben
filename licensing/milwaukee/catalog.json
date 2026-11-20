@@ -1,91 +1,8 @@
 [
   {
     "id": "MKE-01",
-    "source": "155.jpg",
-    "title": "MKE-01: Surfer on Lake Michigan",
-    "description": "A surfer rides a white-capped wave on Lake Michigan, shot from above to capture the curl and the open water.",
-    "release_notes": [
-      "Person visible, not identifiable: confirm release if used commercially"
-    ],
-    "featured": true,
-    "resolution": [
-      1817,
-      2272
-    ]
-  },
-  {
-    "id": "MKE-02",
-    "source": "156.jpg",
-    "title": "MKE-02: Skyline at Sunset",
-    "description": "The Milwaukee skyline glows at sunset above the Public Market and I-794, with warm light across the downtown towers.",
-    "release_notes": [
-      "Visible signage: US Bank, PNC Bank, Milwaukee Public Market"
-    ],
-    "featured": true,
-    "resolution": [
-      1850,
-      2250
-    ]
-  },
-  {
-    "id": "MKE-03",
-    "source": "157.jpg",
-    "title": "MKE-03: Kayaker at Sunset",
-    "description": "A lone kayaker paddles Lake Michigan as the Milwaukee skyline catches sunset light across the water.",
-    "release_notes": [
-      "Person visible (silhouette): confirm release if used commercially"
-    ],
-    "featured": true,
-    "resolution": [
-      2342,
-      2929
-    ]
-  },
-  {
-    "id": "MKE-04",
-    "source": "158.jpg",
-    "title": "MKE-04: Calatrava Hall",
-    "description": "Two silhouettes stand in the Calatrava wing of the Milwaukee Art Museum, framed by a glass wall that opens onto Lake Michigan.",
-    "release_notes": [
-      "Two people visible (silhouette): confirm release",
-      "Architectural interior: confirm property/venue permission for commercial use"
-    ],
-    "featured": true,
-    "resolution": [
-      3827,
-      5740
-    ]
-  },
-  {
-    "id": "MKE-05",
-    "source": "160.jpg",
-    "title": "MKE-05: Quadracci Wings in Afternoon Light",
-    "description": "Low-angle view of the white wings of the Milwaukee Art Museum against a clear blue sky, with crisp afternoon light on the curves.",
-    "release_notes": [
-      "Landmark architecture: confirm property permission for commercial use"
-    ],
-    "featured": true,
-    "resolution": [
-      3031,
-      4547
-    ]
-  },
-  {
-    "id": "MKE-06",
-    "source": "161.jpg",
-    "title": "MKE-06: Lakefront Skyline at Sunset",
-    "description": "The Milwaukee skyline stretches across the lake at sunset, with a kayaker on the water in the foreground.",
-    "release_notes": [],
-    "featured": true,
-    "resolution": [
-      2839,
-      3549
-    ]
-  },
-  {
-    "id": "MKE-07",
     "source": "165.jpg",
-    "title": "MKE-07: Museum Wings at Dusk",
+    "title": "MKE-01: Museum Wings at Dusk",
     "description": "The Milwaukee Art Museum wings glow against a deep blue dusk sky, shot wide to hold the full sweep of the building.",
     "release_notes": [
       "Landmark architecture: confirm property permission"
@@ -97,105 +14,9 @@
     ]
   },
   {
-    "id": "MKE-08",
-    "source": "167.jpg",
-    "title": "MKE-08: Museum Mast and Glass",
-    "description": "Close view of the Art Museum's white wings, with the tall mast rising above the dramatic form; shot from below for strong upward perspective.",
-    "release_notes": [
-      "Landmark architecture: confirm property permission"
-    ],
-    "featured": true,
-    "resolution": [
-      3513,
-      5269
-    ]
-  },
-  {
-    "id": "MKE-09",
-    "source": "170.jpg",
-    "title": "MKE-09: Glass Hall Reflection",
-    "description": "Two visitors stand in a glass-walled hall, reflected in the water below; a symmetrical frame with cool, muted tones.",
-    "release_notes": [
-      "Two people visible (silhouette): confirm release",
-      "Interior of museum: confirm property permission"
-    ],
-    "featured": true,
-    "resolution": [
-      3162,
-      4743
-    ]
-  },
-  {
-    "id": "MKE-10",
-    "source": "182.jpg",
-    "title": "MKE-10: Sunset Over the Water",
-    "description": "The Milwaukee skyline across the lake at sunset, with a kayaker on the water; warm skyline color against cool blue water.",
-    "release_notes": [],
-    "featured": true,
-    "resolution": [
-      4160,
-      6240
-    ]
-  },
-  {
-    "id": "MKE-11",
-    "source": "187.jpg",
-    "title": "MKE-11: Skyline from the River",
-    "description": "The Milwaukee skyline rises behind the Menomonee River, where kayakers enjoy a calm summer day; a wide frame balancing still water and towers.",
-    "release_notes": [],
-    "featured": true,
-    "resolution": [
-      3414,
-      5122
-    ]
-  },
-  {
-    "id": "MKE-12",
-    "source": "188.jpg",
-    "title": "MKE-12: Riverfront Skyline and Bridge",
-    "description": "Downtown towers rise above the Menomonee River, with a motorcyclist heading toward the city; the bridge leads the eye into the skyline.",
-    "release_notes": [
-      "Visible bank signage (U.S. Bank, Baird): confirm before use"
-    ],
-    "featured": true,
-    "resolution": [
-      3457,
-      5186
-    ]
-  },
-  {
-    "id": "MKE-13",
-    "source": "197.jpg",
-    "title": "MKE-13: Milwaukee Institute of Art and Design",
-    "description": "A long red-brick building rises above the river: a converted mill that found new life as the Milwaukee Institute of Art and Design.",
-    "release_notes": [
-      "Building name not confirmed"
-    ],
-    "featured": true,
-    "resolution": [
-      3768,
-      5651
-    ]
-  },
-  {
-    "id": "MKE-14",
-    "source": "198.jpg",
-    "title": "MKE-14: Hoan Bridge in Blue Sky",
-    "description": "The Hoan Bridge rises into a blue sky, framing the lighthouses below in a graphic, low-angle composition.",
-    "release_notes": [
-      "Bridge name not confirmed",
-      "Truck with brand livery visible: confirm before use"
-    ],
-    "featured": true,
-    "resolution": [
-      3929,
-      4911
-    ]
-  },
-  {
-    "id": "MKE-15",
+    "id": "MKE-02",
     "source": "200.jpg",
-    "title": "MKE-15: Fireworks over Lakeshore State Park",
+    "title": "MKE-02: Fireworks over Lakeshore State Park",
     "description": "Fireworks burst over Lakeshore State Park and the Milwaukee skyline, with the lakefront lit below.",
     "release_notes": [
       "Stadium and bank signage visible: confirm before use",
@@ -208,38 +29,25 @@
     ]
   },
   {
-    "id": "MKE-16",
-    "source": "217.jpg",
-    "title": "MKE-16: Umbrellas Overhead",
-    "description": "Colorful umbrellas hang from the I-794 overpass in blue, yellow, red and green, bringing bright color and movement to the space below.",
+    "id": "MKE-03",
+    "source": "198.jpg",
+    "title": "MKE-03: Hoan Bridge in Blue Sky",
+    "description": "The Hoan Bridge rises into a blue sky, framing the lighthouses below in a graphic, low-angle composition.",
     "release_notes": [
-      "Interior of building: confirm property permission"
+      "Bridge name not confirmed",
+      "Truck with brand livery visible: confirm before use"
     ],
     "featured": true,
     "resolution": [
-      2127,
-      3189
+      3929,
+      4911
     ]
   },
   {
-    "id": "MKE-17",
-    "source": "221.jpg",
-    "title": "MKE-17: Pfister Hotel Facade",
-    "description": "An ornate mid-rise facade with arched windows and the Pfister Hotel behind; a dense, detailed frame of historic downtown architecture.",
-    "release_notes": [
-      "Building name not confirmed"
-    ],
-    "featured": true,
-    "resolution": [
-      3820,
-      5729
-    ]
-  },
-  {
-    "id": "MKE-18",
-    "source": "225.jpg",
-    "title": "MKE-18: Calm Lake, Single Boat",
-    "description": "A single boat drifts across calm blue Lake Michigan, with a seagull passing overhead in a wide, open frame of stillness.",
+    "id": "MKE-04",
+    "source": "182.jpg",
+    "title": "MKE-04: Sunset Over the Water",
+    "description": "The Milwaukee skyline across the lake at sunset, with a kayaker on the water; warm skyline color against cool blue water.",
     "release_notes": [],
     "featured": true,
     "resolution": [
@@ -248,53 +56,37 @@
     ]
   },
   {
-    "id": "MKE-19",
-    "source": "249.jpg",
-    "title": "MKE-19: Vagabond Marquee",
-    "description": "Ivy covers a building beneath the Vagabond marquee, with a Brewery sign above; green foliage against brick and bright signage.",
+    "id": "MKE-05",
+    "source": "156.jpg",
+    "title": "MKE-05: Skyline at Sunset",
+    "description": "The Milwaukee skyline glows at sunset above the Public Market and I-794, with warm light across the downtown towers.",
     "release_notes": [
-      "Business signage visible (Vagabond): confirm before use"
+      "Visible signage: US Bank, PNC Bank, Milwaukee Public Market"
     ],
     "featured": true,
     "resolution": [
-      4027,
-      6041
+      1850,
+      2250
     ]
   },
   {
-    "id": "MKE-20",
-    "source": "252.jpg",
-    "title": "MKE-20: Leon's Frozen Custard at Dusk",
-    "description": "Leon's frozen custard stand glows at dusk, with red barriers leading to the window and neon signs against the evening sky.",
+    "id": "MKE-06",
+    "source": "155.jpg",
+    "title": "MKE-06: Surfer on Lake Michigan",
+    "description": "A surfer rides a white-capped wave on Lake Michigan, shot from above to capture the curl and the open water.",
     "release_notes": [
-      "Business signage visible (Leon's): confirm before use"
+      "Person visible, not identifiable: confirm release if used commercially"
     ],
     "featured": true,
     "resolution": [
-      4160,
-      6240
+      1817,
+      2272
     ]
   },
   {
-    "id": "MKE-21",
-    "source": "256.jpg",
-    "title": "MKE-21: Kayaks and the Historic Third Ward",
-    "description": "The historic Third Ward rises across the river, with kayakers on the water; a wide frame that blends brick warehouses with bright paddlers.",
-    "release_notes": [
-      "Kayakers visible: confirm release",
-      "Bank and building signage visible: confirm before use",
-      "Near-duplicate of MKE-93: choose one"
-    ],
-    "featured": true,
-    "resolution": [
-      6130,
-      4087
-    ]
-  },
-  {
-    "id": "MKE-22",
+    "id": "MKE-07",
     "source": "259.jpg",
-    "title": "MKE-22: Public Market in Motion",
+    "title": "MKE-07: Public Market in Motion",
     "description": "A long exposure of the Milwaukee Public Market interior shows motion through the space, with a chocolate display and shoppers below.",
     "release_notes": [
       "People visible: confirm release",
@@ -307,67 +99,11 @@
     ]
   },
   {
-    "id": "MKE-23",
-    "source": "261.jpg",
-    "title": "MKE-23: Light and Shade on the Tower",
-    "description": "A tall tower facade splits between shadow and sunlight against a pale sky; a graphic, high-contrast composition.",
-    "release_notes": [
-      "Building name not confirmed"
-    ],
-    "featured": true,
-    "resolution": [
-      2985,
-      3731
-    ]
-  },
-  {
-    "id": "MKE-24",
-    "source": "262.jpg",
-    "title": "MKE-24: Lighthouse on the Lake",
-    "description": "A lighthouse on a breakwater stands in Lake Michigan, with rocks and grass in the foreground; a calm, horizon-led composition.",
+    "id": "MKE-08",
+    "source": "193.jpg",
+    "title": "MKE-08: Jogging Path at Lakeshore State Park",
+    "description": "A jogging path at Lakeshore State Park curves through grass toward the skyline, with golden reeds; leading lines and warm light.",
     "release_notes": [],
-    "featured": true,
-    "resolution": [
-      3597,
-      5395
-    ]
-  },
-  {
-    "id": "MKE-25",
-    "source": "263.jpg",
-    "title": "MKE-25: Brick and Bronze Tower",
-    "description": "Ornate brick buildings sit in front of a bronze-toned tower, with warm color and layered architectural detail.",
-    "release_notes": [
-      "Building name not confirmed"
-    ],
-    "featured": true,
-    "resolution": [
-      3421,
-      5131
-    ]
-  },
-  {
-    "id": "MKE-26",
-    "source": "159.jpg",
-    "title": "MKE-26: Milwaukee City Hall Atrium",
-    "description": "A symmetrical view up through the atrium of Milwaukee City Hall; the central framing draws the eye straight toward the light.",
-    "release_notes": [
-      "Confirm building name and location for the record"
-    ],
-    "featured": true,
-    "resolution": [
-      5836,
-      3891
-    ]
-  },
-  {
-    "id": "MKE-27",
-    "source": "162.jpg",
-    "title": "MKE-27: Museum Wing Detail",
-    "description": "Close view of a white wing of the Milwaukee Art Museum against a blue sky; tight framing isolates the curves and texture.",
-    "release_notes": [
-      "Landmark architecture: confirm property permission"
-    ],
     "featured": true,
     "resolution": [
       4160,
@@ -375,121 +111,23 @@
     ]
   },
   {
-    "id": "MKE-28",
-    "source": "163.jpg",
-    "title": "MKE-28: Tower and Fire Escape",
-    "description": "Black-and-white view up a tall office tower, with a fire escape running its height; strong vertical lines and high contrast.",
+    "id": "MKE-09",
+    "source": "201.jpg",
+    "title": "MKE-09: Fireworks and Skyline Reflections",
+    "description": "Fireworks light the night sky above the skyline, with reflections on the water; a dark frame that makes the color pop.",
     "release_notes": [
-      "Building name not confirmed"
+      "Event photo: confirm event permission"
     ],
     "featured": true,
     "resolution": [
-      2860,
-      3814
+      3739,
+      4674
     ]
   },
   {
-    "id": "MKE-29",
-    "source": "164.jpg",
-    "title": "MKE-29: Lone Sailboat on Lake Michigan",
-    "description": "Aerial view of a single white sailboat on the deep blue water of Lake Michigan; a minimal composition of open water.",
-    "release_notes": [],
-    "featured": true,
-    "resolution": [
-      1410,
-      1761
-    ]
-  },
-  {
-    "id": "MKE-30",
-    "source": "166.jpg",
-    "title": "MKE-30: Museum Wings Over the Lawn",
-    "description": "The Milwaukee Art Museum wings rise over a green lawn, with clouds and downtown beyond; a wide frame balancing nature and architecture.",
-    "release_notes": [
-      "Landmark architecture: confirm property permission"
-    ],
-    "featured": true,
-    "resolution": [
-      5671,
-      3781
-    ]
-  },
-  {
-    "id": "MKE-31",
-    "source": "168.jpg",
-    "title": "MKE-31: Steel and Glass Vault",
-    "description": "Looking up at a grid of white steel and glass inside the Milwaukee Art Museum, in a symmetrical, abstract composition.",
-    "release_notes": [
-      "Interior of museum: confirm property permission"
-    ],
-    "featured": true,
-    "resolution": [
-      3897,
-      5846
-    ]
-  },
-  {
-    "id": "MKE-32",
-    "source": "169.jpg",
-    "title": "MKE-32: Museum Architectural Details",
-    "description": "Angled view of white steel beams inside the Milwaukee Art Museum, an abstract study of structure and light.",
-    "release_notes": [
-      "Interior of museum: confirm property permission"
-    ],
-    "featured": true,
-    "resolution": [
-      3269,
-      4902
-    ]
-  },
-  {
-    "id": "MKE-33",
-    "source": "171.jpg",
-    "title": "MKE-33: Metal Sculpture by the Wing",
-    "description": "A red metal sculpture in the foreground, with the Milwaukee Art Museum's white wing rising behind it; bold color against white.",
-    "release_notes": [
-      "Landmark architecture and public sculpture: confirm permission"
-    ],
-    "featured": true,
-    "resolution": [
-      4160,
-      5200
-    ]
-  },
-  {
-    "id": "MKE-34",
-    "source": "173.jpg",
-    "title": "MKE-34: Motorcyclist by the Wing",
-    "description": "The Art Museum's wings seen across the street, with a motorcyclist passing; motion and architecture in one frame.",
-    "release_notes": [
-      "Person visible (motorcycle): confirm release",
-      "Landmark architecture: confirm property permission"
-    ],
-    "featured": true,
-    "resolution": [
-      4002,
-      6003
-    ]
-  },
-  {
-    "id": "MKE-35",
-    "source": "175.jpg",
-    "title": "MKE-35: Holy Hill Basilica",
-    "description": "Aerial view of the red-towered Holy Hill Basilica among orange autumn trees; warm fall color in a wide, layered frame.",
-    "release_notes": [
-      "Building name not confirmed",
-      "Near-duplicate of MKE-38 (removed): choose one"
-    ],
-    "featured": true,
-    "resolution": [
-      3850,
-      2166
-    ]
-  },
-  {
-    "id": "MKE-36",
+    "id": "MKE-10",
     "source": "177.jpg",
-    "title": "MKE-36: Hoan Bridge at Sunrise",
+    "title": "MKE-10: Hoan Bridge at Sunrise",
     "description": "The Hoan Bridge crosses the river at sunrise, with a sailboat on the water; soft morning light and a long diagonal line.",
     "release_notes": [
       "Bridge name not confirmed"
@@ -501,9 +139,282 @@
     ]
   },
   {
-    "id": "MKE-37",
+    "id": "MKE-11",
+    "source": "186.jpg",
+    "title": "MKE-11: Sailboats at the Breakwall",
+    "description": "The skyline at sunset, with sailboats moored along the breakwall; warm light across water and towers.",
+    "release_notes": [],
+    "featured": true,
+    "resolution": [
+      2531,
+      3163
+    ]
+  },
+  {
+    "id": "MKE-12",
+    "source": "217.jpg",
+    "title": "MKE-12: Umbrellas Overhead",
+    "description": "Colorful umbrellas hang from the I-794 overpass in blue, yellow, red and green, bringing bright color and movement to the space below.",
+    "release_notes": [
+      "Interior of building: confirm property permission"
+    ],
+    "featured": true,
+    "resolution": [
+      2127,
+      3189
+    ]
+  },
+  {
+    "id": "MKE-13",
+    "source": "202.jpg",
+    "title": "MKE-13: St. Joseph's Basilica",
+    "description": "St. Joseph's Basilica on Milwaukee's South Side, its dome reflected in a still pond and framed by overhanging trees.",
+    "release_notes": [
+      "Building name not confirmed"
+    ],
+    "featured": true,
+    "resolution": [
+      3911,
+      5868
+    ]
+  },
+  {
+    "id": "MKE-14",
+    "source": "160.jpg",
+    "title": "MKE-14: Quadracci Wings in Afternoon Light",
+    "description": "Low-angle view of the white wings of the Milwaukee Art Museum against a clear blue sky, with crisp afternoon light on the curves.",
+    "release_notes": [
+      "Landmark architecture: confirm property permission for commercial use"
+    ],
+    "featured": true,
+    "resolution": [
+      3031,
+      4547
+    ]
+  },
+  {
+    "id": "MKE-15",
+    "source": "252.jpg",
+    "title": "MKE-15: Leon's Frozen Custard at Dusk",
+    "description": "Leon's frozen custard stand glows at dusk, with red barriers leading to the window and neon signs against the evening sky.",
+    "release_notes": [
+      "Business signage visible (Leon's): confirm before use"
+    ],
+    "featured": true,
+    "resolution": [
+      4160,
+      6240
+    ]
+  },
+  {
+    "id": "MKE-16",
+    "source": "190.jpg",
+    "title": "MKE-16: MCTS Bus on the 6th Street Viaduct",
+    "description": "A green-and-blue MCTS bus crosses the 6th Street Viaduct, with the skyline behind; motion and city transit in one frame.",
+    "release_notes": [
+      "Transit branding (RideMCTS) visible: confirm before commercial use"
+    ],
+    "featured": true,
+    "resolution": [
+      4160,
+      6240
+    ]
+  },
+  {
+    "id": "MKE-17",
+    "source": "187.jpg",
+    "title": "MKE-17: Skyline from the River",
+    "description": "The Milwaukee skyline rises behind the Menomonee River, where kayakers enjoy a calm summer day; a wide frame balancing still water and towers.",
+    "release_notes": [],
+    "featured": true,
+    "resolution": [
+      3414,
+      5122
+    ]
+  },
+  {
+    "id": "MKE-18",
+    "source": "159.jpg",
+    "title": "MKE-18: Milwaukee City Hall Atrium",
+    "description": "A symmetrical view up through the atrium of Milwaukee City Hall; the central framing draws the eye straight toward the light.",
+    "release_notes": [
+      "Confirm building name and location for the record"
+    ],
+    "featured": true,
+    "resolution": [
+      5836,
+      3891
+    ]
+  },
+  {
+    "id": "MKE-19",
+    "source": "206.jpg",
+    "title": "MKE-19: Museum Wing Underside",
+    "description": "Looking up at the Milwaukee Veterans Memorial; the contrast of the dark underside and bright sky showcases Eero Saarinen's dreamatic design.",
+    "release_notes": [
+      "Landmark architecture: confirm property permission"
+    ],
+    "featured": true,
+    "resolution": [
+      6240,
+      4160
+    ]
+  },
+  {
+    "id": "MKE-20",
+    "source": "158.jpg",
+    "title": "MKE-20: Calatrava Hall",
+    "description": "Two silhouettes stand in the Calatrava wing of the Milwaukee Art Museum, framed by a glass wall that opens onto Lake Michigan.",
+    "release_notes": [
+      "Two people visible (silhouette): confirm release",
+      "Architectural interior: confirm property/venue permission for commercial use"
+    ],
+    "featured": true,
+    "resolution": [
+      3827,
+      5740
+    ]
+  },
+  {
+    "id": "MKE-21",
+    "source": "170.jpg",
+    "title": "MKE-21: Glass Hall Reflection",
+    "description": "Two visitors stand in a glass-walled hall, reflected in the water below; a symmetrical frame with cool, muted tones.",
+    "release_notes": [
+      "Two people visible (silhouette): confirm release",
+      "Interior of museum: confirm property permission"
+    ],
+    "featured": true,
+    "resolution": [
+      3162,
+      4743
+    ]
+  },
+  {
+    "id": "MKE-22",
+    "source": "224.jpg",
+    "title": "MKE-22: Veterans Memorial Terrace",
+    "description": "A terrace framed by the Milwaukee Veterans Memorial overlooks the lake; a wide, open frame of stone and water.",
+    "release_notes": [
+      "Landmark architecture: confirm property permission"
+    ],
+    "featured": true,
+    "resolution": [
+      5055,
+      3670
+    ]
+  },
+  {
+    "id": "MKE-23",
+    "source": "249.jpg",
+    "title": "MKE-23: Vagabond Marquee",
+    "description": "Ivy covers a building beneath the Vagabond marquee, with a Brewery sign above; green foliage against brick and bright signage.",
+    "release_notes": [
+      "Business signage visible (Vagabond): confirm before use"
+    ],
+    "featured": true,
+    "resolution": [
+      4027,
+      6041
+    ]
+  },
+  {
+    "id": "MKE-24",
+    "source": "157.jpg",
+    "title": "MKE-24: Kayaker at Sunset",
+    "description": "A lone kayaker paddles Lake Michigan as the Milwaukee skyline catches sunset light across the water.",
+    "release_notes": [
+      "Person visible (silhouette): confirm release if used commercially"
+    ],
+    "featured": true,
+    "resolution": [
+      2342,
+      2929
+    ]
+  },
+  {
+    "id": "MKE-25",
+    "source": "166.jpg",
+    "title": "MKE-25: Museum Wings Over the Lawn",
+    "description": "The Milwaukee Art Museum wings rise over a green lawn, with clouds and downtown beyond; a wide frame balancing nature and architecture.",
+    "release_notes": [
+      "Landmark architecture: confirm property permission"
+    ],
+    "featured": true,
+    "resolution": [
+      5671,
+      3781
+    ]
+  },
+  {
+    "id": "MKE-26",
+    "source": "225.jpg",
+    "title": "MKE-26: Calm Lake, Single Boat",
+    "description": "A single boat drifts across calm blue Lake Michigan, with a seagull passing overhead in a wide, open frame of stillness.",
+    "release_notes": [],
+    "featured": true,
+    "resolution": [
+      4160,
+      6240
+    ]
+  },
+  {
+    "id": "MKE-27",
+    "source": "175.jpg",
+    "title": "MKE-27: Holy Hill Basilica",
+    "description": "Aerial view of the red-towered Holy Hill Basilica among orange autumn trees; warm fall color in a wide, layered frame.",
+    "release_notes": [
+      "Building name not confirmed",
+      "Near-duplicate of MKE-58 (removed): choose one"
+    ],
+    "featured": true,
+    "resolution": [
+      3850,
+      2166
+    ]
+  },
+  {
+    "id": "MKE-28",
+    "source": "188.jpg",
+    "title": "MKE-28: Riverfront Skyline and Bridge",
+    "description": "Downtown towers rise above the Menomonee River, with a motorcyclist heading toward the city; the bridge leads the eye into the skyline.",
+    "release_notes": [
+      "Visible bank signage (U.S. Bank, Baird): confirm before use"
+    ],
+    "featured": true,
+    "resolution": [
+      3457,
+      5186
+    ]
+  },
+  {
+    "id": "MKE-29",
+    "source": "180.jpg",
+    "title": "MKE-29: Skyline and Marina",
+    "description": "The skyline across the water, with sailboats moored in the foreground; a classic waterfront frame.",
+    "release_notes": [],
+    "featured": true,
+    "resolution": [
+      3253,
+      4066
+    ]
+  },
+  {
+    "id": "MKE-30",
+    "source": "262.jpg",
+    "title": "MKE-30: Lighthouse on the Lake",
+    "description": "A lighthouse on a breakwater stands in Lake Michigan, with rocks and grass in the foreground; a calm, horizon-led composition.",
+    "release_notes": [],
+    "featured": true,
+    "resolution": [
+      3597,
+      5395
+    ]
+  },
+  {
+    "id": "MKE-31",
     "source": "178.jpg",
-    "title": "MKE-37: Oriental Theater",
+    "title": "MKE-31: Oriental Theater",
     "description": "The historic Oriental Theater, with domed turrets above the street, cars passing and a pedestrian; a low angle that captures street life.",
     "release_notes": [
       "Building signage: confirm before use",
@@ -516,36 +427,13 @@
     ]
   },
   {
-    "id": "MKE-38",
-    "source": "179.jpg",
-    "title": "MKE-38: Harbor with Blue Sky",
-    "description": "A harbor filled with moored boats and trees under a pale blue sky; a calm, layered composition.",
-    "release_notes": [],
-    "featured": true,
-    "resolution": [
-      4160,
-      6240
-    ]
-  },
-  {
-    "id": "MKE-39",
-    "source": "180.jpg",
-    "title": "MKE-39: Skyline and Marina",
-    "description": "The skyline across the water, with sailboats moored in the foreground; a classic waterfront frame.",
-    "release_notes": [],
-    "featured": true,
-    "resolution": [
-      3253,
-      4066
-    ]
-  },
-  {
-    "id": "MKE-40",
-    "source": "181.jpg",
-    "title": "MKE-40: Overpass and Skyline",
-    "description": "A highway overpass curves past the downtown skyline on a clear day; leading lines draw the eye toward the towers.",
+    "id": "MKE-32",
+    "source": "251.jpg",
+    "title": "MKE-32: Corner Bar on Brady Street",
+    "description": "A historic corner bar with neon signage and a skateboarder on the sidewalk along Brady Street; street life in warm color.",
     "release_notes": [
-      "Road signage: confirm before use"
+      "Business signage visible (Regano's, Blatz, Roman Coin): confirm before use",
+      "Person visible: confirm release"
     ],
     "featured": true,
     "resolution": [
@@ -554,9 +442,63 @@
     ]
   },
   {
-    "id": "MKE-41",
+    "id": "MKE-33",
+    "source": "253.jpg",
+    "title": "MKE-33: Leon's World Famous Drive-In",
+    "description": "The neon sign at Leon's World Famous Drive-In, shot against a pale sky; bold red and white lettering.",
+    "release_notes": [
+      "Business signage visible (Leon's): confirm before use"
+    ],
+    "featured": true,
+    "resolution": [
+      4085,
+      6127
+    ]
+  },
+  {
+    "id": "MKE-34",
+    "source": "248.jpg",
+    "title": "MKE-34: Vagabond Bar",
+    "description": "An ivy-covered Vagabond Bar with a silver Airstream trailer and a blue fence; lush green against vintage metal.",
+    "release_notes": [
+      "Business signage visible (Vagabond): confirm before use"
+    ],
+    "featured": true,
+    "resolution": [
+      3691,
+      5537
+    ]
+  },
+  {
+    "id": "MKE-35",
+    "source": "167.jpg",
+    "title": "MKE-35: Museum Mast and Glass",
+    "description": "Close view of the Art Museum's white wings, with the tall mast rising above the dramatic form; shot from below for strong upward perspective.",
+    "release_notes": [
+      "Landmark architecture: confirm property permission"
+    ],
+    "featured": true,
+    "resolution": [
+      3513,
+      5269
+    ]
+  },
+  {
+    "id": "MKE-36",
+    "source": "161.jpg",
+    "title": "MKE-36: Lakefront Skyline at Sunset",
+    "description": "The Milwaukee skyline stretches across the lake at sunset, with a kayaker on the water in the foreground.",
+    "release_notes": [],
+    "featured": true,
+    "resolution": [
+      2839,
+      3549
+    ]
+  },
+  {
+    "id": "MKE-37",
     "source": "183.jpg",
-    "title": "MKE-41: Lakefront Skyline at Dusk",
+    "title": "MKE-37: Lakefront Skyline at Dusk",
     "description": "The Milwaukee skyline stretches across the lake at dusk, with a kayaker on the water; soft color and a wide, quiet frame.",
     "release_notes": [],
     "featured": true,
@@ -566,114 +508,52 @@
     ]
   },
   {
-    "id": "MKE-42",
-    "source": "185.jpg",
-    "title": "MKE-42: Lawn and Skyline",
-    "description": "Downtown towers rise above a green lawn and river, where a man plays with his dog; a wide view that balances leisure and city.",
+    "id": "MKE-38",
+    "source": "263.jpg",
+    "title": "MKE-38: Brick and Bronze Tower",
+    "description": "Ornate brick buildings sit in front of a bronze-toned tower, with warm color and layered architectural detail.",
     "release_notes": [
-      "Small figures visible: confirm release if used commercially"
+      "Building name not confirmed"
     ],
     "featured": true,
     "resolution": [
-      3504,
-      5257
+      3421,
+      5131
     ]
   },
   {
-    "id": "MKE-43",
-    "source": "186.jpg",
-    "title": "MKE-43: Sailboats at the Breakwall",
-    "description": "The skyline at sunset, with sailboats moored along the breakwall; warm light across water and towers.",
-    "release_notes": [],
-    "featured": true,
-    "resolution": [
-      2531,
-      3163
-    ]
-  },
-  {
-    "id": "MKE-44",
-    "source": "189.jpg",
-    "title": "MKE-44: Leaves and Lakefront",
-    "description": "Silhouetted leaves frame the skyline across the water at sunset; a layered foreground that adds depth.",
-    "release_notes": [],
-    "featured": true,
-    "resolution": [
-      3133,
-      4700
-    ]
-  },
-  {
-    "id": "MKE-45",
-    "source": "190.jpg",
-    "title": "MKE-45: MCTS Bus on the 6th Street Viaduct",
-    "description": "A green-and-blue MCTS bus crosses the 6th Street Viaduct, with the skyline behind; motion and city transit in one frame.",
+    "id": "MKE-39",
+    "source": "221.jpg",
+    "title": "MKE-39: Pfister Hotel Facade",
+    "description": "An ornate mid-rise facade with arched windows and the Pfister Hotel behind; a dense, detailed frame of historic downtown architecture.",
     "release_notes": [
-      "Transit branding (RideMCTS) visible: confirm before commercial use"
+      "Building name not confirmed"
     ],
     "featured": true,
     "resolution": [
-      4160,
-      6240
+      3820,
+      5729
     ]
   },
   {
-    "id": "MKE-46",
-    "source": "192.jpg",
-    "title": "MKE-46: Overhead Path and Bench",
-    "description": "Overhead view of the lakeshore: a cyclist on a path and two people on a bench above the rocks; a graphic, top-down composition.",
+    "id": "MKE-40",
+    "source": "223.jpg",
+    "title": "MKE-40: Northwestern Mutual Building",
+    "description": "The Northwestern Mutual Building's neoclassical columns frame a red-and-orange truck on the street; strong symmetry and color.",
     "release_notes": [
-      "Two people and a cyclist visible: confirm release"
+      "Building name not confirmed",
+      "Truck branding visible: confirm before use"
     ],
     "featured": true,
     "resolution": [
-      2292,
-      2865
+      3399,
+      5098
     ]
   },
   {
-    "id": "MKE-47",
-    "source": "193.jpg",
-    "title": "MKE-47: Jogging Path at Lakeshore State Park",
-    "description": "A jogging path at Lakeshore State Park curves through grass toward the skyline, with golden reeds; leading lines and warm light.",
-    "release_notes": [],
-    "featured": true,
-    "resolution": [
-      4160,
-      6240
-    ]
-  },
-  {
-    "id": "MKE-48",
-    "source": "194.jpg",
-    "title": "MKE-48: Harbor Sailboats on Lake Michigan",
-    "description": "Sailboats moored in a harbor on Lake Michigan, with a line of trees behind; soft color and a calm, layered frame.",
-    "release_notes": [],
-    "featured": true,
-    "resolution": [
-      2255,
-      2819
-    ]
-  },
-  {
-    "id": "MKE-49",
-    "source": "195.jpg",
-    "title": "MKE-49: Strange Town Cafe",
-    "description": "Overhead view of the Strange Town Cafe, a brick corner building with outdoor tables and a street sign below.",
-    "release_notes": [
-      "Cafe signage visible: confirm before use",
-      "Diners visible: confirm release"
-    ],
-    "featured": true,
-    "resolution": [
-      4160,
-      6240
-    ]
-  },
-  {
-    "id": "MKE-50",
+    "id": "MKE-41",
     "source": "196.jpg",
-    "title": "MKE-50: Walker's Point Lofts",
+    "title": "MKE-41: Walker's Point Lofts",
     "description": "A man on a bicycle passes a historic Walker's Point loft building with painted advertising and a parked black Jeep; street energy caught mid-motion.",
     "release_notes": [
       "Painted signage 'Smith Supply Co.': confirm before use",
@@ -686,64 +566,178 @@
     ]
   },
   {
-    "id": "MKE-51",
-    "source": "199.jpg",
-    "title": "MKE-51: MIAD Building by the River",
-    "description": "A red-brick Milwaukee Institute of Art and Design building sits beside the river, with a boat dock below; a clean, colorful composition.",
-    "release_notes": [
-      "Building name not confirmed",
-      "Boat branding visible: confirm before use"
-    ],
-    "featured": true,
-    "resolution": [
-      4050,
-      5062
-    ]
-  },
-  {
-    "id": "MKE-52",
-    "source": "201.jpg",
-    "title": "MKE-52: Fireworks and Skyline Reflections",
-    "description": "Fireworks light the night sky above the skyline, with reflections on the water; a dark frame that makes the color pop.",
-    "release_notes": [
-      "Event photo: confirm event permission"
-    ],
-    "featured": true,
-    "resolution": [
-      3739,
-      4674
-    ]
-  },
-  {
-    "id": "MKE-53",
-    "source": "202.jpg",
-    "title": "MKE-53: St. Joseph's Basilica",
-    "description": "St. Joseph's Basilica on Milwaukee's South Side, its dome reflected in a still pond and framed by overhanging trees.",
+    "id": "MKE-42",
+    "source": "197.jpg",
+    "title": "MKE-42: Milwaukee Institute of Art and Design",
+    "description": "A long red-brick building rises above the river: a converted mill that found new life as the Milwaukee Institute of Art and Design.",
     "release_notes": [
       "Building name not confirmed"
     ],
     "featured": true,
     "resolution": [
-      3911,
-      5868
+      3768,
+      5651
+    ]
+  },
+  {
+    "id": "MKE-43",
+    "source": "256.jpg",
+    "title": "MKE-43: Kayaks and the Historic Third Ward",
+    "description": "The historic Third Ward rises across the river, with kayakers on the water; a wide frame that blends brick warehouses with bright paddlers.",
+    "release_notes": [
+      "Kayakers visible: confirm release",
+      "Bank and building signage visible: confirm before use",
+      "Near-duplicate of MKE-90: choose one"
+    ],
+    "featured": true,
+    "resolution": [
+      6130,
+      4087
+    ]
+  },
+  {
+    "id": "MKE-44",
+    "source": "207.jpg",
+    "title": "MKE-44: Geese at the Shore",
+    "description": "A small flock of geese on a sandy beach, with the city skyline across the water at sunset; warm tones and soft depth.",
+    "release_notes": [],
+    "featured": true,
+    "resolution": [
+      4016,
+      5020
+    ]
+  },
+  {
+    "id": "MKE-45",
+    "source": "258.jpg",
+    "title": "MKE-45: Public Market Corner",
+    "description": "The Milwaukee Public Market sign, with visitors crossing the street; a street-level frame of city energy.",
+    "release_notes": [
+      "Market signage visible: confirm before use",
+      "People visible: confirm release"
+    ],
+    "featured": true,
+    "resolution": [
+      4160,
+      6240
+    ]
+  },
+  {
+    "id": "MKE-46",
+    "source": "255.jpg",
+    "title": "MKE-46: Colectivo Coffee Patio",
+    "description": "A quiet cafe patio with teal chairs in the shade of a large tree, beneath a brick storefront with a red awning.",
+    "release_notes": [
+      "Business signage visible (Colectivo): confirm before use"
+    ],
+    "featured": true,
+    "resolution": [
+      4160,
+      6240
+    ]
+  },
+  {
+    "id": "MKE-47",
+    "source": "162.jpg",
+    "title": "MKE-47: Museum Wing Detail",
+    "description": "Close view of a white wing of the Milwaukee Art Museum against a blue sky; tight framing isolates the curves and texture.",
+    "release_notes": [
+      "Landmark architecture: confirm property permission"
+    ],
+    "featured": true,
+    "resolution": [
+      4160,
+      6240
+    ]
+  },
+  {
+    "id": "MKE-48",
+    "source": "168.jpg",
+    "title": "MKE-48: Steel and Glass Vault",
+    "description": "Looking up at a grid of white steel and glass inside the Milwaukee Art Museum, in a symmetrical, abstract composition.",
+    "release_notes": [
+      "Interior of museum: confirm property permission"
+    ],
+    "featured": true,
+    "resolution": [
+      3897,
+      5846
+    ]
+  },
+  {
+    "id": "MKE-49",
+    "source": "239.jpg",
+    "title": "MKE-49: Pritzlaff Building",
+    "description": "The red-brick Pritzlaff building, a converted factory now home to loft apartments, shot from below. Its minimalist arched windows and repeating brick pattern highlight the architectural detail.",
+    "release_notes": [
+      "Building name not confirmed"
+    ],
+    "featured": true,
+    "resolution": [
+      3951,
+      5926
+    ]
+  },
+  {
+    "id": "MKE-50",
+    "source": "220.jpg",
+    "title": "MKE-50: Mitchell Building Entrance",
+    "description": "The arched entrance of the Mitchell Building, an ornate stone facade framed in symmetry.",
+    "release_notes": [
+      "Building name not confirmed"
+    ],
+    "featured": true,
+    "resolution": [
+      3969,
+      5954
+    ]
+  },
+  {
+    "id": "MKE-51",
+    "source": "261.jpg",
+    "title": "MKE-51: Light and Shade on the Tower",
+    "description": "A tall tower facade splits between shadow and sunlight against a pale sky; a graphic, high-contrast composition.",
+    "release_notes": [
+      "Building name not confirmed"
+    ],
+    "featured": true,
+    "resolution": [
+      2985,
+      3731
+    ]
+  },
+  {
+    "id": "MKE-52",
+    "source": "163.jpg",
+    "title": "MKE-52: Tower and Fire Escape",
+    "description": "Black-and-white view up a tall office tower, with a fire escape running its height; strong vertical lines and high contrast.",
+    "release_notes": [
+      "Building name not confirmed"
+    ],
+    "featured": true,
+    "resolution": [
+      2860,
+      3814
+    ]
+  },
+  {
+    "id": "MKE-53",
+    "source": "228.jpg",
+    "title": "MKE-53: Looking Up the Tower",
+    "description": "A dramatic angled view up a glass tower, with a sign and a clock beside it; sharp diagonals and bold perspective.",
+    "release_notes": [
+      "Building signage visible: confirm before use"
+    ],
+    "featured": true,
+    "resolution": [
+      4160,
+      6240
     ]
   },
   {
     "id": "MKE-54",
-    "source": "203.jpg",
-    "title": "MKE-54: Freighter and Sailboat",
-    "description": "A sailboat and a freighter on Lake Michigan, beyond a rock breakwall; a layered, calm frame of open water.",
-    "release_notes": [],
-    "featured": true,
-    "resolution": [
-      1810,
-      2263
-    ]
-  },
-  {
-    "id": "MKE-55",
     "source": "204.jpg",
-    "title": "MKE-55: Stone Weir in Grant Park",
+    "title": "MKE-54: Stone Weir in Grant Park",
     "description": "A waterfall spills over a stone weir in Grant Park, with a small stone house on the lake at sunset; warm light on the water.",
     "release_notes": [
       "Building name not confirmed"
@@ -755,9 +749,9 @@
     ]
   },
   {
-    "id": "MKE-56",
+    "id": "MKE-55",
     "source": "205.jpg",
-    "title": "MKE-56: Waterfall at Grant Park",
+    "title": "MKE-55: Waterfall at Grant Park",
     "description": "A waterfall spills over a stone weir into green water in Grant Park, with a small pavilion on the far bank.",
     "release_notes": [],
     "featured": true,
@@ -767,35 +761,57 @@
     ]
   },
   {
-    "id": "MKE-57",
-    "source": "206.jpg",
-    "title": "MKE-57: Museum Wing Underside",
-    "description": "Looking up at the Milwaukee Veterans Memorial; the contrast of the dark underside and bright sky showcases Eero Saarinen's dreamatic design.",
-    "release_notes": [
-      "Landmark architecture: confirm property permission"
-    ],
+    "id": "MKE-56",
+    "source": "203.jpg",
+    "title": "MKE-56: Freighter and Sailboat",
+    "description": "A sailboat and a freighter on Lake Michigan, beyond a rock breakwall; a layered, calm frame of open water.",
+    "release_notes": [],
     "featured": true,
     "resolution": [
-      6240,
-      4160
+      1810,
+      2263
+    ]
+  },
+  {
+    "id": "MKE-57",
+    "source": "194.jpg",
+    "title": "MKE-57: Harbor Sailboats on Lake Michigan",
+    "description": "Sailboats moored in a harbor on Lake Michigan, with a line of trees behind; soft color and a calm, layered frame.",
+    "release_notes": [],
+    "featured": true,
+    "resolution": [
+      2255,
+      2819
     ]
   },
   {
     "id": "MKE-58",
-    "source": "207.jpg",
-    "title": "MKE-58: Geese at the Shore",
-    "description": "A small flock of geese on a sandy beach, with the city skyline across the water at sunset; warm tones and soft depth.",
+    "source": "179.jpg",
+    "title": "MKE-58: Harbor with Blue Sky",
+    "description": "A harbor filled with moored boats and trees under a pale blue sky; a calm, layered composition.",
     "release_notes": [],
     "featured": true,
     "resolution": [
-      4016,
-      5020
+      4160,
+      6240
     ]
   },
   {
     "id": "MKE-59",
+    "source": "164.jpg",
+    "title": "MKE-59: Lone Sailboat on Lake Michigan",
+    "description": "Aerial view of a single white sailboat on the deep blue water of Lake Michigan; a minimal composition of open water.",
+    "release_notes": [],
+    "featured": true,
+    "resolution": [
+      1410,
+      1761
+    ]
+  },
+  {
+    "id": "MKE-60",
     "source": "211.jpg",
-    "title": "MKE-59: Arched Glass Hall",
+    "title": "MKE-60: Arched Glass Hall",
     "description": "A bright, glass-walled hall with arched ceilings and seating; light and symmetry define the space.",
     "release_notes": [
       "Interior of building: confirm property permission"
@@ -807,33 +823,18 @@
     ]
   },
   {
-    "id": "MKE-60",
+    "id": "MKE-61",
     "source": "212.jpg",
-    "title": "MKE-60: Red Ladybug Sculptures",
+    "title": "MKE-61: Red Ladybug Sculptures",
     "description": "Red ladybug sculptures on a dark ribbed facade; bold color against a graphic, textured backdrop.",
     "release_notes": [
       "Public artwork: confirm artist and permission",
-      "Near-duplicate of MKE-63: choose one"
+      "Near-duplicate of MKE-77: choose one"
     ],
     "featured": true,
     "resolution": [
       2080,
       3120
-    ]
-  },
-  {
-    "id": "MKE-61",
-    "source": "214.jpg",
-    "title": "MKE-61: Kayaker by MIAD",
-    "description": "A kayaker paddles beside a long brick Milwaukee Institute of Art and Design building; a bright red kayak against warm brick.",
-    "release_notes": [
-      "Person visible: confirm release",
-      "Building name not confirmed"
-    ],
-    "featured": true,
-    "resolution": [
-      3096,
-      4644
     ]
   },
   {
@@ -852,37 +853,193 @@
   },
   {
     "id": "MKE-63",
-    "source": "219.jpg",
-    "title": "MKE-63: Ladybug Sculptures, Perforated Grid",
-    "description": "Red ladybug sculptures on a dark perforated facade; a repeating pattern with bold color.",
+    "source": "214.jpg",
+    "title": "MKE-63: Kayaker by MIAD",
+    "description": "A kayaker paddles beside a long brick Milwaukee Institute of Art and Design building; a bright red kayak against warm brick.",
     "release_notes": [
-      "Public artwork: confirm artist and permission",
-      "Near-duplicate of MKE-60 (red sculptures): choose one"
-    ],
-    "featured": true,
-    "resolution": [
-      1747,
-      2623
-    ]
-  },
-  {
-    "id": "MKE-64",
-    "source": "220.jpg",
-    "title": "MKE-64: Mitchell Building Entrance",
-    "description": "The arched entrance of the Mitchell Building, an ornate stone facade framed in symmetry.",
-    "release_notes": [
+      "Person visible: confirm release",
       "Building name not confirmed"
     ],
     "featured": true,
     "resolution": [
-      3969,
-      5954
+      3096,
+      4644
+    ]
+  },
+  {
+    "id": "MKE-64",
+    "source": "199.jpg",
+    "title": "MKE-64: MIAD Building by the River",
+    "description": "A red-brick Milwaukee Institute of Art and Design building sits beside the river, with a boat dock below; a clean, colorful composition.",
+    "release_notes": [
+      "Building name not confirmed",
+      "Boat branding visible: confirm before use"
+    ],
+    "featured": true,
+    "resolution": [
+      4050,
+      5062
     ]
   },
   {
     "id": "MKE-65",
+    "source": "232.jpg",
+    "title": "MKE-65: Harley-Davidson Museum Accent",
+    "description": "A red architectural accent at the Harley-Davidson Museum beside a museum wing, reflected in still water.",
+    "release_notes": [
+      "Public artwork: confirm artist and permission"
+    ],
+    "featured": true,
+    "resolution": [
+      3780,
+      5669
+    ]
+  },
+  {
+    "id": "MKE-66",
+    "source": "233.jpg",
+    "title": "MKE-66: Harley-Davidson Accent in the Field",
+    "description": "A red architectural accent at the Harley-Davidson Museum rises from a grassy field, with a museum and steel structure behind.",
+    "release_notes": [
+      "Public artwork: confirm artist and permission"
+    ],
+    "featured": true,
+    "resolution": [
+      4160,
+      6240
+    ]
+  },
+  {
+    "id": "MKE-67",
+    "source": "234.jpg",
+    "title": "MKE-67: Harley-Davidson Accent by the River",
+    "description": "A red architectural accent at the Harley-Davidson Museum, reflected in the river beside a glass museum building.",
+    "release_notes": [
+      "Public artwork: confirm artist and permission"
+    ],
+    "featured": true,
+    "resolution": [
+      4090,
+      6135
+    ]
+  },
+  {
+    "id": "MKE-68",
+    "source": "260.jpg",
+    "title": "MKE-68: American Family Field from Above",
+    "description": "Aerial view of American Family Field with its roof open, surrounded by parking; a wide, graphic overhead frame.",
+    "release_notes": [
+      "Stadium naming: confirm venue name before use"
+    ],
+    "featured": true,
+    "resolution": [
+      2838,
+      3783
+    ]
+  },
+  {
+    "id": "MKE-69",
+    "source": "235.jpg",
+    "title": "MKE-69: Water Works Sign Installation",
+    "description": "Tall grass and wildflowers in front of red-brick buildings, with the Water Works sign installation on a pole.",
+    "release_notes": [
+      "Blue sign: confirm before use"
+    ],
+    "featured": true,
+    "resolution": [
+      3844,
+      5765
+    ]
+  },
+  {
+    "id": "MKE-70",
+    "source": "236.jpg",
+    "title": "MKE-70: Milwaukee Fire Department Engine",
+    "description": "A red Milwaukee Fire Department engine parked in front of a brick building; bold color against warm brick.",
+    "release_notes": [
+      "Vehicle livery visible: confirm before use"
+    ],
+    "featured": true,
+    "resolution": [
+      2754,
+      3862
+    ]
+  },
+  {
+    "id": "MKE-71",
+    "source": "237.jpg",
+    "title": "MKE-71: Black Muscle Car on Brick",
+    "description": "A black muscle car parked in front of a brick building; a sleek shape against textured brick.",
+    "release_notes": [
+      "Vehicle branding: confirm before use"
+    ],
+    "featured": true,
+    "resolution": [
+      3122,
+      4683
+    ]
+  },
+  {
+    "id": "MKE-72",
+    "source": "169.jpg",
+    "title": "MKE-72: Museum Architectural Details",
+    "description": "Angled view of white steel beams inside the Milwaukee Art Museum, an abstract study of structure and light.",
+    "release_notes": [
+      "Interior of museum: confirm property permission"
+    ],
+    "featured": true,
+    "resolution": [
+      3269,
+      4902
+    ]
+  },
+  {
+    "id": "MKE-73",
+    "source": "171.jpg",
+    "title": "MKE-73: Metal Sculpture by the Wing",
+    "description": "A red metal sculpture in the foreground, with the Milwaukee Art Museum's white wing rising behind it; bold color against white.",
+    "release_notes": [
+      "Landmark architecture and public sculpture: confirm permission"
+    ],
+    "featured": true,
+    "resolution": [
+      4160,
+      5200
+    ]
+  },
+  {
+    "id": "MKE-74",
+    "source": "173.jpg",
+    "title": "MKE-74: Motorcyclist by the Wing",
+    "description": "The Art Museum's wings seen across the street, with a motorcyclist passing; motion and architecture in one frame.",
+    "release_notes": [
+      "Person visible (motorcycle): confirm release",
+      "Landmark architecture: confirm property permission"
+    ],
+    "featured": true,
+    "resolution": [
+      4002,
+      6003
+    ]
+  },
+  {
+    "id": "MKE-75",
+    "source": "185.jpg",
+    "title": "MKE-75: Lawn and Skyline",
+    "description": "Downtown towers rise above a green lawn and river, where a man plays with his dog; a wide view that balances leisure and city.",
+    "release_notes": [
+      "Small figures visible: confirm release if used commercially"
+    ],
+    "featured": true,
+    "resolution": [
+      3504,
+      5257
+    ]
+  },
+  {
+    "id": "MKE-76",
     "source": "222.jpg",
-    "title": "MKE-65: Historic Meets Modern",
+    "title": "MKE-76: Historic Meets Modern",
     "description": "Historic and contemporary buildings layer together, with a motorcyclist driving past; a dynamic mix of old and new.",
     "release_notes": [
       "Building name not confirmed",
@@ -895,38 +1052,24 @@
     ]
   },
   {
-    "id": "MKE-66",
-    "source": "223.jpg",
-    "title": "MKE-66: Northwestern Mutual Building",
-    "description": "The Northwestern Mutual Building's neoclassical columns frame a red-and-orange truck on the street; strong symmetry and color.",
+    "id": "MKE-77",
+    "source": "219.jpg",
+    "title": "MKE-77: Ladybug Sculptures, Perforated Grid",
+    "description": "Red ladybug sculptures on a dark perforated facade; a repeating pattern with bold color.",
     "release_notes": [
-      "Building name not confirmed",
-      "Truck branding visible: confirm before use"
+      "Public artwork: confirm artist and permission",
+      "Near-duplicate of MKE-61 (red sculptures): choose one"
     ],
     "featured": true,
     "resolution": [
-      3399,
-      5098
+      1747,
+      2623
     ]
   },
   {
-    "id": "MKE-67",
-    "source": "224.jpg",
-    "title": "MKE-67: Veterans Memorial Terrace",
-    "description": "A terrace framed by the Milwaukee Veterans Memorial overlooks the lake; a wide, open frame of stone and water.",
-    "release_notes": [
-      "Landmark architecture: confirm property permission"
-    ],
-    "featured": true,
-    "resolution": [
-      5055,
-      3670
-    ]
-  },
-  {
-    "id": "MKE-68",
+    "id": "MKE-78",
     "source": "227.jpg",
-    "title": "MKE-68: Victorian Tower on the Corner",
+    "title": "MKE-78: Victorian Tower on the Corner",
     "description": "A red-brick Victorian building with a turret and tower, lined by street trees; a low angle that adds height.",
     "release_notes": [
       "Building name not confirmed"
@@ -938,155 +1081,15 @@
     ]
   },
   {
-    "id": "MKE-69",
-    "source": "228.jpg",
-    "title": "MKE-69: Looking Up the Tower",
-    "description": "A dramatic angled view up a glass tower, with a sign and a clock beside it; sharp diagonals and bold perspective.",
-    "release_notes": [
-      "Building signage visible: confirm before use"
-    ],
-    "featured": true,
-    "resolution": [
-      4160,
-      6240
-    ]
-  },
-  {
-    "id": "MKE-70",
-    "source": "229.jpg",
-    "title": "MKE-70: Traffic Signal and Tower",
-    "description": "A traffic signal hangs in front of a pale tower; clean lines and soft, neutral tones.",
-    "release_notes": [
-      "Pedestrian signal visible: confirm before use"
-    ],
-    "featured": true,
-    "resolution": [
-      4160,
-      6240
-    ]
-  },
-  {
-    "id": "MKE-71",
-    "source": "231.jpg",
-    "title": "MKE-71: Bench by the Lake",
-    "description": "A person sits on a bench above the lake on a summer day, where sky, grass and water form calm, layered bands of color.",
-    "release_notes": [
-      "Person visible: confirm release"
-    ],
-    "featured": true,
-    "resolution": [
-      1724,
-      2155
-    ]
-  },
-  {
-    "id": "MKE-72",
-    "source": "232.jpg",
-    "title": "MKE-72: Harley-Davidson Museum Accent",
-    "description": "A red architectural accent at the Harley-Davidson Museum beside a museum wing, reflected in still water.",
-    "release_notes": [
-      "Public artwork: confirm artist and permission"
-    ],
-    "featured": true,
-    "resolution": [
-      3780,
-      5669
-    ]
-  },
-  {
-    "id": "MKE-73",
-    "source": "233.jpg",
-    "title": "MKE-73: Harley-Davidson Accent in the Field",
-    "description": "A red architectural accent at the Harley-Davidson Museum rises from a grassy field, with a museum and steel structure behind.",
-    "release_notes": [
-      "Public artwork: confirm artist and permission"
-    ],
-    "featured": true,
-    "resolution": [
-      4160,
-      6240
-    ]
-  },
-  {
-    "id": "MKE-74",
-    "source": "234.jpg",
-    "title": "MKE-74: Harley-Davidson Accent by the River",
-    "description": "A red architectural accent at the Harley-Davidson Museum, reflected in the river beside a glass museum building.",
-    "release_notes": [
-      "Public artwork: confirm artist and permission"
-    ],
-    "featured": true,
-    "resolution": [
-      4090,
-      6135
-    ]
-  },
-  {
-    "id": "MKE-75",
-    "source": "235.jpg",
-    "title": "MKE-75: Water Works Sign Installation",
-    "description": "Tall grass and wildflowers in front of red-brick buildings, with the Water Works sign installation on a pole.",
-    "release_notes": [
-      "Blue sign: confirm before use"
-    ],
-    "featured": true,
-    "resolution": [
-      3844,
-      5765
-    ]
-  },
-  {
-    "id": "MKE-76",
-    "source": "236.jpg",
-    "title": "MKE-76: Milwaukee Fire Department Engine",
-    "description": "A red Milwaukee Fire Department engine parked in front of a brick building; bold color against warm brick.",
-    "release_notes": [
-      "Vehicle livery visible: confirm before use"
-    ],
-    "featured": true,
-    "resolution": [
-      2754,
-      3862
-    ]
-  },
-  {
-    "id": "MKE-77",
-    "source": "237.jpg",
-    "title": "MKE-77: Black Muscle Car on Brick",
-    "description": "A black muscle car parked in front of a brick building; a sleek shape against textured brick.",
-    "release_notes": [
-      "Vehicle branding: confirm before use"
-    ],
-    "featured": true,
-    "resolution": [
-      3122,
-      4683
-    ]
-  },
-  {
-    "id": "MKE-78",
-    "source": "238.jpg",
-    "title": "MKE-78: Railroad Crossing Signals",
-    "description": "Railroad crossing signals in the foreground, with a tower in the distance; a shallow-depth frame of signal and skyline.",
+    "id": "MKE-79",
+    "source": "254.jpg",
+    "title": "MKE-79: Stained Glass Water Tower",
+    "description": "Modern and brick buildings beside a grassy lot, with a stained glass water tower above; a colorful focal point against the sky.",
     "release_notes": [],
     "featured": true,
     "resolution": [
-      1892,
-      2838
-    ]
-  },
-  {
-    "id": "MKE-79",
-    "source": "239.jpg",
-    "title": "MKE-79: Pritzlaff Building",
-    "description": "The red-brick Pritzlaff building, a converted factory now home to loft apartments, shot from below. Its minimalist arched windows and repeating brick pattern highlight the architectural detail.",
-    "release_notes": [
-      "Building name not confirmed"
-    ],
-    "featured": true,
-    "resolution": [
-      3951,
-      5926
+      3624,
+      5463
     ]
   },
   {
@@ -1134,12 +1137,12 @@
   },
   {
     "id": "MKE-83",
-    "source": "243.jpg",
-    "title": "MKE-83: Signals at the Museum",
-    "description": "Traffic signals hang in front of a curved white wing of the Wisconsin Nature and Culture Museum, under construction.",
+    "source": "247.jpg",
+    "title": "MKE-83: Museum Wings and Lifts",
+    "description": "Two white wings of the Wisconsin Nature and Culture Museum, under construction, with orange lifts and a car passing in front.",
     "release_notes": [
-      "Landmark architecture: confirm property permission",
-      "Street sign visible: confirm before use"
+      "Planetarium name visible on building: confirm before use",
+      "Equipment branding: confirm before use"
     ],
     "featured": true,
     "resolution": [
@@ -1163,8 +1166,133 @@
   },
   {
     "id": "MKE-85",
+    "source": "181.jpg",
+    "title": "MKE-85: Overpass and Skyline",
+    "description": "A highway overpass curves past the downtown skyline on a clear day; leading lines draw the eye toward the towers.",
+    "release_notes": [
+      "Road signage: confirm before use"
+    ],
+    "featured": true,
+    "resolution": [
+      4160,
+      6240
+    ]
+  },
+  {
+    "id": "MKE-86",
+    "source": "189.jpg",
+    "title": "MKE-86: Leaves and Lakefront",
+    "description": "Silhouetted leaves frame the skyline across the water at sunset; a layered foreground that adds depth.",
+    "release_notes": [],
+    "featured": true,
+    "resolution": [
+      3133,
+      4700
+    ]
+  },
+  {
+    "id": "MKE-87",
+    "source": "195.jpg",
+    "title": "MKE-87: Strange Town Cafe",
+    "description": "Overhead view of the Strange Town Cafe, a brick corner building with outdoor tables and a street sign below.",
+    "release_notes": [
+      "Cafe signage visible: confirm before use",
+      "Diners visible: confirm release"
+    ],
+    "featured": true,
+    "resolution": [
+      4160,
+      6240
+    ]
+  },
+  {
+    "id": "MKE-88",
+    "source": "192.jpg",
+    "title": "MKE-88: Overhead Path and Bench",
+    "description": "Overhead view of the lakeshore: a cyclist on a path and two people on a bench above the rocks; a graphic, top-down composition.",
+    "release_notes": [
+      "Two people and a cyclist visible: confirm release"
+    ],
+    "featured": true,
+    "resolution": [
+      2292,
+      2865
+    ]
+  },
+  {
+    "id": "MKE-89",
+    "source": "231.jpg",
+    "title": "MKE-89: Bench by the Lake",
+    "description": "A person sits on a bench above the lake on a summer day, where sky, grass and water form calm, layered bands of color.",
+    "release_notes": [
+      "Person visible: confirm release"
+    ],
+    "featured": true,
+    "resolution": [
+      1724,
+      2155
+    ]
+  },
+  {
+    "id": "MKE-90",
+    "source": "257.jpg",
+    "title": "MKE-90: Kayaks and the Third Ward",
+    "description": "The Third Ward across the river, with kayakers on the water; a wide frame of brick warehouses and bright paddlers.",
+    "release_notes": [
+      "Kayakers visible: confirm release",
+      "Near-duplicate of MKE-43 (kayaks and skyline): choose one"
+    ],
+    "featured": true,
+    "resolution": [
+      4160,
+      6240
+    ]
+  },
+  {
+    "id": "MKE-91",
+    "source": "229.jpg",
+    "title": "MKE-91: Traffic Signal and Tower",
+    "description": "A traffic signal hangs in front of a pale tower; clean lines and soft, neutral tones.",
+    "release_notes": [
+      "Pedestrian signal visible: confirm before use"
+    ],
+    "featured": true,
+    "resolution": [
+      4160,
+      6240
+    ]
+  },
+  {
+    "id": "MKE-92",
+    "source": "238.jpg",
+    "title": "MKE-92: Railroad Crossing Signals",
+    "description": "Railroad crossing signals in the foreground, with a tower in the distance; a shallow-depth frame of signal and skyline.",
+    "release_notes": [],
+    "featured": true,
+    "resolution": [
+      1892,
+      2838
+    ]
+  },
+  {
+    "id": "MKE-93",
+    "source": "243.jpg",
+    "title": "MKE-93: Signals at the Museum",
+    "description": "Traffic signals hang in front of a curved white wing of the Wisconsin Nature and Culture Museum, under construction.",
+    "release_notes": [
+      "Landmark architecture: confirm property permission",
+      "Street sign visible: confirm before use"
+    ],
+    "featured": true,
+    "resolution": [
+      4160,
+      6240
+    ]
+  },
+  {
+    "id": "MKE-94",
     "source": "245.jpg",
-    "title": "MKE-85: Perforated Frame, Church Spire",
+    "title": "MKE-94: Perforated Frame, Church Spire",
     "description": "Looking through a perforated black metal frame at a church spire in the distance; the pattern frames the spire.",
     "release_notes": [
       "Building name not confirmed"
@@ -1176,9 +1304,9 @@
     ]
   },
   {
-    "id": "MKE-86",
+    "id": "MKE-95",
     "source": "246.jpg",
-    "title": "MKE-86: Perforated Frame, Museum (Alt)",
+    "title": "MKE-95: Perforated Frame, Museum (Alt)",
     "description": "Looking through a perforated black metal frame at the white wing of the Wisconsin Nature and Culture Museum from a second angle.",
     "release_notes": [
       "Landmark architecture: confirm property permission"
@@ -1187,134 +1315,6 @@
     "resolution": [
       4160,
       6240
-    ]
-  },
-  {
-    "id": "MKE-87",
-    "source": "247.jpg",
-    "title": "MKE-87: Museum Wings and Lifts",
-    "description": "Two white wings of the Wisconsin Nature and Culture Museum, under construction, with orange lifts and a car passing in front.",
-    "release_notes": [
-      "Planetarium name visible on building: confirm before use",
-      "Equipment branding: confirm before use"
-    ],
-    "featured": true,
-    "resolution": [
-      4160,
-      6240
-    ]
-  },
-  {
-    "id": "MKE-88",
-    "source": "248.jpg",
-    "title": "MKE-88: Vagabond Bar",
-    "description": "An ivy-covered Vagabond Bar with a silver Airstream trailer and a blue fence; lush green against vintage metal.",
-    "release_notes": [
-      "Business signage visible (Vagabond): confirm before use"
-    ],
-    "featured": true,
-    "resolution": [
-      3691,
-      5537
-    ]
-  },
-  {
-    "id": "MKE-89",
-    "source": "251.jpg",
-    "title": "MKE-89: Corner Bar on Brady Street",
-    "description": "A historic corner bar with neon signage and a skateboarder on the sidewalk along Brady Street; street life in warm color.",
-    "release_notes": [
-      "Business signage visible (Regano's, Blatz, Roman Coin): confirm before use",
-      "Person visible: confirm release"
-    ],
-    "featured": true,
-    "resolution": [
-      4160,
-      6240
-    ]
-  },
-  {
-    "id": "MKE-90",
-    "source": "253.jpg",
-    "title": "MKE-90: Leon's World Famous Drive-In",
-    "description": "The neon sign at Leon's World Famous Drive-In, shot against a pale sky; bold red and white lettering.",
-    "release_notes": [
-      "Business signage visible (Leon's): confirm before use"
-    ],
-    "featured": true,
-    "resolution": [
-      4085,
-      6127
-    ]
-  },
-  {
-    "id": "MKE-91",
-    "source": "254.jpg",
-    "title": "MKE-91: Stained Glass Water Tower",
-    "description": "Modern and brick buildings beside a grassy lot, with a stained glass water tower above; a colorful focal point against the sky.",
-    "release_notes": [],
-    "featured": true,
-    "resolution": [
-      3624,
-      5463
-    ]
-  },
-  {
-    "id": "MKE-92",
-    "source": "255.jpg",
-    "title": "MKE-92: Colectivo Coffee Patio",
-    "description": "A quiet cafe patio with teal chairs in the shade of a large tree, beneath a brick storefront with a red awning.",
-    "release_notes": [
-      "Business signage visible (Colectivo): confirm before use"
-    ],
-    "featured": true,
-    "resolution": [
-      4160,
-      6240
-    ]
-  },
-  {
-    "id": "MKE-93",
-    "source": "257.jpg",
-    "title": "MKE-93: Kayaks and the Third Ward",
-    "description": "The Third Ward across the river, with kayakers on the water; a wide frame of brick warehouses and bright paddlers.",
-    "release_notes": [
-      "Kayakers visible: confirm release",
-      "Near-duplicate of MKE-21 (kayaks and skyline): choose one"
-    ],
-    "featured": true,
-    "resolution": [
-      4160,
-      6240
-    ]
-  },
-  {
-    "id": "MKE-94",
-    "source": "258.jpg",
-    "title": "MKE-94: Public Market Corner",
-    "description": "The Milwaukee Public Market sign, with visitors crossing the street; a street-level frame of city energy.",
-    "release_notes": [
-      "Market signage visible: confirm before use",
-      "People visible: confirm release"
-    ],
-    "featured": true,
-    "resolution": [
-      4160,
-      6240
-    ]
-  },
-  {
-    "id": "MKE-95",
-    "source": "260.jpg",
-    "title": "MKE-95: American Family Field from Above",
-    "description": "Aerial view of American Family Field with its roof open, surrounded by parking; a wide, graphic overhead frame.",
-    "release_notes": [
-      "Stadium naming: confirm venue name before use"
-    ],
-    "featured": true,
-    "resolution": [
-      2838,
-      3783
     ]
   }
 ]

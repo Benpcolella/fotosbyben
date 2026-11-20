@@ -572,7 +572,7 @@ window.LICENSING_COLLECTIONS = [
       {
         "id": "MKE-41",
         "title": "MKE-41: Lakefront Skyline at Dusk",
-        "description": "A low skyline stretches across the lake at dusk, with a kayaker on the water; soft color and a wide, quiet frame.",
+        "description": "The Milwaukee skyline stretches across the lake at dusk, with a kayaker on the water; soft color and a wide, quiet frame.",
         "w": 2342,
         "h": 2929,
         "uses": [
@@ -796,7 +796,7 @@ window.LICENSING_COLLECTIONS = [
       {
         "id": "MKE-57",
         "title": "MKE-57: Museum Wing Underside",
-        "description": "Looking up at the dark underside of a museum wing at the Milwaukee Veterans Memorial; the bright opening frames the sky.",
+        "description": "Looking up at the Milwaukee Veterans Memorial; the contrast of the dark underside and bright sky showcases Eero Saarinen's dreamatic design.",
         "w": 6240,
         "h": 4160,
         "uses": [
@@ -810,7 +810,7 @@ window.LICENSING_COLLECTIONS = [
       {
         "id": "MKE-58",
         "title": "MKE-58: Geese at the Shore",
-        "description": "Two Canada geese on a sandy beach, with the city skyline across the water at sunset; warm tones and soft depth.",
+        "description": "A small flock of geese on a sandy beach, with the city skyline across the water at sunset; warm tones and soft depth.",
         "w": 4016,
         "h": 5020,
         "uses": [
@@ -1104,7 +1104,7 @@ window.LICENSING_COLLECTIONS = [
       {
         "id": "MKE-79",
         "title": "MKE-79: Pritzlaff Building",
-        "description": "The red-brick Pritzlaff building, a converted factory now home to loft apartments, shot from below with its arched windows rising.",
+        "description": "The red-brick Pritzlaff building, a converted factory now home to loft apartments, shot from below. Its minimalist arched windows and repeating brick pattern highlight the architectural detail.",
         "w": 3951,
         "h": 5926,
         "uses": [

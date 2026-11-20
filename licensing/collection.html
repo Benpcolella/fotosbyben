@@ -79,7 +79,7 @@
             document.title = collection.title + ' - Licensing - Benedetto Colella';
             document.getElementById('coll-title').textContent = collection.title;
             document.getElementById('coll-desc').textContent = collection.description;
-            document.getElementById('coll-count').textContent = collection.photos.length + ' IMAGES';
+            document.getElementById('coll-count').textContent = collection.photos.length + ' IMAGES · Contact for pricing';
 
             const list = document.getElementById('photos');
             document.addEventListener('contextmenu', e => { if (e.target.tagName === 'IMG') e.preventDefault(); });

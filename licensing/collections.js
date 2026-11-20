@@ -3,7 +3,7 @@ window.LICENSING_COLLECTIONS = [
   {
     "slug": "milwaukee",
     "title": "Milwaukee",
-    "description": "Milwaukee, Wisconsin. Photographs coming soon.",
+    "description": "Milwaukee, Wisconsin.",
     "cover": {
       "src": "licensing/covers/milwaukee.jpg",
       "designed": true

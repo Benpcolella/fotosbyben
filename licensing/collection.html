@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Licensing - Benedetto Colella</title>
+    <title>Archive - Benedetto Colella</title>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap');
 
@@ -48,7 +48,7 @@
             </a>
             <nav>
                 <a class="nav-link" href="../index.html">Gallery</a>
-                <a class="nav-link" href="../licensing.html">Licensing</a>
+                <a class="nav-link" href="../licensing.html">Archive</a>
                 <a class="nav-link" href="../about.html">About</a>
             </nav>
         </div>
@@ -76,7 +76,7 @@
         if (!collection) {
             document.getElementById('coll-title').textContent = 'Collection not found';
         } else {
-            document.title = collection.title + ' - Licensing - Benedetto Colella';
+            document.title = collection.title + ' - Archive - Benedetto Colella';
             document.getElementById('coll-title').textContent = collection.title;
             document.getElementById('coll-desc').textContent = collection.description;
             document.getElementById('coll-count').textContent = collection.photos.length ? collection.photos.length + ' IMAGES · Contact for pricing' : '';

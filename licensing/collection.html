@@ -22,21 +22,44 @@
         @media (max-width: 768px) { header { padding: 1rem; } footer { padding: 2rem 1.5rem; } }
 
 
-        .coll-main { max-width: 1100px; margin: 0 auto; padding: 2.5rem 1.2rem 1rem; }
+        .coll-main { max-width: 1200px; margin: 0 auto; padding: 2.5rem 1.2rem 1rem; }
         .back { display: inline-block; font-size: 0.85rem; letter-spacing: 0.05em; color: #1a1a1a; text-decoration: none; border-bottom: 1px solid #1a1a1a; margin-bottom: 2rem; }
         .coll-main h1 { font-size: 2.2rem; margin-bottom: 0.75rem; }
         .coll-desc { color: #555; max-width: 640px; margin-bottom: 0.5rem; }
-        .coll-count { font-size: 0.8rem; letter-spacing: 0.1em; color: #888; margin-bottom: 3rem; }
-        .lic-row { display: grid; grid-template-columns: auto 1fr; gap: 2.5rem; align-items: center; padding: 1.5rem 0; border-top: 1px solid #e0e0e0; }
-        .lic-photo { display: block; background: #f0f0f0; }
-        .lic-photo img { display: block; height: 42vh; width: auto; max-width: 100%; -webkit-user-drag: none; user-select: none; -webkit-user-select: none; pointer-events: auto; }
-        .lic-meta h3 { font-size: 1rem; margin-bottom: 1rem; }
-        .lic-meta dl { display: grid; grid-template-columns: auto 1fr; gap: 0.3rem 1rem; font-size: 0.85rem; margin-bottom: 1rem; }
-        .lic-meta dt { color: #888; letter-spacing: 0.05em; text-transform: uppercase; }
-        .lic-meta dd { color: #1a1a1a; }
-        .lic-meta p { color: #555; line-height: 1.7; margin-bottom: 1rem; }
-        .lic-meta a { font-size: 0.85rem; color: #1a1a1a; border-bottom: 1px solid #1a1a1a; text-decoration: none; }
-        @media (max-width: 768px) { .lic-row { grid-template-columns: 1fr; gap: 1.25rem; padding: 2rem 0; } .lic-photo img { height: auto; width: 100%; } .coll-main h1 { font-size: 1.8rem; } }
+        .coll-count { font-size: 0.8rem; letter-spacing: 0.1em; color: #888; margin-bottom: 2.5rem; }
+        .gallery { display: flex; gap: 0.6rem; margin-bottom: 2rem; }
+        .gallery-column { flex: 1; min-width: 0; display: flex; flex-direction: column; gap: 1.1rem; }
+        .gallery-item { cursor: pointer; }
+        .gallery-item .frame { position: relative; overflow: hidden; background: #f0f0f0; border: 1px solid #e0e0e0; transition: all 0.3s ease; }
+        .gallery-item img { display: block; width: 100%; height: auto; -webkit-user-drag: none; user-select: none; -webkit-user-select: none; }
+        .gallery-item:hover .frame { border-color: #1a1a1a; box-shadow: 0 12px 32px rgba(0, 0, 0, 0.15); transform: translateY(-4px); }
+        .cap { margin-top: 0.5rem; font-size: 0.75rem; letter-spacing: 0.05em; }
+        .cap-id { color: #1a1a1a; font-weight: 700; }
+        .cap-sep { color: #888; }
+        .cap-res { color: #888; }
+        .lic-modal { display: none; position: fixed; inset: 0; background: rgba(250, 250, 250, 0.98); z-index: 200; }
+        .lic-modal.show { display: flex; }
+        .lic-modal-stage { flex: 1; display: flex; align-items: center; justify-content: center; padding: 3rem 2rem; min-width: 0; }
+        .lic-modal-stage img { max-width: 100%; max-height: 100%; object-fit: contain; -webkit-user-drag: none; user-select: none; }
+        .lic-modal-side { width: 340px; flex-shrink: 0; padding: 3rem 2rem; overflow-y: auto; border-left: 1px solid #e0e0e0; background: #fff; }
+        .lic-modal-side .cap-id { font-size: 0.85rem; }
+        .lic-modal-side h3 { font-size: 1.1rem; margin: 0.6rem 0 1.25rem; line-height: 1.3; }
+        .lic-modal-side dl { display: grid; grid-template-columns: auto 1fr; gap: 0.35rem 1rem; font-size: 0.85rem; margin-bottom: 1.25rem; }
+        .lic-modal-side dt { color: #888; letter-spacing: 0.05em; text-transform: uppercase; }
+        .lic-modal-side dd { color: #1a1a1a; }
+        .lic-modal-side p { color: #555; line-height: 1.7; font-size: 0.95rem; }
+        .lic-modal-close, .lic-modal-prev, .lic-modal-next { position: absolute; background: none; border: none; font-family: 'Space Mono', monospace; color: #1a1a1a; cursor: pointer; padding: 0.5rem 0.9rem; font-size: 1.5rem; }
+        .lic-modal-close { top: 0.5rem; right: 0.5rem; }
+        .lic-modal-prev { left: 0.5rem; top: 50%; transform: translateY(-50%); }
+        .lic-modal-next { right: calc(340px + 0.5rem); top: 50%; transform: translateY(-50%); }
+        @media (max-width: 768px) {
+            .coll-main h1 { font-size: 1.8rem; }
+            .lic-modal { flex-direction: column; overflow-y: auto; }
+            .lic-modal-stage { padding: 3.5rem 1rem 1rem; flex: none; }
+            .lic-modal-stage img { max-height: 70vh; }
+            .lic-modal-side { width: auto; border-left: none; border-top: 1px solid #e0e0e0; padding: 1.5rem 1.2rem 2.5rem; }
+            .lic-modal-next { right: 3rem; top: auto; bottom: auto; }
+        }
 
     </style>
 </head>
@@ -59,8 +82,16 @@
         <h1 id="coll-title"></h1>
         <p class="coll-desc" id="coll-desc"></p>
         <p class="coll-count" id="coll-count"></p>
-        <div id="photos"></div>
+        <div class="gallery" id="gallery"></div>
     </main>
+
+    <div class="lic-modal" id="lic-modal" role="dialog" aria-modal="true">
+        <button class="lic-modal-close" id="lic-close" aria-label="Close">&times;</button>
+        <button class="lic-modal-prev" id="lic-prev" aria-label="Previous">&lt;</button>
+        <div class="lic-modal-stage"><img id="lic-img" alt=""></div>
+        <button class="lic-modal-next" id="lic-next" aria-label="Next">&gt;</button>
+        <aside class="lic-modal-side" id="lic-side"></aside>
+    </div>
 
     <footer>
         <p>© 2026 Benedetto Colella | Image licensing available</p>
@@ -71,7 +102,129 @@
     <script>
         const slug = new URLSearchParams(window.location.search).get('c');
         const collection = window.LICENSING_COLLECTIONS.find(c => c.slug === slug);
-        const main = document.getElementById('coll-main');
+        const photos = collection ? collection.photos : [];
+        let current = 0;
+
+        document.addEventListener('contextmenu', e => { if (e.target.tagName === 'IMG') e.preventDefault(); });
+        document.addEventListener('dragstart', e => { if (e.target.tagName === 'IMG') e.preventDefault(); });
+
+        function columnCount() { return window.innerWidth <= 600 ? 2 : 3; }
+
+        // Masonry: each photo goes into the shortest column, in ID order
+        function layoutGallery() {
+            const gallery = document.getElementById('gallery');
+            gallery.innerHTML = '';
+            const count = columnCount();
+            const columns = [];
+            const heights = [];
+            for (let c = 0; c < count; c++) {
+                const column = document.createElement('div');
+                column.className = 'gallery-column';
+                gallery.appendChild(column);
+                columns.push(column);
+                heights.push(0);
+            }
+            photos.forEach((p, index) => {
+                const c = heights.indexOf(Math.min(...heights));
+                const item = document.createElement('div');
+                item.className = 'gallery-item';
+
+                const frame = document.createElement('div');
+                frame.className = 'frame';
+                const img = document.createElement('img');
+                img.src = p.web ? p.web : '';
+                img.alt = p.title;
+                img.width = p.w;
+                img.height = p.h;
+                img.loading = 'lazy';
+                img.decoding = 'async';
+                frame.appendChild(img);
+
+                const cap = document.createElement('div');
+                cap.className = 'cap';
+                const id = document.createElement('span');
+                id.className = 'cap-id';
+                id.textContent = p.id;
+                const sep = document.createElement('span');
+                sep.className = 'cap-sep';
+                sep.textContent = ' \u00B7 ';
+                const res = document.createElement('span');
+                res.className = 'cap-res';
+                res.textContent = p.w + 'x' + p.h;
+                cap.append(id, sep, res);
+
+                item.append(frame, cap);
+                item.addEventListener('click', () => openModal(index));
+                columns[c].appendChild(item);
+                heights[c] += p.h / p.w + 0.12;
+            });
+        }
+
+        function fillSide(p) {
+            const side = document.getElementById('lic-side');
+            side.innerHTML = '';
+            const id = document.createElement('div');
+            id.className = 'cap';
+            const idSpan = document.createElement('span');
+            idSpan.className = 'cap-id';
+            idSpan.textContent = p.id;
+            const sep = document.createElement('span');
+            sep.className = 'cap-sep';
+            sep.textContent = ' \u00B7 ';
+            const resSpan = document.createElement('span');
+            resSpan.className = 'cap-res';
+            resSpan.textContent = p.w + 'x' + p.h;
+            id.append(idSpan, sep, resSpan);
+
+            const h = document.createElement('h3');
+            h.textContent = p.title.replace(/^MKE-\d{2,3}: /, '');
+            const dl = document.createElement('dl');
+            [['Resolution', p.w + ' × ' + p.h + ' px'], ['Uses', p.uses.join(', ')]].forEach(([k, v]) => {
+                const dt = document.createElement('dt');
+                dt.textContent = k;
+                const dd = document.createElement('dd');
+                dd.textContent = v;
+                dl.append(dt, dd);
+            });
+            const desc = document.createElement('p');
+            desc.textContent = p.description;
+            side.append(id, h, dl, desc);
+        }
+
+        function showCurrent() {
+            const p = photos[current];
+            document.getElementById('lic-img').src = p.web ? p.web : '';
+            document.getElementById('lic-img').alt = p.title;
+            fillSide(p);
+        }
+
+        function openModal(index) {
+            current = index;
+            showCurrent();
+            document.getElementById('lic-modal').classList.add('show');
+            document.body.style.overflow = 'hidden';
+        }
+
+        function closeModal() {
+            document.getElementById('lic-modal').classList.remove('show');
+            document.body.style.overflow = 'auto';
+        }
+
+        function step(d) {
+            current = (current + d + photos.length) % photos.length;
+            showCurrent();
+        }
+
+        document.getElementById('lic-close').addEventListener('click', closeModal);
+        document.getElementById('lic-prev').addEventListener('click', () => step(-1));
+        document.getElementById('lic-next').addEventListener('click', () => step(1));
+        document.getElementById('lic-modal').addEventListener('click', e => { if (e.target.id === 'lic-modal' || e.target.classList.contains('lic-modal-stage')) closeModal(); });
+        document.addEventListener('keydown', e => {
+            if (!document.getElementById('lic-modal').classList.contains('show')) return;
+            if (e.key === 'Escape') closeModal();
+            if (e.key === 'ArrowLeft') step(-1);
+            if (e.key === 'ArrowRight') step(1);
+        });
 
         if (!collection) {
             document.getElementById('coll-title').textContent = 'Collection not found';
@@ -79,58 +232,21 @@
             document.title = collection.title + ' - Archive - Benedetto Colella';
             document.getElementById('coll-title').textContent = collection.title;
             document.getElementById('coll-desc').textContent = collection.description;
-            document.getElementById('coll-count').textContent = collection.photos.length ? collection.photos.length + ' IMAGES · Contact for pricing' : '';
-
-            const list = document.getElementById('photos');
-            document.addEventListener('contextmenu', e => { if (e.target.tagName === 'IMG') e.preventDefault(); });
-            document.addEventListener('dragstart', e => { if (e.target.tagName === 'IMG') e.preventDefault(); });
-            if (!collection.photos.length) {
+            document.getElementById('coll-count').textContent = photos.length ? photos.length + ' IMAGES \u00B7 Contact for pricing' : '';
+            if (!photos.length) {
                 const empty = document.createElement('p');
                 empty.className = 'coll-desc';
                 empty.textContent = 'Photos coming soon.';
-                list.appendChild(empty);
+                document.getElementById('gallery').appendChild(empty);
+            } else {
+                layoutGallery();
+                let last = columnCount();
+                let timer;
+                window.addEventListener('resize', () => {
+                    clearTimeout(timer);
+                    timer = setTimeout(() => { if (columnCount() !== last) { last = columnCount(); layoutGallery(); } }, 150);
+                });
             }
-            collection.photos.forEach(p => {
-                const row = document.createElement('article');
-                row.className = 'lic-row';
-
-                const photo = document.createElement('div');
-                photo.className = 'lic-photo';
-                const img = document.createElement('img');
-                img.src = p.web ? p.web : '../optimized/' + p.n + '.jpg';
-                img.alt = p.title;
-                img.width = p.w;
-                img.height = p.h;
-                img.loading = 'lazy';
-                img.decoding = 'async';
-                photo.appendChild(img);
-
-                const meta = document.createElement('div');
-                meta.className = 'lic-meta';
-                const h = document.createElement('h3');
-                h.textContent = p.title;
-                const dl = document.createElement('dl');
-                const dt = document.createElement('dt');
-                dt.textContent = 'Resolution';
-                const dd = document.createElement('dd');
-                dd.textContent = p.w + ' × ' + p.h + ' px';
-                dl.append(dt, dd);
-                if (p.id) {
-                    [['ID', p.id], ['Uses', p.uses.join(', ')]].forEach(([k, v]) => {
-                        const t = document.createElement('dt');
-                        t.textContent = k;
-                        const d = document.createElement('dd');
-                        d.textContent = v;
-                        dl.append(t, d);
-                    });
-                }
-                const desc = document.createElement('p');
-                desc.textContent = p.description;
-                meta.append(h, dl, desc);
-
-                row.append(photo, meta);
-                list.appendChild(row);
-            });
         }
     </script>
 </body>
